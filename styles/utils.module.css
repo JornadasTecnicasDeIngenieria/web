@@ -1,0 +1,147 @@
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 600px) {
+  .heading2Xl {
+    font-size: 1.8rem;
+  }
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+  color: white;
+  text-align: center;
+}
+
+.headingLgBlack {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+  color: black;
+  text-align: center;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  
+}
+
+@media (max-width: 600px) {
+  .headingMd p {
+    font-size: smaller;
+  }
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+@media (max-width: 600px) {
+  .listItem {
+    font-size: smaller;
+  }
+
+  .listItem a {
+    padding: 0 !important;
+  }
+
+  .listItem a:hover {
+    background: none !important;
+    text-decoration: none;
+  }
+  .listItem small {
+    margin-left: 0 !important;
+  }
+}
+
+.listItem small {
+  margin-left: 0.5rem;
+}
+.listItem a {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.listItem a:hover {
+  background: rgb(59, 59, 59);
+  text-decoration: none;
+}
+
+.listItem a {
+  transition: background 0.8s;
+}
+
+.lightText {
+  color: #999;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.inline p {
+  margin: 0;
+}
+.hometemp {
+  background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+min-height: 100vh;
+}
+.hometemp2 {
+  background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+min-height: 90vh;
+}
+
+.descriptive-p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+
+.middle {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.fullscreenSection {
+  z-index: -1;
+  min-height: 85vh;
+}
