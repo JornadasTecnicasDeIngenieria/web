@@ -8,7 +8,7 @@ import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import BackToTop from "./BackToTop";
 
 import { PadDiv } from "./StyledComponents";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import StyledLink from "@components/StyledLink";
 import Navbar from './Navbar'
 import SideDrawer from "./SideDrawer";
@@ -41,7 +41,7 @@ const Header = () => {
                     ><br /><br />
                         <StyledLink activeClassName="active" href="/">
                             <PadDiv>
-                            <Image src="/header.png" width="267px" height="44px" alt="JTI" />
+                            <Image src="/header.png" width="267" height="44" alt="JTI" />
                             </PadDiv>
                         </StyledLink>
                         <Navbar navLinks={navLinks} />
@@ -50,7 +50,7 @@ const Header = () => {
                 </Toolbar>
             </AppBar>
 
-            <Offset id="back-to-top-anchor" />
+            {/* <Offset id="back-to-top-anchor" /> */}
 
             <BackToTop>
                 <Fab color="secondary" size="large" aria-label="back to top">

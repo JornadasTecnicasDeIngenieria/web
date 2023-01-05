@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Timer from "./Timer";
 import Button from "@mui/material/Button";
 import styled from "@emotion/styled"
@@ -41,7 +41,7 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                     </BlockDiv>
                     <PaddingDiv>
                         <DateTitle>
-                        17 y 18 de Marzo de 2023
+                        15 y 16 de Febrero de 2022
                         </DateTitle>
                     </PaddingDiv>
                     <PaddingDiv>

@@ -1,7 +1,7 @@
 import Layout from "@components/layouts/MainLayout";
 import IntroSection from "@components/IntroSection";
 import styled from "@emotion/styled"
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import { Grid, Container } from "@mui/material"
 import EnConstruccion from "@components/EnConstruccion";
 import Accordion from "@components/accordion";

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import {AlignedDiv} from "@components/StyledComponents"
 import {FaArrowAltCircleLeft, FaArrowAltCircleRight} from "react-icons/fa";
 

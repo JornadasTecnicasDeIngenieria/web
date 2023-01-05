@@ -2,7 +2,7 @@ import Layout from "@components/layouts/MainLayout";
 import IntroSection from "@components/IntroSection";
 import styled from "@emotion/styled"
 import { Grid, Container } from "@mui/material"
-import Image from "next/image";
+import Image from "next/legacy/image";
 import {StandList15, StandList16} from "@components/StandList";
 import { stands } from "data/stands";
 

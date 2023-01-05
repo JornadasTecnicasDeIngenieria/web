@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Grid, Stack } from "@mui/material";
 import { motion } from "framer-motion";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styled from "@emotion/styled"
 import getTagColor from "@scripts/getTagColor";
 
@@ -9,11 +9,13 @@ function Card({ imageSource, name, categories, bg }) {
     const tags = categories;
     //const networks = social;
     return (
-
         <motion.div
     whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.9 }}
-  ><Link href={`/${name.toLowerCase()}`} as={`/${name.toLowerCase()}`}>
+  ><Link
+            href={`/${name.toLowerCase()}`}
+            as={`/${name.toLowerCase()}`}
+            legacyBehavior>
             <div className={`custom-section-card ${bg}`}>
 
                 <div className="custom-section-card-header">
@@ -31,7 +33,6 @@ function Card({ imageSource, name, categories, bg }) {
             </div>
             </Link>
         </motion.div>
-
     );
 }
 

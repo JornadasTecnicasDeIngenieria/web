@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import Link from "next/link";
 import { Container, Grid } from "@mui/material";
 
@@ -18,7 +18,10 @@ const App = ({ title, desc }) => {
                 </AlignedDiv>
 
                 <AlignedDiv>
-                    <Link href="https://drive.google.com/file/d/1I7Z_wcVKGIqJHRUHQIDGy6AOz62RHmdc/view?usp=sharing" target="_blank norreferer">
+                    <Link
+                        href="https://drive.google.com/file/d/1I7Z_wcVKGIqJHRUHQIDGy6AOz62RHmdc/view?usp=sharing"
+                        target="_blank norreferer"
+                        legacyBehavior>
                         <Image src="/qr.png" width={200} height={200} />
                     </Link>
                 </AlignedDiv>
@@ -58,7 +61,7 @@ const App = ({ title, desc }) => {
                 </Grid>
             </Container>
         </IntroDiv>
-    )
+    );
 }
 
 export default App;

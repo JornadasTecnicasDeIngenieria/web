@@ -9,42 +9,40 @@ const name = "Notas en {código}.";
 export const siteTitle = "Your Blog Title";
 
 export default function Layout({ children, home, page }) {
-    return (
-      <>
-        <header>
-          <Header />
-        </header>
-  
-  
-        {home ? (
-          <Head>
-            <link rel="icon" href="/favicon.ico" />
-            <meta name="description" content="Notas en {código}." />
-            <meta name="og:title" content={siteTitle} />
-            <meta name="twitter:card" content="summary_large_image" />
-          </Head>
-        ) : (
-          <Head>
-            <link rel="icon" href="/favicon.ico" />
-          </Head>
-        )}
-  
-        {page ? (
+    return <>
+      <header>
+        <Header />
+      </header>
+
+
+      {home ? (
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+          <meta name="description" content="Notas en {código}." />
+          <meta name="og:title" content={siteTitle} />
+          <meta name="twitter:card" content="summary_large_image" />
+        </Head>
+      ) : (
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+      )}
+
+      {page ? (
+        <main>{children}</main>
+      ) : (
+        <div className={styles.container}>
           <main>{children}</main>
-        ) : (
-          <div className={styles.container}>
-            <main>{children}</main>
-            <div className={styles.backToHome}>
-              <Link href="/">
-                <a>← Volver al Home</a>
-              </Link>
-            </div>
+          <div className={styles.backToHome}>
+            <Link href="/">
+              ← Volver al Home
+            </Link>
           </div>
-        )}
-        <footer>
-          <Footer />
-        </footer>
-  
-      </>
-    );
+        </div>
+      )}
+      <footer>
+        <Footer />
+      </footer>
+
+    </>;
   }

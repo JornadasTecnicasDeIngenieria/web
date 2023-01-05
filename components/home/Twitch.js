@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import { Container, Grid } from "@mui/material";
 //import { TwitchEmbed, TwitchChat, TwitchClip, TwitchPlayer } from 'react-twitch-embed';
 import ReactTwitchEmbedVideo  from "react-twitch-embed-video";

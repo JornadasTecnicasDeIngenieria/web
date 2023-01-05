@@ -18,48 +18,48 @@ export const TableMartes = () => {
 
         <tr>
           <TDH>11:00 - 11:35</TDH>
-          <Link href={`/ponencias/${DatosPonencias["M11"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M11"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M11"].titulo !== "" ? DatosPonencias["M11"].titulo : DatosPonencias["M11"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M21"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M21"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M21"].titulo !== "" ? DatosPonencias["M21"].titulo : DatosPonencias["M21"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M31"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M31"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M31"].titulo !== "" ? DatosPonencias["M31"].titulo : DatosPonencias["M31"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M41"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M41"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M41"].titulo !== "" ? DatosPonencias["M41"].titulo : DatosPonencias["M41"].empresa}</TD>
           </Link>
         </tr>
 
         <tr>
           <TDH>11:35 - 12:10</TDH>
-          <Link href={`/ponencias/${DatosPonencias["M12"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M12"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M12"].titulo !== "" ? DatosPonencias["M12"].titulo : DatosPonencias["M12"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M22"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M22"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M22"].titulo !== "" ? DatosPonencias["M22"].titulo : DatosPonencias["M22"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M32"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M32"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M32"].titulo !== "" ? DatosPonencias["M32"].titulo : DatosPonencias["M32"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M42"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M42"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M42"].titulo !== "" ? DatosPonencias["M42"].titulo : DatosPonencias["M42"].empresa}</TD>
           </Link>
         </tr>
 
         <tr>
           <TDH>12:10 - 12:45</TDH>
-          <Link href={`/ponencias/${DatosPonencias["M13"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M13"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M13"].titulo !== "" ? DatosPonencias["M13"].titulo : DatosPonencias["M13"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M23"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M23"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M23"].titulo !== "" ? DatosPonencias["M23"].titulo : DatosPonencias["M23"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M33"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M33"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M33"].titulo !== "" ? DatosPonencias["M33"].titulo : DatosPonencias["M33"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M43"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M43"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M43"].titulo !== "" ? DatosPonencias["M43"].titulo : DatosPonencias["M43"].empresa}</TD>
           </Link>
         </tr>
@@ -82,32 +82,32 @@ export const TableMartes = () => {
 
         <tr>
           <TDH>14:30 - 15:05</TDH>
-          <Link href={`/ponencias/${DatosPonencias["M16"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M16"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M16"].titulo !== "" ? DatosPonencias["M16"].titulo : DatosPonencias["M16"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M26"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M26"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M26"].titulo !== "" ? DatosPonencias["M26"].titulo : DatosPonencias["M26"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M36"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M36"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M36"].titulo !== "" ? DatosPonencias["M36"].titulo : DatosPonencias["M36"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M46"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M46"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M46"].titulo !== "" ? DatosPonencias["M46"].titulo : DatosPonencias["M46"].empresa}</TD>
           </Link>
         </tr>
 
         <tr>
           <TDH>15:05 - 15:40</TDH>
-          <Link href={`/ponencias/${DatosPonencias["M17"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M17"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M17"].titulo !== "" ? DatosPonencias["M17"].titulo : DatosPonencias["M17"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M27"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M27"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M27"].titulo !== "" ? DatosPonencias["M27"].titulo : DatosPonencias["M27"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M37"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M37"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M37"].titulo !== "" ? DatosPonencias["M37"].titulo : DatosPonencias["M37"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M47"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M47"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M47"].titulo !== "" ? DatosPonencias["M47"].titulo : DatosPonencias["M47"].empresa}</TD>
           </Link>
         </tr>
@@ -122,23 +122,23 @@ export const TableMartes = () => {
 
         <tr>
           <TDH>16:15</TDH>
-          <Link href={`/ponencias/${DatosPonencias["M19"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M19"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M19"].titulo !== "" ? DatosPonencias["M19"].titulo : DatosPonencias["M19"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M29"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M29"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M29"].titulo !== "" ? DatosPonencias["M29"].titulo : DatosPonencias["M29"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M39"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M39"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M39"].titulo !== "" ? DatosPonencias["M39"].titulo : DatosPonencias["M39"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["M49"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["M49"].id}`} legacyBehavior>
             <TD>{DatosPonencias["M49"].titulo !== "" ? DatosPonencias["M49"].titulo : DatosPonencias["M49"].empresa}</TD>
           </Link>
         </tr>
 
       </ScrollableTable>
     </TableContainer>
-  )
+  );
 }
 
 export const TableMiercoles = () => {
@@ -156,48 +156,48 @@ export const TableMiercoles = () => {
 
         <tr>
           <TDH>11:00 - 11:35</TDH>
-          <Link href={`/ponencias/${DatosPonencias["X11"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X11"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X11"].titulo !== "" ? DatosPonencias["X11"].titulo : DatosPonencias["X11"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X21"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X21"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X21"].titulo !== "" ? DatosPonencias["X21"].titulo : DatosPonencias["X21"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X31"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X31"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X31"].titulo !== "" ? DatosPonencias["X31"].titulo : DatosPonencias["X31"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X41"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X41"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X41"].titulo !== "" ? DatosPonencias["X41"].titulo : DatosPonencias["X41"].empresa}</TD>
           </Link>
         </tr>
 
         <tr>
           <TDH>11:35 - 12:10</TDH>
-          <Link href={`/ponencias/${DatosPonencias["X12"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X12"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X12"].titulo !== "" ? DatosPonencias["X12"].titulo : DatosPonencias["X12"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X22"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X22"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X22"].titulo !== "" ? DatosPonencias["X22"].titulo : DatosPonencias["X22"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X32"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X32"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X32"].titulo !== "" ? DatosPonencias["X32"].titulo : DatosPonencias["X32"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X42"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X42"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X42"].titulo !== "" ? DatosPonencias["X42"].titulo : DatosPonencias["X42"].empresa}</TD>
           </Link>
         </tr>
 
         <tr>
           <TDH>12:10 - 12:45</TDH>
-          <Link href={`/ponencias/${DatosPonencias["X13"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X13"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X13"].titulo !== "" ? DatosPonencias["X13"].titulo : DatosPonencias["X13"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X23"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X23"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X23"].titulo !== "" ? DatosPonencias["X23"].titulo : DatosPonencias["X23"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X33"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X33"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X33"].titulo !== "" ? DatosPonencias["X33"].titulo : DatosPonencias["X33"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X43"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X43"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X43"].titulo !== "" ? DatosPonencias["X43"].titulo : DatosPonencias["X43"].empresa}</TD>
           </Link>
         </tr>
@@ -220,32 +220,32 @@ export const TableMiercoles = () => {
 
         <tr>
           <TDH>14:30 - 15:05</TDH>
-          <Link href={`/ponencias/${DatosPonencias["X16"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X16"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X16"].titulo !== "" ? DatosPonencias["X16"].titulo : DatosPonencias["X16"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X26"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X26"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X26"].titulo !== "" ? DatosPonencias["X26"].titulo : DatosPonencias["X26"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X36"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X36"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X36"].titulo !== "" ? DatosPonencias["X36"].titulo : DatosPonencias["X36"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X46"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X46"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X46"].titulo !== "" ? DatosPonencias["X46"].titulo : DatosPonencias["X46"].empresa}</TD>
           </Link>
         </tr>
 
         <tr>
           <TDH>15:05 - 15:40</TDH>
-          <Link href={`/ponencias/${DatosPonencias["X17"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X17"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X17"].titulo !== "" ? DatosPonencias["X17"].titulo : DatosPonencias["X17"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X27"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X27"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X27"].titulo !== "" ? DatosPonencias["X27"].titulo : DatosPonencias["X27"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X37"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X37"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X37"].titulo !== "" ? DatosPonencias["X37"].titulo : DatosPonencias["X37"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/${DatosPonencias["X47"].id}`}>
+          <Link href={`/ponencias/${DatosPonencias["X47"].id}`} legacyBehavior>
             <TD>{DatosPonencias["X47"].titulo !== "" ? DatosPonencias["X47"].titulo : DatosPonencias["X47"].empresa}</TD>
           </Link>
         </tr>
@@ -260,23 +260,23 @@ export const TableMiercoles = () => {
 
         <tr>
           <TDH>16:15</TDH>
-          <Link href={`/ponencias/mesa-redonda-tecnologias`}>
+          <Link href={`/ponencias/mesa-redonda-tecnologias`} legacyBehavior>
             <TD>{DatosPonencias["X19"].titulo !== "" ? DatosPonencias["X19"].titulo : DatosPonencias["X19"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/mesa-redonda-tecnologias`}>
+          <Link href={`/ponencias/mesa-redonda-tecnologias`} legacyBehavior>
             <TD>{DatosPonencias["X29"].titulo !== "" ? DatosPonencias["X29"].titulo : DatosPonencias["X29"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/mesa-redonda-tecnologias`}>
+          <Link href={`/ponencias/mesa-redonda-tecnologias`} legacyBehavior>
             <TD>{DatosPonencias["X39"].titulo !== "" ? DatosPonencias["X39"].titulo : DatosPonencias["X39"].empresa}</TD>
           </Link>
-          <Link href={`/ponencias/mesa-redonda-tecnologias`}>
+          <Link href={`/ponencias/mesa-redonda-tecnologias`} legacyBehavior>
             <TD>{DatosPonencias["X49"].titulo !== "" ? DatosPonencias["X49"].titulo : DatosPonencias["X49"].empresa}</TD>
           </Link>
         </tr>
 
       </ScrollableTable>
     </TableContainer>
-  )
+  );
 }
 
 /*export const TableSorteos = () => {

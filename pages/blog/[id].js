@@ -1,7 +1,7 @@
 import Layout from "@layouts/BlogLayout";
 import { getAllPostIds, getPostData } from "@scripts/posts";
 import Head from "next/head";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Date from "@components/date";
 import { Grid } from "@mui/material";
 import utilStyles from "../../styles/utils.module.css";

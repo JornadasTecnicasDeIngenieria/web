@@ -17,14 +17,10 @@ const Navbar2 = ({ navLinks }) => {
     >
       <Stack direction="row" spacing={4}>
         {navLinks.map(({ title, path }, i) => (
-          <Link
-            
-            key={`${title}${i}`}
-            href={path}
-          >
-            <a className="nav-link">
-            {title}</a>
-          </Link>
+          (<Link key={`${title}${i}`} href={path} className="nav-link">
+
+            {title}
+          </Link>)
         ))}
       </Stack>
     </Toolbar>
@@ -60,7 +56,7 @@ const Navbar = ({ navLinks }) => {
             {title}</a>
           </Link>
         ))*/}
-        <Link href="/blog"><a className="nav-link">Blog</a></Link>
+        <Link href="/blog" className="nav-link">Blog</Link>
         <NavDropdown title="Programa" id="collasible-nav-dropdown">
           <NavDropdown.Item href="/ponencias">Itinerario - Ponencias</NavDropdown.Item>
           <NavDropdown.Item href="/talleres">Talleres</NavDropdown.Item>
@@ -74,8 +70,8 @@ const Navbar = ({ navLinks }) => {
           <NavDropdown.Item href="/organizadores">Organizadores</NavDropdown.Item>
           <NavDropdown.Item href="/empresas">Empresas</NavDropdown.Item>
         </NavDropdown>
-        <Link href="/faqs"><a className="nav-link">FAQs</a></Link>
-        <Link href="/contacto"><a className="nav-link">Contacto</a></Link>
+        <Link href="/faqs" className="nav-link">FAQs</Link>
+        <Link href="/contacto" className="nav-link">Contacto</Link>
       </Stack>
     </Toolbar>
   );

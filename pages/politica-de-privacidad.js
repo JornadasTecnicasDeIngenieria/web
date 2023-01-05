@@ -1,7 +1,7 @@
 import Layout from "@layouts/MainLayout";
 import { Container, Grid } from "@mui/material";
 import styled from "@emotion/styled";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Privacidad = () => {
     return (

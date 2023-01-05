@@ -4,7 +4,7 @@ import Layout from "@components/layouts/MainLayout";
 import { IntroSectionShort } from "@components/IntroSection";
 import { Grid, Container } from "@mui/material"
 import { useRouter } from 'next/router'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import { AlignedDiv } from "@components/StyledComponents";
 import { getAllDataIds, getRawData } from "@scripts/ponencias";
 //<IntroSectionShort title={rawData.jsonData[id].titulo !== "" ? rawData.jsonData[id].titulo : rawData.jsonData[id].empresa} />
