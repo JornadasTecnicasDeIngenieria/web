@@ -45,16 +45,4 @@ align-self: center;
 justify-self: center;
 justify-content: center;
 align-items: center;
-
 `;
-
-/*<Grid container justifyContent="center" alignItems="center">
-
-                                {
-                                    tags.map(tag => {
-                                        return (
-                                            <span className={`custom-tag ${getTagColor(tag)}`} key={`${getTagColor(tag)}`}>{tag}</span>
-                                        )
-                                    })
-                                }
-                            </Grid>*/

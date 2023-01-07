@@ -17,7 +17,6 @@ import DisableStickyHeader from "./DisableStickyHeader";
 const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 
 export const navLinks = [
-    { title: `Blog`, path: `/blog` },
     { title: `Ponencias`, path: `/ponencias` },
     { title: `Talleres`, path: `/talleres` },
     { title: `Stands`, path: `/stands` },

@@ -15,7 +15,7 @@ const Sections = () => {
                     <div className="custom-container">
                         {sections.map(({ name, image, id, categories, bg }) => {
                             return (
-                                <Grid item xs={12} sm={12} md={6} lg={3} key={id}>
+                                <Grid item xs={12} sm={12} md={6} lg={6} key={id}>
                                     <AlignedDiv>
                                         <Card name={name} imageSource={image} url={`${id}`} categories={categories} bg={bg} />
                                     </AlignedDiv>

@@ -27,8 +27,6 @@ const Navbar2 = ({ navLinks }) => {
   );
 };
 
-
-
 const SpanLink = styled.span`
   color: white;
   &:hover {
@@ -56,15 +54,8 @@ const Navbar = ({ navLinks }) => {
             {title}</a>
           </Link>
         ))*/}
-        <Link href="/blog" className="nav-link">Blog</Link>
-        <NavDropdown title="Programa" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="/ponencias">Itinerario - Ponencias</NavDropdown.Item>
-          <NavDropdown.Item href="/talleres">Talleres</NavDropdown.Item>
-          <NavDropdown.Item href="/actividades">Actividades</NavDropdown.Item>
-          
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="/stands">Stands del evento</NavDropdown.Item>
-        </NavDropdown>
+        <StyledLink href="/stands" className="nav-link">Stands</StyledLink>
+        <Link href="/actividades" className="nav-link">Actividades</Link>
 
         <NavDropdown title="El evento" id="collasible-nav-dropdown-2">
           <NavDropdown.Item href="/organizadores">Organizadores</NavDropdown.Item>
@@ -78,5 +69,3 @@ const Navbar = ({ navLinks }) => {
 };
 
 export default Navbar;
-
-//<NavDropdown.Item href="/isla-bonita-challenge">Isla Bonita Challenge</NavDropdown.Item>
