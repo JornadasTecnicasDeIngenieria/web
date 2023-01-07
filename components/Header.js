@@ -21,7 +21,6 @@ export const navLinks = [
     { title: `Talleres`, path: `/talleres` },
     { title: `Stands`, path: `/stands` },
     { title: `Actividades`, path: `/actividades` },
-    //{ title: `Challenge`, path: `/isla-bonita-challenge` },
     { title: `Empresas`, path: `/empresas` },
     { title: `Organizadores`, path: `/organizadores` },
     { title: `FAQs`, path: `/faqs` },
@@ -36,8 +35,8 @@ const Header = () => {
                 <Toolbar>
                     <Container
                         maxWidth="lg"
-                        sx={{ display: `flex`, justifyContent: `space-between`, padding: `1%`, alignItems: `center` }}
-                    ><br /><br />
+                        sx={{ display: `flex`, justifyContent: `space-between`, padding: `1.5%`, alignItems: `center` }}
+                    >
                         <StyledLink activeClassName="active" href="/">
                             <PadDiv>
                             <Image src="/header.png" width="267" height="44" alt="JTI" />
