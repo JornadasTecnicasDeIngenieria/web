@@ -9,11 +9,10 @@ import { stands } from "data/stands";
 const Stands = () => {
     return (
         <Layout>
-            <IntroSection title="Stands del evento" desc="El núcleo del evento. Conoce los diferentes stands que podrás visitar." />
+            <IntroSection title="Stands" desc="El núcleo del evento" />
             <Container>
-                <Category>Sobre los Stands</Category>
-                <p>Una parte importante del evento son los Stands, espacios físicos en los que las empresas se establecen para dar información al estudiantado universitario de las ingenierías acerca de su actividad, perfiles profesionales que demandan, funcionamiento de la empresa...</p>
-                <p>En estos stands, se buscará que las empresas traigan algo que demostrar o enseñar a los visitantes. Por ejemplo, se podrán traer folletos informativos sobre los departamentos de la empresa o sus programas de becas. Aquellas empresas centradas en el desarrollo podrán traer algún equipo para que los visitantes prueben sus productos. Si están dedicadas a proyectos de desarrollo sostenible, por ejemplo, pueden preparar vídeos enseñando sus avances. Cualquier cosa con fines formativos o de interés es bienvenida.</p>
+                <p>Los Stands son el núcleo del evento. En estos puestos, las empresas podrán tener un contacto directo y estrecho con los alumnos que estudian en la ESIT, brindándoles la oportunidad de informar al estudiantado universitario de las ingenierías acerca de su actividad, perfiles profesionales que demandan, funcionamiento de la empresa...</p>
+                <p>En estos stands, las empresas tendrán libertad de organización para exponer su trabajo y atraer a los visitantes del evento. Por ejemplo, se podrán traer folletos informativos sobre los departamentos de la empresa o sus programas de becas. Aquellas empresas centradas en el desarrollo podrán traer algún equipo para que los visitantes prueben sus productos. Si están dedicadas a proyectos de desarrollo sostenible, por ejemplo, pueden preparar vídeos enseñando sus avances. Cualquier cosa con fines formativos o de interés es bienvenida.</p>
                 <br />
                 <Grid container spacing={3}>
                     <Grid item xs={12} sm={12} md={6} lg={4}>
@@ -36,7 +35,7 @@ const Stands = () => {
                 <AlignedDiv><Category>Distribución de los Stands</Category></AlignedDiv>
                 <br/>
                 <AlignedDiv>
-                    <Image src='/plano.png' alt='Plano de los Stands' width={911} height={538} />
+                    <Image src='/stands-2023.jfif' alt='Plano de los Stands' width={911} height={538} />
                 </AlignedDiv>
                 <br />
                 <AlignedDiv><Day>Lista de Stands</Day></AlignedDiv>
@@ -61,13 +60,13 @@ const Category = styled.h2`
 color: #633CAE;
 font-size: 3rem;
 font-weight: 700;
-font-family: "Montserrat"`
+font-family: 'Montserrat', sans-serif;`
 
 const Day = styled.h3`
 color: #633CAE;
-font-size: 2rem;
-font-weight: 400;
-font-family: "Montserrat"`
+font-size: 3rem;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;`
 
 const AlignedDiv = styled.div`
 display: flex;
