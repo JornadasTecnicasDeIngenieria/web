@@ -8,7 +8,7 @@ import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import BackToTop from "./BackToTop";
 
 import { PadDiv } from "./StyledComponents";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import StyledLink from "@components/StyledLink";
 import Navbar from './Navbar'
 import SideDrawer from "./SideDrawer";

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Grid, Stack } from "@mui/material";
 import { motion } from "framer-motion";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import styled from "@emotion/styled"
 import getTagColor from "@scripts/getTagColor";
 

@@ -21,8 +21,6 @@ const Homepage = () => {
       <InfoJTI />
       <Sections />
       <Axis />
-      <TwitchPlayer id="twitch"/>
-      <App id="app-section" />
       <Locate />
     </Layout>
   );
