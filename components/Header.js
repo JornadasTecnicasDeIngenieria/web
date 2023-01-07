@@ -29,17 +29,15 @@ export const navLinks = [
 
 const Header = () => {
     return (
-        <>
-
             <AppBar position="static">
                 <Toolbar>
                     <Container
-                        maxWidth="lg"
-                        sx={{ display: `flex`, justifyContent: `space-between`, padding: `1%`, alignItems: `left` }}
+                        maxWidth="false"
+                        sx={{ display: `flex`, justifyContent: `space-between`, margin: '1%' }}
                     >
                         <StyledLink activeClassName="active" href="/">
                             <PadDiv>
-                            <Image src="/header.png" width="267" height="44" alt="JTI" />
+                                <Image src="/header.png" width="267" height="44" alt="JTI" />
                             </PadDiv>
                         </StyledLink>
                         <Navbar navLinks={navLinks} />
@@ -47,15 +45,6 @@ const Header = () => {
                     </Container>
                 </Toolbar>
             </AppBar>
-
-            {/* <Offset id="back-to-top-anchor" /> */}
-
-            <BackToTop>
-                <Fab color="secondary" size="large" aria-label="back to top">
-                    <KeyboardArrowUp />
-                </Fab>
-            </BackToTop>
-        </>
     );
 };
 

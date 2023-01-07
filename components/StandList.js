@@ -51,7 +51,8 @@ const TH = styled.th`
 padding: 1rem;
 text-align: center;
 min-width: 10%;
-background-color: #83DEFF;
+background-color: #7454ae;
+color: white;
 border: 1px solid #000;
 `;
 

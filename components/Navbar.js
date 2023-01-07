@@ -34,8 +34,23 @@ const SpanLink = styled.span`
   }
 `;
 
+const NavbarLink = styled(Link)`
+    text-decoration: none;
+    color: #FFFFFF;
+
+    &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+`;
+
+const linkStyle = {
+  margin: "1rem",
+  color: "#FFFFFF",
+  textDecoration: "none",
+};
+
 const Navbar = ({ navLinks }) => {
-  let ScrollLink = Scroll.Link;
   return (
     <Toolbar
       component="nav"
@@ -44,20 +59,10 @@ const Navbar = ({ navLinks }) => {
       }}
     >
       <Stack direction="row" spacing={4}>
-        {/*navLinks.map(({ title, path }, i) => (
-          <Link
-            
-            key={`${title}${i}`}
-            href={path}
-          >
-            <a className="nav-link">
-            {title}</a>
-          </Link>
-        ))*/}
-        <StyledLink href="/stands" className="nav-link">Stands</StyledLink>
-        <Link href="/actividades" className="nav-link">Actividades</Link>
+        <NavbarLink href="/stands" className="nav-link">Stands</NavbarLink>
+        <Link href="/actividades" className="nav-link" style={linkStyle}>Actividades</Link>
 
-        <NavDropdown title="El evento" id="collasible-nav-dropdown-2">
+        <NavDropdown title="El evento" id="collasible-nav-dropdown">
           <NavDropdown.Item href="/organizadores">Organizadores</NavDropdown.Item>
           <NavDropdown.Item href="/empresas">Empresas</NavDropdown.Item>
         </NavDropdown>
