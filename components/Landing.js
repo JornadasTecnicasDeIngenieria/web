@@ -2,7 +2,6 @@ import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
-import Timer from "./Timer";
 import Button from "@mui/material/Button";
 import styled from "@emotion/styled"
 
@@ -42,10 +41,6 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                         <DateTitle>
                         14 y 15 de Marzo de 2023
                         </DateTitle>
-                    </PaddingDiv>
-                    <PaddingDiv>
-                        <br />
-                        <Button variant="contained" href="https://jtiesit.netlify.app">Ver ediciones anteriores</Button>
                     </PaddingDiv>
                 </Grid></Grid>
         </div>);
