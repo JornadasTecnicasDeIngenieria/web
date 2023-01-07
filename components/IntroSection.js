@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { Container } from "@mui/material";
 
-const IntroSection = ({title, desc, text}) => {
+const IntroSection = ({title, desc}) => {
     return (
         <IntroDiv>
             <Container>
@@ -25,14 +25,12 @@ export const IntroSectionShort = ({title}) => {
 }
 
 const IntroDiv = styled.div`
-background: #633CAE;
 background: #FF645F;
 overflow: hidden;
 display: flex;
 flex-direction: column;
 margin: 0;
-margin-bottom: 1rem;
-padding: 3rem;
+padding: 1rem;
 `;
 
 const IntroDivPonencia = styled.div`
@@ -55,17 +53,12 @@ text-align: center;
 const IntroTitle = styled.h1`
 color: white;
 font-size: 4rem;
+font-weight: 550;
 font-family: 'Montserrat', sans-serif;
 `;
 
 const IntroDesc = styled.h3`
 color: white;
-font-size: 1.5rem;
-font-family: 'Montserrat', sans-serif;
-`;
-
-const IntroText = styled.p`
-color: white;
-font-size: 1rem;
+font-size: 1.6rem;
 font-family: 'Montserrat', sans-serif;
 `;

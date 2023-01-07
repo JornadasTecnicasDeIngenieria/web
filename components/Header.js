@@ -35,7 +35,7 @@ const Header = () => {
                 <Toolbar>
                     <Container
                         maxWidth="lg"
-                        sx={{ display: `flex`, justifyContent: `space-between`, padding: `1.5%`, alignItems: `center` }}
+                        sx={{ display: `flex`, justifyContent: `space-between`, padding: `1%`, alignItems: `left` }}
                     >
                         <StyledLink activeClassName="active" href="/">
                             <PadDiv>
