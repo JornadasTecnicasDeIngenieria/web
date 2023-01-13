@@ -26,53 +26,36 @@ export const StandList = ({ content }) => {
   )
 }
 
-export const StandList14 = ({ content }) => {
-  return (
-    <TableContainer>
-      <AlignedDiv>
-      <ScrollableTable>
-        <tr>
-          <TH colSpan={2}>Martes 14</TH>
-        </tr>
-        {content.map(d => (
-          <tr key={d.stand+d.d1}>
-            <TD key={d.stand}>{d.stand}</TD>
-            <TDH key={d.d1}>{d.d1}</TDH>
-          </tr>
-        )
-        )}
-      </ScrollableTable>
-      </AlignedDiv>
-    </TableContainer>
-  )
-}
-
 const TH = styled.th`
 padding: 1rem;
 text-align: center;
 min-width: 10%;
 background-color: #7454ae;
 color: white;
-border: 1px solid #000;
+border: 5px solid #3c3c54;
+font-size: 1.3rem;
 `;
 
 const TD = styled.td`
 padding: 1rem;
 text-align: center;
 min-width: 10%;
-border: 1px solid #000;
-background: #FF645F;
+border: 5px solid #3c3c54;
+background: #7454ae;
 color: white;
 font-weight: bold;
+font-size: 1.3rem;
 `;
 
 const TDH = styled.td`
-padding: 1rem;
+padding: 1rem 4rem;
 text-align: center;
 min-width: 10%;
-border: 1px solid #000;
+border: 5px solid #3c3c54;
 background-color: #FFEB83;
 font-weight: bold;
+font-size: 1.3rem;
+color: #3c3c54
 `;
 
 const ScrollableTable = styled.table`

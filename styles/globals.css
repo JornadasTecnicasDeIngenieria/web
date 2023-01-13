@@ -11,21 +11,21 @@
   color: white !important;
 }
 .card-link:hover {
-  color: #FF645F !important;
+  color: #83DEFF !important;
 }
 .nav-link:hover {
-  color: #FF645F !important;
+  color: #83DEFF !important;
 }
 
 .dropdown, .dropdown-menu, .show {
   background-color: #633CAE !important;
-  color: #FF645F !important;
+  color: #83DEFF !important;
 }
 .dropdown-item {
   color: white !important;
 }
 .dropdown-item:hover {
-  background-color: #FF645F !important;
+  background-color: #83DEFF !important;
 }
 .dropdown p, .dropdown-menu p {
   color: #FFF !important;

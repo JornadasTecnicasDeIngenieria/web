@@ -29,7 +29,7 @@ const Locate = () => {
                                 width="600"
                                 height="450"
                                 style={{ border: 0 }}
-                                allowFullScreen="true"
+                                allowFullScreen={true}
                                 aria-hidden="false"
                                 tabIndex="0"
                             />
