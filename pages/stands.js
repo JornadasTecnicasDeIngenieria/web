@@ -1,5 +1,4 @@
 import Layout from "@components/layouts/MainLayout";
-import IntroSection from "@components/IntroSection";
 import styled from "@emotion/styled"
 import { Grid, Container } from "@mui/material"
 import Image from "next/image";
@@ -11,12 +10,12 @@ const Stands = () => {
         <Layout>
             <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"></link>
-            <Description><Container>
+            <Section><Container>
                 <br/><br/>
                 <AlignedDiv><Title>STANDS</Title></AlignedDiv>
                 <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
-                <DescriptionText>Los Stands son el núcleo del evento. En estos puestos, las empresas podrán tener un contacto directo y estrecho con los alumnos que estudian en la ESIT, brindándoles la oportunidad de informar al estudiantado universitario de las ingenierías acerca de su actividad, perfiles profesionales que demandan, funcionamiento de la empresa...</DescriptionText>
-                <DescriptionText>En estos stands, las empresas tendrán libertad de organización para exponer su trabajo y atraer a los visitantes del evento. Por ejemplo, se podrán traer folletos informativos sobre los departamentos de la empresa o sus programas de becas. Aquellas empresas centradas en el desarrollo podrán traer algún equipo para que los visitantes prueben sus productos. Si están dedicadas a proyectos de desarrollo sostenible, por ejemplo, pueden preparar vídeos enseñando sus avances. Cualquier cosa con fines formativos o de interés es bienvenida.</DescriptionText>
+                <DescriptionText>Los Stands son el núcleo del evento. En estos puestos, las empresas podrán tener un contacto directo y estrecho con los alumnos de la ESIT, brindándoles la oportunidad de informar al estudiantado universitario de las ingenierías acerca de su actividad, perfiles profesionales que demandan, funcionamiento de la empresa...</DescriptionText>
+                <DescriptionText>En estos stands, las empresas tendrán libertad de organización para exponer su trabajo y atraer a los visitantes del evento. Por ejemplo, se podrán traer folletos informativos sobre los departamentos de la empresa o sus programas de prácticas. Aquellas empresas centradas en el desarrollo podrán traer productos, para que los visitantes los descubran. También podrán contar con vídeos donde muestren sus proyectos más innovadores, por ejemplo. Cualquier iniciativa con fines formativos o de interés es bienvenida.</DescriptionText>
                 <br/><br/>
                 <Grid container spacing={3}>
                     <Grid item xs={12} sm={12} md={6} lg={4}>
@@ -36,8 +35,8 @@ const Stands = () => {
                     </Grid>
                 </Grid>
                 <br/>
-                </Container></Description>
-                <Distribution><Container>
+                </Container></Section>
+                <Section><Container>
                     <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
                     <br/>
                     <AlignedDiv><Category>Distribución de los Stands</Category></AlignedDiv>
@@ -48,35 +47,12 @@ const Stands = () => {
                     <br/><br/><br/>
                     <StandList content={stands}/>
                     <br/><br/><br/><br/>
-                </Container></Distribution>
+                </Container></Section>
         </Layout>
     )
 }
 
 export default Stands;
-
-const Category = styled.h2`
-color: #ffffff;
-font-size: 3rem;
-font-weight: 700;
-font-family: 'Montserrat', sans-serif;`
-
-const Description = styled.div`
-background-color: #3c3c54;`
-
-const DescriptionText = styled.p`
-color: #ffffff;
-font-size: 1.5rem;
-font-weight: 500;
-font-family: 'Montserrat'`
-
-const Distribution = styled.div`
-background-color: #3c3c54;`
-
-const Title = styled.h2`
-color: #ffffff;
-font-size: 7rem;
-font-weight: 900;`
 
 const AlignedDiv = styled.div`
 display: flex;
@@ -84,12 +60,32 @@ justify-content: center;
 align-items: center;
 `;
 
+const Section = styled.div`
+background-color: #3c3c54;`
+
 const ImageDiv = styled.div`
 display: flex;
 align-items: center;
 border-radius: 25px;
 overflow: hidden;
 `;
+
+const Title = styled.h2`
+color: #ffffff;
+font-size: 7rem;
+font-weight: 900;`
+
+const Category = styled.h2`
+color: #ffffff;
+font-size: 3rem;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;`
+
+const DescriptionText = styled.p`
+color: #ffffff;
+font-size: 1.5rem;
+font-weight: 500;
+font-family: 'Montserrat'`
 
 const Circles = styled.h2`
 font-size: 3.5rem;
@@ -108,19 +104,8 @@ font-size: 3.5rem;
 padding-right: 2rem;
 font-weight: 700;`;
 
-const CircleV = styled.span`
-color: #633CAE;
-font-size: 3.5rem;
-padding-right: 2rem;
-font-weight: 700;`; 
-
 const CircleB = styled.span`
 color: #83DEFF;
 font-size: 3.5rem;
 padding-right: 2rem;
 font-weight: 700;`;
-
-// const Image = styled.img`
-// border-style: solid;
-// border-color: green;
-// `;
