@@ -13,6 +13,7 @@ function Cards({ organizadores }) {
                                 <AlignedDiv>
                                 <Card name={name} imageSource={image} url={`${id}`} categories={categories} social={social}/>
                                 </AlignedDiv>
+                                <br/>
                             </Grid>
                         ) : ""
                     })}
@@ -25,7 +26,6 @@ function Cards({ organizadores }) {
 export default Cards;
 
 const AlignedDiv = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-`;
+    display: flex;
+    justify-content: center;
+    align-items: center;`;

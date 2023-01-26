@@ -66,7 +66,7 @@ background-color: #3c3c54;`
 const ImageDiv = styled.div`
 display: flex;
 align-items: center;
-border-radius: 25px;
+border-radius: 1.5rem;
 overflow: hidden;
 `;
 

@@ -25,26 +25,25 @@ function Card({ imageSource, name, categories, social }) {
                     opacity: 1,
                     transition: {
                         delay: 0.3,
-                    }
+                    }     
                 }
             }}>
                 <motion.div whileHover={{
                     position: "relative",
                     zIndex: 999,
                     scale: 1.05,
-                    background: "white",
+                    borderRadius: "0.5rem",
                     transition: {
                         duration: 0.2,
                     }
                 }}>
                     <div className="custom-card">
-
+                        <br/>
                         <div className="custom-card-header">
                             <img src={imageSource} alt={name} />
                         </div>
                         <div className="custom-card-body">
                             <Grid container justifyContent="center" alignItems="center">
-
                                 {
                                     tags.map(tag => {
                                         return (
@@ -53,7 +52,6 @@ function Card({ imageSource, name, categories, social }) {
                                     })
                                 }
                             </Grid>
-
                             <Name>
                                 {name}
                             </Name>
@@ -85,17 +83,17 @@ function Card({ imageSource, name, categories, social }) {
 export default Card;
 
 const Name = styled.h4`
-    font-size: 1.5rem;
-    color: #333;
+    font-size: 2rem;
+    color: #3c3c54;
     align-self: center;
 `
 
 const Social = styled.div`
 width: 100%;
-background-color: #633CAE;
+background-color: #3c3c54;
 color: white;
-border: 3px solid rgba(36,138,207,1);
 z-index: 9999;
 padding: 1rem;
 margin: 0;
+border-radius: 0.5rem;
 `
