@@ -20,15 +20,18 @@
 .dropdown, .dropdown-menu, .show {
   background-color: #633CAE !important;
   color: #83DEFF !important;
+  font-size: 1.2rem;
 }
 .dropdown-item {
   color: white !important;
+  font-size: 1.2rem;
 }
 .dropdown-item:hover {
   background-color: #83DEFF !important;
 }
 .dropdown p, .dropdown-menu p {
-  color: #FFF !important;
+  color: #ffffff !important;
+  font-size: 1.2rem;
 }
 
 .right-arrow {

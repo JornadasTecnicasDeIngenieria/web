@@ -16,7 +16,7 @@ const Organizadores = () => {
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"></link>
             <Section><Container>
             <br/><br/>
-            <AlignedDiv><Title>ORGANIZADORES</Title></AlignedDiv>
+            <AlignedDiv><Title>Organizadores</Title></AlignedDiv>
             <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
             <Cards organizadores={organizadores} />
             <br/><br/>

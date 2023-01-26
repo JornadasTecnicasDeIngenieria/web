@@ -11,7 +11,7 @@ const Actividades = () => {
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"></link>
             <Section><Container>
                 <br/><br/>
-                <AlignedDiv><Title>ACTIVIDADES</Title></AlignedDiv>
+                <AlignedDiv><Title>Actividades</Title></AlignedDiv>
                 <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
                 <DescriptionText>A lo largo de las Jornadas Técnicas de Ingeniería habrá una gran multitud de actividades con el objetivo de amenizar el evento y atraer a los estudiantes más curiosos. Estas actividades estarán enfocadas también en fomentar el contacto con las empresas asistentes por parte del alumnado, recompensando la interacción con los stands.</DescriptionText>
                 <DescriptionText>Las actividades se llevarán acabo en el puesto central, al lado de Conserjería, son completamente gratuitas y cuentan con gran cantidad de premios. ¡Así que apúntalas que no te las puedes perder!</DescriptionText>
