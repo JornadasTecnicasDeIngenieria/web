@@ -1,85 +1,292 @@
 export const organizadores = [
     {
-        name: 'Helena García',
-        image: '/images/organizadores/helena.jpeg',
-        categories: ['Informática', "Gestión Actividades y Talleres"],
+        name: 'Aitor Castro Darias',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Actividades"],
         social: [
-            {
-                "tag": "GitHub",
-                "url": "https://github.com/HelenaGD"
-            },
-            {
-                "tag": "Linkedin",
-                "url": "https://www.linkedin.com/in/helena-garc%C3%ADa-d%C3%ADaz-b1179a1bb/"
-            }]
-    },
-    {
-        name: 'Adrián González',
-        image: '/images/organizadores/adrian.jpeg',
-        categories: ['Informática', 'Gestión Stands', 'Desarrollo Web y App'],
-        social: [
-            {
-                "tag": "GitHub",
-                "url": "https://github.com/AdrianGlez18"
-            },
-            {
-                "tag": "Linkedin",
-                "url": "https://www.linkedin.com/in/adri%C3%A1n-gonz%C3%A1lez-hern%C3%A1ndez/"
-            },
-            {
-                "tag": "Web",
-                "url": "https://aglez.dev"
-            },
-            {
-                "tag": "ContactMail",
-                "url": "contact@aglez.dev"
-            }
+            
         ]
     },
     {
-        name: 'Andrés Hernández',
+        name: 'Marcelo Daniel Choque Mamani',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática'],
+        social: [
+
+        ]
+    },
+    {
+        name: 'José Javier Díaz González',
+        image: '/images/organizadores/jose_javier_diaz.png',
+        categories: ['Informática', "Stands"],
+        social: [
+            {
+                "tag": "GitHub",
+                "url": "https://github.com/alu0101128894"
+            },
+            {
+                "tag": "Linkedin",
+                "url": "https://www.linkedin.com/in/jos%C3%A9-javier-d%C3%ADaz-gonz%C3%A1lez-72a0b0223/"
+            },
+            {
+                "tag": "Telegram",
+                "url": "https://t.me/javiidiazglez"
+            },
+            {
+                "tag": "Instagram",
+                "url": "https://www.instagram.com/javiidiazglez/"
+            }]
+    },
+    {
+        name: 'Felipe Escolar Cólogan',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Electrónica', "Actividades"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'María Ferrándiz Díaz',
+        image: '/images/organizadores/woman_placeholder.png',
+        categories: ['Informática', "Coordinadora Redes Sociales"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Julián Garcés Rodríguez',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Electrónica', "Actividades"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Iván García González',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Patrocinio"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Daniel García Hernández',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Stands"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Rodrigo García Jiménez',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Stands"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Ana Virginia Giambona Díaz',
+        image: '/images/organizadores/woman_placeholder.png',
+        categories: ['Informática', "Stands"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Hugo Hernández Martín',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Stands"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Andrés Hernández Ortega',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Coordinador Patrocinio"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Daniel Jorge Acosta',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Coordinador Actividades"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'XueMei Lin',
+        image: '/images/organizadores/woman_placeholder.png',
+        categories: ['Informática', "Redes Sociales"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Samuel Lorenzo Sánchez',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Stands"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Alejandro Luengo Estévez',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Electrónica', "Actividades"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Valerio Luis Cabrera',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Actividades"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Daniel Marhuenda Guillén',
+        image: '/images/organizadores/daniel_marhuenda.png',
+        categories: ['Informática', "Actividades"],
+        social: [
+            {
+                "tag": "ContactMail",
+                "url": "danielmarh333@gmail.com"
+            }]
+    },
+    {
+        name: 'Esther Medina Quintero',
+        image: '/images/organizadores/woman_placeholder.png',
+        categories: ['Informática', "Redes Sociales"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Natalia Méndez Pérez',
+        image: '/images/organizadores/woman_placeholder.png',
+        categories: ['Electrónica', "Actividades"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Sergio Mora González',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Actividades"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Daniel Mora Hernández',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Química'],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Jose Ramón Morera Campos',
+        image: '/images/organizadores/jose_ramon_morera.png',
+        categories: ['Informática', "Coordinador Stands"],
+        social: [
+            {
+                "tag": "Linkedin",
+                "url": "cambiar"
+            },
+            {
+                "tag": "ContactMail",
+                "url": "jrmoreracampos@gmail.com"
+            }]
+    },
+    {
+        name: 'Cheuk Kelly Ng Pante',
+        image: '/images/organizadores/cheuk_kelly.png',
+        categories: ['Informática', "Redes Sociales"],
+        social: [
+            {
+                "tag": "GitHub",
+                "url": "https://github.com/feichay10"
+            },
+            {
+                "tag": "Linkedin",
+                "url": "https://www.linkedin.com/in/cheuk-kelly-ng-pante-293967158/"
+            }]
+    },
+    {
+        name: 'Steven Rodríguez Morales',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Redes Sociales"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Luis Rojas Laza',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Electrónica', "Actividades"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Jacob Santana Rodríguez',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Redes Sociales"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Enrique Suárez Hernández',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Stands"],
+        social: [
+
+        ]
+    },
+    {
+        name: 'Andrea Venazco Rodríguez',
+        image: '/images/organizadores/andrea_venazco.png',
+        categories: ['Informática', "Actvidades"],
+        social: [
+            {
+                "tag": "ContactMail",
+                "url": "andrea.venazco.rodriguez@gmail.com"
+            }]
+    },
+    {
+        name: 'Lihao Zhu',
+        image: '/images/organizadores/man_placeholder.png',
+        categories: ['Informática', "Patrocinio", "Stands", "Actividades", "Redes Sociales"],
+        social: [
+            
+        ]
+    },
+    {
+        name: 'Lihao Zhu',
+        image: '/images/organizadores/lihao.jpg',
+        categories: ['Informática', "Patrocinio", "Stands", "Actividades", "Redes Sociales"],
+        social: [
+            {
+                "tag": "Linkedin",
+                "url": "https://www.linkedin.com/in/lihao-zhu-6bbb77228"
+            }]
+    },
+    {
+        name: 'Andrés Hernández Ortega',
         image: '/images/organizadores/andres.jpeg',
         categories: ['Informática', 'Coordinador', 'Gestión Patrocinios'],
         social: [
             {
                 "tag": "Linkedin",
                 "url": "https://www.linkedin.com/in/andr%C3%A9s-hern%C3%A1ndez-a3ab4b134/"
-            }]
-    },
-    {
-        name: 'Nahia Ganuza',
-        image: '/images/organizadores/nahia.jpeg',
-        categories: ['Informática', "Gestión Ponencias"],
-        social: [
-            {
-                "tag": "Linkedin",
-                "url": "https://www.linkedin.com/in/nahia-ganuza-izaguirre-a56866205/"
-            }]
-    },
-    {
-        name: 'Adrián Baeza',
-        image: '/images/organizadores/adrianb.jpg',
-        categories: ['Electrónica'],
-        social: []
-    },
-    {
-        name: 'David de Sousa',
-        image: '/images/organizadores/david.jpeg',
-        categories: ['Química'],
-        social: [
-            {
-                "tag": "Linkedin",
-                "url": "https://www.linkedin.com/in/david-de-sousa-rodriguez-0906a3206/"
-            }]
-    },
-    {
-        name: 'Andrea Venazco',
-        image: '/images/organizadores/andrea.jpg',
-        categories: ['Informática'],
-        social: [
-            {
-                "tag": "Linkedin",
-                "url": "https://www.linkedin.com/in/andrea-venazco-rodr%C3%ADguez-54b827229"
             }]
     },
     {
@@ -90,40 +297,6 @@ export const organizadores = [
             {
                 "tag": "GitHub",
                 "url": "https://github.com/Valerio-Ull"
-            }]
-    },
-    {
-        name: 'Esther Medina',
-        image: '/images/organizadores/esther.jpg',
-        categories: ['Informática'],
-        social: []
-    },
-    {
-        name: 'Stephanie Arismendi',
-        image: '/images/organizadores/steph.jpg',
-        categories: ['Informática'],
-        social: [
-            {
-                "tag": "Linkedin",
-                "url": "https://www.linkedin.com/in/stephanie-arismendi-escobar-125935a1/"
-            },
-            {
-                "tag": "GitHub",
-                "url": "https://github.com/stephaniearismendi"
-            },
-            {
-                "tag": "ContactMail",
-                "url": "stephaniearismendi17@gmail.com"
-            }]
-    },
-    {
-        name: 'Lihao Zhu',
-        image: '/images/organizadores/lihao.jpg',
-        categories: ['Informática'],
-        social: [
-            {
-                "tag": "Linkedin",
-                "url": "https://www.linkedin.com/in/lihao-zhu-6bbb77228"
             }]
     },
     {

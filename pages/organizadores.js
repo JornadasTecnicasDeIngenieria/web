@@ -2,11 +2,11 @@ import Cards from "@components/Cards";
 import styled from "@emotion/styled"
 import { Grid, Container } from "@mui/material"
 import Layout from "@components/layouts/MainLayout";
-import IntroSection from "@components/IntroSection";
-import CardCarousel from "@components/carousel";
 
-import { organizadores } from "data/organizadores";
-import { voluntarios } from "data/voluntarios";
+import { organizadores_patrocinio } from "data/organizadores_patrocinio";
+import { organizadores_stands } from "data/organizadores_stands";
+import { organizadores_actividades } from "data/organizadores_actividades";
+import { organizadores_redes_sociales } from "data/organizadores_redes_sociales";
 
 const Organizadores = () => {
 
@@ -18,7 +18,21 @@ const Organizadores = () => {
             <br/><br/>
             <AlignedDiv><Title>Organizadores</Title></AlignedDiv>
             <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
-            <Cards organizadores={organizadores} />
+            <AlignedDiv><Category>Patrocinio</Category></AlignedDiv>
+            <br/><br/>
+            <Cards organizadores={organizadores_patrocinio} />
+            <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
+            <AlignedDiv><Category>Stands</Category></AlignedDiv>
+            <br/><br/>
+            <Cards organizadores={organizadores_stands} />
+            <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
+            <AlignedDiv><Category>Actividades</Category></AlignedDiv>
+            <br/><br/>
+            <Cards organizadores={organizadores_actividades} />
+            <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
+            <AlignedDiv><Category>Redes Sociales</Category></AlignedDiv>
+            <br/><br/>
+            <Cards organizadores={organizadores_redes_sociales} />
             <br/><br/>
             </Container></Section>
         </Layout>
@@ -35,12 +49,6 @@ const AlignedDiv = styled.div`
 const Section = styled.div`
     background-color: #3c3c54;`
 
-const ImageDiv = styled.div`
-    display: flex;
-    align-items: center;
-    border-radius: 25px;
-    overflow: hidden;`;
-
 const Title = styled.h2`
     color: #ffffff;
     font-size: 7rem;
@@ -51,18 +59,6 @@ const Category = styled.h2`
     font-size: 3rem;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;`
-
-const DescriptionText = styled.p`
-    color: #ffffff;
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-family: 'Montserrat'`
-
-const Highlight = styled.span`
-    color: #ffffff;
-    font-size: 1.5rem;
-    font-weight: 700;
-    font-family: 'Montserrat'`
 
 const Circles = styled.h2`
     font-size: 3.5rem;

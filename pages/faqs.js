@@ -1,15 +1,11 @@
 import Layout from "@components/layouts/MainLayout";
 import styled from "@emotion/styled"
-import Image from 'next/image'
 import { Grid, Container } from "@mui/material"
-import Accordion from "@components/accordion";
-import { faqs } from "data/faq";
 
 const FAQs = () => {
 
     return (
         <Layout>
-            
             <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"></link>
             <Section><Container>

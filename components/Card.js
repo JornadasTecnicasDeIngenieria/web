@@ -8,6 +8,8 @@ import LinkedIn from "@mui/icons-material/LinkedIn";
 import GitHub from "@mui/icons-material/GitHub";
 import Language from "@mui/icons-material/Language";
 import ContactMail from "@mui/icons-material/ContactMail";
+import Telegram from "@mui/icons-material/Telegram";
+import Instagram from "@mui/icons-material/Instagram";
 import { Twitter, Facebook } from "@mui/icons-material";
 
 function Card({ imageSource, name, categories, social }) {
@@ -64,8 +66,10 @@ function Card({ imageSource, name, categories, social }) {
                                                 case "GitHub": return (<Link className="styledlink" href={url}><GitHub /></Link>)
                                                 case "Twitter": return (<Link className="styledlink" href={url}><Twitter /></Link>)
                                                 case "Linkedin": return (<Link className="styledlink" href={url}><LinkedIn /></Link>)
-                                                case "ContactMail": return (<Link className="styledlink" href={`mailto: ${url}`}><span title={url}><ContactMail /></span></Link>)
+                                                case "ContactMail": return (<Link className="styledlink" href={`mailto:${url}`}><span title={url}><ContactMail /></span></Link>)
                                                 case "Web": return (<Link className="styledlink" href={url}><span title={url}><Language /></span></Link>)
+                                                case "Telegram": return (<Link className="styledlink" href={url}><span title={url}><Telegram /></span></Link>)
+                                                case "Instagram": return (<Link className="styledlink" href={url}><span title={url}><Instagram /></span></Link>)
                                             }
                                         })
                                     }
