@@ -18,30 +18,6 @@ export const organizadores_actividades = [
         ]
     },
     {
-        name: 'Felipe Escolar Cólogan',
-        image: '/images/organizadores/man_placeholder.png',
-        categories: ['Electrónica'],
-        social: [
-
-        ]
-    },
-    {
-        name: 'Julián Garcés Rodríguez',
-        image: '/images/organizadores/man_placeholder.png',
-        categories: ['Electrónica'],
-        social: [
-
-        ]
-    },
-    {
-        name: 'Alejandro Luengo Estévez',
-        image: '/images/organizadores/man_placeholder.png',
-        categories: ['Electrónica'],
-        social: [
-
-        ]
-    },
-    {
         name: 'Valerio Luis Cabrera',
         image: '/images/organizadores/valerio_luis.png',
         categories: ['Informática'],
