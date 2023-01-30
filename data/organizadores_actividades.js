@@ -1,7 +1,7 @@
 export const organizadores_actividades = [
     {
         name: 'Daniel Jorge Acosta',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Coordinador', 'Informática'],
         social: [
             {
@@ -11,7 +11,7 @@ export const organizadores_actividades = [
     },
     {
         name: 'Aitor Castro Darias',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
             
@@ -39,7 +39,7 @@ export const organizadores_actividades = [
     },
     {
         name: 'Natalia Méndez Pérez',
-        image: '/images/organizadores/woman_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Electrónica'],
         social: [
 
@@ -47,7 +47,7 @@ export const organizadores_actividades = [
     },
     {
         name: 'Sergio Mora González',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 
@@ -55,7 +55,7 @@ export const organizadores_actividades = [
     },
     {
         name: 'Luis Rojas Laza',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Electrónica'],
         social: [
 

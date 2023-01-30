@@ -1,7 +1,7 @@
 export const organizadores_redes_sociales = [
     {
         name: 'María Ferrándiz Díaz',
-        image: '/images/organizadores/woman_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Coordinadora', 'Informática'],
         social: [
 
@@ -9,7 +9,7 @@ export const organizadores_redes_sociales = [
     },
     {
         name: 'XueMei Lin',
-        image: '/images/organizadores/woman_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 
@@ -17,7 +17,7 @@ export const organizadores_redes_sociales = [
     },
     {
         name: 'Esther Medina Quintero',
-        image: '/images/organizadores/woman_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 
@@ -39,7 +39,7 @@ export const organizadores_redes_sociales = [
     },
     {
         name: 'Steven Rodríguez Morales',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 
@@ -47,7 +47,7 @@ export const organizadores_redes_sociales = [
     },
     {
         name: 'Jacob Santana Rodríguez',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 

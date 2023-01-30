@@ -21,7 +21,7 @@ export const organizadores_patrocinio = [
     },
     {
         name: 'Adnan Hawari Capa',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 

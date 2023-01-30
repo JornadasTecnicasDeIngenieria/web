@@ -18,7 +18,7 @@ const Organizadores = () => {
             <br/><br/>
             <AlignedDiv><Title>Organizadores</Title></AlignedDiv>
             <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
-            <AlignedDiv><Category>Patrocinio</Category></AlignedDiv>
+            <AlignedDiv><Category>Patrocinio y Gestión Financiera</Category></AlignedDiv>
             <br/><br/>
             <Cards organizadores={organizadores_patrocinio} />
             <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>

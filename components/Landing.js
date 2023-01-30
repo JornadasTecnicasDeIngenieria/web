@@ -1,8 +1,5 @@
 import Grid from "@mui/material/Grid";
-import Item from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
 import Image from "next/image";
-import Button from "@mui/material/Button";
 import styled from "@emotion/styled"
 
 const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {

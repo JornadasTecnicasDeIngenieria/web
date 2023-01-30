@@ -10,6 +10,8 @@ import dynamic from 'next/dynamic';
 const Homepage = () => {
   return (
     <Layout>
+      <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"></link>
       <Landing imgSrc="/landing.jpg" imgAlt="JTI" title="Jornadas Técnicas de Ingeniería" subtitle="Descubre el mundo laboral de la ingeniería" />
       <InfoJTI />
       <Sections />

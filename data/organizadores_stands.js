@@ -4,10 +4,10 @@ export const organizadores_stands = [
         image: '/images/organizadores/jose_ramon_morera.png',
         categories: ['Coordinador', 'Informática'],
         social: [
-            //{
-            //    "tag": "Linkedin",
-            //    "url": ""
-            //},
+            {
+                "tag": "Linkedin",
+                "url": "https://es.linkedin.com/in/jos%C3%A9-ram%C3%B3n-morera-a58727254"
+            },
             {
                 "tag": "ContactMail",
                 "url": "jrmoreracampos@gmail.com"
@@ -37,7 +37,7 @@ export const organizadores_stands = [
     },
     {
         name: 'Daniel García Hernández',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 
@@ -45,7 +45,7 @@ export const organizadores_stands = [
     },
     {
         name: 'Rodrigo García Jiménez',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 
@@ -53,7 +53,7 @@ export const organizadores_stands = [
     },
     {
         name: 'Ana Virginia Giambona Díaz',
-        image: '/images/organizadores/woman_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 
@@ -61,7 +61,7 @@ export const organizadores_stands = [
     },
     {
         name: 'Hugo Hernández Martín',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 
@@ -84,7 +84,7 @@ export const organizadores_stands = [
     },
     {
         name: 'Enrique Suárez Hernández',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 

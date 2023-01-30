@@ -1,7 +1,7 @@
 export const organizadores = [
     {
         name: 'Aitor Castro Darias',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Actividades"],
         social: [
             
@@ -9,7 +9,7 @@ export const organizadores = [
     },
     {
         name: 'Marcelo Daniel Choque Mamani',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
 
@@ -39,7 +39,7 @@ export const organizadores = [
     },
     {
         name: 'Felipe Escolar Cólogan',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Electrónica', "Actividades"],
         social: [
 
@@ -47,7 +47,7 @@ export const organizadores = [
     },
     {
         name: 'María Ferrándiz Díaz',
-        image: '/images/organizadores/woman_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Coordinadora Redes Sociales"],
         social: [
 
@@ -55,7 +55,7 @@ export const organizadores = [
     },
     {
         name: 'Julián Garcés Rodríguez',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Electrónica', "Actividades"],
         social: [
 
@@ -63,7 +63,7 @@ export const organizadores = [
     },
     {
         name: 'Iván García González',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Patrocinio"],
         social: [
 
@@ -71,7 +71,7 @@ export const organizadores = [
     },
     {
         name: 'Daniel García Hernández',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Stands"],
         social: [
 
@@ -79,7 +79,7 @@ export const organizadores = [
     },
     {
         name: 'Rodrigo García Jiménez',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Stands"],
         social: [
 
@@ -87,7 +87,7 @@ export const organizadores = [
     },
     {
         name: 'Ana Virginia Giambona Díaz',
-        image: '/images/organizadores/woman_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Stands"],
         social: [
 
@@ -95,7 +95,7 @@ export const organizadores = [
     },
     {
         name: 'Hugo Hernández Martín',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Stands"],
         social: [
 
@@ -103,7 +103,7 @@ export const organizadores = [
     },
     {
         name: 'Andrés Hernández Ortega',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Coordinador Patrocinio"],
         social: [
 
@@ -111,7 +111,7 @@ export const organizadores = [
     },
     {
         name: 'Daniel Jorge Acosta',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Coordinador Actividades"],
         social: [
 
@@ -119,7 +119,7 @@ export const organizadores = [
     },
     {
         name: 'XueMei Lin',
-        image: '/images/organizadores/woman_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Redes Sociales"],
         social: [
 
@@ -127,7 +127,7 @@ export const organizadores = [
     },
     {
         name: 'Samuel Lorenzo Sánchez',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Stands"],
         social: [
 
@@ -135,7 +135,7 @@ export const organizadores = [
     },
     {
         name: 'Alejandro Luengo Estévez',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Electrónica', "Actividades"],
         social: [
 
@@ -143,7 +143,7 @@ export const organizadores = [
     },
     {
         name: 'Valerio Luis Cabrera',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Actividades"],
         social: [
 
@@ -161,7 +161,7 @@ export const organizadores = [
     },
     {
         name: 'Esther Medina Quintero',
-        image: '/images/organizadores/woman_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Redes Sociales"],
         social: [
 
@@ -169,7 +169,7 @@ export const organizadores = [
     },
     {
         name: 'Natalia Méndez Pérez',
-        image: '/images/organizadores/woman_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Electrónica', "Actividades"],
         social: [
 
@@ -177,7 +177,7 @@ export const organizadores = [
     },
     {
         name: 'Sergio Mora González',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Actividades"],
         social: [
 
@@ -185,7 +185,7 @@ export const organizadores = [
     },
     {
         name: 'Daniel Mora Hernández',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Química'],
         social: [
 
@@ -221,7 +221,7 @@ export const organizadores = [
     },
     {
         name: 'Steven Rodríguez Morales',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Redes Sociales"],
         social: [
 
@@ -229,7 +229,7 @@ export const organizadores = [
     },
     {
         name: 'Luis Rojas Laza',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Electrónica', "Actividades"],
         social: [
 
@@ -237,7 +237,7 @@ export const organizadores = [
     },
     {
         name: 'Jacob Santana Rodríguez',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Redes Sociales"],
         social: [
 
@@ -245,7 +245,7 @@ export const organizadores = [
     },
     {
         name: 'Enrique Suárez Hernández',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Stands"],
         social: [
 
@@ -263,7 +263,7 @@ export const organizadores = [
     },
     {
         name: 'Lihao Zhu',
-        image: '/images/organizadores/man_placeholder.png',
+        image: '/images/organizadores/placeholder.png',
         categories: ['Informática', "Patrocinio", "Stands", "Actividades", "Redes Sociales"],
         social: [
             
