@@ -8,11 +8,33 @@ export const organizadores_redes_sociales = [
         ]
     },
     {
-        name: 'XueMei Lin',
-        image: '/images/organizadores/placeholder.png',
+        name: 'Marcelo Daniel Choque Mamani',
+        image: '/images/organizadores/marcelo_daniel_choque.png',
         categories: ['Informática'],
         social: [
-
+            {
+                "tag": "GitHub",
+                "url": "https://www.linkedin.com/in/marcelo-daniel-choque-mamani-030387231"
+            }
+        ]
+    },
+    {
+        name: 'XueMei Lin',
+        image: '/images/organizadores/xuemei_lin.jpg',
+        categories: ['Informática'],
+        social: [
+            {
+                "tag": "GitHub",
+                "url": "https://github.com/XueMei-L"
+            },
+            {
+                "tag": "Linkedin",
+                "url": "http://www.linkedin.com/in/xuemeilin5845"
+            },
+            {
+                "tag": "ContactMail",
+                "url": "linxuemei1999@gmail.com"
+            }
         ]
     },
     {
@@ -62,24 +84,5 @@ export const organizadores_redes_sociales = [
                 "tag": "Linkedin",
                 "url": "https://www.linkedin.com/in/lihao-zhu-6bbb77228"
             }]
-    },
-    {
-        name: 'XueMei Lin',
-        image: '/images/organizadores/xuemei.jpg',
-        categories: ['Informática'],
-        social: [
-            {
-                "tag": "GitHub",
-                "url": "https://github.com/XueMei-L"
-            },
-            {
-                "tag": "Linkedin",
-                "url": "http://www.linkedin.com/in/xuemeilin5845"
-            },
-            {
-                "tag": "ContactMail",
-                "url": "linxuemei1999@gmail.com"
-            }
-        ]
     }
 ]

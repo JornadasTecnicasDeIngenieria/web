@@ -83,6 +83,14 @@ export const organizadores_stands = [
         ]
     },
     {
+        name: 'Luis Rojas Laza',
+        image: '/images/organizadores/placeholder.png',
+        categories: ['Electrónica'],
+        social: [
+
+        ]
+    },
+    {
         name: 'Enrique Suárez Hernández',
         image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],

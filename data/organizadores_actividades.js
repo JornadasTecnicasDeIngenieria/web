@@ -18,6 +18,14 @@ export const organizadores_actividades = [
         ]
     },
     {
+        name: 'Adrián Lima García',
+        image: '/images/organizadores/placeholder.png',
+        categories: ['Informática'],
+        social: [
+            
+        ]
+    },
+    {
         name: 'Valerio Luis Cabrera',
         image: '/images/organizadores/valerio_luis.png',
         categories: ['Informática'],
@@ -38,25 +46,9 @@ export const organizadores_actividades = [
             }]
     },
     {
-        name: 'Natalia Méndez Pérez',
-        image: '/images/organizadores/placeholder.png',
-        categories: ['Electrónica'],
-        social: [
-
-        ]
-    },
-    {
         name: 'Sergio Mora González',
         image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
-        social: [
-
-        ]
-    },
-    {
-        name: 'Luis Rojas Laza',
-        image: '/images/organizadores/placeholder.png',
-        categories: ['Electrónica'],
         social: [
 
         ]
