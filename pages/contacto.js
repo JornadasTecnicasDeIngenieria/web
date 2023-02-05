@@ -1,7 +1,7 @@
 import Layout from "@components/layouts/MainLayout";
 import styled from "@emotion/styled"
 import { Container, Stack } from "@mui/material"
-import { Twitter, Instagram, LinkedIn } from "@mui/icons-material";
+import { Twitter, Instagram, LinkedIn, Facebook } from "@mui/icons-material";
 import StyledLink from "@components/StyledLink";
 
 const Contacto = () => {
@@ -38,6 +38,13 @@ const Contacto = () => {
                         rel="noopener noreferrer">
                             <Instagram fontSize="large" />
                     </StyledLink>
+                    <StyledLink
+                        sx={{ textDecoration: "none", color: "common.white" }}
+                        href="https://www.facebook.com/people/Jornadas-Técnicas-de-Ingeniería/pfbid0286pMHU7Nkf2fVNfMjeAfyDR72eC3E67kVGisag3zeokyzN8zjX3upuDdmJHDHndal/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            <Facebook fontSize="large" />
+                    </StyledLink>
                 </Stack>
                 <br/><br/><br/>
                 <DescriptionText>También puedes hacernos llegar tus sugerencias para el evento a través de <DescriptionLink href="https://forms.gle/xXHuS8m2xrrz2vat8">este formulario</DescriptionLink>.</DescriptionText>
@@ -58,23 +65,10 @@ align-items: center;
 const Section = styled.div`
 background-color: #3c3c54;`
 
-const ImageDiv = styled.div`
-display: flex;
-align-items: center;
-border-radius: 1.5rem;
-overflow: hidden;
-`;
-
 const Title = styled.h2`
 color: #ffffff;
 font-size: 6rem;
 font-weight: 900;`
-
-const Category = styled.h2`
-color: #ffffff;
-font-size: 3rem;
-font-weight: 700;
-font-family: 'Montserrat', sans-serif;`
 
 const DescriptionText = styled.p`
 color: #ffffff;

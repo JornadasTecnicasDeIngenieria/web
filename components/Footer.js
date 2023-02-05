@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import Typography from '@mui/material/Typography'
 import Stack from "@mui/material/Stack";
-import { LinkedIn, Instagram, Twitter } from "@mui/icons-material";
+import { LinkedIn, Instagram, Twitter, Facebook } from "@mui/icons-material";
 import Link from 'next/link'
 import styled from "@emotion/styled";
 import StyledLink from "@components/StyledLink";
@@ -38,6 +38,14 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <Instagram fontSize="large" />
+        </StyledLink>
+        <StyledLink
+          sx={{ textDecoration: "none", color: "common.white" }}
+          href="https://www.facebook.com/people/Jornadas-Técnicas-de-Ingeniería/pfbid0286pMHU7Nkf2fVNfMjeAfyDR72eC3E67kVGisag3zeokyzN8zjX3upuDdmJHDHndal/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Facebook fontSize="large" />
         </StyledLink>
       </Stack>
       <Link href={`/politica-de-privacidad`} legacyBehavior>
