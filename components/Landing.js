@@ -15,7 +15,7 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                     overflow: `hidden`,
                 }}
             >
-                <Image src={imgSrc} alt={imgAlt} layout="fill" objectFit="cover" />
+                <Image src={imgSrc} alt={imgAlt} width={1280} height={719} style={{ width: '100%', height: '100%', position: 'absolute' }} />
                 <Grid
                     container
                     item
@@ -24,20 +24,10 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                     alignItems="center"
                     zIndex="100"
                 >
-                    <BlockDiv>
-                        <ImageDiv>
-                            <Image src="/images/eslogan.png" alt="JTI" width={1880} height={310} />
-                        </ImageDiv>
-
-                        <br />
-                        
-                    </BlockDiv>
-                    <BlockDiv>
-                    </BlockDiv>
+                    <Image src="/images/eslogan.png" alt="JTI" width={940} height={155} />
+                    <br/><br/>
                     <PaddingDiv>
-                        <DateTitle>
-                        14 y 15 de Marzo de 2023
-                        </DateTitle>
+                        <DateTitle>14 y 15 de Marzo de 2023</DateTitle>
                     </PaddingDiv>
                 </Grid></Grid>
         </div>);

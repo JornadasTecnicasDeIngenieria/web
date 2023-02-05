@@ -28,7 +28,7 @@ const Navbar = ({ navLinks }) => {
 
 export default Navbar;
 
-const NavbarLink = styled.a`
+const NavbarLink = styled.span`
 color: #ffffff;
 font-size: 1.2rem;
 font-family: 'Montserrat'`

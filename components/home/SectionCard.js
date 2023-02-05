@@ -19,7 +19,7 @@ function Card({ imageSource, name, categories, bg }) {
             <div className={`custom-section-card ${bg}`}>
 
                 <div className="custom-section-card-header">
-                    <Image src={imageSource} alt={name} width="250px" height="350px" />
+                    <Image src={imageSource} alt={name} width={250} height={350} />
                 </div>
                 <div className="custom-section-card-body">
 

@@ -3,6 +3,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { CacheProvider } from '@emotion/react';
 import createEmotionCache from '../styles/createEmotionCache';
+import { SSRProvider } from 'react-bootstrap';
 
 import "/styles/globals.css";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -18,16 +19,14 @@ export default function MyApp(props) {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
 
   return (
-    <>
+    <SSRProvider>
       <Head>
         <title>JTI - Jornadas Técnicas de Ingeniería</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
       <ThemeProvider theme={theme}>
-        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-        
         <Component {...pageProps} />
       </ThemeProvider>
-    </>
+    </SSRProvider>
   );
 }

@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import { Container } from "@mui/material";
 import { AlignedDiv } from "./StyledComponents";
 
 export const StandList = ({ content }) => {
@@ -7,6 +6,7 @@ export const StandList = ({ content }) => {
     <TableContainer>
       <AlignedDiv>
       <ScrollableTable>
+        <tbody>
         <tr>
           <th></th>
           <TH>Martes 14</TH>
@@ -20,6 +20,7 @@ export const StandList = ({ content }) => {
           </tr>
         )
         )}
+        </tbody>
       </ScrollableTable>
       </AlignedDiv>
     </TableContainer>

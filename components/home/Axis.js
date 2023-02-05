@@ -117,16 +117,6 @@ align-items: center;
 text-align: center;
 ;`
 
-const JustP = styled.p`
-color:#3c3c54;
-font-size: 1.2rem;
-padding: 1rem;
-font-weight: 300;
-font-family: "Montserrat"
-align-items: center;
-text-align: center;
-;`
-
 const Circles = styled.h2`
 font-size: 3.5rem;
 padding: 2rem;
