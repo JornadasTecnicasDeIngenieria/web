@@ -1,4 +1,4 @@
-export const colaboradores = [
+export const patrocinadores = [
     {
         src: '/images/colaboradores/agile.png',
         alt: 'Agile Monkeys',

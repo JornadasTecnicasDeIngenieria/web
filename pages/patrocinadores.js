@@ -1,331 +1,116 @@
 import Layout from "@components/layouts/MainLayout";
-import IntroSection from "@components/IntroSection";
 import styled from "@emotion/styled"
 import { Grid, Container } from "@mui/material"
-import Separador from "@components/Separador";
-import { colaboradores } from "data/colaboradores";
+import { patrocinadores } from "data/patrocinadores";
 import Image from "next/image";
 
-const Empresas = () => {
+const Patrocinadores = () => {
     let aux = 0;
     return (
         <Layout>
-            <IntroSection title="Sponsors" desc="Empresas y entidades que patrocinan el evento." />
-
-            <Container>
-                <CenterDiv>
-                    <Grid container spacing={3}>
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Colaboran>COLABORAN</Colaboran>
-                        </Grid>
-
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Separador />
-                        </Grid>
-                        {colaboradores.map(({ src, alt, width, height, types }) => {
-                            if(aux === 2){aux = 0;}
-                            aux++;
-                            if (types === "colaboran") {
-                                
-                                if (aux === 0) {
-                                    return (
-                                        <Grid item xs={12} sm={12} md={6} lg={4}>
-                                            <CenterDiv>
-                                                <Image src={src} alt={alt} width={width} height={height} />
-                                                <br /><br />
-                                            </CenterDiv>
-                                        </Grid>
-                                    )
-                                };
-
-                                return (
-                                    <Grid item xs={12} sm={12} md={6} lg={4}>
-                                        <CenterDiv>
-                                            <Image src={src} alt={alt} width={width} height={height} />
-                                        </CenterDiv>
-                                    </Grid>
-                                )
-
-                            };
-                            return "";
-                        })}
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Separador />
-                        </Grid>
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Diamante/>
-                        </Grid>
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Separador />
-                        </Grid>
-                        {colaboradores.map(({ src, alt, width, height, types }) => {
-                            return types === "diamante" ? (
-                                <Grid item xs={12} sm={12} md={6} lg={6}>
-                                    <CenterDiv>
-                                        <Image src={src} alt={alt} width={width} height={height} />
-                                    </CenterDiv>
-                                </Grid>
-                            ) : ""
-                        })}
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Separador />
-                        </Grid>
-                        <br />
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Platino>PLATINO</Platino>
-                        </Grid>
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Separador />
-                        </Grid>
-                        {colaboradores.map(({ src, alt, width, height, types }) => {
-                            return types === "platino" ? (
-                                <Grid item xs={12} sm={12} md={6} lg={4}>
-                                    <CenterDiv>
-                                        <Image src={src} alt={alt} width={width} height={height} />
-                                    </CenterDiv>
-                                </Grid>
-                            ) : ""
-                        })}
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Separador />
-                        </Grid>
-                        <br />
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Oro>ORO</Oro>
-                        </Grid>
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Separador />
-                        </Grid>
-                        {colaboradores.map(({ src, alt, width, height, types }) => {
-                            return types === "oro" ? (
-                                <Grid item xs={12} sm={12} md={6} lg={4}>
-                                    <CenterDiv>
-                                        <Image src={src} alt={alt} width={width} height={height} />
-                                    </CenterDiv>
-                                </Grid>
-                            ) : ""
-                        })}
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Separador />
-                        </Grid>
-                        <br />
-                    </Grid>
-                </CenterDiv>
-            </Container>
-            <br />
-            <br />
-            <IntroSection title="Asistentes" desc="Empresas y entidades que forman parte del evento." />
-            <Container>
-                <CenterDiv>
+            <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"></link>    
+            <Section><Container>
+                <br/><br/>
+                <AlignedDiv><Title>Patrocinadores</Title></AlignedDiv>
+                <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleB>⬤</CircleB><CircleB>⬤</CircleB></Circles></AlignedDiv>
+                <AlignedDiv><Category>DIAMANTE</Category></AlignedDiv>
+                <br/><br/><br/>
                 <Grid container spacing={3}>
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Separador />
-                        </Grid>
-                        {colaboradores.map(({ src, alt, width, height, types }) => {
-                            return types === "participan" ? (
-                                <Grid item xs={12} sm={12} md={6} lg={4}>
-                                    <CenterDiv>
-                                        <Image src={src} alt={alt} width={width} height={height} />
-                                    </CenterDiv>
-                                </Grid>
-                            ) : ""
-                        })}
-                        <Grid item xs={12} sm={12} md={12} lg={12}>
-                            <Separador />
-                        </Grid>
-                        <br />
-                        <br />
-                    </Grid>
-                </CenterDiv>
-            </Container>
+                    {patrocinadores.map(({ src, alt, width, height, types }) => {
+                        return types === "diamante" ? (
+                            <Grid item xs={12} sm={12} md={6} lg={6}>
+                                <AlignedDiv>
+                                    <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
+                                </AlignedDiv>
+                            </Grid>
+                        ) : ""
+                    })}
+                </Grid>
+                <br/><br/><br/>     
+                <AlignedDiv><Circles><CircleO>⬤</CircleO><CircleO>⬤</CircleO><CircleO>⬤</CircleO></Circles></AlignedDiv>
+                <AlignedDiv><Category>PLATINO</Category></AlignedDiv>
+                <br/><br/>
+                <Grid container spacing={3}>
+                    {patrocinadores.map(({ src, alt, width, height, types }) => {
+                        return types === "platino" ? (
+                            <Grid item xs={12} sm={12} md={6} lg={6}>
+                                <AlignedDiv>
+                                    <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
+                                </AlignedDiv>
+                            </Grid>
+                        ) : ""
+                    })}
+                </Grid>
+                <br/><br/><br/>  
+                <AlignedDiv><Circles><CircleY>⬤</CircleY><CircleY>⬤</CircleY><CircleY>⬤</CircleY></Circles></AlignedDiv>
+                <AlignedDiv><Category>ORO</Category></AlignedDiv>
+                <br/><br/>
+                <Grid container spacing={3}>
+                    {patrocinadores.map(({ src, alt, width, height, types }) => {
+                        return types === "oro" ? (
+                            <Grid item xs={12} sm={12} md={6} lg={6}>
+                                <AlignedDiv>
+                                    <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
+                                </AlignedDiv>
+                            </Grid>
+                        ) : ""
+                    })}
+                </Grid>
+                <br/><br/>
+            </Container></Section>
         </Layout>
     )
 }
 
-export default Empresas;
+export default Patrocinadores;
 
-const CenterDiv = styled.div`
-align-items: center;
+const AlignedDiv = styled.div`
 display: flex;
 justify-content: center;
+align-items: center;
 `;
 
-const ColaboranDiv = styled.div`
-align-items: center;
+const Section = styled.div`
+background-color: #3c3c54;`
+
+const ImageDiv = styled.div`
 display: flex;
-justify-content: center;
-background-color: #FFDE59;
-font-size: 3.5rem;
-padding: 1.5rem;
+align-items: center;
+border-radius: 1.5rem;
+overflow: hidden;
 `;
 
-const DiamanteDiv = styled.div`
-align-items: center;
-display: flex;
-justify-content: center;
-background-color: #5E17EB;
-color: white;
-font-size: 3.5rem;
-padding: 1.5rem;
-`;
-
-const PlatinoDiv = styled.div`
-align-items: center;
-display: flex;
-justify-content: center;
-background-color: #8C52FF;
-color: white;
-font-size: 3.5rem;
-padding: 1.5rem;
-`;
-
-const OroDiv = styled.div`
-align-items: center;
-display: flex;
-justify-content: center;
-background-color: #5271FF;
-color: white;
-font-size: 3.5rem;
-padding: 1.5rem;
-`;
-
-const DiamanteP = styled.p`
-color: #fff;
-font-size: 2.5rem;
-font-weight: bold;
-align-items: center;
-display: flex;
-justify-content: center;
-text-align: center;
-`;
-
-const PlatinoP = styled.p`
-color: #fff;
-font-size: 2.5rem;
-font-weight: bold;
-align-items: center;
-display: flex;
-justify-content: center;
-text-align: center;
-`;
-
-const ColaboranP = styled.p`
-color: #3F3D56;
-font-size: 2.5rem;
-font-weight: bold;
-align-items: center;
-display: flex;
-justify-content: center;
-text-align: center;
-`;
-
-const DiamanteIco = styled.p`
-color: #83DDFF ;
-font-size: 2.5rem;
-font-weight: bold;
-align-items: center;
-display: flex;
-justify-content: center;
-text-align: center;
-vertical-align: middle;
-`;
-
-const PlatinoIco = styled.p`
-color: #FFDE59  ;
-font-size: 2.5rem;
-font-weight: bold;
-align-items: center;
-display: flex;
-justify-content: center;
-text-align: center;
-vertical-align: middle;
-`;
-
-const ColaboranIco = styled.p`
-color: #3F3D56;
-font-size: 2.5rem;
-font-weight: bold;
-align-items: center;
-display: flex;
-justify-content: center;
-text-align: center;
-vertical-align: middle;
-`;
+const Title = styled.h2`
+color: #ffffff;
+font-size: 7rem;
+font-weight: 900;`
 
 const Category = styled.h2`
-color: #633CAE;
+color: #ffffff;
 font-size: 3rem;
 font-weight: 700;
-font-family: "Montserrat"`
+font-family: 'Montserrat', sans-serif;`
 
-const Diamante = () => {
-    return (
-        <DiamanteDiv>
-        <Grid container spacing={3}>
-            <Grid item xs={1} sm={2} md={2} lg={3}>
-                <CenterDiv><DiamanteIco>◆</DiamanteIco></CenterDiv>
-            </Grid>
-            <Grid item xs={10} sm={8} md={8} lg={6}>
-                <CenterDiv><DiamanteP>DIAMANTE</DiamanteP></CenterDiv>
-            </Grid>
-            <Grid item xs={1} sm={2} md={2} lg={3}>
-                <CenterDiv><DiamanteIco>◆</DiamanteIco></CenterDiv>
-            </Grid>
-        </Grid>
-        </DiamanteDiv>
-    )
-}
+const Circles = styled.h2`
+font-size: 3.5rem;
+padding: 2rem;
+font-weight: 700;`;
 
-const Platino = () => {
-    return (
-        <PlatinoDiv>
-        <Grid container spacing={3}>
-            <Grid item xs={1} sm={2} md={2} lg={3}>
-                <CenterDiv><PlatinoIco>★</PlatinoIco></CenterDiv>
-            </Grid>
-            <Grid item xs={10} sm={8} md={8} lg={6}>
-                <CenterDiv><PlatinoP>PLATINO</PlatinoP></CenterDiv>
-            </Grid>
-            <Grid item xs={1} sm={2} md={2} lg={3}>
-                <CenterDiv><PlatinoIco>★</PlatinoIco></CenterDiv>
-            </Grid>
-        </Grid>
-        </PlatinoDiv>
-    )
-}
+const CircleY = styled.span`
+color: #FFEB83;
+font-size: 3.5rem;
+padding-right: 2rem;
+font-weight: 700;`;
 
-const Oro = () => {
-    return (
-        <OroDiv>
-        <Grid container spacing={3}>
-            <Grid item xs={1} sm={2} md={2} lg={3}>
-                <CenterDiv><PlatinoIco>★</PlatinoIco></CenterDiv>
-            </Grid>
-            <Grid item xs={10} sm={8} md={8} lg={6}>
-                <CenterDiv><PlatinoP>ORO</PlatinoP></CenterDiv>
-            </Grid>
-            <Grid item xs={1} sm={2} md={2} lg={3}>
-                <CenterDiv><PlatinoIco>★</PlatinoIco></CenterDiv>
-            </Grid>
-        </Grid>
-        </OroDiv>
-    )
-}
+const CircleO = styled.span`
+color: #FF645F;
+font-size: 3.5rem;
+padding-right: 2rem;
+font-weight: 700;`;
 
-const Colaboran = () => {
-    return (
-        <ColaboranDiv>
-        <Grid container spacing={3}>
-            <Grid item xs={1} sm={2} md={2} lg={3}>
-                <CenterDiv><ColaboranIco>✪</ColaboranIco></CenterDiv>
-            </Grid>
-            <Grid item xs={10} sm={8} md={8} lg={6}>
-                <CenterDiv><ColaboranP>COLABORAN</ColaboranP></CenterDiv>
-            </Grid>
-            <Grid item xs={1} sm={2} md={2} lg={3}>
-                <CenterDiv><ColaboranIco>✪</ColaboranIco></CenterDiv>
-            </Grid>
-        </Grid>
-        </ColaboranDiv>
-    )
-}
+const CircleB = styled.span`
+color: #83DEFF;
+font-size: 3.5rem;
+padding-right: 2rem;
+font-weight: 700;`;
