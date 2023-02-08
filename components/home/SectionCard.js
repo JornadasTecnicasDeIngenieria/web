@@ -10,25 +10,22 @@ function Card({ imageSource, name, categories, bg }) {
     //const networks = social;
     return (
         <motion.div
-    whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }}
-  ><Link
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+        ><Link
             href={`/${name.toLowerCase()}`}
             as={`/${name.toLowerCase()}`}
             legacyBehavior>
             <div className={`custom-section-card ${bg}`}>
-
                 <div className="custom-section-card-header">
                     <Image src={imageSource} alt={name} width={250} height={350} />
                 </div>
                 <div className="custom-section-card-body">
-
                     <CenterText>
                         <h4>
                             {name}
                         </h4>
                     </CenterText>
-
                 </div>
             </div>
             </Link>

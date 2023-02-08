@@ -68,7 +68,6 @@ const Circles = styled.h2`
 const CircleY = styled.span`
     color: #FFEB83;
     font-size: 3.5rem;
-    padding-right: 2rem;
     font-weight: 700;`;
 
 const CircleO = styled.span`

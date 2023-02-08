@@ -48,6 +48,7 @@ const Footer = () => {
           <Facebook fontSize="large" />
         </StyledLink>
       </Stack>
+      <AlignedDiv><DescriptionText>jtiesit@ull.edu.es</DescriptionText></AlignedDiv>
       <Link href={`/politica-de-privacidad`} legacyBehavior>
         <PrivacyPolicy>
           <Typography align="center" color="common.white">
@@ -55,7 +56,6 @@ const Footer = () => {
           </Typography>
         </PrivacyPolicy>
       </Link>
-
       <Typography align="center" color="common.white">
         © 2019 - {new Date().getFullYear()}, Jornadas Técnicas de Ingeniería
       </Typography>
@@ -69,3 +69,16 @@ const PrivacyPolicy = styled.div`
   cursor: pointer;
   padding-bottom: 1rem;
   `;
+
+const AlignedDiv = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+`;
+
+const DescriptionText = styled.p`
+color: #ffffff;
+font-size: 1.2rem;
+font-weight: 700;
+font-family: 'Montserrat';
+padding-bottom: 1rem;`

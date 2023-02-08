@@ -14,7 +14,7 @@ const Contacto = () => {
                 <br/><br/>
                 <AlignedDiv><Title>Contacto</Title></AlignedDiv>
                 <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
-                <DescriptionText>Si quieres participar o tienes cualquier duda acerca de las JTI, puedes contactar con nosotros a través de nuestro correo electrónico <Highlight>jtiesit@ull.edu.es</Highlight> o a través de nuestrás redes sociales.</DescriptionText>
+                <DescriptionText>Si quieres participar o tienes cualquier duda acerca de las JTI, puedes contactar con nosotros a través de nuestro correo electrónico <Highlight>jtiesit@ull.edu.es</Highlight> o a través de nuestras redes sociales.</DescriptionText>
                 <br/>
                 <Stack direction="row" spacing={2} justifyContent="center" alignItems="center">
                     <StyledLink
@@ -96,7 +96,6 @@ font-weight: 700;`;
 const CircleY = styled.span`
 color: #FFEB83;
 font-size: 3.5rem;
-padding-right: 2rem;
 font-weight: 700;`;
 
 const CircleO = styled.span`

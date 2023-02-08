@@ -40,7 +40,10 @@ export const organizadores_stands = [
         image: '/images/organizadores/placeholder.png',
         categories: ['Informática'],
         social: [
-
+            {
+                "tag": "GitHub",
+                "url": "https://github.com/Hummus-1"
+            }
         ]
     },
     {
@@ -61,10 +64,13 @@ export const organizadores_stands = [
     },
     {
         name: 'Hugo Hernández Martín',
-        image: '/images/organizadores/placeholder.png',
+        image: '/images/organizadores/hugo_hernandez.png',
         categories: ['Informática'],
         social: [
-
+            {
+                "tag": "Instagram",
+                "url": "https://www.instagram.com/hugo.hdezz/"
+            }
         ]
     },
     {

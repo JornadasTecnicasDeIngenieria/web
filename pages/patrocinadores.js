@@ -13,7 +13,7 @@ const Patrocinadores = () => {
             <Section><Container>
                 <br/><br/>
                 <AlignedDiv><Title>Patrocinadores</Title></AlignedDiv>
-                <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleB>⬤</CircleB><CircleB>⬤</CircleB></Circles></AlignedDiv>
+                <AlignedDiv><Circles><CircleB>⬤&nbsp;&nbsp;</CircleB><CircleB>⬤&nbsp;&nbsp;</CircleB><CircleB>⬤</CircleB></Circles></AlignedDiv>
                 <AlignedDiv><Category>DIAMANTE</Category></AlignedDiv>
                 <br/><br/><br/>
                 <Grid container spacing={3}>
@@ -28,7 +28,7 @@ const Patrocinadores = () => {
                     })}
                 </Grid>
                 <br/><br/><br/>     
-                <AlignedDiv><Circles><CircleO>⬤</CircleO><CircleO>⬤</CircleO><CircleO>⬤</CircleO></Circles></AlignedDiv>
+                <AlignedDiv><Circles><CircleO>⬤&nbsp;&nbsp;</CircleO><CircleO>⬤&nbsp;&nbsp;</CircleO><CircleO>⬤</CircleO></Circles></AlignedDiv>
                 <AlignedDiv><Category>PLATINO</Category></AlignedDiv>
                 <br/><br/>
                 <Grid container spacing={3}>
@@ -43,7 +43,7 @@ const Patrocinadores = () => {
                     })}
                 </Grid>
                 <br/><br/><br/>  
-                <AlignedDiv><Circles><CircleY>⬤</CircleY><CircleY>⬤</CircleY><CircleY>⬤</CircleY></Circles></AlignedDiv>
+                <AlignedDiv><Circles><CircleY>⬤&nbsp;&nbsp;</CircleY><CircleY>⬤&nbsp;&nbsp;</CircleY><CircleY>⬤</CircleY></Circles></AlignedDiv>
                 <AlignedDiv><Category>ORO</Category></AlignedDiv>
                 <br/><br/>
                 <Grid container spacing={3}>
@@ -100,17 +100,14 @@ font-weight: 700;`;
 const CircleY = styled.span`
 color: #FFEB83;
 font-size: 3.5rem;
-padding-right: 2rem;
 font-weight: 700;`;
 
 const CircleO = styled.span`
 color: #FF645F;
 font-size: 3.5rem;
-padding-right: 2rem;
 font-weight: 700;`;
 
 const CircleB = styled.span`
 color: #83DEFF;
 font-size: 3.5rem;
-padding-right: 2rem;
 font-weight: 700;`;
