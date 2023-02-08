@@ -6,8 +6,6 @@ import styled from "@emotion/styled"
 import getTagColor from "@scripts/getTagColor";
 
 function Card({ imageSource, name, categories, bg }) {
-    const tags = categories;
-    //const networks = social;
     return (
         <motion.div
             whileHover={{ scale: 1.1 }}
@@ -18,7 +16,7 @@ function Card({ imageSource, name, categories, bg }) {
             legacyBehavior>
             <div className={`custom-section-card ${bg}`}>
                 <div className="custom-section-card-header">
-                    <Image src={imageSource} alt={name} width={250} height={350} />
+                    <Image src={imageSource} alt={name} width={500} height={500} />
                 </div>
                 <div className="custom-section-card-body">
                     <CenterText>
@@ -36,7 +34,7 @@ function Card({ imageSource, name, categories, bg }) {
 export default Card;
 
 const CenterText = styled.div`
-padding-top: 3rem;
+padding-top: 2.5rem;
 text-align: center;
 align-self: center;
 justify-self: center;

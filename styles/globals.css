@@ -106,6 +106,7 @@ card-body {
         }
       }
 }
+
 .custom-container {
   display: flex !important;
 
@@ -114,6 +115,7 @@ card-body {
   justify-items: center !important;
   flex-wrap: wrap !important;
 }
+
 .custom-card {
   margin: 10px !important;
   background-color: #fff !important;
@@ -127,18 +129,21 @@ card-body {
 .custom-card:hover {
   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2) !important;
 }
+
 .custom-card-header {
   padding-top: 1rem;
   display: flex !important;
   align-items: center;
   justify-content: center;
 }
+
 .custom-card-header img {
   width: 200px !important;
   height: 200px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
 }
+
 .custom-card-body {
   display: flex  !important;
   flex-direction: column !important;
@@ -261,18 +266,14 @@ card-body {
 
 .custom-section-card {
   margin: 10px !important;
-  border-radius: 10px !important;
+  border-radius: 2% !important;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2) !important;
   overflow: hidden !important;
-  width: 250px !important;
-  height: 500px !important;
+  width: 33rem !important;
+  height: 30rem !important;
   align-items: center;
 } .bgblue {
   background-color: #83DEFF !important;
-} .bgred {
-  background-color: #FF645F  !important;
-}.bgpurple {
-  background-color: #633CAE !important;
 } .bgyellow {
   background-color: #FFEB83 !important;
 }
@@ -294,9 +295,9 @@ card-body {
   justify-content: center;
 }
 .custom-section-card-header img {
-  width: 250px !important;
-  height: 350px !important;
-  border-radius: 5% !important;
+  width: 332rem !important;
+  height: 22rem !important;
+  border-radius: 2% !important;
   object-fit: cover !important;
 }
 .custom-card-body {

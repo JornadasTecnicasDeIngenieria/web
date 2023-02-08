@@ -20,17 +20,17 @@ const Stands = () => {
                 <Grid container spacing={3}>
                     <Grid item xs={12} sm={12} md={6} lg={4}>
                         <ImageDiv>
-                            <Image src='/images/faq/stand1.png' alt='Forma del stand' width={500} height={400} />
+                            <Image src='/images/faq/stand1.png' alt='Forma del stand' width={500} height={300} />
                         </ImageDiv>
                     </Grid>
                     <Grid item xs={12} sm={12} md={6} lg={4}>
                         <ImageDiv>
-                            <Image src='/images/faq/stand2.png' alt='Ejemplo del stand' width={500} height={400} />
+                            <Image src='/images/faq/stand2.png' alt='Ejemplo del stand' width={500} height={300} />
                         </ImageDiv>
                     </Grid>
                     <Grid item xs={12} sm={12} md={6} lg={4}>
                         <ImageDiv>
-                            <Image src='/images/faq/stand3.png' alt='Stand desde arriba' width={500} height={400} />
+                            <Image src='/images/faq/stand3.png' alt='Stand desde arriba' width={500} height={300} />
                         </ImageDiv>
                     </Grid>
                 </Grid>

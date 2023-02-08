@@ -9,18 +9,18 @@ const Sections = () => {
         <IntroDiv>
             <Container>
                 <AlignedDiv>
-                    <SectionTitle>¿Qué encontrarás en el evento?</SectionTitle>
+                    <SectionTitle>➤ ¿Qué encontrarás en el evento?</SectionTitle>
                 </AlignedDiv>
                 <Grid container justifyContent="center" alignItems="center">
-                        {sections.map(({ name, image, id, categories, bg }) => {
-                            return (
-                                <Grid item xs={6} key={id}>
-                                    <AlignedDiv>
-                                        <Card name={name} imageSource={image} url={`${id}`} categories={categories} bg={bg} />
-                                    </AlignedDiv>
-                                </Grid>
-                            );
-                        })}
+                    {sections.map(({ name, image, id, categories, bg }) => {
+                        return (
+                            <Grid item xs={12} sm={12} md={6} lg={6} key={id}>
+                                <AlignedDiv>
+                                    <Card name={name} imageSource={image} url={`${id}`} categories={categories} bg={bg} />
+                                </AlignedDiv>
+                            </Grid>
+                        );
+                    })}
                 </Grid>
             </Container>
         </IntroDiv>

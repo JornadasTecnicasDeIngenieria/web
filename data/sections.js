@@ -7,7 +7,7 @@ export const sections = [
         bg: "bgyellow"
     },
     {
-        id: "3",
+        id: "2",
         image: '/sorteo.png',
         name: 'ACTIVIDADES',
         categories: ["A"],
