@@ -18,6 +18,7 @@ const Navbar = ({ navLinks }) => {
         <NavDropdown title="El evento" id="collasible-nav-dropdown">
           <NavDropdown.Item href="/organizadores">Organizadores</NavDropdown.Item>
           <NavDropdown.Item href="/patrocinadores">Patrocinadores</NavDropdown.Item>
+          <NavDropdown.Item href="/info-empresas">Info Empresas</NavDropdown.Item>
         </NavDropdown>
         <Link href="/faqs" className="nav-link"><NavbarLink className="nav-link">FAQs</NavbarLink></Link>
       </Stack>
