@@ -1,7 +1,7 @@
 import Layout from "@components/layouts/MainLayout";
 import styled from "@emotion/styled"
 import { Container } from "@mui/material"
-import { TableSorteoStands, TableSorteoRedesSociales, TableVideojuegosArcade, TableTrivial, TableBusquedaTesoro, TableConcursoStands, TableSuperSmashBros, TableLeagueOfLegends } from "@components/Table";
+import { TableSorteoStands, TableSorteoRedesSociales, TableVideojuegosArcade, TableTrivial, TableBusquedaTesoro, TableConcursoStands, TableSuperSmashBros, TableLeagueOfLegends } from "@components/ActivitiesTables";
 
 const Actividades = () => {
     return (
