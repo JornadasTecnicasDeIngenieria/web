@@ -1,14 +1,14 @@
 export const sections = [
     {
         id: "1",
-        image: '/stand.png',
+        image: '/images/stand.png',
         name: 'STANDS',
         categories: ["A"],
         bg: "bgyellow"
     },
     {
         id: "2",
-        image: '/sorteo.png',
+        image: '/images/sorteo.png',
         name: 'ACTIVIDADES',
         categories: ["A"],
         bg: "bgblue"

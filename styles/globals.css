@@ -65,9 +65,6 @@ p {
   text-align: justify;
   font-size: 1rem;
 }
-/*::-webkit-scrollbar {
-  display: none;
-}*/
 
 .hidden {
   overflow: hidden;

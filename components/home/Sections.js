@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import { sections } from "data/sections";
-import { organizadores } from "data/organizadores";
 import { Container, Grid } from "@mui/material";
 import Card from "./SectionCard";
 

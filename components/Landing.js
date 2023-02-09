@@ -42,27 +42,6 @@ text-align: center;
 align-items: center;
 `;
 
-const MainTitle = styled.h1`
-font-size: 7vw;
-font-weight: 600;
-color: #fff;
-text-align: center;
-justify-content: center;
-align-items: center;
-padding-right: 1rem;
-`;
-
-const MainSubtitle = styled.h2`
-font-size: 8vw;
-font-weight: 800;
-color: #FFEB83;
-text-align: center;
-justify-content: center;
-align-items: center;
-letter-spacing: 0.8rem;
-padding: 1rem;
-`;
-
 const DateTitle = styled.h3`
 font-size: 4vw;
 font-weight: 300;
@@ -70,14 +49,4 @@ color: #fff;
 text-align: center;
 justify-content: center;
 align-items: center;
-`;
-
-const ImageDiv = styled.div`
-max-width: 90vh;
-`;
-
-const BlockDiv = styled.div`
-max-width: 1040px;
-margin: 0 auto;
-padding: 1rem;
 `;

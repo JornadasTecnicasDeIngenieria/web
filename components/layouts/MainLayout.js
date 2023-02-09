@@ -1,8 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import styles from "./layout.module.css";
-import Link from "next/link";
-import { Container } from "@mui/material"
 import Header from "@components/Header";
 import Footer from "@components/Footer";
 
@@ -16,7 +13,7 @@ export default function Layout({ children, home, page }) {
             </header>
 
             <Head>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/images/favicon.ico" />
             </Head>
 
 

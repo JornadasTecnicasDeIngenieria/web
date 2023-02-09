@@ -42,7 +42,7 @@ const Stands = () => {
                     <AlignedDiv><Category>Distribución de los Stands</Category></AlignedDiv>
                     <br/><br/>
                     <ImageDiv>
-                        <Image src='/stands-2023.png' alt='Plano de los Stands' width={1200} height={600} />
+                        <Image src='/images/plano_stands2023.png' alt='Plano de los Stands' width={1200} height={600} />
                     </ImageDiv>
                     <br/><br/><br/>
                     <StandList content={stands}/>

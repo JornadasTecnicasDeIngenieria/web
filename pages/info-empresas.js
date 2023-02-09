@@ -1,14 +1,12 @@
 import Layout from "@components/layouts/MainLayout";
-import IntroSection from "@components/IntroSection";
 import styled from "@emotion/styled"
-import { Grid, Container } from "@mui/material"
+import { Container } from "@mui/material"
 import Image from "next/legacy/image";
 
 const Info = () => {
 
     return (
         <Layout>
-            <IntroSection title="Información para empresas" desc="Datos relevantes sobre el evento para las empresas asistentes." />
             <Container>
                 <Infodiv>
                     <Title>

@@ -10,7 +10,7 @@ const Homepage = () => {
     <Layout>
       <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"></link>
-      <Landing imgSrc="/landing.jpg" imgAlt="JTI" title="Jornadas Técnicas de Ingeniería" subtitle="Descubre el mundo laboral de la ingeniería" />
+      <Landing imgSrc="/images/landing.jpg" imgAlt="JTI" title="Jornadas Técnicas de Ingeniería" subtitle="Descubre el mundo laboral de la ingeniería" />
       <InfoJTI />
       <Sections />
       <Axis />

@@ -3,7 +3,6 @@ import Typography from "@mui/material/Typography";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/icons-material/Menu";
-import StyledLink from "./StyledLink";
 import { useState } from "react";
 import Link from "next/link";
 
@@ -78,13 +77,3 @@ const SideDrawer = ({ navLinks }) => {
 };
 
 export default SideDrawer;
-/*
-<Link href="/"><a className="nav-link">Inicio</a></Link>
-        <Link href="/"><a className="nav-link">Programa - Horario</a></Link>
-        <Link href="/"><a className="nav-link">Programa - Talleres</a></Link>
-        <Link href="/"><a className="nav-link">Programa - Actividades</a></Link>
-        <Link href="/"><a className="nav-link">Programa - Challenge</a></Link>
-        <Link href="/"><a className="nav-link">Evento - Organizadores</a></Link>
-        <Link href="/"><a className="nav-link">Evento - Colaboradores</a></Link>
-      <Link href="/"><a className="nav-link">FAQs</a></Link>
-        <Link href="/"><a className="nav-link">Contacto</a></Link>*/

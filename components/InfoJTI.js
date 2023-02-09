@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import Image from 'next/legacy/image'
 import { Container, Grid } from "@mui/material";
 
 const InfoJTI = ({ title, desc }) => {

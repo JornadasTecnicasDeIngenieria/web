@@ -1,6 +1,4 @@
 import styled from "@emotion/styled";
-import Image from 'next/image'
-import Link from "components/StyledLink";
 import { Container, Grid } from "@mui/material";
 
 const Locate = () => {
@@ -16,7 +14,6 @@ const Locate = () => {
                 <AlignedDiv>
                     <SectionTitle>¿Cómo puedo asistir?</SectionTitle>
                 </AlignedDiv>
-
                 <AlignedDiv>
                     <JustP> Ir al evento es realmente sencillo. Basta con ir a la Escuela Superior de Ingeniería y Tecnología. ¡Te esperamos! Si no sabes llegar, aquí tienes el mapa:</JustP>
                 </AlignedDiv>
@@ -55,10 +52,6 @@ min-height: 80vh;
 background-color: #633CAE;  
 `;
 
-const RoundedImage = styled.img`
-border-radius: 50%;
-`;
-
 const AlignedDiv = styled.div`
 display: flex;
 justify-content: center;
@@ -75,26 +68,11 @@ align-items: center;
 padding-top: 7rem;
 `;
 
-const Category = styled.h2`
-color: #633CAE;
-font-size: 32px;
-font-weight: 700;
-font-family: "Montserrat"`
 const SectionTitle = styled.h2`
 color: #fff;
 font-size: 3rem;
 padding-bottom: 2rem;
 font-weight: 700;
-font-family: "Montserrat"
-align-items: center;
-text-align: center;
-;`
-
-const JustTitle = styled.h3`
-color: #fff;
-font-size: 2rem;
-padding: 1rem;
-font-weight: 500;
 font-family: "Montserrat"
 align-items: center;
 text-align: center;
@@ -123,13 +101,17 @@ font-size: 3.5rem;
 padding-right: 2rem;
 font-weight: 700;
 font-family: "Montserrat"
-`; const CircleB = styled.span`
+`;
+
+const CircleB = styled.span`
 color: #FF645F;
 font-size: 3.5rem;
 padding-right: 2rem;
 font-weight: 700;
 font-family: "Montserrat"
-`; const CircleC = styled.span`
+`;
+
+const CircleC = styled.span`
 color: #FFEB83;
 font-size: 3.5rem;
 padding-right: 2rem;

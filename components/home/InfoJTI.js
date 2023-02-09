@@ -7,7 +7,6 @@ const InfoJTI = ({ title, desc }) => {
         <IntroDiv>
             <Container>
                 <AlignedDiv><Circles><CircleA>⬤</CircleA><CircleB>⬤</CircleB><CircleC>⬤</CircleC></Circles></AlignedDiv>
-
                 <AlignedDiv>
                     <SectionTitle>El mayor evento universitario de ingenierías de Canarias</SectionTitle>
                 </AlignedDiv>
@@ -16,7 +15,7 @@ const InfoJTI = ({ title, desc }) => {
 
                     <Grid item xs={12} sm={12} md={6} lg={4}>
                         <AlignedDiv>
-                            <Image src="/study.png" alt="Estudiantes" width={300} height={300} />
+                            <Image src="/images/study.png" alt="Estudiantes" width={300} height={300} />
                         </AlignedDiv>
                         <AlignedDiv>
                             <JustTitle> Por y para estudiantes </JustTitle>
@@ -28,7 +27,7 @@ const InfoJTI = ({ title, desc }) => {
 
                     <Grid item xs={12} sm={12} md={6} lg={4}>
                         <AlignedDiv>
-                            <Image src="/ing.png" alt="Ingenierías" width={300} height={300} />
+                            <Image src="/images/ing.png" alt="Ingenierías" width={300} height={300} />
                         </AlignedDiv>
                         <AlignedDiv>
                             <JustTitle> Múltiples Ingenierías </JustTitle>
@@ -40,7 +39,7 @@ const InfoJTI = ({ title, desc }) => {
 
                     <Grid item xs={12} sm={12} md={6} lg={4}>
                         <AlignedDiv>
-                            <Image src="/events.png" alt="Fechas" width={300} height={300} />
+                            <Image src="/images/events.png" alt="Fechas" width={300} height={300} />
                         </AlignedDiv>
                         <AlignedDiv>
                             <JustTitle> 14 y 15 de Marzo </JustTitle>
@@ -70,10 +69,6 @@ min-height: 100vh;
 background-color: #FF645F;
 `;
 
-const RoundedImage = styled.img`
-border-radius: 50%;
-`;
-
 const AlignedDiv = styled.div`
 display: flex;
 justify-content: center;
@@ -81,11 +76,6 @@ vertical-align: middle;
 align-items: center;
 `;
 
-const Category = styled.h2`
-color: #633CAE;
-font-size: 32px;
-font-weight: 700;
-font-family: "Montserrat"`
 const SectionTitle = styled.h2`
 color: #fff;
 font-size: 3rem;
@@ -129,13 +119,17 @@ font-size: 3.5rem;
 padding-right: 2rem;
 font-weight: 700;
 font-family: "Montserrat"
-`; const CircleB = styled.span`
+`; 
+
+const CircleB = styled.span`
 color: #633CAE;
 font-size: 3.5rem;
 padding-right: 2rem;
 font-weight: 700;
 font-family: "Montserrat"
-`; const CircleC = styled.span`
+`; 
+
+const CircleC = styled.span`
 color: #FFEB83;
 font-size: 3.5rem;
 padding-right: 2rem;

@@ -1,5 +1,4 @@
 import Layout from "@layouts/MainLayout";
-import { Container, Grid } from "@mui/material";
 import styled from "@emotion/styled";
 import Image from "next/legacy/image";
 
@@ -9,7 +8,7 @@ const Privacidad = () => {
             <CustomContainer>
                 <div>
                     <Ull>
-                        <Image src="/ull.jpg" alt="Ull" width={240} height={140} />
+                        <Image src="/images/ull.jpg" alt="Ull" width={240} height={140} />
                     </Ull>
                     <MainH1>Política de privacidad</MainH1>
                     <Section>

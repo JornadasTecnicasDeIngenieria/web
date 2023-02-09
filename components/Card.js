@@ -3,7 +3,6 @@ import { Grid, Stack } from "@mui/material";
 import { motion } from "framer-motion";
 import styled from "@emotion/styled"
 import getTagColor from "@scripts/getTagColor";
-//import { Linkedin, Facebook, GitHub, Twitter, ContactMail, Language } from "@mui/icons-material";
 import LinkedIn from "@mui/icons-material/LinkedIn";
 import GitHub from "@mui/icons-material/GitHub";
 import Language from "@mui/icons-material/Language";

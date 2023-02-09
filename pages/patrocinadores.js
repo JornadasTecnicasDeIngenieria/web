@@ -16,7 +16,7 @@ const Patrocinadores = () => {
                 <AlignedDiv><Circles><CircleB>⬤&nbsp;&nbsp;</CircleB><CircleB>⬤&nbsp;&nbsp;</CircleB><CircleB>⬤</CircleB></Circles></AlignedDiv>
                 <AlignedDiv><Category>DIAMANTE</Category></AlignedDiv>
                 <br/><br/><br/>
-                <Grid container spacing={3}>
+                <Grid container spacing={3} justify="flex-end" alignItems="center">
                     {patrocinadores.map(({ src, alt, width, height, types }) => {
                         return types === "diamante" ? (
                             <Grid item xs={12} sm={12} md={6} lg={6}>
@@ -31,7 +31,7 @@ const Patrocinadores = () => {
                 <AlignedDiv><Circles><CircleO>⬤&nbsp;&nbsp;</CircleO><CircleO>⬤&nbsp;&nbsp;</CircleO><CircleO>⬤</CircleO></Circles></AlignedDiv>
                 <AlignedDiv><Category>PLATINO</Category></AlignedDiv>
                 <br/><br/>
-                <Grid container spacing={3}>
+                <Grid container spacing={3} justify="flex-end" alignItems="center">
                     {patrocinadores.map(({ src, alt, width, height, types }) => {
                         return types === "platino" ? (
                             <Grid item xs={12} sm={12} md={6} lg={6}>
@@ -46,10 +46,10 @@ const Patrocinadores = () => {
                 <AlignedDiv><Circles><CircleY>⬤&nbsp;&nbsp;</CircleY><CircleY>⬤&nbsp;&nbsp;</CircleY><CircleY>⬤</CircleY></Circles></AlignedDiv>
                 <AlignedDiv><Category>ORO</Category></AlignedDiv>
                 <br/><br/>
-                <Grid container spacing={3}>
+                <Grid container spacing={3} justify="flex-end" alignItems="center">
                     {patrocinadores.map(({ src, alt, width, height, types }) => {
                         return types === "oro" ? (
-                            <Grid item xs={12} sm={12} md={6} lg={6}>
+                            <Grid item xs={12} sm={12} md={6} lg={6} >
                                 <AlignedDiv>
                                     <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
                                 </AlignedDiv>
@@ -77,6 +77,7 @@ background-color: #3c3c54;`
 const ImageDiv = styled.div`
 display: flex;
 align-items: center;
+vertical-align: middle;
 border-radius: 1.5rem;
 overflow: hidden;
 `;
