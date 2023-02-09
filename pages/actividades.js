@@ -41,8 +41,8 @@ const Actividades = () => {
                 <DescriptionText><Highlight>Horario: </Highlight>Se podrá participar en cualquier momento ANTES de la entrega de premios, respetando siempre el orden de cola. El anuncio del ganador tendrá lugar a las 17:30 los días 14 y 15 de marzo.</DescriptionText>
                 <DescriptionText><Highlight>Juegos: </Highlight></DescriptionText>
                 <ul>
-                    <DescriptionText><li><DescriptionText>14 de marzo: Tetris Classic</DescriptionText></li></DescriptionText>
-                    <DescriptionText><li><DescriptionText>15 de marzo: Pac-man</DescriptionText></li></DescriptionText>
+                    <DescriptionListElement>14 de marzo: Tetris Classic</DescriptionListElement>
+                    <DescriptionListElement>15 de marzo: Pac-man</DescriptionListElement>
                 </ul>
                 <br/>
                 <AlignedDiv>
@@ -56,8 +56,8 @@ const Actividades = () => {
                 <DescriptionText><Highlight>Lugar: </Highlight>El trivial tendrá lugar en el Puesto Central de las JTI, al lado de Conserjería.</DescriptionText>
                 <DescriptionText><Highlight>Horario: </Highlight></DescriptionText>
                 <ul>
-                    <DescriptionText><li><DescriptionText>14 de marzo: 15:00-15:30</DescriptionText></li></DescriptionText>
-                    <DescriptionText><li><DescriptionText>15 de marzo: 11:30-12:00</DescriptionText></li></DescriptionText>
+                    <DescriptionListElement>14 de marzo: 15:00-15:30</DescriptionListElement>
+                    <DescriptionListElement>15 de marzo: 11:30-12:00</DescriptionListElement>
                 </ul>
                 <br/>
                 <AlignedDiv>
@@ -124,13 +124,6 @@ align-items: center;
 const Section = styled.div`
 background-color: #3c3c54;`
 
-const ImageDiv = styled.div`
-display: flex;
-align-items: center;
-border-radius: 25px;
-overflow: hidden;
-`;
-
 const Title = styled.h2`
 color: #ffffff;
 font-size: 7rem;
@@ -143,6 +136,12 @@ font-weight: 700;
 font-family: 'Montserrat', sans-serif;`
 
 const DescriptionText = styled.p`
+color: #ffffff;
+font-size: 1.5rem;
+font-weight: 500;
+font-family: 'Montserrat'`
+
+const DescriptionListElement = styled.li`
 color: #ffffff;
 font-size: 1.5rem;
 font-weight: 500;
@@ -175,24 +174,3 @@ color: #83DEFF;
 font-size: 3.5rem;
 padding-right: 2rem;
 font-weight: 700;`;
-
-const Day = styled.h3`
-color: #633CAE;
-font-size: 2rem;
-font-weight: 400;
-`
-
-const Prize = styled.h4`
-color: #FF645F;
-font-size: 1.5rem;
-font-weight: 300;
-font-family: "Montserrat"
-text-align: center;
-justify-content: center;
-`;
-
-const SubPrize = styled.h4`
-color: #FF645F;
-font-size: 1.2rem;
-font-weight: 300;
-`;
