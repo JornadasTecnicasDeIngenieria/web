@@ -48,7 +48,10 @@ const FAQs = () => {
                 <DescriptionText><Highlight>8. ¿Qué son los stands?</Highlight></DescriptionText>
                 <DescriptionText>Son espacios físicos en los que las empresas muestran información sobre su actividad y los productos o servicios que ofrecen. Son una oportunidad de oro para conocer de primera mano el estado del mundo laboral y hacer contactos. En la sección Stands podrás encontrar una lista de los stands del evento y su ubicación.</DescriptionText>
                 <br/><br/>
-                <DescriptionText><Highlight>9. ¿Cómo puedo hacer llegar mis sugerencias y dudas?</Highlight></DescriptionText>
+                <DescriptionText><Highlight>9. ¿Desde cuándo se han celebrado ls jornadas?</Highlight></DescriptionText>
+                <DescriptionText>Las Jornadas Técnicas de Ingeniería llevan celebrándose desde el año 2019. A causa del coronavirus, la edición 2020 no se pudo celebrar y la 2021 fue completamente online. El año 2022 se logró que las JTI volvieran a ser presenciales y fueron todo un éxito. ¡Qué esperamos que se repita en esta cuarta edición 2023!</DescriptionText>
+                <br/><br/>
+                <DescriptionText><Highlight>10. ¿Cómo puedo hacer llegar mis sugerencias y dudas?</Highlight></DescriptionText>
                 <DescriptionText>Nos puedes hacer llegar tus sugerencias a través de <DescriptionLink href="https://forms.gle/xXHuS8m2xrrz2vat8">este formulario</DescriptionLink> y estamos disponibles en nuestras redes sociales y nuestro correo jtiesit@ull.edu.es para cualquier duda que te pueda surgir.</DescriptionText>
                 <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
                 <br/>
