@@ -430,62 +430,89 @@ export const TableMiercoles = () => {
   )
 }*/
 
-export const TableSorteos = () => {
+export const TableSorteoStands = () => {
   return (
     <TableContainer>
       <ScrollableTable>
 
         <tr>
-          <THMH colSpan={6}>Premios del Sorteo del día</THMH>
+          <THMH colSpan={4}>Premios del Sorteo por Stands</THMH>
         </tr>
 
         <tr>
-          <TDRH colSpan={3}>Primer Día</TDRH>
-          <TDRH colSpan={3}>Segundo Día</TDRH>
+          <TDRH colSpan={2}>14 de marzo</TDRH>
+          <TDRH colSpan={2}>15 de marzo</TDRH>
         </tr>
 
         <tr>
-          <TDIH rowSpan={6}><AlignedDiv>Sorteos Individuales</AlignedDiv></TDIH>
-          <TDIH>Vuelo para dos personas</TDIH>
+          <TDIH>Premio</TDIH>
           <TDIH>1</TDIH>
-          <TDIH rowSpan={6}><AlignedDiv>Sorteos Individuales</AlignedDiv></TDIH>
-          <TDIH>Vuelo para dos personas</TDIH>
+          <TDIH>Premio</TDIH>
           <TDIH>2</TDIH>
         </tr>
 
         <tr>
-          <TDIH>Google Nest Mini</TDIH>
-          <TDIH>2</TDIH>
-          <TDIH>Google Nest Mini</TDIH>
-          <TDIH>2</TDIH>
-        </tr>
-
-        <tr>
-          <TDIH>Xiaomi PowerBank 3 fast charge 10000 MAH 18w gris</TDIH>
-          <TDIH>2</TDIH>
-          <TDIH>Xiaomi PowerBank 3 fast charge 10000 MAH 18w gris</TDIH>
-          <TDIH>2</TDIH>
-        </tr>
-
-        <tr>
-          <TDIH>Botella de agua reciclable serigrafiada</TDIH>
-          <TDIH>3</TDIH>
-          <TDIH>Botella de agua reciclable serigrafiada</TDIH>
-          <TDIH>3</TDIH>
-        </tr>
-
-        <tr>
-          <TDIH>Taza sertigrafiada</TDIH>
-          <TDIH>3</TDIH>
-          <TDIH>Taza sertigrafiada</TDIH>
-          <TDIH>3</TDIH>
-        </tr>
-
-        <tr>
-          <TDIH>Bono cafetería</TDIH>
+          <TDIH>Premio</TDIH>
           <TDIH>1</TDIH>
-          <TDIH>Bono cafetería</TDIH>
+          <TDIH>Premio</TDIH>
+          <TDIH>2</TDIH>
+        </tr>
+
+        <tr>
+          <TDIH>Premio</TDIH>
           <TDIH>1</TDIH>
+          <TDIH>Premio</TDIH>
+          <TDIH>2</TDIH>
+        </tr>
+      </ScrollableTable>
+    </TableContainer >
+  )
+}
+
+export const TableSorteoRedesSociales = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+
+        <tr>
+          <THMH colSpan={4}>Premios del Sorteo por Redes Sociales</THMH>
+        </tr>
+
+        <tr>
+          <TDRH colSpan={2}>Twitter</TDRH>
+          <TDRH colSpan={2}>Instagram</TDRH>
+        </tr>
+
+        <tr>
+          <TDIH>Premio</TDIH>
+          <TDIH>1</TDIH>
+          <TDIH>Premio</TDIH>
+          <TDIH>2</TDIH>
+        </tr>
+      </ScrollableTable>
+    </TableContainer >
+  )
+}
+
+export const TableVideojuegosArcade = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+
+        <tr>
+          <THMH colSpan={4}>Premios de la Competición de Videojuegos Arcade</THMH>
+        </tr>
+
+        <tr>
+          <TDRH colSpan={2}>14 de marzo: Tetris Classic</TDRH>
+          <TDRH colSpan={2}>15 de marzo: Pac-man</TDRH>
+        </tr>
+
+        <tr>
+          <TDIH>Premio</TDIH>
+          <TDIH>1</TDIH>
+          <TDIH>Premio</TDIH>
+          <TDIH>2</TDIH>
         </tr>
       </ScrollableTable>
     </TableContainer >
@@ -498,112 +525,101 @@ export const TableTrivial = () => {
       <ScrollableTable>
 
         <tr>
-          <THMH colSpan={6}>Premios del Trivial</THMH>
+          <THMH colSpan={4}>Premios del Trivial</THMH>
         </tr>
 
         <tr>
-          <TDRH colSpan={3}>Primer Día</TDRH>
-          <TDRH colSpan={3}>Segundo Día</TDRH>
+          <TDRH colSpan={2}>14 de marzo</TDRH>
+          <TDRH colSpan={2}>15 de marzo</TDRH>
         </tr>
 
         <tr>
-          <TDIH rowSpan={2}><AlignedDiv>1er Puesto</AlignedDiv></TDIH>
-          <TDIH>Botella de agua reciclable serigrafiada</TDIH>
+          <TDIH>Premio</TDIH>
+          <TDIH>1</TDIH>
+          <TDIH>Premio</TDIH>
           <TDIH>2</TDIH>
-          <TDIH rowSpan={2}><AlignedDiv>1er Puesto</AlignedDiv></TDIH>
-          <TDIH>Botella de agua reciclable serigrafiada</TDIH>
-          <TDIH>2</TDIH>
-        </tr>
-        <tr>
-          <TDIH>Xiaomi Mi True Wireless Auriculares Earbuds Basic 2 Negros</TDIH>
-          <TDIH>2</TDIH>
-          <TDIH>Xiaomi Mi True Wireless Auriculares Earbuds Basic 2 Negros</TDIH>
-          <TDIH>2</TDIH>
-        </tr>
-
-        <tr>
-          <TDIH >2o Puesto</TDIH>
-          <TDIH>Taza serigrafiada</TDIH>
-          <TDIH>2</TDIH>
-          <TDIH >2o Puesto</TDIH>
-          <TDIH>Taza serigrafiada</TDIH>
-          <TDIH>2</TDIH>
-        </tr>
-
-
-      </ScrollableTable>
-    </TableContainer>
-  )
-}
-
-export const TableTesoro = () => {
-  return (
-    <TableContainer>
-      <ScrollableTable>
-
-        <tr>
-          <THMH colSpan={6}>Premios de la Búsqueda del Tesoro</THMH>
-        </tr>
-
-
-        <tr >
-          <TDIH rowSpan={2} >1er Puesto</TDIH>
-          <TDIH>
-            Xiaomi Mi Smart Band 5 negra
-          </TDIH>
-          <TDIH>
-            4
-          </TDIH>
-
-        </tr>
-        <tr>
-          <TDIH>
-            Bono cafetería
-          </TDIH>
-          <TDIH>
-            4
-          </TDIH>
         </tr>
       </ScrollableTable>
     </TableContainer>
   )
 }
 
-export const TableRedes = () => {
+export const TableBusquedaTesoro = () => {
   return (
     <TableContainer>
       <ScrollableTable>
 
         <tr>
-          <THMH colSpan={3}>Premios del Sorteo en RRSS</THMH>
+          <THMH colSpan={2}>Premios de la Búsqueda del Tesoro</THMH>
         </tr>
 
-        <tr >
-          <TDIH>
-            1er Puesto
-          </TDIH>
-          <TDIH>
-            Bono cafetería
-          </TDIH>
-          <TDIH>
-            2
-          </TDIH>
+        <tr>
+          <TDIH>Premio</TDIH>
+          <TDIH>1</TDIH>
         </tr>
-
-        <tr >
-          <TDIH>
-            1er Puesto
-          </TDIH>
-          <TDIH>
-            Bono cafetería
-          </TDIH>
-          <TDIH>
-            2
-          </TDIH>
-        </tr>
-
       </ScrollableTable>
-    </TableContainer>
+    </TableContainer >
+  )
+}
+
+export const TableConcursoStands = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+
+        <tr>
+          <THMH colSpan={4}>Premios del Sorteo de la Votación al Mejor Stand</THMH>
+        </tr>
+
+        <tr>
+          <TDRH colSpan={2}>14 de marzo</TDRH>
+          <TDRH colSpan={2}>15 de marzo</TDRH>
+        </tr>
+
+        <tr>
+          <TDIH>Premio</TDIH>
+          <TDIH>1</TDIH>
+          <TDIH>Premio</TDIH>
+          <TDIH>2</TDIH>
+        </tr>
+      </ScrollableTable>
+    </TableContainer >
+  )
+}
+
+export const TableSuperSmashBros = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+
+        <tr>
+          <THMH colSpan={2}>Premios del Torneo de Super Smash Bros. Ultimate</THMH>
+        </tr>
+
+        <tr>
+          <TDIH>Premio</TDIH>
+          <TDIH>1</TDIH>
+        </tr>
+      </ScrollableTable>
+    </TableContainer >
+  )
+}
+
+export const TableLeagueOfLegends = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+
+        <tr>
+          <THMH colSpan={2}>Premios del Torneo de League of Legends</THMH>
+        </tr>
+
+        <tr>
+          <TDIH>Premio</TDIH>
+          <TDIH>1</TDIH>
+        </tr>
+      </ScrollableTable>
+    </TableContainer >
   )
 }
 
@@ -626,68 +642,46 @@ const Table = styled.table`
   border: 1px solid #633CAE;
 `;
 
-const TH = styled.th`
-padding: 2rem;
+const THMH = styled.th`
+padding: 1rem;
 text-align: center;
 min-width: 10%;
-background-color: #83DEFF;
-border: 1px solid #633CAE;
-border-collapse: collapse;
+background-color: #7454ae;
+color: white;
+border: 5px solid #3c3c54;
+font-size: 1.3rem;
+`;
+
+const TDRH = styled.th`
+padding: 1rem;
+text-align: center;
+min-width: 10%;
+background-color: #7454ae;
+color: white;
+border: 5px solid #3c3c54;
+font-size: 1.3rem;
 `;
 
 const TD = styled.td`
-padding: 0.5rem;
+padding: 1rem;
 text-align: center;
 min-width: 10%;
-border: 1px solid #000;
-background: #633CAE;
-color: #fff;
-border-collapse: collapse;
-cursor: pointer;
+border: 5px solid #3c3c54;
+background: #7454ae;
+color: white;
+font-weight: bold;
+font-size: 1.3rem;
 `;
 
 const TDIH = styled.td`
-padding-top: 0.5rem;
-padding-bottom: 0.5rem;
-padding-left: 1.5rem;
-padding-right: 1.5rem;
-text-align: center;
-min-width: '100px';
-border: 1px solid #C0C0C0;
-color: #000;
-border-collapse: collapse;
-margin: 0;
-height: 100%;
-`;
-
-const THMH = styled.th`
-padding: 0.5rem;
+padding: 1rem 2rem;
 text-align: center;
 min-width: 10%;
-border: 1px solid #000;
-background: #633CAE;
-color: #fff;
-border-collapse: collapse;
-`;
-
-const TDRH = styled.td`
-padding: 0.5rem;
-text-align: center;
-min-width: 10%;
-border: 1px solid #C0C0C0;
-background: #FF645F;
-color: #fff;
-border-collapse: collapse;
-`;
-
-const TDH = styled.td`
-padding: 0.5rem;
-text-align: center;
-min-width: 10%;
-border: 1px solid #000;
-background: #83DEFF;
-color: #000;
-border-collapse: collapse;
+border: 5px solid #3c3c54;
+background-color: #FFEB83;
+font-weight: bold;
+font-size: 1.2rem;
+color: #3c3c54
 `;
 
 const TDR = styled.td`

@@ -41,10 +41,6 @@ min-height: 100vh;
 background-color: #3c3c54;
 `;
 
-const RoundedImage = styled.img`
-border-radius: 50%;
-`;
-
 const AlignedDiv = styled.div`
 display: flex;
 justify-content: center;
