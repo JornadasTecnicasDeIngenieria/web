@@ -48,10 +48,17 @@ export const organizadores_stands = [
     },
     {
         name: 'Rodrigo García Jiménez',
-        image: '/images/organizadores/placeholder.png',
+        image: '/images/organizadores/rodrigo_garcia.png',
         categories: ['Informática'],
         social: [
-
+            {
+                "tag": "GitHub",
+                "url": "https://www.linkedin.com/in/rogarciajim/"
+            },
+            {
+                "tag": "ContactMail",
+                "url": "rogarjim99@gmail.com"
+            }
         ]
     },
     {

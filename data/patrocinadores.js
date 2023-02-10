@@ -6,6 +6,13 @@ export const patrocinadores = [{
         types: 'oro'
     },
     {
+        src: '/images/patrocinadores/intelequia.svg',
+        alt: 'Intelequia',
+        width: 1000,
+        height: 1000,
+        types: 'oro'
+    },
+    {
         src: '/images/patrocinadores/lean_mind.png',
         alt: 'Lean Mind',
         width: 705,
