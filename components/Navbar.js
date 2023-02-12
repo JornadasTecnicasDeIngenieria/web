@@ -19,6 +19,7 @@ const Navbar = ({ navLinks }) => {
           <NavDropdown.Item href="/organizadores">Organizadores</NavDropdown.Item>
           <NavDropdown.Item href="/patrocinadores">Patrocinadores</NavDropdown.Item>
           <NavDropdown.Item href="/info-empresas">Info Empresas</NavDropdown.Item>
+          <NavDropdown.Item href="/ediciones_anteriores/2022">Edición Anterior</NavDropdown.Item>
         </NavDropdown>
         <Link href="/faqs" className="nav-link"><NavbarLink className="nav-link">FAQs</NavbarLink></Link>
       </Stack>
