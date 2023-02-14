@@ -20,6 +20,7 @@ const Footer = () => {
           href="https://www.linkedin.com/company/jtiesit"
           target="_blank"
           rel="noopener noreferrer"
+          passhref
         >
           <LinkedIn fontSize="large" />
         </StyledLink>
@@ -28,6 +29,7 @@ const Footer = () => {
           href="https://twitter.com/jtiesit"
           target="_blank"
           rel="noopener noreferrer"
+          passhref
         >
           <Twitter fontSize="large" />
         </StyledLink>
@@ -36,6 +38,7 @@ const Footer = () => {
           href="https://www.instagram.com/jtiesit/?hl=es"
           target="_blank"
           rel="noopener noreferrer"
+          passhref
         >
           <Instagram fontSize="large" />
         </StyledLink>
@@ -44,12 +47,13 @@ const Footer = () => {
           href="https://www.facebook.com/people/Jornadas-Técnicas-de-Ingeniería/pfbid0286pMHU7Nkf2fVNfMjeAfyDR72eC3E67kVGisag3zeokyzN8zjX3upuDdmJHDHndal/"
           target="_blank"
           rel="noopener noreferrer"
+          passhref
         >
           <Facebook fontSize="large" />
         </StyledLink>
       </Stack>
       <AlignedDiv><DescriptionText>jtiesit@ull.edu.es</DescriptionText></AlignedDiv>
-      <Link href={`/politica-de-privacidad`} legacyBehavior>
+      <Link href={`/politica-de-privacidad`} legacyBehavior passhref>
         <PrivacyPolicy>
           <Typography align="center" color="common.white">
             POLITICA DE PRIVACIDAD

@@ -63,9 +63,9 @@ export default Timer;
 const TimerFinishedButtons = () => {
     return (
         <div className="btn-group">
-            <Link href="/ponencias" passHref legacyBehavior><button id="ponencias">¡Mira nuestras ponencias!</button></Link>
-            <Link href="#app-section" passHref legacyBehavior><button id="app">¡Descarga nuestra app!</button></Link>
-            <Link href="#twitch" passHref legacyBehavior><button id="mesas">¡Siguenos en directo!</button></Link>
+            <Link href="/ponencias" passhref legacyBehavior><button id="ponencias">¡Mira nuestras ponencias!</button></Link>
+            <Link href="#app-section" passhref legacyBehavior><button id="app">¡Descarga nuestra app!</button></Link>
+            <Link href="#twitch" passhref legacyBehavior><button id="mesas">¡Siguenos en directo!</button></Link>
         </div>
     );
 }

@@ -10,6 +10,7 @@ import ContactMail from "@mui/icons-material/ContactMail";
 import Telegram from "@mui/icons-material/Telegram";
 import Instagram from "@mui/icons-material/Instagram";
 import { Twitter, Facebook } from "@mui/icons-material";
+import Image from "next/image";
 
 function Card({ imageSource, name, categories, social }) {
     const tags = categories;
@@ -41,7 +42,7 @@ function Card({ imageSource, name, categories, social }) {
                     <div className="custom-card">
                         <br/>
                         <div className="custom-card-header">
-                            <img src={imageSource} alt={name} />
+                            <Image src={imageSource} alt={name} width={1000} height={1000} style={{ width: '100%', height: '100%' }} />
                         </div>
                         <div className="custom-card-body">
                             <Grid container justifyContent="center" alignItems="center">
@@ -74,7 +75,6 @@ function Card({ imageSource, name, categories, social }) {
                                     }
                                 </Stack>
                             </Social>
-
                         </div>
                     </div>
                 </motion.div>

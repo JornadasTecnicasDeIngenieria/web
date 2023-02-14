@@ -6,8 +6,6 @@ const FAQs = () => {
 
     return (
         <Layout>
-            <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
-            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"></link>
             <Section><Container>
                 <br/><br/>
                 <AlignedDiv><Title>Preguntas Frecuentes</Title></AlignedDiv>

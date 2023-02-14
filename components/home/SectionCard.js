@@ -1,9 +1,7 @@
 import Link from "next/link";
-import { Grid, Stack } from "@mui/material";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import styled from "@emotion/styled"
-import getTagColor from "@scripts/getTagColor";
 
 function Card({ imageSource, name, categories, bg }) {
     return (
@@ -13,7 +11,8 @@ function Card({ imageSource, name, categories, bg }) {
         ><Link
             href={`/${name.toLowerCase()}`}
             as={`/${name.toLowerCase()}`}
-            legacyBehavior>
+            legacyBehavior 
+            passhref>
             <div className={`custom-section-card ${bg}`}>
                 <div className="custom-section-card-header">
                     <Image src={imageSource} alt={name} width={500} height={500} />

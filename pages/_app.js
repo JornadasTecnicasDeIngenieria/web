@@ -7,7 +7,6 @@ import "/styles/globals.css";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import theme from '../styles/theme';
 
-
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
 

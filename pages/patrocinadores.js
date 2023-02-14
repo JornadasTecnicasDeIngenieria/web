@@ -7,9 +7,7 @@ import Image from "next/image";
 const Patrocinadores = () => {
     let aux = 0;
     return (
-        <Layout>
-            <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
-            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"></link>    
+        <Layout> 
             <Section><Container>
                 <br/><br/>
                 <AlignedDiv><Title>Patrocinadores</Title></AlignedDiv>
