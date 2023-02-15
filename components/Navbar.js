@@ -19,7 +19,6 @@ const Navbar = ({ navLinks }) => {
           <NavDropdown.Item href="organizadores" passhref>Organizadores</NavDropdown.Item>
           <NavDropdown.Item href="patrocinadores" passhref>Patrocinadores</NavDropdown.Item>
           <NavDropdown.Item href="info-empresas" passhref>Info Empresas</NavDropdown.Item>
-          <NavDropdown.Item href="ediciones_anteriores/2022" passhref>Edición Anterior</NavDropdown.Item>
         </NavDropdown>
         <Link href="faqs" className="nav-link" passhref><NavbarLink className="nav-link">FAQs</NavbarLink></Link>
       </Stack>
