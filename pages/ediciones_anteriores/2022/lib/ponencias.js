@@ -1,5 +1,5 @@
 import path from "path";
-import { DatosPonencias } from "data/ponencias";
+import { DatosPonencias } from "../data/ponencias.js";
 
 export function getAllDataIds() {  
     // Returns an array that looks like this:

@@ -1,6 +1,6 @@
-import { DatosPonencias, DatosPonenciasList } from "data/ponencias";
+import { DatosPonencias, DatosPonenciasList } from "../data/ponencias";
 import styled from "@emotion/styled";
-import Layout from "../../components/layouts/MainLayout";
+import Layout from "../components/layouts/MainLayout";
 import { IntroSectionShort } from "../components/IntroSection";
 import { Grid, Container } from "@mui/material";
 import { useRouter } from "next/router";

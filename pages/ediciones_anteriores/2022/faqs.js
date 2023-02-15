@@ -5,7 +5,7 @@ import Image from "next/legacy/image";
 import { Grid, Container } from "@mui/material";
 import EnConstruccion from "./components/EnConstruccion";
 import Accordion from "./components/accordion";
-import { faqs } from "data/faq";
+import { faqs } from "./data/faq";
 
 const FAQs = () => {
   return (

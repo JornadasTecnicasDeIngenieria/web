@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
-import Layout from "../../components/layouts/MainLayout";
+import Layout from "../components/layouts/MainLayout";
 import { Grid, Container } from "@mui/material";
 import { AlignedDiv } from "../components/StyledComponents";
-import { tecnologia } from "data/mesas";
+import { tecnologia } from "../data/mesas";
 import Card from "../components/ponentemesa";
 //<IntroSectionShort title={rawData.jsonData[id].titulo !== "" ? rawData.jsonData[id].titulo : rawData.jsonData[id].empresa} />
 export default function Ponencia() {

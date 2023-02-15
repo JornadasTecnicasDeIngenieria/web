@@ -3,7 +3,7 @@ import IntroSection from "../components/IntroSection";
 import styled from "@emotion/styled";
 import { Grid, Container } from "@mui/material";
 import { TableMartes, TableMiercoles } from "../components/Table";
-import { ponenciasmartes, ponenciasmiercoles } from "data/ponencias";
+import { ponenciasmartes, ponenciasmiercoles } from "../data/ponencias";
 
 import { useState } from "react";
 

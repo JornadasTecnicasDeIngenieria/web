@@ -2,7 +2,7 @@ import Layout from "./components/layouts/MainLayout";
 import IntroSection from "./components/IntroSection";
 import styled from "@emotion/styled";
 import { Grid, Container } from "@mui/material";
-import { images } from "data/ponencias";
+import { images } from "./data/ponencias";
 import ImageSlider from "./components/ImageSlider";
 import EnConstruccion from "./components/EnConstruccion";
 

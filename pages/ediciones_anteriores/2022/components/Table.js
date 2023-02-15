@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import Link from 'next/link'
 import { Container } from "@mui/material";
-import { DatosPonencias } from "data/ponencias";
+import { DatosPonencias } from "../data/ponencias";
 
 export const TableMartes = () => {
   return (

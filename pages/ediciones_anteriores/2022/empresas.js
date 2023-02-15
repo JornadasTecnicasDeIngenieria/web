@@ -33,7 +33,7 @@ const Empresas = () => {
               if (types === "colaboran") {
                 if (aux === 0) {
                   return (
-                    <Grid item xs={12} sm={12} md={6} lg={4}>
+                    <Grid key='grid' item xs={12} sm={12} md={6} lg={4}>
                       <CenterDiv>
                         <Image
                           src={src}
@@ -50,7 +50,7 @@ const Empresas = () => {
                 }
 
                 return (
-                  <Grid item xs={12} sm={12} md={6} lg={4}>
+                  <Grid key='grid' item xs={12} sm={12} md={6} lg={4}>
                     <CenterDiv>
                       <Image
                         src={src}
