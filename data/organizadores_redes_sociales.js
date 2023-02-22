@@ -20,7 +20,7 @@ export const organizadores_redes_sociales = [
     },
     {
         name: 'XueMei Lin',
-        image: '/images/organizadores/xuemei_lin.jpg',
+        image: '/images/organizadores/xuemei_lin.png',
         categories: ['Informática'],
         social: [
             {

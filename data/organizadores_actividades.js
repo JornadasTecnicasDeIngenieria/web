@@ -1,7 +1,7 @@
 export const organizadores_actividades = [
     {
         name: 'Daniel Jorge Acosta',
-        image: '/images/organizadores/placeholder.png',
+        image: '/images/organizadores/daniel_jorge.png',
         categories: ['Coordinador', 'Informática'],
         social: [
             {

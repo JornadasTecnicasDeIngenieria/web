@@ -20,29 +20,15 @@ const Info = () => {
                         <DescriptionListElement>Mostrar el emprendimiento como salida profesional </DescriptionListElement>
                         <DescriptionListElement>Mostrar la investigación como fuente de innovación hacia la sociedad</DescriptionListElement>
                     </ul>
+                    <br/>
                     <Category>Fechas y ubicación</Category>
-                    <DescriptionText>Las Jornadas Técnicas de Ingeniería
-                        tendrán lugar los días 15 y 16 de febrero
-                        del 2022 en la Escuela Superior de
-                        Ingeniería y Tecnología (ESIT) de la
-                        Universidad de La Laguna (ULL),
-                        Tenerife, Islas Canarias.</DescriptionText>
+                    <DescriptionText>Las Jornadas Técnicas de Ingeniería tendrán lugar los días 14 y 15 de marzo de 2023 en la Escuela Superior de Ingeniería y Tecnología (ESIT) de la Universidad de La Laguna (ULL), Tenerife, Islas Canarias.</DescriptionText>
+                    <br/>
                     <Category>Organización</Category>
-                    <DescriptionText>Las Jornadas Técnicas de Ingeniería
-                        están organizadas por el propio
-                        estudiantado universitario de las cuatro
-                        ingenierías de la ESIT de la Universidad
-                        de La Laguna, con el apoyo y
-                        colaboración de la Escuela Superior de
-                        Ingeniería y Tecnología (ESIT) de la
-                        Universidad de La Laguna (ULL).</DescriptionText>
-                    <br />
+                    <DescriptionText>Las Jornadas Técnicas de Ingeniería están organizadas por el propio estudiantado universitario de las cuatro ingenierías de la ESIT de la Universidad de La Laguna, con el apoyo y colaboración de la Escuela Superior de Ingeniería y Tecnología de la Universidad de La Laguna.</DescriptionText>
+                    <br/>
                     <Category>Ingenierías</Category>
-                    <DescriptionText>El evento se desarrolla sobre las cuatro
-                        ingenierías que se encuentran
-                        gestionadas por la Escuela Superior de
-                        Ingeniería y Tecnología (ESIT) de la
-                        Universidad de La Laguna (ULL):</DescriptionText>
+                    <DescriptionText>El evento se desarrolla sobre las cuatroingenierías que se imparten en la Escuela Superior de Ingeniería y Tecnología de la ULL:</DescriptionText>
                     <br />
                     <ul>
                         <DescriptionListElement>Grado en Ingeniería Informática</DescriptionListElement>
@@ -50,63 +36,37 @@ const Info = () => {
                         <DescriptionListElement>Grado en Ingeniería Electrónica Industrial y Autómata</DescriptionListElement>
                         <DescriptionListElement>Grado en Ingeniería Química Industrial</DescriptionListElement>
                     </ul>
-                    <br />
+                    <br/>
                     <Category>Stands</Category>
-                    <DescriptionText>Una parte importante del evento son los
-                        Stands, espacios físicos en los que las
-                        empresas se establecen para dar
-                        información al estudiantado
-                        universitario de las ingenierías acerca de
-                        su actividad, perfiles profesionales que
-                        demandan, funcionamiento de la empresa...</DescriptionText>
+                    <DescriptionText>Una parte importante del evento son los Stands, espacios físicos en los que las empresas se establecen para dar información al estudiantado universitario de las ingenierías acerca de su actividad, perfiles profesionales que demandan, funcionamiento de la empresa...</DescriptionText>
                     <DescriptionText>Para las empresas que deseen tener un stand en el evento, se recomienda encarecidamente preparar algo que presentar en los mismos: ya sean folletos informativos sobre la empresa, algún pc donde mostrar información o dar a probar algún software, proyecto o web de la compañía, elementos hardware en desarrollo...Eso sí, no se permite realizar ninguna acción que incentive a una venta directa de algún producto o servicio durante el transcurso del evento.</DescriptionText>
-                    <DescriptionText>Los Stands son cedidos por el Recinto
-                        Ferial de Tenerife, gracias al Cabildo
-                        Insular de Tenerife.</DescriptionText>
-                    <br />
+                    <DescriptionText>Los Stands son cedidos por el Recinto Ferial de Tenerife, gracias al Cabildo Insular de Tenerife.</DescriptionText>
+                    <br/>
                     <Category>Actividades</Category>
-                    <DescriptionText>Otro de los múltiples objetivos de las
-                        Jornadas Técnicas de Ingeniería es la
-                        unión entre estudiantes, para ello
-                        proponemos llevar a cabo una serie de
-                        dinámicas que favorezcan la integración
-                        de todos los universitarios de los grados
-                        de ingeniería de la ESIT.</DescriptionText>
-                    <br />
-                    <Category>Empresas y entidades que
-                        han colaborado otros años</Category>
-                    <DescriptionText>En años anteriores hemos contado con
-                        la colaboración de las siguientes
-                        empresas y entidades:</DescriptionText>
+                    <DescriptionText>Otro de los múltiples objetivos de las Jornadas Técnicas de Ingeniería es la unión entre estudiantes, para ello proponemos llevar a cabo una serie de dinámicas que favorezcan la integración de todos los universitarios de los grados de ingeniería de la ESIT.</DescriptionText>
+                    <br/>
+                    <Category>Empresas y entidades que han colaborado otros años</Category>
+                    <DescriptionText>En años anteriores hemos contado con la colaboración de las siguientes empresas y entidades entre muchas otras:</DescriptionText>
                     <ul>
+                        <DescriptionListElement>The Agile Monkeys</DescriptionListElement>
+                        <DescriptionListElement>AcidTango</DescriptionListElement>
+                        <DescriptionListElement>Open Canarias</DescriptionListElement>
+                        <DescriptionListElement>Fonteide</DescriptionListElement>
+                        <DescriptionListElement>FECAM</DescriptionListElement>
+                        <DescriptionListElement>Mutua Tinerfeña</DescriptionListElement>
+                        <DescriptionListElement>Leanmind</DescriptionListElement>
                         <DescriptionListElement>FIFEDE</DescriptionListElement>
                         <DescriptionListElement>Cabildo de Tenerife</DescriptionListElement>
                         <DescriptionListElement>COITIC</DescriptionListElement>
                         <DescriptionListElement>COITITF</DescriptionListElement>
-                        <DescriptionListElement>MetroTenerife</DescriptionListElement>
-                        <DescriptionListElement>Ayuntamiento de Candelaria</DescriptionListElement>
-                        <DescriptionListElement>DISA</DescriptionListElement>
-                        <DescriptionListElement>Compañía Cervecera de Canarias</DescriptionListElement>
-                        <DescriptionListElement>ITER</DescriptionListElement>
-                        <DescriptionListElement>AcidTango</DescriptionListElement>
+                        <DescriptionListElement>Expero</DescriptionListElement>
                         <DescriptionListElement>Instituto Astrofísico de Canarias</DescriptionListElement>
-                        <DescriptionListElement>FiiHub</DescriptionListElement>
-                        <DescriptionListElement>Trend Robotics</DescriptionListElement>
-                        <DescriptionListElement>Scytl</DescriptionListElement>
-                        <DescriptionListElement>Ferrovial</DescriptionListElement>
                         <DescriptionListElement>Binter</DescriptionListElement>
                     </ul>
                     <br />
                     <Category>Agradecimientos</Category>
-                    <DescriptionText>Desde el equipo organizador de las
-                        Jornadas Técnicas de Ingeniería 2022
-                        agradecemos a todas aquellas
-                        entidades y empresas que colaboran,
-                        participan y/o aportan al evento. Apostando por el talento joven,
-                        profesional y cualificado. Gracias por
-                        permitirnos tener oportunidades
-                        laborales.</DescriptionText>
-                    <br />
+                    <DescriptionText>Desde el equipo organizador de las Jornadas Técnicas de Ingeniería 2022 agradecemos a todas aquellas entidades y empresas que colaboran, participan y/o aportan al evento apostando por el talento joven, profesional y cualificado.</DescriptionText>
+                    <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
                 </Infodiv>
             </Container></Section>
         </Layout>
