@@ -28,7 +28,7 @@ const Info = () => {
                     <DescriptionText>Las Jornadas Técnicas de Ingeniería están organizadas por el propio estudiantado universitario de las cuatro ingenierías de la ESIT de la Universidad de La Laguna, con el apoyo y colaboración de la Escuela Superior de Ingeniería y Tecnología de la Universidad de La Laguna.</DescriptionText>
                     <br/>
                     <Category>Ingenierías</Category>
-                    <DescriptionText>El evento se desarrolla sobre las cuatroingenierías que se imparten en la Escuela Superior de Ingeniería y Tecnología de la ULL:</DescriptionText>
+                    <DescriptionText>El evento se desarrolla sobre las cuatro ingenierías que se imparten en la Escuela Superior de Ingeniería y Tecnología de la ULL:</DescriptionText>
                     <br />
                     <ul>
                         <DescriptionListElement>Grado en Ingeniería Informática</DescriptionListElement>
@@ -38,12 +38,24 @@ const Info = () => {
                     </ul>
                     <br/>
                     <Category>Stands</Category>
-                    <DescriptionText>Una parte importante del evento son los Stands, espacios físicos en los que las empresas se establecen para dar información al estudiantado universitario de las ingenierías acerca de su actividad, perfiles profesionales que demandan, funcionamiento de la empresa...</DescriptionText>
-                    <DescriptionText>Para las empresas que deseen tener un stand en el evento, se recomienda encarecidamente preparar algo que presentar en los mismos: ya sean folletos informativos sobre la empresa, algún pc donde mostrar información o dar a probar algún software, proyecto o web de la compañía, elementos hardware en desarrollo...Eso sí, no se permite realizar ninguna acción que incentive a una venta directa de algún producto o servicio durante el transcurso del evento.</DescriptionText>
-                    <DescriptionText>Los Stands son cedidos por el Recinto Ferial de Tenerife, gracias al Cabildo Insular de Tenerife.</DescriptionText>
+                    <DescriptionText>La información más importante respecto a los stands es:</DescriptionText>
+                    <ul>
+                        <DescriptionListElement>Pueden encontrar los planos con la ubicación de los stands en la página Stands. </DescriptionListElement>
+                        <DescriptionListElement>Antes de ocupar un Stand deberán acudir al Puesto Central de Información para recoger sus acreditaciones.</DescriptionListElement>
+                        <DescriptionListElement>La Universidad desplegará una red wifi para el evento.</DescriptionListElement>
+                        <DescriptionListElement>Dispondremos de un catering durante media mañana ambos días del evento con aperitivos para los representantes de empresas y entidades que se encuentren en los stands.</DescriptionListElement>
+                        <DescriptionListElement>Tiene total libertad para entrar y salir de la JTI y podrán almorzar cuando estimen oportuno. La ESIT dispone de una Cafetería en la misma planta.</DescriptionListElement>
+                        <DescriptionListElement>La hora en la que se estima máxima afluencia de estudiantes es a las 14:00, ya que finalizan las clases del turno de mañana, y comienzan las de tarde, por lo que coinciden ambos grupos. Les recomendamos por lo tanto que estén en el stand durante esas horas. </DescriptionListElement>
+                        <DescriptionListElement>Lo ideal en este espacio es dar a conocer la empresa, así como sus proyectos, tecnologías y ofertas laborales o de prácticas en la actualidad.</DescriptionListElement>
+                        <DescriptionListElement>En el stand se incluyen dos sillas, una mesa y un punto de corriente con regleta facilitada por la ESIT. Si no van a hacer uso de la mesa, se retirará.</DescriptionListElement>
+                        <DescriptionListElement>Por parte de la organización realizaremos cada uno de los días un pequeño concurso entre los stands de las empresas participantes, premiando aquel que resulte más atractivo a los estudiantes con el objetivo de motivarles a que logren una presentación atractiva.</DescriptionListElement>
+                        <DescriptionListElement>Tienen libertad de organización para exponer su trabajo y atraer a los visitantes del evento. Cualquier iniciativa con fines formativos o de interés es bienvenida.</DescriptionListElement>
+                        <DescriptionListElement>El horario será de 10:30 a 18:30. Podrán acudir a preparar los stands desde las 10:00 si les es posible. </DescriptionListElement>
+                    </ul>
                     <br/>
                     <Category>Actividades</Category>
                     <DescriptionText>Otro de los múltiples objetivos de las Jornadas Técnicas de Ingeniería es la unión entre estudiantes, para ello proponemos llevar a cabo una serie de dinámicas que favorezcan la integración de todos los universitarios de los grados de ingeniería de la ESIT.</DescriptionText>
+                    <DescriptionText>El concurso del Mejor Stand que se llevará acabo ambos días del evento tiene como objetivo premiar el esfuerzo y favorecer una competitividad sana por parte de las empresas para ganar el interés de los asistentes. Cada día, los asistentes podrán votar a su stand favorito o el que más le ha gustado. A las 17:30 se hará un recuento de los votos, tras lo que se anunciará el stand ganador que será premiado con un diploma y una publicación especial en las redes sociales del evento.</DescriptionText>
                     <br/>
                     <Category>Empresas y entidades que han colaborado otros años</Category>
                     <DescriptionText>En años anteriores hemos contado con la colaboración de las siguientes empresas y entidades entre muchas otras:</DescriptionText>
@@ -65,7 +77,7 @@ const Info = () => {
                     </ul>
                     <br />
                     <Category>Agradecimientos</Category>
-                    <DescriptionText>Desde el equipo organizador de las Jornadas Técnicas de Ingeniería 2022 agradecemos a todas aquellas entidades y empresas que colaboran, participan y/o aportan al evento apostando por el talento joven, profesional y cualificado.</DescriptionText>
+                    <DescriptionText>Desde el equipo organizador de las Jornadas Técnicas de Ingeniería 2023 agradecemos a todas aquellas entidades y empresas que colaboran, participan y/o aportan al evento apostando por el talento joven, profesional y cualificado.</DescriptionText>
                     <AlignedDiv><Circles><CircleB>⬤</CircleB><CircleO>⬤</CircleO><CircleY>⬤</CircleY></Circles></AlignedDiv>
                 </Infodiv>
             </Container></Section>
@@ -106,12 +118,6 @@ const DescriptionListElement = styled.li`
 color: #ffffff;
 font-size: 1.5rem;
 font-weight: 500;
-font-family: 'Montserrat'`
-
-const Highlight = styled.span`
-color: #ffffff;
-font-size: 1.5rem;
-font-weight: 700;
 font-family: 'Montserrat'`
 
 const Circles = styled.h2`

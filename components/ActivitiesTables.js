@@ -15,24 +15,24 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
-            <TableItem>Premio</TableItem>
+            <TableItem>Smartwatch</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Premio</TableItem>
-            <TableItem>2</TableItem>
+            <TableItem>Smartwatch</TableItem>
+            <TableItem>1</TableItem>
           </tr>
 
           <tr>
-            <TableItem>Premio</TableItem>
+            <TableItem>Chromecast</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Premio</TableItem>
-            <TableItem>2</TableItem>
+            <TableItem>Chromecast</TableItem>
+            <TableItem>1</TableItem>
           </tr>
 
           <tr>
-            <TableItem>Premio</TableItem>
+            <TableItem>Powerbank</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Premio</TableItem>
-            <TableItem>2</TableItem>
+            <TableItem>Powerbank</TableItem>
+            <TableItem>1</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -55,10 +55,10 @@ export const TableSorteoRedesSociales = () => {
           </tr>
 
           <tr>
-            <TableItem>Premio</TableItem>
+            <TableItem>Mando para PC</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Premio</TableItem>
-            <TableItem>2</TableItem>
+            <TableItem>Earpods</TableItem>
+            <TableItem>1</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -81,10 +81,10 @@ export const TableVideojuegosArcade = () => {
           </tr>
 
           <tr>
-            <TableItem>Premio</TableItem>
+            <TableItem>Merchandising</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Premio</TableItem>
-            <TableItem>2</TableItem>
+            <TableItem>Merchandising</TableItem>
+            <TableItem>1</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -107,10 +107,10 @@ export const TableTrivial = () => {
           </tr>
 
           <tr>
-            <TableItem>Premio</TableItem>
+            <TableItem>Earbuds Xiaomi</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Premio</TableItem>
-            <TableItem>2</TableItem>
+            <TableItem>Earbuds Xiaomi</TableItem>
+            <TableItem>1</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -128,8 +128,8 @@ export const TableBusquedaTesoro = () => {
           </tr>
 
           <tr>
-            <TableItem>Premio</TableItem>
-            <TableItem>1</TableItem>
+            <TableItem>Jugos de Mesa</TableItem>
+            <TableItem>4</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -143,37 +143,15 @@ export const TableConcursoStands = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TableTitle colSpan={4}>Premios del Sorteo de la Votación al Mejor Stand</TableTitle>
+            <TableTitle colSpan={2}>Premios del Sorteo de la Votación al Mejor Stand</TableTitle>
           </tr>
 
           <tr>
-            <TableHeader colSpan={2}>14 de marzo</TableHeader>
             <TableHeader colSpan={2}>15 de marzo</TableHeader>
           </tr>
 
           <tr>
-            <TableItem>Premio</TableItem>
-            <TableItem>1</TableItem>
-            <TableItem>Premio</TableItem>
-            <TableItem>2</TableItem>
-          </tr>
-        </tbody>
-      </ScrollableTable>
-    </TableContainer >
-  )
-}
-
-export const TableSuperSmashBros = () => {
-  return (
-    <TableContainer>
-      <ScrollableTable>
-        <tbody>
-          <tr>
-            <TableTitle colSpan={2}>Premios del Torneo de Super Smash Bros. Ultimate</TableTitle>
-          </tr>
-
-          <tr>
-            <TableItem>Premio</TableItem>
+            <TableItem>Altavoz Portátil</TableItem>
             <TableItem>1</TableItem>
           </tr>
         </tbody>
@@ -188,11 +166,30 @@ export const TableLeagueOfLegends = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TableTitle colSpan={2}>Premios del Torneo de League of Legends</TableTitle>
+            <TableTitle colSpan={3}>Premios del Torneo de League of Legends</TableTitle>
           </tr>
 
           <tr>
-            <TableItem>Premio</TableItem>
+            <TableItem>Primer Puesto</TableItem>
+            <TableItem>Teclado Gaming</TableItem>
+            <TableItem>1</TableItem>
+          </tr>
+
+          <tr>
+            <TableItem></TableItem>
+            <TableItem>20 euros de RP</TableItem>
+            <TableItem>1</TableItem>
+          </tr>
+
+          <tr>
+            <TableItem>Segundo Puesto</TableItem>
+            <TableItem>Ratón Corsair</TableItem>
+            <TableItem>1</TableItem>
+          </tr>
+
+          <tr>
+            <TableItem></TableItem>
+            <TableItem>10 euros de RP</TableItem>
             <TableItem>1</TableItem>
           </tr>
         </tbody>
