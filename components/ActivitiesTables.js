@@ -128,7 +128,7 @@ export const TableBusquedaTesoro = () => {
           </tr>
 
           <tr>
-            <TableItem>Jugos de Mesa</TableItem>
+            <TableItem>Juegos de Mesa</TableItem>
             <TableItem>4</TableItem>
           </tr>
         </tbody>

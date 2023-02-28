@@ -10,14 +10,12 @@ import Navbar from './Navbar'
 import SideDrawer from "./SideDrawer";
 
 export const navLinks = [
-    { title: `Ponencias`, path: `/ponencias` },
-    { title: `Talleres`, path: `/talleres` },
     { title: `Stands`, path: `/stands` },
     { title: `Actividades`, path: `/actividades` },
-    { title: `Empresas`, path: `/empresas` },
     { title: `Organizadores`, path: `/organizadores` },
-    { title: `FAQs`, path: `/faqs` },
-    { title: `Contacto`, path: `/contacto` },
+    { title: `Patrocinadores`, path: `/patrocinadores` },
+    { title: `Info Empresas`, path: `/info_empresas` },
+    { title: `FAQs`, path: `/faqs` }
 ];
 
 const Header = () => {
