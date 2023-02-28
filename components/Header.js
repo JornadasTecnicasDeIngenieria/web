@@ -28,7 +28,7 @@ const Header = () => {
                     >
                         <StyledLink activeClassName="active" href="/">
                             <PadDiv>
-                                <Image src="/images/header.png" width="267" height="44" alt="JTI" />
+                                <Image src="/images/header.png" width="267" height="44" alt="JTI" style={{width: '13.35rem', height:'2.2rem'}} />
                             </PadDiv>
                         </StyledLink>
                         <Navbar navLinks={navLinks} />

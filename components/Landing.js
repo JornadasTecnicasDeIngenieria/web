@@ -24,7 +24,9 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                     alignItems="center"
                     zIndex="100"
                 >
-                    <Image src="/images/eslogan.png" alt="JTI" width={940} height={155} />
+                    <ImageDiv>
+                        <Image src="/images/eslogan.png" alt="JTI" width={940} height={155} />
+                    </ImageDiv>
                     <br/><br/>
                     <PaddingDiv>
                         <DateTitle>14 y 15 de Marzo de 2023</DateTitle>
@@ -35,18 +37,27 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
 
 export default Landing;
 
+const ImageDiv = styled.div`
+width: 56.4rem;
+height: 9.3rem;
+`
+
 const PaddingDiv = styled.div`
 padding: 1rem;
 justify-content: center;
 text-align: center;
 align-items: center;
+text-size: 3rem;
 `;
 
 const DateTitle = styled.h3`
-font-size: 4vw;
+font-size: 3rem;
 font-weight: 300;
 color: #fff;
 text-align: center;
 justify-content: center;
 align-items: center;
+@media only screen and (max-width: 720px) {
+    font-size: 1.5rem;
+}
 `;

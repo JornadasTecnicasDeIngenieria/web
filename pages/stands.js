@@ -71,7 +71,11 @@ overflow: hidden;
 const Title = styled.h2`
 color: #ffffff;
 font-size: 7rem;
-font-weight: 900;`
+font-weight: 900;
+@media only screen and (max-width: 720px) {
+    font-size: 4rem; 
+}
+`
 
 const Category = styled.h2`
 color: #ffffff;
@@ -88,22 +92,36 @@ font-family: 'Montserrat'`
 const Circles = styled.h2`
 font-size: 3.5rem;
 padding: 2rem;
-font-weight: 700;`;
+font-weight: 700;
+`;
 
 const CircleY = styled.span`
 color: #FFEB83;
 font-size: 3.5rem;
 padding-right: 2rem;
-font-weight: 700;`;
+font-weight: 700;
+@media only screen and (max-width: 720px) {
+    font-size: 2rem; 
+    padding-right: 1rem;
+}`;
 
 const CircleO = styled.span`
 color: #FF645F;
 font-size: 3.5rem;
 padding-right: 2rem;
-font-weight: 700;`;
+font-weight: 700;
+@media only screen and (max-width: 720px) {
+    font-size: 2rem; 
+    padding-right: 1rem;
+}
+`;
 
 const CircleB = styled.span`
 color: #83DEFF;
 font-size: 3.5rem;
 padding-right: 2rem;
-font-weight: 700;`;
+font-weight: 700;
+@media only screen and (max-width: 720px) {
+    font-size: 2rem; 
+    padding-right: 1rem;
+}`;
