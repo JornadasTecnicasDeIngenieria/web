@@ -166,31 +166,17 @@ export const TableLeagueOfLegends = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TableTitle colSpan={3}>Premios del Torneo de League of Legends</TableTitle>
+            <TableTitle colSpan={2}>Premios del Torneo de League of Legends</TableTitle>
           </tr>
 
           <tr>
             <TableItem>Primer Puesto</TableItem>
-            <TableItem>Teclado Gaming</TableItem>
-            <TableItem>1</TableItem>
-          </tr>
-
-          <tr>
-            <TableItem></TableItem>
-            <TableItem>20 euros de RP</TableItem>
-            <TableItem>1</TableItem>
+            <TableItem>Teclado Gaming + 20€ de RP</TableItem>
           </tr>
 
           <tr>
             <TableItem>Segundo Puesto</TableItem>
-            <TableItem>Ratón Corsair</TableItem>
-            <TableItem>1</TableItem>
-          </tr>
-
-          <tr>
-            <TableItem></TableItem>
-            <TableItem>10 euros de RP</TableItem>
-            <TableItem>1</TableItem>
+            <TableItem>Ratón Corsair + 10€ de RP</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
