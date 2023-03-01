@@ -80,7 +80,7 @@ export const stands = [
         "d2": "Cátedra Binter - ULL",
     },
     {
-        "stand": "E16",
+        "stand": "S16",
         "d1": "ENCAMINA",
         "d2": "Cátedra Cajasiete - ULL",
     },
@@ -115,7 +115,7 @@ export const stands = [
         "d2": "Aerolaser System",
     },
     {
-        "stand": "E23",
+        "stand": "S23",
         "d1": "Japan Tobacco International Canarias",
         "d2": "Edosoft",
     },
