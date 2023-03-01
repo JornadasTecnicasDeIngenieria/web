@@ -18,9 +18,9 @@ const Patrocinadores = () => {
                     {patrocinadores.map(({ src, alt, width, height, types }) => {
                         return types === "diamante" ? (
                             <Grid item xs={12} sm={12} md={6} lg={6}>
-                                <AlignedDiv>
+                                <ImageDiv>
                                     <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
-                                </AlignedDiv>
+                                </ImageDiv>
                             </Grid>
                         ) : ""
                     })}
@@ -33,9 +33,9 @@ const Patrocinadores = () => {
                     {patrocinadores.map(({ src, alt, width, height, types }) => {
                         return types === "platino" ? (
                             <Grid item xs={12} sm={12} md={6} lg={6}>
-                                <AlignedDiv>
+                                <ImageDiv>
                                     <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
-                                </AlignedDiv>
+                                </ImageDiv>
                             </Grid>
                         ) : ""
                     })}
@@ -48,9 +48,9 @@ const Patrocinadores = () => {
                     {patrocinadores.map(({ src, alt, width, height, types }) => {
                         return types === "oro" ? (
                             <Grid item xs={12} sm={12} md={6} lg={6} >
-                                <AlignedDiv>
+                                <ImageDiv>
                                     <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
-                                </AlignedDiv>
+                                </ImageDiv>
                             </Grid>
                         ) : ""
                     })}
@@ -74,6 +74,7 @@ background-color: #3c3c54;`
 
 const ImageDiv = styled.div`
 display: flex;
+justify-content: center;
 align-items: center;
 vertical-align: middle;
 border-radius: 1.5rem;

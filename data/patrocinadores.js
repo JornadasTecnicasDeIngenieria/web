@@ -14,6 +14,20 @@ export const patrocinadores = [
         types: 'oro'
     },
     {
+        src: '/images/patrocinadores/catedra_edosoft.png',
+        alt: 'Cátedra Edosof',
+        width: 428,
+        height: 110,
+        types: 'oro'
+    },
+    {
+        src: '/images/patrocinadores/coititif.png',
+        alt: 'Colegio Oficial de Graduados e Ingenieros Técnicos Industriales de Santa Cruz de Tenerife',
+        width: 2611,
+        height: 808,
+        types: 'oro'
+    },
+    {
         src: '/images/patrocinadores/evm.svg',
         alt: 'EVM',
         width: 1000,
@@ -33,6 +47,27 @@ export const patrocinadores = [
         width: 705,
         height: 619,
         types: 'oro'
+    },
+    {
+        src: '/images/patrocinadores/atlantis.jpg',
+        alt: 'Atlantis',
+        width: 2406,
+        height: 294,
+        types: 'platino'
+    },
+    {
+        src: '/images/patrocinadores/coitic.png',
+        alt: 'Colegio Profesional de Ingenieros Técnicos en Informática de Canarias',
+        width: 370,
+        height: 136,
+        types: 'platino'
+    },
+    {
+        src: '/images/patrocinadores/fecam.png',
+        alt: 'Federación Canaria de Municipios',
+        width: 900,
+        height: 900,
+        types: 'platino'
     },
     {
         src: '/images/patrocinadores/inetel.jpg',
@@ -68,6 +103,12 @@ export const patrocinadores = [
         width: 1000,
         height: 1000,
         types: 'diamante'
+    },
+    {
+        src: '/images/patrocinadores/tagua.jpg',
+        alt: 'Tagua',
+        width: 551,
+        height: 189,
+        types: 'diamante'
     }
-
 ]

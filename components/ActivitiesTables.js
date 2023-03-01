@@ -22,9 +22,9 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
-            <TableItem>Chromecast</TableItem>
+            <TableItem>Por determinar</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Chromecast</TableItem>
+            <TableItem>Por determinar</TableItem>
             <TableItem>1</TableItem>
           </tr>
 
@@ -57,7 +57,7 @@ export const TableSorteoRedesSociales = () => {
           <tr>
             <TableItem>Mando para PC</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Earpods</TableItem>
+            <TableItem>Earbuds Xiaomi</TableItem>
             <TableItem>1</TableItem>
           </tr>
         </tbody>
@@ -81,9 +81,9 @@ export const TableVideojuegosArcade = () => {
           </tr>
 
           <tr>
-            <TableItem>Merchandising</TableItem>
+            <TableItem>Por determinar</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Merchandising</TableItem>
+            <TableItem>Por determinar</TableItem>
             <TableItem>1</TableItem>
           </tr>
         </tbody>
@@ -128,7 +128,7 @@ export const TableBusquedaTesoro = () => {
           </tr>
 
           <tr>
-            <TableItem>Juegos de Mesa</TableItem>
+            <TableItem>Juegos de Mesa Variados</TableItem>
             <TableItem>4</TableItem>
           </tr>
         </tbody>

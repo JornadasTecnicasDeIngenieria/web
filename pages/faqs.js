@@ -81,12 +81,6 @@ color: #ffffff;
 font-size: 6rem;
 font-weight: 900;`
 
-const Category = styled.h2`
-color: #ffffff;
-font-size: 3rem;
-font-weight: 700;
-font-family: 'Montserrat', sans-serif;`
-
 const DescriptionText = styled.p`
 color: #ffffff;
 font-size: 1.5rem;
