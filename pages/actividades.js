@@ -79,7 +79,7 @@ const Actividades = () => {
                 <br/>
                 <DescriptionText>Cada día se elegirá el mejor stand por votación popular de los asistentes. A la empresa ganadora se le hará entrega de un diploma y se le realizará una publicación especial en las redes sociales de las JTI. Además, el último día se sorteará un premio entre los asistentes que voten a su stand preferido cada día. Los asistentes solo podrán votar una vez al día.</DescriptionText>
                 <DescriptionText><Highlight>Lugar: </Highlight>La votación se hará de manera online mediante un formulario. El sorteo y anuncio del stand ganador tendrá lugar en el Puesto Central de las JTI, al lado de Conserjería.</DescriptionText>
-                <DescriptionText><Highlight>Horario: </Highlight>Se podrá votar en cualquier momento del día ANTES del anuncio del ganador. El anuncio del stand ganador serán a las 17:30 los días 14 y 15 de marzo, mientras que el sorteo del premio para los votantes será el día 15 de marzo justo después del anuncio del stand ganador.</DescriptionText>
+                <DescriptionText><Highlight>Horario: </Highlight>Se podrá votar en cualquier momento del día ANTES del anuncio del ganador. El anuncio del stand ganador será a las 17:30 los días 14 y 15 de marzo, mientras que el sorteo para los votantes será el día 15 de marzo justo después del anuncio del stand ganador.</DescriptionText>
                 <br/>
                 <AlignedDiv>
                     <TableConcursoStands />
