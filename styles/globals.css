@@ -176,7 +176,7 @@ card-body {
     position: relative;
 }
 
-/* .custom-tag {
+.custom-tag {
   background: #cccccc;
   border-radius: 50px !important;
   font-size: 12px !important;
@@ -185,7 +185,7 @@ card-body {
   padding: 4px 10px !important;
   text-transform: uppercase !important;
   cursor: pointer !important;
-} */
+}
 .tag-teal {
   background-color: #47bcd4;
 }

@@ -68,7 +68,7 @@ const Actividades = () => {
                 <DescriptionText>El primer día del evento se celebrará una búsqueda del tesoro en toda la ESIT. Esta se realizará en equipos de 4 personas y ganará el equipo que consiga terminarla en primer lugar y entregar el código secreto. El premio se entregará al finalizar la misma.</DescriptionText>
                 <DescriptionText><Highlight>Lugar: </Highlight>La búsqueda del tesoro comenzará y terminará en el Puesto Central de las JTI, al lado de Conserjería.</DescriptionText>
                 <DescriptionText><Highlight>Horario: </Highlight>Los equipos se deberán registrar ANTES del día 14 de marzo a las 11:00. La búsqueda comenzará a las 11:30 del día 14 de marzo, aunque los equipos tendrán que estar a las 11:20 para una pequeña explicación de la actividad. Tendrá una duración aproximada de una hora.</DescriptionText>
-                <DescriptionText><Highlight>Formulario de inscripción: </Highlight><DescriptionLink>https://forms.gle/1J3ahTNymGJb4s4WA</DescriptionLink></DescriptionText>
+                <DescriptionText><Highlight>Formulario de inscripción: </Highlight><DescriptionLink href="https://forms.gle/1J3ahTNymGJb4s4WA">https://forms.gle/1J3ahTNymGJb4s4WA</DescriptionLink></DescriptionText>
                 <br/>
                 <AlignedDiv>
                     <TableBusquedaTesoro />
@@ -91,7 +91,7 @@ const Actividades = () => {
                 <DescriptionText>Después del evento, tendrá lugar un torneo de League of Legends organizado por el equipo de las Jornadas. El torneo será de un máximo de 32 participantes y seguirá un formato por eliminatorias, en el que el ganador avanzará a la siguiente ronda mientras que el perdedor quedará eliminado. Las partidas se jugarán en el Abismo de los Lamentos y seguirán las normas de uno contra uno: ganará el jugador que logre el primer asesinato, tirar la primera torre o asesinar 100 súbditos.</DescriptionText>
                 <DescriptionText><Highlight>Lugar: </Highlight>La inscripción al torneo se realizará a través de un formulario, pero para participar se deberá recoger la acreditación de manera presencial en el Puesto Central de las JTI, al lado de Conserjería. El torneo se realizará en el Salón de Grados, en la tercera planta de la ESIT.</DescriptionText>
                 <DescriptionText><Highlight>Horario: </Highlight>La inscripción antes o durante el evento y la acreditación se recogerá durante el evento los días 14 y 15 de marzo. El torneo se realizará el viernes 17 de marzo a las 16:00.</DescriptionText>
-                <DescriptionText><Highlight>Formulario de inscripción: </Highlight><DescriptionLink>https://forms.gle/Pd5Anba2S5dntCHFA</DescriptionLink></DescriptionText>
+                <DescriptionText><Highlight>Formulario de inscripción: </Highlight><DescriptionLink href="https://forms.gle/Pd5Anba2S5dntCHFA">https://forms.gle/Pd5Anba2S5dntCHFA</DescriptionLink></DescriptionText>
                 <br/>
                 <AlignedDiv>
                     <TableLeagueOfLegends />
