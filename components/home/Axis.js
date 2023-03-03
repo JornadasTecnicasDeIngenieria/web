@@ -84,7 +84,6 @@ align-items: center;
 
 const SectionTitle = styled.h2`
 color: #3c3c54;
-font-size: 3rem;
 padding-bottom: 2rem;
 font-weight: 700;
 font-family: "Montserrat"
@@ -92,9 +91,8 @@ align-items: center;
 text-align: center;
 ;`
 
-const JustTitle = styled.h3`
+const JustTitle = styled.p`
 color: #3c3c54;
-font-size: 2rem;
 padding: 1rem;
 font-weight: 500;
 font-family: "Montserrat"
@@ -103,7 +101,6 @@ text-align: center;
 ;`
 
 const Circles = styled.h2`
-font-size: 3.5rem;
 padding: 2rem;
 font-weight: 700;
 font-family: "Montserrat"
@@ -111,7 +108,6 @@ font-family: "Montserrat"
 
 const CircleA = styled.span`
 color: #FF645F;
-font-size: 3.5rem;
 padding-right: 2rem;
 font-weight: 700;
 font-family: "Montserrat"
@@ -120,7 +116,6 @@ font-family: "Montserrat"
 
 const CircleB = styled.span`
 color: #633CAE;
-font-size: 3.5rem;
 padding-right: 2rem;
 font-weight: 700;
 font-family: "Montserrat"
@@ -129,8 +124,6 @@ font-family: "Montserrat"
 
 const CircleC = styled.span`
 color: #FFEB83;
-font-size: 3.5rem;
-padding-right: 2rem;
 font-weight: 700;
 font-family: "Montserrat"
 `;

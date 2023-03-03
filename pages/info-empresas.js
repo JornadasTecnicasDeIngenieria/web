@@ -98,13 +98,11 @@ background-color: #3c3c54;`
 
 const Title = styled.h2`
 color: #ffffff;
-font-size: 5rem;
 font-weight: 900;
 text-align: center;`
 
-const Category = styled.h2`
+const Category = styled.h3`
 color: #ffffff;
-font-size: 3rem;
 font-weight: 700;
 font-family: 'Montserrat', sans-serif;`
 
@@ -116,29 +114,24 @@ font-family: 'Montserrat'`
 
 const DescriptionListElement = styled.li`
 color: #ffffff;
-font-size: 1.5rem;
 font-weight: 500;
 font-family: 'Montserrat'`
 
-const Circles = styled.h2`
-font-size: 3.5rem;
+const Circles = styled.h3`
 padding: 2rem;
 font-weight: 700;`;
 
 const CircleY = styled.span`
 color: #FFEB83;
-font-size: 3.5rem;
 font-weight: 700;`;
 
 const CircleO = styled.span`
 color: #FF645F;
-font-size: 3.5rem;
 padding-right: 2rem;
 font-weight: 700;`;
 
 const CircleB = styled.span`
 color: #83DEFF;
-font-size: 3.5rem;
 padding-right: 2rem;
 font-weight: 700;`;
 
@@ -147,5 +140,4 @@ align-items: justify;
 align-text: justify;
 text-justify: inter-word;
 font-family: "Montserrat";
-font-size: 1rem;
 `

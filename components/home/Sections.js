@@ -51,7 +51,6 @@ margin: 1rem;
 
 const SectionTitle = styled.h2`
 color: #fff;
-font-size: 3rem;
 padding: 2rem;
 font-weight: 700;
 font-family: "Montserrat"

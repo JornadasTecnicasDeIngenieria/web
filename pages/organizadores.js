@@ -52,30 +52,30 @@ const Title = styled.h2`
     font-size: 7rem;
     font-weight: 900;`
 
-const Category = styled.h2`
+const Category = styled.h3`
     color: #ffffff;
     font-size: 3rem;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;`
 
-const Circles = styled.h2`
-    font-size: 3.5rem;
+const Circles = styled.h3`
+    font-size: 2rem;
     padding: 2rem;
     font-weight: 700;`;
 
 const CircleY = styled.span`
     color: #FFEB83;
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: 700;`;
 
 const CircleO = styled.span`
     color: #FF645F;
-    font-size: 3.5rem;
+    font-size: 2rem;
     padding-right: 2rem;
     font-weight: 700;`;
 
 const CircleB = styled.span`
     color: #83DEFF;
-    font-size: 3.5rem;
+    font-size: 2rem;
     padding-right: 2rem;
     font-weight: 700;`;
