@@ -14,7 +14,7 @@ export const navLinks = [
     { title: `Actividades`, path: `/actividades` },
     { title: `Organizadores`, path: `/organizadores` },
     { title: `Patrocinadores`, path: `/patrocinadores` },
-    { title: `Info Empresas`, path: `/info_empresas` },
+    { title: `Info Empresas`, path: `/info-empresas` },
     { title: `FAQs`, path: `/faqs` }
 ];
 
