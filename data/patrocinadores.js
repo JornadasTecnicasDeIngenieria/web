@@ -56,6 +56,13 @@ export const patrocinadores = [
         types: 'platino'
     },
     {
+        src: '/images/patrocinadores/catedra_cepsa.png',
+        alt: 'Cátedra Fundación CEPSA de Innovación y Eficiencia Energética',
+        width: 1830,
+        height: 799,
+        types: 'platino'
+    },
+    {
         src: '/images/patrocinadores/coitic.png',
         alt: 'Colegio Profesional de Ingenieros Técnicos en Informática de Canarias',
         width: 370,
@@ -74,6 +81,13 @@ export const patrocinadores = [
         alt: 'Inetel',
         width: 7000,
         height: 4000,
+        types: 'platino'
+    },
+    {
+        src: '/images/patrocinadores/mutua_tinerfena.png',
+        alt: 'Mutua Tinerfeña',
+        width: 1085,
+        height: 250,
         types: 'platino'
     },
     {
