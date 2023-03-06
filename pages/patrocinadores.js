@@ -70,7 +70,7 @@ align-items: center;
 `;
 
 const Section = styled.div`
-background-color: #3c3c54;`
+background-color: #ffffff;`
 
 const ImageDiv = styled.div`
 display: flex;
@@ -82,12 +82,12 @@ overflow: hidden;
 `;
 
 const Title = styled.h2`
-color: #ffffff;
+color: #3c3c54;
 font-size: 7rem;
 font-weight: 900;`
 
 const Category = styled.h2`
-color: #ffffff;
+color: #3c3c54;
 font-size: 3rem;
 font-weight: 700;
 font-family: 'Montserrat', sans-serif;`
