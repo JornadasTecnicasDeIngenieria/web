@@ -22,9 +22,9 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
-            <TableItem>Por determinar</TableItem>
+            <TableItem>Altavoz Portátil</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Por determinar</TableItem>
+            <TableItem>Altavoz Portátil</TableItem>
             <TableItem>1</TableItem>
           </tr>
 
@@ -57,7 +57,7 @@ export const TableSorteoRedesSociales = () => {
           <tr>
             <TableItem>Mando para PC</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Earbuds Xiaomi</TableItem>
+            <TableItem>Cascos Wireless Energy System</TableItem>
             <TableItem>1</TableItem>
           </tr>
         </tbody>
@@ -81,10 +81,10 @@ export const TableVideojuegosArcade = () => {
           </tr>
 
           <tr>
-            <TableItem>Por determinar</TableItem>
+            <TableItem>Mini Recreativa Arcade</TableItem>
             <TableItem>1</TableItem>
-            <TableItem>Por determinar</TableItem>
-            <TableItem>1</TableItem>
+            <TableItem>Lámparas 3D Pac-Man</TableItem>
+            <TableItem>2</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -171,7 +171,7 @@ export const TableLeagueOfLegends = () => {
 
           <tr>
             <TableItem>Primer Puesto</TableItem>
-            <TableItem>Teclado Gaming + 20€ de RP</TableItem>
+            <TableItem>Teclado Razer + 20€ de RP</TableItem>
           </tr>
 
           <tr>
