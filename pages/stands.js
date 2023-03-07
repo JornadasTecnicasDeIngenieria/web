@@ -49,6 +49,10 @@ const Stands = () => {
                   alt="Forma del stand"
                   width={400}
                   height={300}
+                  style= {{
+                    width: "100%",
+                    height: "100%",
+                  }}
                 />
               </ImageDiv>
             </Grid>
@@ -59,6 +63,10 @@ const Stands = () => {
                   alt="Ejemplo del stand"
                   width={400}
                   height={300}
+                  style= {{
+                    width: "100%",
+                    height: "100%",
+                  }}
                 />
               </ImageDiv>
             </Grid>
@@ -69,6 +77,10 @@ const Stands = () => {
                   alt="Stand desde arriba"
                   width={400}
                   height={300}
+                  style= {{
+                    width: "100%",
+                    height: "100%",
+                  }}
                 />
               </ImageDiv>
             </Grid>
@@ -97,6 +109,10 @@ const Stands = () => {
               alt="Plano de los Stands"
               width={1200}
               height={600}
+              style= {{
+                width: "100%",
+                height: "100%",
+              }}
             />
           </ImageDiv>
           <br />
@@ -130,6 +146,9 @@ const ImageDiv = styled.div`
   align-items: center;
   border-radius: 1.5rem;
   overflow: hidden;
+  @media (max-width: 760px) {
+    width: 93vw;
+  }
 `;
 
 const Title = styled.h2`
