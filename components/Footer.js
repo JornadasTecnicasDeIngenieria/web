@@ -17,7 +17,7 @@ const Footer = () => {
       >
         <StyledLink
           sx={{ textDecoration: "none", color: "common.white" }}
-          href="https://www.linkedin.com/company/jtiesit"
+          href="https://www.linkedin.com/in/jti-jornadas-técnicas-de-ingeniería-b78699264/"
           target="_blank"
           rel="noopener noreferrer"
           passhref
