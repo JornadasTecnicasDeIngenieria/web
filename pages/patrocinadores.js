@@ -55,7 +55,7 @@ const Patrocinadores = () => {
                         ) : ""
                     })}
                 </Grid>
-                <br/><br/>
+                <br/><br/> <br /> <br />
             </Container></Section>
         </Layout>
     )

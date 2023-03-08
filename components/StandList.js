@@ -1,28 +1,46 @@
 import styled from "@emotion/styled";
 import { AlignedDiv } from "./StyledComponents";
 
-export const StandList = ({ content }) => {
+export const StandList14 = ({ content }) => {
   return (
     <TableContainer>
-      <AlignedDiv>
       <ScrollableTable>
         <tbody>
         <tr>
           <th></th>
           <TH>Martes 14</TH>
+        </tr>
+        {content.map(d => (
+          <tr key={d.stand+d.d1}>
+            <TD key={d.stand}>{d.stand}</TD>
+            <TDH key={d.d1}>{d.d1}</TDH>
+          </tr>
+        )
+        )}
+        </tbody>
+      </ScrollableTable>
+    </TableContainer>
+  )
+}
+
+export const StandList15 = ({ content }) => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+        <tbody>
+        <tr>
+          <th></th>
           <TH>Miércoles 15</TH>
         </tr>
         {content.map(d => (
-          <tr key={d.stand+d.d1+d.d2}>
+          <tr key={d.stand+d.d2}>
             <TD key={d.stand}>{d.stand}</TD>
-            <TDH key={d.d1}>{d.d1}</TDH>
             <TDH key={d.d2}>{d.d2}</TDH>
           </tr>
         )
         )}
         </tbody>
       </ScrollableTable>
-      </AlignedDiv>
     </TableContainer>
   )
 }

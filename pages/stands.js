@@ -2,7 +2,7 @@ import Layout from "@components/layouts/MainLayout";
 import styled from "@emotion/styled";
 import { Grid, Container } from "@mui/material";
 import Image from "next/image";
-import { StandList } from "@components/StandList";
+import { StandList14, StandList15 } from "@components/StandList";
 import { stands } from "data/stands";
 
 const Stands = () => {
@@ -118,7 +118,16 @@ const Stands = () => {
           <br />
           <br />
           <br />
-          <StandList content={stands} />
+          <AlignedDiv>
+            <StandList14 content={stands} />
+          </AlignedDiv>
+          <br />
+          <br />
+          <br />
+          <br />
+          <AlignedDiv>
+            <StandList15 content={stands} />
+          </AlignedDiv>          
           <br />
           <br />
           <br />
