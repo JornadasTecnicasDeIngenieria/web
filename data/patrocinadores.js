@@ -70,10 +70,10 @@ export const patrocinadores = [
         types: 'platino'
     },
     {
-        src: '/images/patrocinadores/fecam.png',
+        src: '/images/patrocinadores/fecam.svg',
         alt: 'Federación Canaria de Municipios',
-        width: 900,
-        height: 900,
+        width: 1000,
+        height: 1000,
         types: 'platino'
     },
     {
