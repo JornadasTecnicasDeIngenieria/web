@@ -15,9 +15,23 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
+            <TableItem>Cámara Instapix</TableItem>
+            <TableItem>1</TableItem>
+            <TableItem>Silla Gaming</TableItem>
+            <TableItem>1</TableItem>
+          </tr>
+
+          <tr>
             <TableItem>Smartwatch</TableItem>
             <TableItem>1</TableItem>
             <TableItem>Smartwatch</TableItem>
+            <TableItem>1</TableItem>
+          </tr>
+
+          <tr>
+            <TableItem>Mi TV Stick</TableItem>
+            <TableItem>1</TableItem>
+            <TableItem>Mi TV Stick</TableItem>
             <TableItem>1</TableItem>
           </tr>
 
@@ -32,6 +46,13 @@ export const TableSorteoStands = () => {
             <TableItem>Powerbank</TableItem>
             <TableItem>1</TableItem>
             <TableItem>Powerbank</TableItem>
+            <TableItem>1</TableItem>
+          </tr>
+
+          <tr>
+            <TableItem>Alfombrilla</TableItem>
+            <TableItem>1</TableItem>
+            <TableItem>Alfombrilla</TableItem>
             <TableItem>1</TableItem>
           </tr>
         </tbody>
