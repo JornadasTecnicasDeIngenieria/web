@@ -14,6 +14,13 @@ export const patrocinadores = [
         types: 'oro'
     },
     {
+        src: '/images/patrocinadores/catedra_ceoe.png',
+        alt: 'Cátedra CEOE - Tenerife Empresa y Relaciones Laborales',
+        width: 2001,
+        height: 661,
+        types: 'oro'
+    },
+    {
         src: '/images/patrocinadores/catedra_edosoft.png',
         alt: 'Cátedra Edosof',
         width: 428,
@@ -56,10 +63,10 @@ export const patrocinadores = [
         types: 'platino'
     },
     {
-        src: '/images/patrocinadores/catedra_cepsa.png',
-        alt: 'Cátedra Fundación CEPSA de Innovación y Eficiencia Energética',
-        width: 1830,
-        height: 799,
+        src: '/images/patrocinadores/catedra_cepsa.jpg',
+        alt: 'Cátedra Fundación CEPSA',
+        width: 3453,
+        height: 2668,
         types: 'platino'
     },
     {

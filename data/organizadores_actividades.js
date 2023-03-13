@@ -19,11 +19,13 @@ export const organizadores_actividades = [
     },
     {
         name: 'Adrián Lima García',
-        image: '/images/organizadores/placeholder.png',
+        image: '/images/organizadores/adrian_lima.png',
         categories: ['Informática'],
         social: [
-            
-        ]
+            {
+                "tag": "Linkedin",
+                "url": "https://www.linkedin.com/in/adrian-lima-garcia/"
+            }]
     },
     {
         name: 'Valerio Luis Cabrera',
