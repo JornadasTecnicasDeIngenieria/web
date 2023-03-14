@@ -93,8 +93,8 @@ export const patrocinadores = [
     {
         src: '/images/patrocinadores/mutua_tinerfena.png',
         alt: 'Mutua Tinerfeña',
-        width: 1085,
-        height: 250,
+        width: 2526,
+        height: 1786,
         types: 'platino'
     },
     {
