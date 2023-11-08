@@ -52,26 +52,34 @@ const Patrocinadores = () => {
           <br />
           <Grid container spacing={3} justify="flex-end" alignItems="center">
             <Grid item xs={12} sm={12} md={6} lg={6}>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/fGZVMV8mzg8?si=Ubvdyg-yWl_qwGfn"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
+              <AlignedDiv>
+                <RoundedDiv>
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/fGZVMV8mzg8?si=Ubvdyg-yWl_qwGfn"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </RoundedDiv>
+              </AlignedDiv>
             </Grid>
             <Grid item xs={12} sm={12} md={6} lg={6}>
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/s0-tFqK4lGs?si=lSXEVpTpc9r11dDG"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
+              <AlignedDiv>
+                <RoundedDiv>
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/s0-tFqK4lGs?si=lSXEVpTpc9r11dDG"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </RoundedDiv>
+              </AlignedDiv>
             </Grid>
           </Grid>
           <br />
@@ -156,6 +164,13 @@ const AlignedDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+`;
+
+const RoundedDiv = styled.div`
+  border-radius: 20px;
+  overflow: hidden;
+  width: 560px;
+  height: 315px;
 `;
 
 const Section = styled.div`
