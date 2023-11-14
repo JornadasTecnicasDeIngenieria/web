@@ -20,13 +20,13 @@ const Navbar = ({ navLinks }) => {
           <NavbarLink className="nav-link">Actividades</NavbarLink>
         </Link>
         <NavDropdown title="El evento" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="organizadores" passhref>
+          <NavDropdown.Item href="organizadores" passHref>
             Organizadores
           </NavDropdown.Item>
-          <NavDropdown.Item href="patrocinadores" passhref>
+          <NavDropdown.Item href="patrocinadores" passHref>
             Patrocinadores
           </NavDropdown.Item>
-          <NavDropdown.Item href="info-empresas" passhref>
+          <NavDropdown.Item href="info-empresas" passHref>
             Info Empresas
           </NavDropdown.Item>
         </NavDropdown>
