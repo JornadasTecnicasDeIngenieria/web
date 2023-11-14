@@ -87,6 +87,7 @@ const InfoJTI = ({ title, desc }) => {
             </AlignedDiv>
           </Grid>
         </Grid>
+        <br />
         <AlignedDiv>
           <RoundedDiv>
             <iframe
@@ -94,7 +95,6 @@ const InfoJTI = ({ title, desc }) => {
               height="100%"
               src="https://www.youtube.com/embed/-5ElfrMXdfg?si=EWmXehkvBL9D1YP4"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
