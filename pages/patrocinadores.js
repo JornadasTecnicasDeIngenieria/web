@@ -60,7 +60,7 @@ const Patrocinadores = () => {
                     src="https://www.youtube.com/embed/fGZVMV8mzg8?si=Ubvdyg-yWl_qwGfn"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </RoundedDiv>
               </AlignedDiv>
@@ -74,7 +74,7 @@ const Patrocinadores = () => {
                     src="https://www.youtube.com/embed/s0-tFqK4lGs?si=lSXEVpTpc9r11dDG"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </RoundedDiv>
               </AlignedDiv>

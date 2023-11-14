@@ -96,7 +96,7 @@ const InfoJTI = ({ title, desc }) => {
               src="https://www.youtube.com/embed/-5ElfrMXdfg?si=EWmXehkvBL9D1YP4"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </RoundedDiv>
         </AlignedDiv>
