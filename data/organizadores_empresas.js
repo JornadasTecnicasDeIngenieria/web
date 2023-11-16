@@ -1,115 +1,121 @@
-export const organizadores_actividades = [
+export const organizadores_empresas = [
   {
-    name: "Esther Medina Quintero",
+    name: "Jose Ramón Morera Campos",
     image: "/images/organizadores/placeholder.png",
-    categories: ["Coordinadora", "Informática"],
-    social: [],
+    categories: ["Coordinador", "Informática"],
+    social: [
+      /* {
+        tag: "Linkedin",
+        url: "https://es.linkedin.com/in/jos%C3%A9-ram%C3%B3n-morera-a58727254",
+      },
+      {
+        tag: "ContactMail",
+        url: "jrmoreracampos@gmail.com",
+      }, */
+    ],
   },
   {
-    name: "Aitor Castro Darias",
+    name: "Javier Almenara Herrera",
     image: "/images/organizadores/placeholder.png",
     categories: ["Informática"],
     social: [],
   },
   {
-    name: "Samuel	Chinea Arteaga",
+    name: "Stefan Barner-Rasmussen",
     image: "/images/organizadores/placeholder.png",
     categories: ["Mecánica"],
     social: [],
   },
   {
-    name: "Moisés	de los Reyes Ramos",
+    name: "Darío Fajardo Álvarez",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Samuel	Frías Hernández",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Siddhartha	González-Falcón Chugani",
     image: "/images/organizadores/placeholder.png",
     categories: ["Mecánica"],
     social: [],
   },
   {
-    name: "Laura Dorta Marrero",
+    name: "Pablo Domenico	Goya Amato",
     image: "/images/organizadores/placeholder.png",
     categories: ["Informática"],
     social: [],
   },
   {
-    name: "Patricia	García Di Mauro",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Mecánica"],
-    social: [],
-  },
-  {
-    name: "Daniel	Garvi Arvelo",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Informática"],
-    social: [],
-  },
-  {
-    name: "Salvador	González Cueto",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Informática"],
-    social: [],
-  },
-  {
-    name: "Samuel	Martín Morales",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Informática"],
-    social: [],
-  },
-  {
-    name: "Marta Méndez Mendoza",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Química"],
-    social: [],
-  },
-  {
-    name: "Daniel	Molina Chávez",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Mecánica"],
-    social: [],
-  },
-  {
-    name: "Adrián Mora Rodríguez",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Informática"],
-    social: [],
-  },
-  {
-    name: "Pablo Pérez Hernández",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Informática"],
-    social: [],
-  },
-  {
-    name: "Diego Rodríguez Barrera",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Mecánica"],
-    social: [],
-  },
-  {
-    name: "Pablo Rodríguez de la Rosa",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Informática"],
-    social: [],
-  },
-  {
-    name: "Asier Romaguera Tena",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Mecánica"],
-    social: [],
-  },
-  {
-    name: "Juan Aday Siverio González",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Informática"],
-    social: [],
-  },
-  {
-    name: "Andrea	Venazco Rodríguez",
+    name: "Hugo	Hernández Martín",
     image: "/images/organizadores/placeholder.png",
     categories: ["Informática"],
     social: [
       /* {
-        tag: "ContactMail",
-        url: "andrea.venazco.rodriguez@gmail.com",
+        tag: "Instagram",
+        url: "https://www.instagram.com/hugo.hdezz/",
       }, */
     ],
+  },
+  {
+    name: "Santiago	Hernández Quintero",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Mecánica"],
+    social: [],
+  },
+  {
+    name: "Hugo	López Baena",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Mecánica"],
+    social: [],
+  },
+  {
+    name: "Samuel	Lorenzo Sánchez",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [
+      /* {
+        tag: "GitHub",
+        url: "https://github.com/SamLorenzoSanc",
+      },
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/samuel-lorenzo-sanchez-07a67519b/",
+      }, */
+    ],
+  },
+  {
+    name: "Moisés	Morales Martín",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Electrónica"],
+    social: [],
+  },
+  {
+    name: "Alberto Peñas García",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Electrónica"],
+    social: [],
+  },
+  {
+    name: "Alexander Rivas Bermúdez",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Steven	Rodríguez Morales",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Lucciano	Sileo",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
   },
 ];

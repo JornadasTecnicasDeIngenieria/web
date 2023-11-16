@@ -216,7 +216,7 @@ const CircleO = styled.span`
 `;
 
 const CircleB = styled.span`
-  color: #83deff;
+  color: #83ddff;
   font-size: 3.5rem;
   font-weight: 700;
 `;

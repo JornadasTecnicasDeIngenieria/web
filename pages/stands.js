@@ -49,7 +49,7 @@ const Stands = () => {
                   alt="Forma del stand"
                   width={400}
                   height={300}
-                  style= {{
+                  style={{
                     width: "100%",
                     height: "100%",
                   }}
@@ -63,7 +63,7 @@ const Stands = () => {
                   alt="Ejemplo del stand"
                   width={400}
                   height={300}
-                  style= {{
+                  style={{
                     width: "100%",
                     height: "100%",
                   }}
@@ -77,7 +77,7 @@ const Stands = () => {
                   alt="Stand desde arriba"
                   width={400}
                   height={300}
-                  style= {{
+                  style={{
                     width: "100%",
                     height: "100%",
                   }}
@@ -109,7 +109,7 @@ const Stands = () => {
               alt="Plano de los Stands"
               width={1200}
               height={600}
-              style= {{
+              style={{
                 width: "100%",
                 height: "100%",
               }}
@@ -127,7 +127,7 @@ const Stands = () => {
           <br />
           <AlignedDiv>
             <StandList15 content={stands} />
-          </AlignedDiv>          
+          </AlignedDiv>
           <br />
           <br />
           <br />
@@ -196,7 +196,7 @@ const CircleO = styled.span`
 `;
 
 const CircleB = styled.span`
-  color: #83deff;
+  color: #83ddff;
   padding-right: 2rem;
   font-weight: 700;
 `;
