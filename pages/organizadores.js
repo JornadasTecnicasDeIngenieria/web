@@ -1,12 +1,12 @@
 import Cards from "@components/Cards";
 import styled from "@emotion/styled";
-import { Grid, Container } from "@mui/material";
+import { Container } from "@mui/material";
 import Layout from "@components/layouts/MainLayout";
 
-import { organizadores_patrocinio } from "data/organizadores_patrocinio";
-import { organizadores_stands } from "data/organizadores_stands";
+import { organizadores_gestion } from "data/organizadores_gestion";
+import { organizadores_empresas } from "data/organizadores_empresas";
 import { organizadores_actividades } from "data/organizadores_actividades";
-import { organizadores_redes_sociales } from "data/organizadores_redes_sociales";
+import { organizadores_diseno_redes_sociales } from "data/organizadores_diseno_redes_sociales";
 
 const Organizadores = () => {
   return (
@@ -26,11 +26,14 @@ const Organizadores = () => {
             </Hexagons>
           </AlignedDiv>
           <AlignedDiv>
-            <Category>Patrocinio y Gestión Financiera</Category>
+            <Category>Gestión</Category>
           </AlignedDiv>
           <br />
+          <AlignedDiv>
+            <Cards organizadores={organizadores_gestion} />
+          </AlignedDiv>
           <br />
-          <Cards organizadores={organizadores_patrocinio} />
+
           <AlignedDiv>
             <Hexagons>
               <HexagonB>⬢</HexagonB>
@@ -39,11 +42,14 @@ const Organizadores = () => {
             </Hexagons>
           </AlignedDiv>
           <AlignedDiv>
-            <Category>Stands</Category>
+            <Category>Empresas</Category>
           </AlignedDiv>
           <br />
+          <AlignedDiv>
+            <Cards organizadores={organizadores_empresas} />
+          </AlignedDiv>
           <br />
-          <Cards organizadores={organizadores_stands} />
+
           <AlignedDiv>
             <Hexagons>
               <HexagonB>⬢</HexagonB>
@@ -55,8 +61,11 @@ const Organizadores = () => {
             <Category>Actividades</Category>
           </AlignedDiv>
           <br />
+          <AlignedDiv>
+            <Cards organizadores={organizadores_actividades} />
+          </AlignedDiv>
           <br />
-          <Cards organizadores={organizadores_actividades} />
+
           <AlignedDiv>
             <Hexagons>
               <HexagonB>⬢</HexagonB>
@@ -65,11 +74,12 @@ const Organizadores = () => {
             </Hexagons>
           </AlignedDiv>
           <AlignedDiv>
-            <Category>Redes Sociales</Category>
+            <Category>Diseño y Redes Sociales</Category>
           </AlignedDiv>
           <br />
-          <br />
-          <Cards organizadores={organizadores_redes_sociales} />
+          <AlignedDiv>
+            <Cards organizadores={organizadores_diseno_redes_sociales} />
+          </AlignedDiv>
           <br />
           <br />
         </Container>

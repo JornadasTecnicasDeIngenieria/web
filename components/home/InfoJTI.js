@@ -169,7 +169,7 @@ const Hexagons = styled.h2`
 `;
 
 const HexagonA = styled.span`
-  color: #83deff;
+  color: #83ddff;
   padding-right: 2rem;
   font-weight: 700;
   font-family: "Montserrat";

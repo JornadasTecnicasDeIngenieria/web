@@ -361,7 +361,7 @@ const HexagonO = styled.span`
 `;
 
 const HexagonB = styled.span`
-  color: #83deff;
+  color: #83ddff;
   :3.5rem ;
   padding-right: 2rem;
   font-weight: 700;
