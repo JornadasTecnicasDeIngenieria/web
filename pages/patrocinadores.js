@@ -207,16 +207,19 @@ const HexagonY = styled.span`
   color: #ffeb83;
   font-size: 3.5rem;
   font-weight: 700;
+  font-size: 100%;
 `;
 
 const HexagonO = styled.span`
   color: #ff645f;
   font-size: 3.5rem;
   font-weight: 700;
+  font-size: 100%;
 `;
 
 const HexagonB = styled.span`
   color: #83deff;
   font-size: 3.5rem;
   font-weight: 700;
+  font-size: 100%;
 `;
