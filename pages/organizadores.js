@@ -18,13 +18,12 @@ const Organizadores = () => {
           <AlignedDiv>
             <Title>Organizadores</Title>
           </AlignedDiv>
-
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <AlignedDiv>
             <Category>Gestión</Category>
@@ -36,11 +35,11 @@ const Organizadores = () => {
           <br />
 
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <AlignedDiv>
             <Category>Empresas</Category>
@@ -52,11 +51,11 @@ const Organizadores = () => {
           <br />
 
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <AlignedDiv>
             <Category>Actividades</Category>
@@ -68,11 +67,11 @@ const Organizadores = () => {
           <br />
 
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <AlignedDiv>
             <Category>Diseño y Redes Sociales</Category>
@@ -114,28 +113,31 @@ const Category = styled.h3`
   font-family: "Montserrat", sans-serif;
 `;
 
-const Circles = styled.h3`
+const Hexagons = styled.h3`
   font-size: 2rem;
   padding: 2rem;
   font-weight: 700;
 `;
 
-const CircleY = styled.span`
+const HexagonY = styled.span`
   color: #ffeb83;
   font-size: 2rem;
   font-weight: 700;
+  font-size: 130%;
 `;
 
-const CircleO = styled.span`
+const HexagonO = styled.span`
   color: #ff645f;
   font-size: 2rem;
   padding-right: 2rem;
   font-weight: 700;
+  font-size: 130%;
 `;
 
-const CircleB = styled.span`
-  color: #83ddff;
+const HexagonB = styled.span`
+  color: #83deff;
   font-size: 2rem;
   padding-right: 2rem;
   font-weight: 700;
+  font-size: 130%;
 `;
