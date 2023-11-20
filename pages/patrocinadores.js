@@ -218,7 +218,7 @@ const HexagonO = styled.span`
 `;
 
 const HexagonB = styled.span`
-  color: #83deff;
+  color: #83ddff;
   font-size: 3.5rem;
   font-weight: 700;
   font-size: 100%;
