@@ -13,11 +13,11 @@ const FAQs = () => {
             <Title>Preguntas Frecuentes</Title>
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <DescriptionText>
             <Highlight>
@@ -150,11 +150,11 @@ const FAQs = () => {
             jtiesit@ull.edu.es para cualquier duda que te pueda surgir.
           </DescriptionText>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <br />
         </Container>
@@ -207,24 +207,27 @@ const Highlight = styled.span`
   font-family: "Montserrat";
 `;
 
-const Circles = styled.h3`
+const Hexagons = styled.h3`
   padding: 2rem;
   font-weight: 700;
 `;
 
-const CircleY = styled.span`
+const HexagonY = styled.span`
   color: #ffeb83;
   font-weight: 700;
+  font-size: 130%;
 `;
 
-const CircleO = styled.span`
+const HexagonO = styled.span`
   color: #ff645f;
   padding-right: 2rem;
   font-weight: 700;
+  font-size: 130%;
 `;
 
-const CircleB = styled.span`
+const HexagonB = styled.span`
   color: #83ddff;
   padding-right: 2rem;
   font-weight: 700;
+  font-size: 130%;
 `;

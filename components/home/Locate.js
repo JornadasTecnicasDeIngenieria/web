@@ -6,11 +6,11 @@ const Locate = () => {
     <IntroDiv>
       <Container>
         <AlignedDiv>
-          <Circles>
-            <CircleA>⬤</CircleA>
-            <CircleB>⬤</CircleB>
-            <CircleC>⬤</CircleC>
-          </Circles>
+          <Hexagons>
+            <HexagonA>⬢</HexagonA>
+            <HexagonB>⬢</HexagonB>
+            <HexagonC>⬢</HexagonC>
+          </Hexagons>
         </AlignedDiv>
 
         <AlignedDiv>
@@ -83,27 +83,27 @@ align-items: center;
 text-align: center;
 ;`;
 
-const Circles = styled.h2`
+const Hexagons = styled.h2`
   padding: 2rem;
   font-weight: 700;
   font-family: "Montserrat";
 `;
 
-const CircleA = styled.span`
+const HexagonA = styled.span`
   color: #83ddff;
   padding-right: 2rem;
   font-weight: 700;
   font-family: "Montserrat";
 `;
 
-const CircleB = styled.span`
+const HexagonB = styled.span`
   color: #ff645f;
   padding-right: 2rem;
   font-weight: 700;
   font-family: "Montserrat";
 `;
 
-const CircleC = styled.span`
+const HexagonC = styled.span`
   color: #ffeb83;
   font-weight: 700;
   font-family: "Montserrat";
