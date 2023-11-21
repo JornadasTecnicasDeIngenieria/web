@@ -12,13 +12,13 @@ export const organizadores_gestion = [
   },
   {
     name: "Iván García González",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/ivan_garcia.png",
     categories: ["Informática"],
     social: [
-      /* {
+      {
         tag: "Linkedin",
         url: "https://www.linkedin.com/in/ivangg",
-      }, */
+      },
     ],
   },
   {
