@@ -16,11 +16,11 @@ const Stands = () => {
             <Title>Stands</Title>
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <DescriptionText>
             Los Stands son el núcleo del evento. En estos puestos, las empresas
@@ -91,11 +91,11 @@ const Stands = () => {
       <Section>
         <Container>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <br />
           <AlignedDiv>
@@ -179,24 +179,27 @@ const DescriptionText = styled.p`
   font-family: "Montserrat";
 `;
 
-const Circles = styled.h3`
+const Hexagons = styled.h3`
   padding: 2rem;
   font-weight: 700;
 `;
 
-const CircleY = styled.span`
+const HexagonY = styled.span`
   color: #ffeb83;
   font-weight: 700;
+  font-size: 130%;
 `;
 
-const CircleO = styled.span`
+const HexagonO = styled.span`
   color: #ff645f;
   padding-right: 2rem;
   font-weight: 700;
+  font-size: 130%;
 `;
 
-const CircleB = styled.span`
+const HexagonB = styled.span`
   color: #83ddff;
   padding-right: 2rem;
   font-weight: 700;
+  font-size: 130%;
 `;

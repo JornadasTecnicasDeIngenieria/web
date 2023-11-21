@@ -16,11 +16,11 @@ const Patrocinadores = () => {
             <Title>Patrocinadores</Title>
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤&nbsp;&nbsp;</CircleB>
-              <CircleB>⬤&nbsp;&nbsp;</CircleB>
-              <CircleB>⬤</CircleB>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢&nbsp;&nbsp;</HexagonB>
+              <HexagonB>⬢&nbsp;&nbsp;</HexagonB>
+              <HexagonB>⬢</HexagonB>
+            </Hexagons>
           </AlignedDiv>
           <AlignedDiv>
             <Category>DIAMANTE</Category>
@@ -84,11 +84,11 @@ const Patrocinadores = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Circles>
-              <CircleO>⬤&nbsp;&nbsp;</CircleO>
-              <CircleO>⬤&nbsp;&nbsp;</CircleO>
-              <CircleO>⬤</CircleO>
-            </Circles>
+            <Hexagons>
+              <HexagonO>⬢&nbsp;&nbsp;</HexagonO>
+              <HexagonO>⬢&nbsp;&nbsp;</HexagonO>
+              <HexagonO>⬢</HexagonO>
+            </Hexagons>
           </AlignedDiv>
           <AlignedDiv>
             <Category>PLATINO</Category>
@@ -118,11 +118,11 @@ const Patrocinadores = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Circles>
-              <CircleY>⬤&nbsp;&nbsp;</CircleY>
-              <CircleY>⬤&nbsp;&nbsp;</CircleY>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonY>⬢&nbsp;&nbsp;</HexagonY>
+              <HexagonY>⬢&nbsp;&nbsp;</HexagonY>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <AlignedDiv>
             <Category>ORO</Category>
@@ -197,26 +197,29 @@ const Category = styled.h2`
   font-family: "Montserrat", sans-serif;
 `;
 
-const Circles = styled.h2`
+const Hexagons = styled.h2`
   font-size: 3.5rem;
   padding: 2rem;
   font-weight: 700;
 `;
 
-const CircleY = styled.span`
+const HexagonY = styled.span`
   color: #ffeb83;
   font-size: 3.5rem;
   font-weight: 700;
+  font-size: 100%;
 `;
 
-const CircleO = styled.span`
+const HexagonO = styled.span`
   color: #ff645f;
   font-size: 3.5rem;
   font-weight: 700;
+  font-size: 100%;
 `;
 
-const CircleB = styled.span`
+const HexagonB = styled.span`
   color: #83ddff;
   font-size: 3.5rem;
   font-weight: 700;
+  font-size: 100%;
 `;
