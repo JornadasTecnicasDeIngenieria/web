@@ -8,6 +8,10 @@ export const organizadores_gestion = [
         tag: "Linkedin",
         url: "https://www.linkedin.com/in/daniel-jorge-acosta-informatica/",
       },
+      {
+        tag: "ContactMail",
+        url: "danijoraco@gmail.com",
+      },
     ],
   },
   {
@@ -23,7 +27,7 @@ export const organizadores_gestion = [
   },
   {
     name: "Saúl Martín García",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/saul_martin.png",
     categories: ["Informática"],
     social: [],
   },
