@@ -61,7 +61,7 @@ const TD = styled.td`
   background: #7454ae;
   color: white;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 `;
 
 const TDH = styled.td`
@@ -71,7 +71,7 @@ const TDH = styled.td`
   border: 5px solid #3c3c54;
   background-color: #ffeb83;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #3c3c54;
 `;
 
