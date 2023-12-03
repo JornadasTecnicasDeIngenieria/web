@@ -126,9 +126,14 @@ export const organizadores_actividades = [
   },
   {
     name: "Pablo Rodríguez de la Rosa",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/pablo_rodriguez.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/pablo_rguezdlr",
+      },
+    ],
   },
   {
     name: "Asier Romaguera Tena",
