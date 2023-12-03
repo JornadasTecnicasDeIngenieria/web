@@ -154,6 +154,8 @@ const ImageDiv = styled.div`
   @media (max-width: 760px) {
     width: 93vw;
   }
+  height: 90%;
+  width: 100%;
 `;
 
 const Title = styled.h2`
