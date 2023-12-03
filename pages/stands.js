@@ -36,8 +36,8 @@ const Stands = () => {
             departamentos de la empresa o sus programas de prácticas. Aquellas
             empresas centradas en el desarrollo podrán traer productos, para que
             los visitantes los descubran. También podrán contar con vídeos donde
-            muestren sus proyectos más innovadores, por ejemplo. Cualquier
-            iniciativa con fines formativos o de interés es bienvenida.
+            muestren sus proyectos más innovadores. Cualquier iniciativa con
+            fines formativos o de interés es bienvenida.
           </DescriptionText>
           <br />
           <br />

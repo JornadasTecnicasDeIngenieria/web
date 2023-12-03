@@ -37,10 +37,10 @@ const Info = () => {
             <br />
             <Category>Fechas y ubicación</Category>
             <DescriptionText>
-              Las Jornadas Técnicas de Ingeniería tendrán lugar los días 14 y 15
-              de marzo de 2023 en la Escuela Superior de Ingeniería y Tecnología
-              (ESIT) de la Universidad de La Laguna (ULL), Tenerife, Islas
-              Canarias.
+              Las Jornadas Técnicas de Ingeniería 2024 tendrán lugar los días 6
+              y 7 de febrero de 20224 en la Escuela Superior de Ingeniería y
+              Tecnología (ESIT) de la Universidad de La Laguna (ULL), Tenerife,
+              Islas Canarias.
             </DescriptionText>
             <br />
             <Category>Organización</Category>
@@ -75,20 +75,34 @@ const Info = () => {
             </ul>
             <br />
             <Category>Stands</Category>
+            <ul>
+              <DescriptionListElement>
+                Este año implantaremos realizaremos ponencias.
+              </DescriptionListElement>
+              <DescriptionListElement>
+                Estas serán de caracter general referidas al ámbito laboral o de
+                los sectores.
+              </DescriptionListElement>
+              <DescriptionListElement>
+                Durarán 15 minutos.
+              </DescriptionListElement>
+            </ul>
+            <br />
+            <Category>Ponencias</Category>
             <DescriptionText>
               La información más importante respecto a los stands es:
             </DescriptionText>
             <ul>
               <DescriptionListElement>
                 Pueden encontrar los planos con la ubicación de los stands en la
-                página Stands.{" "}
+                página Stands.
               </DescriptionListElement>
               <DescriptionListElement>
                 Antes de ocupar un Stand deberán acudir al Puesto Central de
                 Información para recoger sus acreditaciones.
               </DescriptionListElement>
               <DescriptionListElement>
-                La Universidad desplegará una red wifi para el evento.
+                La Universidad desplegará una red WiFi para el evento.
               </DescriptionListElement>
               <DescriptionListElement>
                 Dispondremos de un catering durante media mañana ambos días del
@@ -105,7 +119,7 @@ const Info = () => {
                 las 14:00, ya que finalizan las clases del turno de mañana, y
                 comienzan las de tarde, por lo que coinciden ambos grupos. Les
                 recomendamos por lo tanto que estén en el stand durante esas
-                horas.{" "}
+                horas.
               </DescriptionListElement>
               <DescriptionListElement>
                 Lo ideal en este espacio es dar a conocer la empresa, así como
@@ -130,8 +144,8 @@ const Info = () => {
                 formativos o de interés es bienvenida.
               </DescriptionListElement>
               <DescriptionListElement>
-                El horario será de 10:30 a 18:30. Podrán acudir a preparar los
-                stands desde las 10:00 si les es posible.{" "}
+                El horario será de 10:30 a 18:00. Podrán acudir a preparar los
+                stands desde las 10:00 si les es posible.
               </DescriptionListElement>
             </ul>
             <br />
@@ -140,18 +154,19 @@ const Info = () => {
               Otro de los múltiples objetivos de las Jornadas Técnicas de
               Ingeniería es la unión entre estudiantes, para ello proponemos
               llevar a cabo una serie de dinámicas que favorezcan la integración
-              de todos los universitarios de los grados de ingeniería de la
-              ESIT.
+              de los estudiantes de los grados de ingeniería de la ESIT. Además,
+              estas actividades buscarán hacer el evento más atractivo y
+              aumentar la asistencia y participación.
             </DescriptionText>
             <DescriptionText>
               El concurso del Mejor Stand que se llevará acabo ambos días del
               evento tiene como objetivo premiar el esfuerzo y favorecer una
               competitividad sana por parte de las empresas para ganar el
               interés de los asistentes. Cada día, los asistentes podrán votar a
-              su stand favorito o el que más le ha gustado. A las 17:30 se hará
-              un recuento de los votos, tras lo que se anunciará el stand
-              ganador que será premiado con un diploma y una publicación
-              especial en las redes sociales del evento.
+              su stand favorito y a las 18:00 se hará un recuento de los votos,
+              tras el que se anunciará el stand ganador. La entidad ganadora
+              será premiada con un diploma y una publicación especial en las
+              redes sociales del evento.
             </DescriptionText>
             <br />
             <Category>
@@ -162,32 +177,36 @@ const Info = () => {
               siguientes empresas y entidades entre muchas otras:
             </DescriptionText>
             <ul>
-              <DescriptionListElement>The Agile Monkeys</DescriptionListElement>
-              <DescriptionListElement>AcidTango</DescriptionListElement>
-              <DescriptionListElement>Open Canarias</DescriptionListElement>
-              <DescriptionListElement>Fonteide</DescriptionListElement>
-              <DescriptionListElement>FECAM</DescriptionListElement>
-              <DescriptionListElement>Mutua Tinerfeña</DescriptionListElement>
-              <DescriptionListElement>Leanmind</DescriptionListElement>
-              <DescriptionListElement>FIFEDE</DescriptionListElement>
+              <DescriptionListElement>Secret Source</DescriptionListElement>
+              <DescriptionListElement>TAGUA</DescriptionListElement>
+              <DescriptionListElement>
+                Atlantis Technology
+              </DescriptionListElement>
               <DescriptionListElement>
                 Cabildo de Tenerife
               </DescriptionListElement>
+              <DescriptionListElement>FECAM</DescriptionListElement>
+              <DescriptionListElement>Inetel</DescriptionListElement>
+              <DescriptionListElement>Mutua Tinerfeña</DescriptionListElement>
+              <DescriptionListElement>Open Canarias</DescriptionListElement>
+              <DescriptionListElement>TecAlliance</DescriptionListElement>
+              <DescriptionListElement>Terclima</DescriptionListElement>
               <DescriptionListElement>COITIC</DescriptionListElement>
               <DescriptionListElement>COITITF</DescriptionListElement>
-              <DescriptionListElement>Expero</DescriptionListElement>
+              <DescriptionListElement>EVM</DescriptionListElement>
+              <DescriptionListElement>Intelequia</DescriptionListElement>
+              <DescriptionListElement>Leanmind</DescriptionListElement>
               <DescriptionListElement>
                 Instituto Astrofísico de Canarias
               </DescriptionListElement>
-              <DescriptionListElement>Binter</DescriptionListElement>
             </ul>
             <br />
             <Category>Agradecimientos</Category>
             <DescriptionText>
               Desde el equipo organizador de las Jornadas Técnicas de Ingeniería
-              2023 agradecemos a todas aquellas entidades y empresas que
+              2024 agradecemos a todas aquellas entidades y empresas que
               colaboran, participan y/o aportan al evento apostando por el
-              talento joven, profesional y cualificado.
+              talento joven.
             </DescriptionText>
             <AlignedDiv>
               <Hexagons>
