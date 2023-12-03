@@ -31,27 +31,18 @@ const FAQs = () => {
             para conocer la realidad del mundo laboral gracias a los stands de
             las empresas que acuden al evento, por lo que resultan especialmente
             interesantes para los estudiantes de ingenierías y ciclos de
-            informática o industriales. Además, cuentan con muchas actividades y
-            premios. ¡No te las puedes perder!
+            informática o industriales. Además, cuentan con una gran cantidad de
+            actividades y sorteos. ¡No te las puedes perder!
           </DescriptionText>
           <br />
           <br />
           <DescriptionText>
-            <Highlight>2. ¿Serán online o presenciales?</Highlight>
-          </DescriptionText>
-          <DescriptionText>
-            Cómo sucedió el año pasado, las JTI 2023 serán totalmente
-            presenciales y contarán con los stands de las empresas físicamente.
-          </DescriptionText>
-          <br />
-          <br />
-          <DescriptionText>
-            <Highlight>3. ¿Dónde tendrán lugar?</Highlight>
+            <Highlight>2. ¿Dónde tendrán lugar?</Highlight>
           </DescriptionText>
           <DescriptionText>
             Tendrán lugar en la Escuela Superior de Ingeniería y Tecnología de
             la ULL. El evento se desarrollará en la planta baja del edificio,
-            donde habrán varios puestos de información. el plano del evento se
+            donde habrán varios puestos de información. El plano de situación se
             puede encontrar en la sección Stands.
           </DescriptionText>
           <br />
@@ -70,26 +61,27 @@ const FAQs = () => {
           <br />
           <br />
           <DescriptionText>
-            <Highlight>4. ¿Cuándo serán?</Highlight>
+            <Highlight>3. ¿Cuándo serán?</Highlight>
           </DescriptionText>
           <DescriptionText>
-            La edición JTI 2023 se celebrará el martes 14 y el miércoles 15 de
-            marzo de 2023. ¡Apúntalos en tu calendario!
+            Las JTI 2024 se celebrarán el martes 6 y el miércoles 7 de febrero
+            de 2024. ¡Apúntalos en tu calendario!
           </DescriptionText>
           <br />
           <br />
           <DescriptionText>
-            <Highlight>5. ¿Necesito comprar entrada?</Highlight>
+            <Highlight>4. ¿Necesito comprar entrada?</Highlight>
           </DescriptionText>
           <DescriptionText>
             Las Jornadas Técnicas de Ingeniería son un evento gratuito y de
-            libre acceso, por lo que cualquier persona puede asistir al evento,
-            incluidas aquellas ajenas a la Universidad.
+            libre acceso, por lo que cualquier persona puede asistir al evento
+            sin realizar ningún tipo de pago o reserva, incluidas aquellas
+            ajenas a la Universidad.
           </DescriptionText>
           <br />
           <br />
           <DescriptionText>
-            <Highlight>6. ¿Qué ingenierías participan?</Highlight>
+            <Highlight>5. ¿Qué ingenierías participan?</Highlight>
           </DescriptionText>
           <DescriptionText>
             Las Jornadas Técnicas de Ingeniería se organizan en torno a los
@@ -100,7 +92,7 @@ const FAQs = () => {
           <br />
           <br />
           <DescriptionText>
-            <Highlight>7. ¿Quiénes pueden asistir?</Highlight>
+            <Highlight>6. ¿Quiénes pueden asistir?</Highlight>
           </DescriptionText>
           <DescriptionText>
             Aunque estén destinadas principalmente al alumnado de las distintas
@@ -111,7 +103,7 @@ const FAQs = () => {
           <br />
           <br />
           <DescriptionText>
-            <Highlight>8. ¿Qué son los stands?</Highlight>
+            <Highlight>7. ¿Qué son los stands?</Highlight>
           </DescriptionText>
           <DescriptionText>
             Son espacios físicos en los que las empresas muestran información
@@ -124,30 +116,30 @@ const FAQs = () => {
           <br />
           <DescriptionText>
             <Highlight>
-              9. ¿Desde cuándo se han celebrado ls jornadas?
+              8. ¿Desde cuándo se han celebrado las jornadas?
             </Highlight>
           </DescriptionText>
           <DescriptionText>
             Las Jornadas Técnicas de Ingeniería llevan celebrándose desde el año
             2019. A causa del coronavirus, la edición 2020 no se pudo celebrar y
-            la 2021 fue completamente online. El año 2022 se logró que las JTI
-            volvieran a ser presenciales y fueron todo un éxito. ¡Qué esperamos
-            que se repita en esta cuarta edición 2023!
+            la 2021 fue completamente online, pero estos últimos dos años las
+            JTI han vuelto a ser presenciales y han sido todo un éxito. ¡Qué
+            esperamos que se repita en esta quinta edición 2024!
           </DescriptionText>
           <br />
           <br />
           <DescriptionText>
             <Highlight>
-              10. ¿Cómo puedo hacer llegar mis sugerencias y dudas?
+              9. ¿Cómo puedo hacer llegar mis sugerencias y dudas?
             </Highlight>
           </DescriptionText>
           <DescriptionText>
-            Nos puedes hacer llegar tus sugerencias a través de{" "}
-            <DescriptionLink href="https://forms.gle/xXHuS8m2xrrz2vat8">
+            Nos puedes hacer llegar tus sugerencias a través de
+            <DescriptionLink href="https://forms.gle/cBFsf6p3rYp2p9Dk7">
               este formulario
-            </DescriptionLink>{" "}
+            </DescriptionLink>
             y estamos disponibles en nuestras redes sociales y nuestro correo
-            jtiesit@ull.edu.es para cualquier duda que te pueda surgir.
+            jtiesit@ull.edu.es para cualquier duda o consulta.
           </DescriptionText>
           <AlignedDiv>
             <Hexagons>
