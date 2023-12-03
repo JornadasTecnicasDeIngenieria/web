@@ -119,14 +119,10 @@ const Stands = () => {
           <br />
           <br />
           <AlignedDiv>
-            <StandList14 content={stands} />
-          </AlignedDiv>
-          <br />
-          <br />
-          <br />
-          <br />
-          <AlignedDiv>
-            <StandList15 content={stands} />
+            <StandsListGrid>
+              <StandList14 content={stands} />
+              <StandList15 content={stands} />
+            </StandsListGrid>
           </AlignedDiv>
           <br />
           <br />
@@ -202,4 +198,13 @@ const HexagonB = styled.span`
   padding-right: 2rem;
   font-weight: 700;
   font-size: 130%;
+`;
+
+const StandsListGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  @media (max-width: 600px) {
+    display: block;
+  }
 `;
