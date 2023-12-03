@@ -7,9 +7,9 @@ const Privacidad = () => {
     <Layout>
       <CustomContainer>
         <div>
-          <Ull>
-            <Image src="/images/ull.jpg" alt="Ull" width={240} height={140} />
-          </Ull>
+          <ULL>
+            <Image src="/images/ull.jpg" alt="ULL" width={240} height={140} />
+          </ULL>
           <MainH1>Política de privacidad</MainH1>
           <Section>
             <SectionHeader>
@@ -215,15 +215,15 @@ const MainH1 = styled.h1`
   font-weight: 900;
 `;
 
-const Ull = styled.div`
+const ULL = styled.div`
   padding: 0.5rem;
   text-align: right;
   align-items: right;
   justify-content: right;
 `;
 
-const SectionHeader = styled.h2`
-  font-size: 1.5rem;
+const SectionHeader = styled.h3`
+  font-size: 1rem;
   font-weight: 600;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
