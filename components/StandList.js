@@ -1,14 +1,14 @@
 import styled from "@emotion/styled";
 import { AlignedDiv } from "./StyledComponents";
 
-export const StandList14 = ({ content }) => {
+export const FirstDayStandList = ({ content }) => {
   return (
     <TableContainer>
       <ScrollableTable>
         <tbody>
           <tr>
             <th></th>
-            <TH>Martes 14</TH>
+            <TH>Martes 6 de febrero</TH>
           </tr>
           {content.map((d) => (
             <tr key={d.stand + d.d1}>
@@ -22,14 +22,14 @@ export const StandList14 = ({ content }) => {
   );
 };
 
-export const StandList15 = ({ content }) => {
+export const SecondDayStandList = ({ content }) => {
   return (
     <TableContainer>
       <ScrollableTable>
         <tbody>
           <tr>
             <THForSmallScreens></THForSmallScreens>
-            <TH>Miércoles 15</TH>
+            <TH>Miércoles 7 de febrero</TH>
           </tr>
           {content.map((d) => (
             <tr key={d.stand + d.d2}>
