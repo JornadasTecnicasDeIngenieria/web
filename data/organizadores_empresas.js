@@ -147,9 +147,14 @@ export const organizadores_empresas = [
   },
   {
     name: "Alberto Peñas García",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/alberto_penas.png",
     categories: ["Electrónica"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/alberto-garcía-5539551a5/",
+      },
+    ],
   },
   {
     name: "Alexander Rivas Bermúdez",

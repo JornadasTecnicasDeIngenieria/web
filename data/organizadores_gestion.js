@@ -21,7 +21,7 @@ export const organizadores_gestion = [
     social: [
       {
         tag: "Linkedin",
-        url: "https://www.linkedin.com/in/ivangg",
+        url: "https://www.linkedin.com/in/ivangg/",
       },
     ],
   },
@@ -33,6 +33,10 @@ export const organizadores_gestion = [
       {
         tag: "ContactMail",
         url: "saulmargar2@gmail.com",
+      },
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/saúl-martín-garcía-686632246/",
       },
     ],
   },
