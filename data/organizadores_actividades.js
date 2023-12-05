@@ -36,9 +36,18 @@ export const organizadores_actividades = [
   },
   {
     name: "Moisés	de los Reyes Ramos",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/moises_de_los_reyes.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "moisesenero2005@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/moidelosreyess",
+      },
+    ],
   },
   {
     name: "Laura Dorta Marrero",
@@ -88,9 +97,18 @@ export const organizadores_actividades = [
   },
   {
     name: "Daniel	Molina Chávez",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/daniel_molina.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "mmolbrin@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/daniel.molinaa__",
+      },
+    ],
   },
   {
     name: "Adrián Mora Rodríguez",
