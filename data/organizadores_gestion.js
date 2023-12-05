@@ -29,6 +29,11 @@ export const organizadores_gestion = [
     name: "Saúl Martín García",
     image: "/images/organizadores/saul_martin.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "saulmargar2@gmail.com",
+      },
+    ],
   },
 ];
