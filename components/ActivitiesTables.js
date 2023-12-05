@@ -1,5 +1,29 @@
 import styled from "@emotion/styled";
 
+export const TableSorteoLogros = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+        <tbody>
+          <tr>
+            <TableTitle colSpan={4}>Premios del Sorteo por Logros</TableTitle>
+          </tr>
+
+          <tr>
+            <TableHeader colSpan={2}>6 de febrero</TableHeader>
+            <TableHeader colSpan={2}>7 de febrero</TableHeader>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={2}>Por determinar</TableItem>
+          </tr>
+        </tbody>
+      </ScrollableTable>
+    </TableContainer>
+  );
+};
+
 export const TableSorteoStands = () => {
   return (
     <TableContainer>
@@ -10,56 +34,19 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
-            <TableHeader colSpan={2}>14 de marzo</TableHeader>
-            <TableHeader colSpan={2}>15 de marzo</TableHeader>
+            <TableHeader colSpan={2}>6 de febrero</TableHeader>
+            <TableHeader colSpan={2}>7 de febrero</TableHeader>
           </tr>
 
           <tr>
-            <TableItem>Cámara Instapix</TableItem>
-            <TableItem>1</TableItem>
-            <TableItem>Silla Gaming</TableItem>
-            <TableItem>1</TableItem>
-          </tr>
-
-          <tr>
-            <TableItem>Smartwatch</TableItem>
-            <TableItem>1</TableItem>
-            <TableItem>Smartwatch</TableItem>
-            <TableItem>1</TableItem>
-          </tr>
-
-          <tr>
-            <TableItem>Mi TV Stick</TableItem>
-            <TableItem>1</TableItem>
-            <TableItem>Mi TV Stick</TableItem>
-            <TableItem>1</TableItem>
-          </tr>
-
-          <tr>
-            <TableItem>Altavoz Portátil</TableItem>
-            <TableItem>1</TableItem>
-            <TableItem>Altavoz Portátil</TableItem>
-            <TableItem>1</TableItem>
-          </tr>
-
-          <tr>
-            <TableItem>Powerbank</TableItem>
-            <TableItem>1</TableItem>
-            <TableItem>Powerbank</TableItem>
-            <TableItem>1</TableItem>
-          </tr>
-
-          <tr>
-            <TableItem>Alfombrilla</TableItem>
-            <TableItem>1</TableItem>
-            <TableItem>Alfombrilla</TableItem>
-            <TableItem>1</TableItem>
+            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={2}>Por determinar</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
-    </TableContainer >
-  )
-}
+    </TableContainer>
+  );
+};
 
 export const TableSorteoRedesSociales = () => {
   return (
@@ -67,7 +54,9 @@ export const TableSorteoRedesSociales = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TableTitle colSpan={4}>Premios del Sorteo por Redes Sociales</TableTitle>
+            <TableTitle colSpan={4}>
+              Premios del Sorteo por Redes Sociales
+            </TableTitle>
           </tr>
 
           <tr>
@@ -76,42 +65,34 @@ export const TableSorteoRedesSociales = () => {
           </tr>
 
           <tr>
-            <TableItem>Mando para PC</TableItem>
-            <TableItem>1</TableItem>
-            <TableItem>Cascos Wireless Energy System</TableItem>
-            <TableItem>1</TableItem>
+            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={2}>Por determinar</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
-    </TableContainer >
-  )
-}
+    </TableContainer>
+  );
+};
 
-export const TableVideojuegosArcade = () => {
+export const TableCompeticionArcade = () => {
   return (
     <TableContainer>
       <ScrollableTable>
         <tbody>
           <tr>
-            <TableTitle colSpan={4}>Premios de la Competición de Videojuegos Arcade</TableTitle>
+            <TableTitle colSpan={4}>
+              Premios de la Competición Arcade
+            </TableTitle>
           </tr>
 
           <tr>
-            <TableHeader colSpan={2}>14 de marzo: Tetris Classic</TableHeader>
-            <TableHeader colSpan={2}>15 de marzo: Pac-man</TableHeader>
-          </tr>
-
-          <tr>
-            <TableItem>Mini Recreativa Arcade</TableItem>
-            <TableItem>1</TableItem>
-            <TableItem>Lámparas 3D Pac-Man</TableItem>
-            <TableItem>2</TableItem>
+            <TableItem colSpan={4}>Por determinar</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
-    </TableContainer >
-  )
-}
+    </TableContainer>
+  );
+};
 
 export const TableTrivial = () => {
   return (
@@ -119,25 +100,23 @@ export const TableTrivial = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TableTitle colSpan={4}>Premios del Trivial</TableTitle>
+            <TableTitle colSpan={4}>Premios de los Trivials</TableTitle>
           </tr>
 
           <tr>
-            <TableHeader colSpan={2}>14 de marzo</TableHeader>
-            <TableHeader colSpan={2}>15 de marzo</TableHeader>
+            <TableHeader colSpan={2}>6 de febrero</TableHeader>
+            <TableHeader colSpan={2}>7 de febrero</TableHeader>
           </tr>
 
           <tr>
-            <TableItem>Earbuds Xiaomi</TableItem>
-            <TableItem>1</TableItem>
-            <TableItem>Earbuds Xiaomi</TableItem>
-            <TableItem>1</TableItem>
+            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={2}>Por determinar</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
     </TableContainer>
-  )
-}
+  );
+};
 
 export const TableBusquedaTesoro = () => {
   return (
@@ -145,18 +124,37 @@ export const TableBusquedaTesoro = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TableTitle colSpan={2}>Premios de la Búsqueda del Tesoro</TableTitle>
+            <TableTitle colSpan={2}>
+              Premios de la Búsqueda del Tesoro
+            </TableTitle>
           </tr>
 
           <tr>
-            <TableItem>Juegos de Mesa Variados</TableItem>
-            <TableItem>4</TableItem>
+            <TableItem colSpan={2}>Por determinar</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
-    </TableContainer >
-  )
-}
+    </TableContainer>
+  );
+};
+
+export const TableEscapeRoom = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+        <tbody>
+          <tr>
+            <TableTitle colSpan={2}>Premios del Escape Room</TableTitle>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>Por determinar</TableItem>
+          </tr>
+        </tbody>
+      </ScrollableTable>
+    </TableContainer>
+  );
+};
 
 export const TableConcursoStands = () => {
   return (
@@ -164,82 +162,111 @@ export const TableConcursoStands = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TableTitle colSpan={2}>Premios del Sorteo de la Votación al Mejor Stand</TableTitle>
+            <TableTitle colSpan={2}>
+              Premios del Sorteo de la Votación al Mejor Stand
+            </TableTitle>
           </tr>
 
           <tr>
-            <TableHeader colSpan={2}>15 de marzo</TableHeader>
-          </tr>
-
-          <tr>
-            <TableItem>Altavoz Portátil</TableItem>
-            <TableItem>1</TableItem>
+            <TableItem colSpan={2}>Por determinar</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
-    </TableContainer >
-  )
-}
+    </TableContainer>
+  );
+};
 
-export const TableLeagueOfLegends = () => {
+export const TableVideojuegos = () => {
   return (
     <TableContainer>
       <ScrollableTable>
         <tbody>
           <tr>
-            <TableTitle colSpan={2}>Premios del Torneo de League of Legends</TableTitle>
+            <TableTitle colSpan={2}>
+              Premios del Torneo de Videojuegos
+            </TableTitle>
           </tr>
 
           <tr>
-            <TableItem>Primer Puesto</TableItem>
-            <TableItem>Teclado Razer + 20€ de RP</TableItem>
-          </tr>
-
-          <tr>
-            <TableItem>Segundo Puesto</TableItem>
-            <TableItem>Ratón Corsair + 10€ de RP</TableItem>
+            <TableItem colSpan={2}>Por determinar</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
-    </TableContainer >
-  )
-}
+    </TableContainer>
+  );
+};
+
+export const TableHackaton = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+        <tbody>
+          <tr>
+            <TableTitle colSpan={2}>Premios del Hackatón</TableTitle>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>Por determinar</TableItem>
+          </tr>
+        </tbody>
+      </ScrollableTable>
+    </TableContainer>
+  );
+};
+
+export const TableSesionRol = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+        <tbody>
+          <tr>
+            <TableTitle colSpan={2}>Premios de la Sesión de Rol</TableTitle>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>Por determinar</TableItem>
+          </tr>
+        </tbody>
+      </ScrollableTable>
+    </TableContainer>
+  );
+};
 
 const TableTitle = styled.th`
-padding: 1rem;
-text-align: center;
-min-width: 10%;
-background-color: #7454ae;
-color: white;
-border: 5px solid #3c3c54;
-font-size: 1.3rem;
+  padding: 1rem;
+  text-align: center;
+  min-width: 10%;
+  background-color: #7454ae;
+  color: white;
+  border: 5px solid #3c3c54;
+  font-size: 1.3rem;
 `;
 
 const TableHeader = styled.td`
-padding: 1rem;
-text-align: center;
-min-width: 10%;
-background-color: #7454ae;
-color: white;
-border: 5px solid #3c3c54;
-font-size: 1.3rem;
+  padding: 1rem;
+  text-align: center;
+  min-width: 10%;
+  background-color: #7454ae;
+  color: white;
+  border: 5px solid #3c3c54;
+  font-size: 1.3rem;
 `;
 
 const TableItem = styled.td`
-padding: 1rem 2rem;
-text-align: center;
-min-width: 10%;
-border: 5px solid #3c3c54;
-background-color: #FFEB83;
-font-weight: bold;
-font-size: 1.2rem;
-color: #3c3c54
+  padding: 1rem 2rem;
+  text-align: center;
+  min-width: 10%;
+  border: 5px solid #3c3c54;
+  background-color: #ffeb83;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #3c3c54;
 `;
 
 const ScrollableTable = styled.table`
-border-collapse: collapse;
+  border-collapse: collapse;
 `;
 
 const TableContainer = styled.div`
-overflow-x: auto;
+  overflow-x: auto;
 `;
