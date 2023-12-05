@@ -22,9 +22,14 @@ export const organizadores_empresas = [
   },
   {
     name: "Stefan Barner-Rasmussen",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/stefan_barner.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/stefanbr/",
+      },
+    ],
   },
   {
     name: "Darío Fajardo Álvarez",
@@ -49,9 +54,14 @@ export const organizadores_empresas = [
   },
   {
     name: "Siddhartha	González-Falcón Chugani",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/siddhartha_gonzalez_falcon.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "siddhi600@gmail.com",
+      },
+    ],
   },
   {
     name: "Pablo Domenico	Goya Amato",
