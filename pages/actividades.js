@@ -23,11 +23,11 @@ const Actividades = () => {
             <Title>Actividades</Title>
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <Category>Sorteo por Stands</Category>
           <br />
@@ -56,11 +56,11 @@ const Actividades = () => {
             <TableSorteoStands />
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
 
           <Category>Sorteos por Redes Sociales</Category>
@@ -88,11 +88,11 @@ const Actividades = () => {
             <TableSorteoRedesSociales />
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
 
           <Category>Competición de Videojuegos Arcade</Category>
@@ -135,11 +135,11 @@ const Actividades = () => {
             <TableVideojuegosArcade />
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
 
           <Category>Trivial</Category>
@@ -168,11 +168,11 @@ const Actividades = () => {
             <TableTrivial />
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
 
           <Category>Búsqueda del Tesoro</Category>
@@ -205,11 +205,11 @@ const Actividades = () => {
             <TableBusquedaTesoro />
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
 
           <Category>Concurso de Mejor Stand</Category>
@@ -239,11 +239,11 @@ const Actividades = () => {
             <TableConcursoStands />
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
 
           <Category>Torneo de League of Legends</Category>
@@ -282,11 +282,11 @@ const Actividades = () => {
             <TableLeagueOfLegends />
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
         </Container>
       </Section>
@@ -341,26 +341,31 @@ const Highlight = styled.span`
   font-family: "Montserrat";
 `;
 
-const Circles = styled.h3`
+const Hexagons = styled.h3`
   padding: 2rem;
   font-weight: 700;
 `;
 
-const CircleY = styled.span`
+const HexagonY = styled.span`
   color: #ffeb83;
   font-weight: 700;
+  font-size: 130%;
 `;
 
-const CircleO = styled.span`
+const HexagonO = styled.span`
   color: #ff645f;
   :3.5rem ;
   padding-right: 2rem;
   font-weight: 700;
+  font-size: 130%;
 `;
 
-const CircleB = styled.span`
-  color: #83deff;
+const HexagonB = styled.span`
+  color: #83ddff;
   :3.5rem ;
   padding-right: 2rem;
   font-weight: 700;
+  font-size: 130%;
 `;
+
+//
