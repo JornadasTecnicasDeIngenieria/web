@@ -35,9 +35,11 @@ const Actividades = () => {
           <Category>Sorteo por Logros</Category>
           <br />
           <DescriptionText>
-            Realiza diversas actividades para ganar puntos y participa en
-            sorteos increíbles. Desde retos de programación hasta cuestionarios,
-            ¡cada logro cuenta!
+            Esta actividad te invita a participar en una variedad de desafíos
+            para acumular puntos. Desde retos de programación hasta
+            cuestionarios, cada logro que completes te otorgará puntos que
+            podrás canjear por entradas para nuestro sorteo. ¡Cada logro cuenta,
+            así que no dudes en participar en todos los desafíos que puedas!
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Por determinar.
@@ -60,8 +62,14 @@ const Actividades = () => {
           <Category>Sorteo por Stands</Category>
           <br />
           <DescriptionText>
-            Participa en el sorteo al sellar y depositar tu papeleta. ¡La suerte
-            puede estar de tu lado!
+            En esta actividad, tendrás la oportunidad de participar en un sorteo
+            visitando nuestros stands en el evento. Al llegar a cada stand,
+            recibirás una papeleta que deberás sellar y depositar en una urna.
+            Al final del evento, se realizará un sorteo entre todas las
+            papeletas depositadas y podrías ser el afortunado ganador. Recuerda,
+            cada stand que visites es una oportunidad adicional para ganar, así
+            que asegúrate de visitarlos todos. ¡La suerte puede estar de tu
+            lado!
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Por determinar.
@@ -84,8 +92,14 @@ const Actividades = () => {
           <Category>Sorteos por Redes Sociales</Category>
           <br />
           <DescriptionText>
-            Interactúa con nuestras redes sociales para ganar emocionantes
-            premios.
+            Esta actividad te brinda la oportunidad de ganar premios
+            emocionantes simplemente interactuando con nuestras redes sociales.
+            Puedes participar siguiéndonos en nuestras redes sociales,
+            compartiendo nuestras publicaciones, etiquetando a tus amigos, o
+            incluso publicando contenido relacionado con el evento. Cada
+            interacción cuenta como una entrada para el sorteo, por lo que
+            cuantas más interacciones realices, más posibilidades tendrás de
+            ganar.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Por determinar.
@@ -108,11 +122,11 @@ const Actividades = () => {
           <Category>Competición Arcade</Category>
           <br />
           <DescriptionText>
-            Vive la nostalgia y la emoción de los videojuegos clásicos en
-            nuestra Competición Arcade. Enfréntate a desafíos en juegos como
-            Tetris, Pacman, Space Invaders y nuestro exclusivo "Why God?". Cada
-            zona cuenta con computadoras para una competición intensa. ¿Tienes
-            lo necesario para ser el campeón?
+            Revive la nostalgia de los videojuegos clásicos en nuestra
+            Competición Arcade. Enfréntate a desafíos en juegos como Tetris,
+            Pacman, Space Invaders y nuestro exclusivo “Why God?”. Cada zona
+            cuenta con computadoras para una competición intensa. ¿Tienes lo
+            necesario para ser el campeón?
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Por determinar.
@@ -140,12 +154,16 @@ const Actividades = () => {
           <DescriptionText>
             <ul>
               <DescriptionListElement>
-                Trivial de Empresa: Pon a prueba tus conocimientos sobre las
-                empresas participantes.
+                Trivial de Empresa: ¿Cuánto sabes sobre las empresas
+                participantes? Participa en nuestro Trivial de Empresa y pon a
+                prueba tus conocimientos. Podrás aprender más sobre las empresas
+                mientras te diviertes y compites por premios.
               </DescriptionListElement>
               <DescriptionListElement>
-                Trivial General: Un desafío para los amantes de todas las
-                ingenierías.
+                Trivial General: Este es un desafío para los amantes de todas
+                las ingenierías. Participa en nuestro Trivial General y
+                demuestra tus conocimientos en una amplia gama de temas de
+                ingeniería.
               </DescriptionListElement>
             </ul>
           </DescriptionText>
@@ -178,9 +196,9 @@ const Actividades = () => {
           <Category>Búsqueda del Tesoro</Category>
           <br />
           <DescriptionText>
-            Sumérgete en una emocionante aventura explorando todos los rincones
+            Embárcate en una emocionante aventura explorando todos los rincones
             de la ESIT en busca de pistas. Forma un equipo de hasta 4 personas y
-            descifra el código que te llevará al tesoro. ¡Pero cuidado! Las
+            descifra el código que te llevará al tesoro. Pero ten cuidado, las
             pistas se revelarán minutos antes de que comience la búsqueda para
             mantener el misterio.
           </DescriptionText>
@@ -205,11 +223,11 @@ const Actividades = () => {
           <Category>Escape Room: El Laboratorio Químico</Category>
           <br />
           <DescriptionText>
-            ¡Adéntrate en un emocionante Escape Room ambientado en un
-            laboratorio de química! Imagina que un vial tóxico se ha roto, y tu
-            misión es encontrar la llave de emergencia y salir antes de que el
-            tiempo se agote. Equipos de cuatro personas competirán por el mejor
-            tiempo de escape.
+            Adéntrate en un emocionante Escape Room ambientado en un laboratorio
+            de química. Imagina que un vial tóxico se ha roto y tu misión es
+            encontrar la llave de emergencia y salir antes de que el tiempo se
+            agote. Equipos de cuatro personas competirán por el mejor tiempo de
+            escape.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Por determinar.
@@ -232,10 +250,10 @@ const Actividades = () => {
           <Category>Concurso del Mejor Stand</Category>
           <br />
           <DescriptionText>
-            Reconoce la creatividad y la innovación. Vota por tu stand favorito
-            entre las empresas participantes. ¡Y participa para ganar premios
-            increíbles! La votación se realiza a través de una encuesta de
-            Google, y al final del evento, anunciaremos los ganadores y
+            Reconoce la creatividad y la innovación votando por tu stand
+            favorito entre las empresas participantes. Participa en la votación
+            a través de una encuesta de Google y podrías ganar premios
+            increíbles. Al final del evento, anunciaremos los ganadores y
             realizaremos el sorteo de premios para los votantes.
           </DescriptionText>
           <DescriptionText>
@@ -260,9 +278,9 @@ const Actividades = () => {
           <br />
           <DescriptionText>
             Demuestra tus habilidades en los torneos de League of Legends (LoL)
-            y Teamfight Tactics (TFT). Desde enfrentamientos épicos en el LoL
-            hasta estrategias brillantes en TFT, ¿tienes lo necesario para ser
-            el campeón?
+            y Teamfight Tactics (TFT). Participa en enfrentamientos épicos en
+            LoL o muestra tus estrategias brillantes en TFT. ¿Tienes lo
+            necesario para ser el campeón?
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Por determinar.
@@ -285,10 +303,10 @@ const Actividades = () => {
           <Category>Hackatón</Category>
           <br />
           <DescriptionText>
-            Demuestra tu habilidad en programación resolviendo problemas del
-            mundo real. Forma equipos de 3 a 5 personas y compite para resolver
-            la mayor cantidad de desafíos correctamente. ¡La eficiencia y la
-            resolución son clave para la victoria!
+            Demuestra tu habilidad en resolución de problemas del mundo real.
+            Forma equipos de 3 a 5 personas y compite para resolver la mayor
+            cantidad de desafíos correctamente. La eficiencia y la resolución
+            son clave para la victoria. ¡Buena suerte!
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Por determinar.
@@ -311,10 +329,11 @@ const Actividades = () => {
           <Category>Sesión de Rol</Category>
           <br />
           <DescriptionText>
-            Únete a una tarde llena de imaginación y estrategia. Participa en
-            partidas de rol, desde D&D 5e hasta Call of Cthulhu. Colaboramos con
-            Sabadospararoleros.spr para ofrecer una experiencia única.
-            ¡Prepárate para sumergirte en mundos fantásticos!
+            Prepárate para una tarde llena de imaginación y estrategia. En
+            colaboración con Sabadospararoleros, te invitamos a participar en
+            emocionantes partidas de rol, desde Dungeons & Dragons 5e hasta Call
+            of Cthulhu. Sumérgete en mundos fantásticos y vive aventuras
+            inolvidables junto a tus compañeros de juego.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Por determinar.
