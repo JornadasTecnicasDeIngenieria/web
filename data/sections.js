@@ -4,13 +4,20 @@ export const sections = [
     image: "/images/stand.png",
     name: "STANDS",
     categories: ["A"],
-    bg: "bgyellow",
+    bg: "bgblue",
   },
   {
     id: "2",
+    image: "/images/charla.jpg",
+    name: "PONENCIAS",
+    categories: ["A"],
+    bg: "bgorange",
+  },
+  {
+    id: "3",
     image: "/images/sorteo.png",
     name: "ACTIVIDADES",
     categories: ["A"],
-    bg: "bgblue",
+    bg: "bgyellow",
   },
 ];
