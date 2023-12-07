@@ -18,7 +18,7 @@ export const organizadores_actividades = [
       },
       {
         tag: "Instagram",
-        url: "https://www.instagram.com/emily_lstrange",
+        url: "https://www.instagram.com/emily_lstrange/",
       },
     ],
   },
@@ -112,9 +112,22 @@ export const organizadores_actividades = [
   },
   {
     name: "Adrián Mora Rodríguez",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/adrian_mora.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/adrián-mora-9387232a3/",
+      },
+      {
+        tag: "Twitter",
+        url: "https://twitter.com/adriwner",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/adriwner/",
+      },
+    ],
   },
   {
     name: "Pablo Pérez Hernández",
