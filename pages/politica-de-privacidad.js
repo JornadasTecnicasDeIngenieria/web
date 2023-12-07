@@ -62,7 +62,36 @@ const Privacidad = () => {
           </Section>
           <Section>
             <SectionHeader>
-              IV. ¿Con qué base legal tratamos sus datos?
+              IV. ¿Con qué fines utilizamos sus datos personales?
+            </SectionHeader>
+            <ul>
+              <li>Confirmar su participación en el evento.</li>
+              <li>
+                Envío de comunicaciones necesarias para el correcto desarrollo
+                del evento.
+              </li>
+              <li>
+                Promocionar del evento en redes sociales, plataformas, página
+                web, etc., mediante la difusión de su nombre y apellidos, así
+                como el puesto o cargo que desempeña.
+              </li>
+              <li>Fines contables y administrativos.</li>
+              <li>Emisión de certificados de asistencia.</li>
+              <li>
+                Utilizar su imagen y voz para publicitar el evento (transmisión
+                en directo, grabación del evento y posterior difusión).
+              </li>
+              <li>Control de aforo.</li>
+              <li>Fines estadísticos.</li>
+              <li>
+                Adecuación del catering a las alergias e intolerancias de los
+                participantes.
+              </li>
+            </ul>
+          </Section>
+          <Section>
+            <SectionHeader>
+              V. ¿Con qué base legal tratamos sus datos?
             </SectionHeader>
             <ul>
               <li>
@@ -78,7 +107,7 @@ const Privacidad = () => {
             </ul>
           </Section>
           <Section>
-            <SectionHeader>V. ¿Con quién compartimos sus datos?</SectionHeader>
+            <SectionHeader>VI. ¿Con quién compartimos sus datos?</SectionHeader>
             <p>
               Todos los usuarios deben tener en cuenta que la participación en
               algunas de las actividades podrá implicar la interacción con los
@@ -94,7 +123,7 @@ const Privacidad = () => {
           </Section>
           <Section>
             <SectionHeader>
-              VI. ¿Se llevan a cabo transferencias internacionales?
+              VII. ¿Se llevan a cabo transferencias internacionales?
             </SectionHeader>
             <p>
               Los tratamientos de datos derivados de la web y/o del evento no
@@ -103,7 +132,7 @@ const Privacidad = () => {
           </Section>
           <Section>
             <SectionHeader>
-              VII. ¿Cuánto tiempo conservaremos los datos?
+              VIII. ¿Cuánto tiempo conservaremos los datos?
             </SectionHeader>
             <p>
               Los datos serán conservados durante el tiempo necesario para
@@ -111,9 +140,7 @@ const Privacidad = () => {
             </p>
           </Section>
           <Section>
-            <SectionHeader>
-              VIII. ¿Qué derechos tiene como usuario?
-            </SectionHeader>
+            <SectionHeader>IX. ¿Qué derechos tiene como usuario?</SectionHeader>
             <p>
               Nuestros usuarios pueden solicitar a la Universidad de La Laguna:
             </p>
@@ -161,7 +188,7 @@ const Privacidad = () => {
             </ul>
           </Section>
           <Section>
-            <SectionHeader>IX. ¿Cómo puede ejercer sus derechos?</SectionHeader>
+            <SectionHeader>X. ¿Cómo puede ejercer sus derechos?</SectionHeader>
             <p>
               Los interesados pueden ejercer sobre sus datos personales los
               derechos de acceso, rectificación, supresión y limitación al
@@ -177,7 +204,7 @@ const Privacidad = () => {
           </Section>
           <Section>
             <SectionHeader>
-              IX. ¿Quién garantiza sus derechos? ¿Ante quién puede reclamar?
+              XI. ¿Quién garantiza sus derechos? ¿Ante quién puede reclamar?
             </SectionHeader>
             <p>
               En caso de que desee presentar una reclamación u obtener
@@ -188,7 +215,7 @@ const Privacidad = () => {
           </Section>
           <Section>
             <SectionHeader>
-              X. Cambios en la Política de Privacidad
+              XII. Cambios en la Política de Privacidad
             </SectionHeader>
             <p>
               La ULL podrá modificar esta Política de Privacidad cuando resulte
@@ -211,7 +238,7 @@ const Privacidad = () => {
 export default Privacidad;
 
 const MainH1 = styled.h1`
-  font-size: 2rem;
+  font-size: rem;
   font-weight: 900;
 `;
 
