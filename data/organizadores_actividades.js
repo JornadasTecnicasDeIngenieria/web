@@ -1,14 +1,9 @@
 export const organizadores_actividades = [
   {
-    name: "Daniel Jorge Acosta",
-    image: "/images/organizadores/daniel_jorge.png",
-    categories: ["Coordinador", "Informática"],
-    social: [
-      {
-        tag: "Linkedin",
-        url: "https://www.linkedin.com/in/daniel-jorge-acosta-informatica/",
-      },
-    ],
+    name: "Esther Medina Quintero",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Coordinadora", "Informática"],
+    social: [],
   },
   {
     name: "Aitor Castro Darias",
@@ -17,64 +12,104 @@ export const organizadores_actividades = [
     social: [],
   },
   {
-    name: "Adrián Lima García",
-    image: "/images/organizadores/adrian_lima.png",
-    categories: ["Informática"],
-    social: [
-      {
-        tag: "Linkedin",
-        url: "https://www.linkedin.com/in/adrian-lima-garcia/",
-      },
-    ],
+    name: "Samuel	Chinea Arteaga",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Mecánica"],
+    social: [],
   },
   {
-    name: "Valerio Luis Cabrera",
-    image: "/images/organizadores/valerio_luis.png",
-    categories: ["Informática"],
-    social: [
-      {
-        tag: "ContactMail",
-        url: "alu0101476049@ull.edu.es",
-      },
-    ],
+    name: "Moisés	de los Reyes Ramos",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Mecánica"],
+    social: [],
   },
   {
-    name: "Daniel Marhuenda Guillén",
-    image: "/images/organizadores/daniel_marhuenda.png",
-    categories: ["Informática"],
-    social: [
-      {
-        tag: "ContactMail",
-        url: "danielmarh333@gmail.com",
-      },
-    ],
-  },
-  {
-    name: "Sergio Mora González",
+    name: "Laura Dorta Marrero",
     image: "/images/organizadores/placeholder.png",
     categories: ["Informática"],
     social: [],
   },
   {
-    name: "Andrea Venazco Rodríguez",
-    image: "/images/organizadores/andrea_venazco.png",
-    categories: ["Informática"],
-    social: [
-      {
-        tag: "ContactMail",
-        url: "andrea.venazco.rodriguez@gmail.com",
-      },
-    ],
+    name: "Patricia	García Di Mauro",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Mecánica"],
+    social: [],
   },
   {
-    name: "Lihao Zhu",
-    image: "/images/organizadores/lihao_zhu.png",
+    name: "Daniel	Garvi Arvelo",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Salvador	González Cueto",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Samuel	Martín Morales",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Marta Méndez Mendoza",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Química"],
+    social: [],
+  },
+  {
+    name: "Daniel	Molina Chávez",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Mecánica"],
+    social: [],
+  },
+  {
+    name: "Adrián Mora Rodríguez",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Pablo Pérez Hernández",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Diego Rodríguez Barrera",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Mecánica"],
+    social: [],
+  },
+  {
+    name: "Pablo Rodríguez de la Rosa",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Asier Romaguera Tena",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Mecánica"],
+    social: [],
+  },
+  {
+    name: "Juan Aday Siverio González",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Andrea	Venazco Rodríguez",
+    image: "/images/organizadores/placeholder.png",
     categories: ["Informática"],
     social: [
-      {
-        tag: "Linkedin",
-        url: "https://www.linkedin.com/in/lihao-zhu-6bbb77228",
-      },
+      /* {
+        tag: "ContactMail",
+        url: "andrea.venazco.rodriguez@gmail.com",
+      }, */
     ],
   },
 ];

@@ -9,10 +9,10 @@ const Homepage = () => {
   return (
     <Layout>
       <Landing
-        imgSrc="/images/landing.png"
+        imgSrc="/images/front_page.png"
         imgAlt="JTI"
         title="Jornadas Técnicas de Ingeniería"
-        subtitle="Descubre el mundo laboral de la ingeniería"
+        subtitle="Acercando el futuro"
       />
       <InfoJTI />
       <Sections />

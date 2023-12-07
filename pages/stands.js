@@ -16,11 +16,11 @@ const Stands = () => {
             <Title>Stands</Title>
           </AlignedDiv>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <DescriptionText>
             Los Stands son el núcleo del evento. En estos puestos, las empresas
@@ -36,8 +36,8 @@ const Stands = () => {
             departamentos de la empresa o sus programas de prácticas. Aquellas
             empresas centradas en el desarrollo podrán traer productos, para que
             los visitantes los descubran. También podrán contar con vídeos donde
-            muestren sus proyectos más innovadores, por ejemplo. Cualquier
-            iniciativa con fines formativos o de interés es bienvenida.
+            muestren sus proyectos más innovadores. Cualquier iniciativa con
+            fines formativos o de interés es bienvenida.
           </DescriptionText>
           <br />
           <br />
@@ -49,7 +49,7 @@ const Stands = () => {
                   alt="Forma del stand"
                   width={400}
                   height={300}
-                  style= {{
+                  style={{
                     width: "100%",
                     height: "100%",
                   }}
@@ -63,7 +63,7 @@ const Stands = () => {
                   alt="Ejemplo del stand"
                   width={400}
                   height={300}
-                  style= {{
+                  style={{
                     width: "100%",
                     height: "100%",
                   }}
@@ -77,7 +77,7 @@ const Stands = () => {
                   alt="Stand desde arriba"
                   width={400}
                   height={300}
-                  style= {{
+                  style={{
                     width: "100%",
                     height: "100%",
                   }}
@@ -91,11 +91,11 @@ const Stands = () => {
       <Section>
         <Container>
           <AlignedDiv>
-            <Circles>
-              <CircleB>⬤</CircleB>
-              <CircleO>⬤</CircleO>
-              <CircleY>⬤</CircleY>
-            </Circles>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
           </AlignedDiv>
           <br />
           <AlignedDiv>
@@ -109,7 +109,7 @@ const Stands = () => {
               alt="Plano de los Stands"
               width={1200}
               height={600}
-              style= {{
+              style={{
                 width: "100%",
                 height: "100%",
               }}
@@ -119,15 +119,11 @@ const Stands = () => {
           <br />
           <br />
           <AlignedDiv>
-            <StandList14 content={stands} />
+            <StandsListGrid>
+              <StandList14 content={stands} />
+              <StandList15 content={stands} />
+            </StandsListGrid>
           </AlignedDiv>
-          <br />
-          <br />
-          <br />
-          <br />
-          <AlignedDiv>
-            <StandList15 content={stands} />
-          </AlignedDiv>          
           <br />
           <br />
           <br />
@@ -179,24 +175,36 @@ const DescriptionText = styled.p`
   font-family: "Montserrat";
 `;
 
-const Circles = styled.h3`
+const Hexagons = styled.h3`
   padding: 2rem;
   font-weight: 700;
 `;
 
-const CircleY = styled.span`
+const HexagonY = styled.span`
   color: #ffeb83;
   font-weight: 700;
+  font-size: 130%;
 `;
 
-const CircleO = styled.span`
+const HexagonO = styled.span`
   color: #ff645f;
   padding-right: 2rem;
   font-weight: 700;
+  font-size: 130%;
 `;
 
-const CircleB = styled.span`
-  color: #83deff;
+const HexagonB = styled.span`
+  color: #83ddff;
   padding-right: 2rem;
   font-weight: 700;
+  font-size: 130%;
+`;
+
+const StandsListGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  @media (max-width: 600px) {
+    display: block;
+  }
 `;
