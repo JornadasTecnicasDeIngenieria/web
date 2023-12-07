@@ -62,6 +62,35 @@ const Privacidad = () => {
           </Section>
           <Section>
             <SectionHeader>
+              IV. ¿Con qué fines utilizamos sus datos personales?
+            </SectionHeader>
+            <ul>
+              <li>Confirmar su participación en el evento.</li>
+              <li>
+                Envío de comunicaciones necesarias para el correcto desarrollo
+                del evento.
+              </li>
+              <li>
+                Promocionar del evento en redes sociales, plataformas, página
+                web, etc., mediante la difusión de su nombre y apellidos, así
+                como el puesto o cargo que desempeña.
+              </li>
+              <li>Fines contables y administrativos.</li>
+              <li>Emisión de certificados de asistencia.</li>
+              <li>
+                Utilizar su imagen y voz para publicitar el evento (transmisión
+                en directo, grabación del evento y posterior difusión).
+              </li>
+              <li>Control de aforo.</li>
+              <li>Fines estadísticos.</li>
+              <li>
+                Adecuación del catering a las alergias e intolerancias de los
+                participantes.
+              </li>
+            </ul>
+          </Section>
+          <Section>
+            <SectionHeader>
               IV. ¿Con qué base legal tratamos sus datos?
             </SectionHeader>
             <ul>
