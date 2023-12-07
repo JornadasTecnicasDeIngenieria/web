@@ -240,7 +240,7 @@ const Privacidad = () => {
 export default Privacidad;
 
 const MainH1 = styled.h1`
-  font-size: rem;
+  font-size: 2rem;
   font-weight: 900;
 `;
 
