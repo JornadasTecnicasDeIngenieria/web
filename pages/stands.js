@@ -105,7 +105,7 @@ const Stands = () => {
           <br />
           <ImageDiv>
             <Image
-              src="/images/plano_2023.png"
+              src="/images/plano.png"
               alt="Plano de los Stands"
               width={1200}
               height={600}
