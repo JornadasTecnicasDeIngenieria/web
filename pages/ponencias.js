@@ -2,8 +2,8 @@ import Layout from "@components/layouts/MainLayout";
 import styled from "@emotion/styled";
 import { Grid, Container } from "@mui/material";
 import Image from "next/image";
-import { FirstDayStandList, SecondDayStandList } from "@components/StandList";
-import { stands } from "data/stands";
+import { FirstDayPon, SecondDayPon } from "@components/PonenciaList";
+import { ponencias } from "data/ponencias";
 
 const Ponencias = () => {
   return (
@@ -29,7 +29,9 @@ const Ponencias = () => {
             que las charlas sean de interés para el alumnado de todas las
             ingenierías, tratándose temas amplios o de divulgación como
             investigaciones recientes, proyecto innovadores, análisis del estado
-            del arte o consejos sobre el mercado laboral.
+            del arte o consejos sobre el mercado laboral. Las ponencias tendrán
+            lugar en el Salón de Grados de la ESIT, situado en la tercera
+            planta.
           </DescriptionText>
           <br />
           <br />
@@ -52,8 +54,8 @@ const Ponencias = () => {
           <br />
           <AlignedDiv>
             <StandsListGrid>
-              <FirstDayStandList content={stands} />
-              <SecondDayStandList content={stands} />
+              <FirstDayPon content={ponencias} />
+              <SecondDayPon content={ponencias} />
             </StandsListGrid>
           </AlignedDiv>
           <br />
