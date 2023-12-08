@@ -23,19 +23,31 @@ const Ponencias = () => {
             </Hexagons>
           </AlignedDiv>
           <DescriptionText>
-            Las ponencias es uno de los elementos que hemos recuperado en esta
-            edición.
+            Este año hemos recuperado las ponencias, con el objetivo de mostrar
+            nuestro aldo más carnal. Estas tendrán una duración aproximada de 20
+            minutos, con 10 minutos destinados a preguntas. Nuestro objetivo es
+            que las charlas sean de interés para el alumnado de todas las
+            ingenierías, tratándose temas amplios o de divulgación como
+            investigaciones recientes, proyecto innovadores, análisis del estado
+            del arte o consejos sobre el mercado laboral.
           </DescriptionText>
-          <DescriptionText>
-            En estos stands, las empresas tendrán libertad de organización para
-            exponer su trabajo y atraer a los visitantes del evento. Por
-            ejemplo, se podrán traer folletos informativos sobre los
-            departamentos de la empresa o sus programas de prácticas. Aquellas
-            empresas centradas en el desarrollo podrán traer productos, para que
-            los visitantes los descubran. También podrán contar con vídeos donde
-            muestren sus proyectos más innovadores. Cualquier iniciativa con
-            fines formativos o de interés es bienvenida.
-          </DescriptionText>
+          <br />
+          <br />
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <AlignedDiv>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
+          </AlignedDiv>
+          <br />
+          <AlignedDiv>
+            <Category>Horarios</Category>
+          </AlignedDiv>
           <br />
           <br />
           <AlignedDiv>
