@@ -7,7 +7,10 @@ export const stands = [
   {
     stand: "S01",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -16,7 +19,10 @@ export const stands = [
   {
     stand: "S02",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -25,7 +31,10 @@ export const stands = [
   {
     stand: "S03",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -34,7 +43,10 @@ export const stands = [
   {
     stand: "S04",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -43,7 +55,10 @@ export const stands = [
   {
     stand: "S05",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -52,7 +67,10 @@ export const stands = [
   {
     stand: "S06",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -61,7 +79,10 @@ export const stands = [
   {
     stand: "S07",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -70,7 +91,10 @@ export const stands = [
   {
     stand: "S08",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -79,7 +103,10 @@ export const stands = [
   {
     stand: "S09",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -88,7 +115,10 @@ export const stands = [
   {
     stand: "S10",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -97,7 +127,10 @@ export const stands = [
   {
     stand: "S11",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -106,7 +139,10 @@ export const stands = [
   {
     stand: "S12",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -115,7 +151,10 @@ export const stands = [
   {
     stand: "S13",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -124,7 +163,10 @@ export const stands = [
   {
     stand: "S14",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -133,7 +175,10 @@ export const stands = [
   {
     stand: "S15",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -142,7 +187,10 @@ export const stands = [
   {
     stand: "S16",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -151,7 +199,10 @@ export const stands = [
   {
     stand: "S17",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -160,7 +211,10 @@ export const stands = [
   {
     stand: "S18",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -169,7 +223,10 @@ export const stands = [
   {
     stand: "S19",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -178,7 +235,10 @@ export const stands = [
   {
     stand: "S20",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -187,7 +247,10 @@ export const stands = [
   {
     stand: "S21",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -196,7 +259,10 @@ export const stands = [
   {
     stand: "S22",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -205,7 +271,10 @@ export const stands = [
   {
     stand: "S23",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -214,7 +283,10 @@ export const stands = [
   {
     stand: "S24",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -223,7 +295,10 @@ export const stands = [
   {
     stand: "S25",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -232,7 +307,10 @@ export const stands = [
   {
     stand: "S26",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -241,7 +319,10 @@ export const stands = [
   {
     stand: "S27",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -250,7 +331,10 @@ export const stands = [
   {
     stand: "S28",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -259,7 +343,10 @@ export const stands = [
   {
     stand: "S29",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -268,7 +355,10 @@ export const stands = [
   {
     stand: "S30",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
@@ -277,7 +367,10 @@ export const stands = [
   {
     stand: "S31",
     d1: "Por determinar",
-    d1_ingenierias: 0,
+    d1_ingenierias: {
+      informatica: true,
+      industrial: false,
+    },
     d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: 0,
