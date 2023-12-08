@@ -1,11 +1,28 @@
 import styled from "@emotion/styled";
 import { AlignedDiv } from "./StyledComponents";
 
+const SvgData = ({ ingenieria, value }) => {
+  const si = `/images/stands/ingenierias/${ingenieria}.svg`;
+  const no = `/images/stands/ingenierias/${ingenieria}_no.svg`;
+  if (value) {
+    return <img src={si} style={{ width: "25%" }}></img>;
+  } else {
+    return <img src={no} style={{ width: "25%" }}></img>;
+  }
+};
+
 const Ingenieras = ({ data }) => {
-  let linea = "";
-  data.forEach((element) => {});
-  linea += "</tr>";
-  return linea;
+  return (
+    <td>
+      {data.map((info) => (
+        <SvgData ingenieria={info.ingenieria} value={info.value} />
+      ))}
+    </td>
+  );
+};
+
+const Practicas = ({ prac }) => {
+  return <TDH>{prac ? "Sí" : "No"}</TDH>;
 };
 
 export const FirstDayStandList = ({ content }) => {
@@ -15,13 +32,24 @@ export const FirstDayStandList = ({ content }) => {
         <tbody>
           <tr>
             <th></th>
-            <TH>Martes 6 de febrero</TH>
+            <TH colSpan={4}>Martes 6 de febrero</TH>
+          </tr>
+          <tr>
+            <th></th>
+            <TH style={{ width: "66%" }}>Empresa</TH>
+            <TH style={{ width: "33%" }}>Ingenierías</TH>
+            <TH style={{ width: "1%" }}> Prácticas</TH>
+          </tr>
+          <tr>
+            <TD>S00</TD>
+            <TDH colSpan={3}>STAND DE INFORMACIÓN</TDH>
           </tr>
           {content.map((d) => (
             <tr key={d.stand + d.d1}>
               <TD key={d.stand}>{d.stand}</TD>
               <TDH key={d.d1}>{d.d1}</TDH>
-              <Ingenieras data={d.d1_ingenierias}></Ingenieras>
+              <Ingenieras data={d.d1_ingenierias} />
+              <Practicas prac={d.d1_practicas} />
             </tr>
           ))}
         </tbody>
@@ -36,13 +64,25 @@ export const SecondDayStandList = ({ content }) => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <THForSmallScreens></THForSmallScreens>
-            <TH>Miércoles 7 de febrero</TH>
+            <th></th>
+            <TH colSpan={4}>Miércoles 7 de febrero</TH>
+          </tr>
+          <tr>
+            <th></th>
+            <TH style={{ width: "66%" }}>Empresa</TH>
+            <TH style={{ width: "33%" }}>Ingenierías</TH>
+            <TH style={{ width: "1%" }}> Prácticas</TH>
+          </tr>
+          <tr>
+            <TD>S00</TD>
+            <TDH colSpan={3}>Stand de información</TDH>
           </tr>
           {content.map((d) => (
             <tr key={d.stand + d.d2}>
-              <TDForSmallScreens key={d.stand}> {d.stand}</TDForSmallScreens>
+              <TD key={d.stand}>{d.stand}</TD>
               <TDH key={d.d2}>{d.d2}</TDH>
+              <Ingenieras data={d.d2_ingenierias} />
+              <Practicas prac={d.d2_practicas} />
             </tr>
           ))}
         </tbody>
@@ -59,6 +99,9 @@ const TH = styled.th`
   color: white;
   border: 5px solid #3c3c54;
   font-size: 1.3rem;
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+  }
 `;
 
 const TD = styled.td`
@@ -70,6 +113,10 @@ const TD = styled.td`
   color: white;
   font-weight: bold;
   font-size: 1.1rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.6rem;
+  }
 `;
 
 const TDH = styled.td`
@@ -81,6 +128,11 @@ const TDH = styled.td`
   font-weight: bold;
   font-size: 1.1rem;
   color: #3c3c54;
+
+  @media (max-width: 768px) {
+    padding: 0.6rem;
+    font-size: 0.6rem;
+  }
 `;
 
 const ScrollableTable = styled.table`
@@ -90,19 +142,4 @@ const ScrollableTable = styled.table`
 
 const TableContainer = styled.div`
   overflow-x: auto;
-`;
-
-const TDForSmallScreens = styled(TD)`
-  display: none;
-  @media (max-width: 600px) {
-    display: table-cell;
-  }
-`;
-
-const THForSmallScreens = styled(TH)`
-  display: none;
-  @media (max-width: 600px) {
-    display: table-cell;
-    opacity: 0;
-  }
 `;

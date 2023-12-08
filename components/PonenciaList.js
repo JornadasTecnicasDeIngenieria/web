@@ -33,7 +33,7 @@ export const SecondDayPon = ({ content }) => {
           {content.map((d) => (
             <tr key={d.hora + d.d2}>
               <TDForSmallScreens key={d.hora}> {d.hora}</TDForSmallScreens>
-              <TDH key={d.d2}>{d.d2}</TDH>
+              <TDHForSmallScreens key={d.d2}>{d.d2}</TDHForSmallScreens>
             </tr>
           ))}
         </tbody>
@@ -87,6 +87,11 @@ const TDForSmallScreens = styled(TD)`
   display: none;
   @media (max-width: 600px) {
     display: table-cell;
+  }
+`;
+const TDHForSmallScreens = styled(TDH)`
+  @media (max-width: 600px) {
+    width: "33%";
   }
 `;
 

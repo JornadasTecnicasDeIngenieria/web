@@ -121,6 +121,9 @@ const Stands = () => {
           <AlignedDiv>
             <StandsListGrid>
               <FirstDayStandList content={stands} />
+              <br />
+              <br />
+              <br />
               <SecondDayStandList content={stands} />
             </StandsListGrid>
           </AlignedDiv>
@@ -203,10 +206,5 @@ const HexagonB = styled.span`
 `;
 
 const StandsListGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  @media (max-width: 600px) {
-    display: block;
-  }
+  display: block;
 `;
