@@ -13,31 +13,31 @@ export const stands = [
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
-    d1_practicas: true,
+    d1_practicas: false,
     d2: "Por determinar",
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -48,19 +48,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -68,19 +68,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -91,19 +91,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -111,19 +111,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -134,19 +134,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -154,19 +154,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -177,19 +177,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -197,19 +197,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -220,19 +220,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -240,19 +240,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -263,19 +263,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -283,19 +283,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -306,19 +306,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -326,19 +326,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -349,19 +349,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -369,19 +369,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -392,19 +392,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -412,19 +412,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -435,19 +435,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -455,19 +455,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -478,19 +478,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -498,19 +498,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -521,19 +521,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -541,19 +541,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -564,19 +564,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -584,19 +584,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -607,19 +607,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -627,19 +627,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -650,19 +650,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -670,19 +670,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -693,19 +693,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -713,19 +713,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -736,19 +736,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -756,19 +756,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -779,19 +779,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -799,19 +799,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -822,19 +822,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -842,19 +842,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -865,19 +865,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -885,19 +885,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -908,19 +908,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
 
@@ -929,19 +929,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -952,19 +952,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -972,19 +972,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -995,19 +995,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -1015,19 +1015,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -1038,19 +1038,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -1058,19 +1058,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -1081,19 +1081,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -1101,19 +1101,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -1124,19 +1124,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -1144,19 +1144,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -1167,19 +1167,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -1187,19 +1187,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -1210,19 +1210,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -1230,19 +1230,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -1253,19 +1253,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -1273,19 +1273,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
@@ -1296,19 +1296,19 @@ export const stands = [
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: false,
@@ -1316,19 +1316,19 @@ export const stands = [
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d2_practicas: false,
