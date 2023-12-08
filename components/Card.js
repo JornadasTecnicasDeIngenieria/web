@@ -114,7 +114,7 @@ function Card({ imageSource, name, categories, social }) {
                       case "Twitter":
                         return (
                           <Link className="styledlink" href={url}>
-                            <Twitter />
+                            <TwitterNewIcon />
                           </Link>
                         );
                       case "Linkedin":

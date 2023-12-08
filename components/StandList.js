@@ -1,6 +1,13 @@
 import styled from "@emotion/styled";
 import { AlignedDiv } from "./StyledComponents";
 
+const Ingenieras = ({ data }) => {
+  let linea = "";
+  data.forEach((element) => {});
+  linea += "</tr>";
+  return linea;
+};
+
 export const FirstDayStandList = ({ content }) => {
   return (
     <TableContainer>
@@ -14,6 +21,7 @@ export const FirstDayStandList = ({ content }) => {
             <tr key={d.stand + d.d1}>
               <TD key={d.stand}>{d.stand}</TD>
               <TDH key={d.d1}>{d.d1}</TDH>
+              <Ingenieras data={d.d1_ingenierias}></Ingenieras>
             </tr>
           ))}
         </tbody>
