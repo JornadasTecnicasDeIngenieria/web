@@ -7,7 +7,7 @@ export const patrocinadores = [
     types: "oro",
   },
   {
-    src: "/images/patrocinadores/atlantis.jpg",
+    src: "/images/patrocinadores/atlantis_technology.jpg",
     alt: "Atlantis",
     width: 2406,
     height: 294,
