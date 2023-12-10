@@ -15,13 +15,7 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
           overflow: `hidden`,
         }}
       >
-        <Image
-          src={imgSrc}
-          alt={imgAlt}
-          width={1280}
-          height={719}
-          style={{ width: "100%", height: "100%", position: "absolute" }}
-        />
+        <Background src={imgSrc} alt={imgAlt} />
         <Grid
           container
           item
@@ -95,5 +89,15 @@ const DateTitle = styled.h3`
   align-items: center;
   @media only screen and (max-width: 720px) {
     font-size: 1rem !important;
+  }
+`;
+
+const Background = styled.img`
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  @media only screen and (max-width: 720px) {
+    width: 1280px;
   }
 `;
