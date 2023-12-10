@@ -18,8 +18,7 @@ const Locate = () => {
         </AlignedDiv>
         <AlignedDiv>
           <JustP>
-            {" "}
-            Ir al evento es realmente sencillo. Basta con ir a la Escuela
+            Asistir al evento es realmente sencillo. Basta con ir a la Escuela
             Superior de Ingeniería y Tecnología. ¡Te esperamos! Si no sabes
             llegar, aquí tienes el mapa:
           </JustP>

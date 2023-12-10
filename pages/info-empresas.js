@@ -75,20 +75,6 @@ const Info = () => {
             </ul>
             <br />
             <Category>Stands</Category>
-            <ul>
-              <DescriptionListElement>
-                Este año implantaremos realizaremos ponencias.
-              </DescriptionListElement>
-              <DescriptionListElement>
-                Estas serán de caracter general referidas al ámbito laboral o de
-                los sectores.
-              </DescriptionListElement>
-              <DescriptionListElement>
-                Durarán 15 minutos.
-              </DescriptionListElement>
-            </ul>
-            <br />
-            <Category>Ponencias</Category>
             <DescriptionText>
               La información más importante respecto a los stands es:
             </DescriptionText>
@@ -146,6 +132,29 @@ const Info = () => {
               <DescriptionListElement>
                 El horario será de 10:30 a 18:00. Podrán acudir a preparar los
                 stands desde las 10:00 si les es posible.
+              </DescriptionListElement>
+            </ul>
+            <br />
+            <Category>Ponencias</Category>
+            <ul>
+              <DescriptionListElement>
+                Las ponencias tendrán lugar en el Salón de Grados de la ESIT,
+                situado en la tercera planta.
+              </DescriptionListElement>
+              <DescriptionListElement>
+                Las charlas serán de interés para todo el alumnado de la ESIT
+                (grados de Ingeniería Informática, Ingeniería Electrónica
+                Industrial y Automática, Ingeniería Mecánica e Ingeniería
+                Química Industrial).
+              </DescriptionListElement>
+              <DescriptionListElement>
+                Se tratarán temas amplios o de divulgación como investigaciones
+                recientes, proyecto innovadores, análisis del estado del arte,
+                consejos sobre el mercado laboral...
+              </DescriptionListElement>
+              <DescriptionListElement>
+                Tendrán una duración aproximada de 20 minutos, disponiendo de 10
+                minutos adicionales para preguntas.
               </DescriptionListElement>
             </ul>
             <br />
@@ -248,7 +257,6 @@ const Category = styled.h3`
 
 const DescriptionText = styled.p`
   color: #ffffff;
-  font-size: 1.5rem;
   font-weight: 500;
   font-family: "Montserrat";
 `;

@@ -69,7 +69,7 @@ const ImageDiv = styled.div`
   height: 12rem;
   @media only screen and (max-width: 720px) {
     width: 20rem;
-    height: 4rem;
+    height: 7rem;
   }
   border-radius: 1em;
   padding: 1rem;
