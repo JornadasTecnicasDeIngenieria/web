@@ -94,6 +94,6 @@ const DateTitle = styled.h3`
   justify-content: center;
   align-items: center;
   @media only screen and (max-width: 720px) {
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
   }
 `;
