@@ -257,7 +257,6 @@ const Category = styled.h3`
 
 const DescriptionText = styled.p`
   color: #ffffff;
-  font-size: 1.5rem;
   font-weight: 500;
   font-family: "Montserrat";
 `;
