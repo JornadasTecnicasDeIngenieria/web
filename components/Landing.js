@@ -68,8 +68,8 @@ const ImageDiv = styled.div`
   width: 42rem;
   height: 10rem;
   @media only screen and (max-width: 720px) {
-    width: 18rem;
-    height: 6rem;
+    width: 15rem;
+    height: 5rem;
   }
   border-radius: 1em;
   padding: 1rem;
@@ -94,6 +94,6 @@ const DateTitle = styled.h3`
   justify-content: center;
   align-items: center;
   @media only screen and (max-width: 720px) {
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
   }
 `;
