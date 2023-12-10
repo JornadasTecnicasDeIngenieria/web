@@ -2,14 +2,17 @@ import Layout from "@components/layouts/MainLayout";
 import styled from "@emotion/styled";
 import { Container } from "@mui/material";
 import {
+  TableSorteoLogros,
   TableSorteoStands,
   TableSorteoRedesSociales,
-  TableVideojuegosArcade,
+  TableCompeticionArcade,
   TableTrivial,
   TableBusquedaTesoro,
   TableConcursoStands,
-  TableSuperSmashBros,
-  TableLeagueOfLegends,
+  TableVideojuegos,
+  TableEscapeRoom,
+  TableHackaton,
+  TableSesionRol,
 } from "@components/ActivitiesTables";
 
 const Actividades = () => {
@@ -29,27 +32,50 @@ const Actividades = () => {
               <HexagonY>⬢</HexagonY>
             </Hexagons>
           </AlignedDiv>
+          <Category>Sorteo por Logros</Category>
+          <br />
+          <DescriptionText>
+            Esta actividad te invita a participar en una variedad de desafíos
+            para acumular puntos. Desde retos de programación hasta
+            cuestionarios, cada logro que completes te otorgará puntos que
+            podrás canjear por entradas para nuestro sorteo. ¡Cada logro cuenta,
+            así que no dudes en participar en todos los desafíos que puedas!
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Lugar: </Highlight>Por determinar.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Horario: </Highlight>Por determinar.
+          </DescriptionText>
+          <br />
+          <AlignedDiv>
+            <TableSorteoLogros />
+          </AlignedDiv>
+          <AlignedDiv>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
+          </AlignedDiv>
+
           <Category>Sorteo por Stands</Category>
           <br />
           <DescriptionText>
-            A los asistentes que quieran participar en el sorteo por Stands se
-            les entregará un cupón con cinco marcas que deberán ir rellenando
-            con sellos asistiendo a los Stands que sean de su interés. Para
-            registrar tu participación en el sorteo, deberás entregar el cupón
-            completamente sellado antes de la celebración del sorteo. Solo se
-            podrá obtener un premio por sorteo, pero se puede participar ambos
-            días.
+            En esta actividad, tendrás la oportunidad de participar en un sorteo
+            visitando nuestros stands en el evento. Al llegar a cada stand,
+            recibirás una papeleta que deberás sellar y depositar en una urna.
+            Al final del evento, se realizará un sorteo entre todas las
+            papeletas depositadas y podrías ser el afortunado ganador. Recuerda,
+            cada stand que visites es una oportunidad adicional para ganar, así
+            que asegúrate de visitarlos todos. ¡La suerte puede estar de tu
+            lado!
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>El cupón se recogerá y entregará en el
-            Puesto Central de las JTI, al lado de Conserjería. El sorteo tendrá
-            lugar en el mismo sitio.
+            <Highlight>Lugar: </Highlight>Por determinar.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>El cupón se podrá recoger en
-            cualquier momento ANTES del sorteo. El cupón relleno se podrá
-            entregar de 17:00 a 18:00 del mismo día y el sorteo tendrá lugar a
-            las 18:00 los días 14 y 15 de marzo.
+            <Highlight>Horario: </Highlight>Por determinar.
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -66,22 +92,20 @@ const Actividades = () => {
           <Category>Sorteos por Redes Sociales</Category>
           <br />
           <DescriptionText>
-            Unos días antes del evento se publicarán en el Twitter y el
-            Instagram de las JTI los requisitos para la participación en el
-            sorteo por redes sociales. Para participar basta con haber cumplido
-            estos requisitos en el momento en el que se celebre el sorteo. Los
-            sorteos en ambas redes sociales son independientes, por lo que cada
-            uno tendrá su propio premio y puede ganar ambos la misma persona.
+            Esta actividad te brinda la oportunidad de ganar premios
+            emocionantes simplemente interactuando con nuestras redes sociales.
+            Puedes participar siguiéndonos en nuestras redes sociales,
+            compartiendo nuestras publicaciones, etiquetando a tus amigos, o
+            incluso publicando contenido relacionado con el evento. Cada
+            interacción cuenta como una entrada para el sorteo, por lo que
+            cuantas más interacciones realices, más posibilidades tendrás de
+            ganar.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Las publicaciones se subirán al
-            Twitter y el Instagram de las JTI. El sorteo tendrá lugar en en el
-            Puesto Central de las JTI, al lado de Conserjería.
+            <Highlight>Lugar: </Highlight>Por determinar.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Se tienen que cumplir los requisitos
-            ANTES del sorteo. El sorteo tendrá lugar a las 18:00 el día 15 de
-            marzo.
+            <Highlight>Horario: </Highlight>Por determinar.
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -95,44 +119,27 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Competición de Videojuegos Arcade</Category>
+          <Category>Competición Arcade</Category>
           <br />
           <DescriptionText>
-            A lo largo de los dos días que duran las JTI, habrá dispuesto cerca
-            del Puesto Central un videojuego arcade de libre acceso. A la
-            persona que haya logrado la mayor puntuación al final del día se le
-            otorgará un premio. Los intentos son ilimitados, pero se debe
-            respetar el orden de cola tras perder si hay más personas esperando
-            para jugar. Si se quiere registrar una puntuación se deberá avisar
-            al staff que se encuentre en el Puesto Central y enseñar dicha
-            puntuación para demostrar su veracidad, ya que la puntuación{" "}
-            <Highlight>NO</Highlight> se guardará automáticamente.
+            Revive la nostalgia de los videojuegos clásicos en nuestra
+            Competición Arcade. Enfréntate a desafíos en juegos como Tetris,
+            Pacman, Space Invaders y nuestro exclusivo “Why God?”. Cada zona
+            cuenta con computadoras para una competición intensa. ¿Tienes lo
+            necesario para ser el campeón?
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>El videojuego estará en la zona del
-            Puesto Central de las JTI, al lado de Conserjería. El anuncio del
-            ganador tendrá lugar en el Puesto Central.
+            <Highlight>Lugar: </Highlight>Por determinar.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Se podrá participar en cualquier
-            momento ANTES de la entrega de premios, respetando siempre el orden
-            de cola. El anuncio del ganador tendrá lugar a las 18:00 los días 14
-            y 15 de marzo.
+            <Highlight>Horario: </Highlight>Por determinar.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Juegos: </Highlight>
+            <Highlight>Juegos: </Highlight>Por determinar.
           </DescriptionText>
-          <ul>
-            <DescriptionListElement>
-              14 de marzo: Tetris Classic
-            </DescriptionListElement>
-            <DescriptionListElement>
-              15 de marzo: Pac-man
-            </DescriptionListElement>
-          </ul>
           <br />
           <AlignedDiv>
-            <TableVideojuegosArcade />
+            <TableCompeticionArcade />
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>
@@ -142,25 +149,36 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Trivial</Category>
+          <Category>Trivials</Category>
           <br />
           <DescriptionText>
-            Ambos días del evento se celebrará un trivial de aproximadamente 20
-            minutos tras el que se le otorgará un premio al ganador.
+            <ul>
+              <DescriptionListElement>
+                Trivial de Empresa: ¿Cuánto sabes sobre las empresas
+                participantes? Participa en nuestro Trivial de Empresa y pon a
+                prueba tus conocimientos. Podrás aprender más sobre las empresas
+                mientras te diviertes y compites por premios.
+              </DescriptionListElement>
+              <DescriptionListElement>
+                Trivial General: Este es un desafío para los amantes de todas
+                las ingenierías. Participa en nuestro Trivial General y
+                demuestra tus conocimientos en una amplia gama de temas de
+                ingeniería.
+              </DescriptionListElement>
+            </ul>
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>El trivial tendrá lugar en el Puesto
-            Central de las JTI, al lado de Conserjería.
+            <Highlight>Lugar: </Highlight>Por determinar.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Horario: </Highlight>
           </DescriptionText>
           <ul>
             <DescriptionListElement>
-              14 de marzo: 15:00 a 15:30
+              6 de febrero: Por determinar.
             </DescriptionListElement>
             <DescriptionListElement>
-              15 de marzo: 11:30 a 12:00
+              7 de febrero: Por determinar.
             </DescriptionListElement>
           </ul>
           <br />
@@ -178,27 +196,17 @@ const Actividades = () => {
           <Category>Búsqueda del Tesoro</Category>
           <br />
           <DescriptionText>
-            El primer día del evento se celebrará una búsqueda del tesoro en
-            toda la ESIT. Esta se realizará en equipos de 4 personas y ganará el
-            equipo que consiga terminarla en primer lugar y entregar el código
-            secreto. El premio se entregará al finalizar la misma.
+            Embárcate en una emocionante aventura explorando todos los rincones
+            de la ESIT en busca de pistas. Forma un equipo de hasta 4 personas y
+            descifra el código que te llevará al tesoro. Pero ten cuidado, las
+            pistas se revelarán minutos antes de que comience la búsqueda para
+            mantener el misterio.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>La búsqueda del tesoro comenzará y
-            terminará en el Puesto Central de las JTI, al lado de Conserjería.
+            <Highlight>Lugar: </Highlight>Por determinar.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Los equipos se deberán registrar
-            ANTES del día 14 de marzo a las 11:00. La búsqueda comenzará a las
-            11:30 del día 14 de marzo, aunque los equipos tendrán que estar a
-            las 11:20 para una pequeña explicación de la actividad. Tendrá una
-            duración aproximada de una hora.
-          </DescriptionText>
-          <DescriptionText>
-            <Highlight>Formulario de inscripción: </Highlight>
-            <DescriptionLink href="https://forms.gle/1J3ahTNymGJb4s4WA">
-              https://forms.gle/1J3ahTNymGJb4s4WA
-            </DescriptionLink>
+            <Highlight>Horario: </Highlight>Por determinar.
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -212,27 +220,47 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Concurso de Mejor Stand</Category>
+          <Category>Escape Room: El Laboratorio Químico</Category>
           <br />
           <DescriptionText>
-            Cada día se elegirá el mejor stand por votación popular de los
-            asistentes. A la empresa ganadora se le hará entrega de un diploma y
-            se le realizará una publicación especial en las redes sociales de
-            las JTI. Además, el último día se sorteará un premio entre los
-            asistentes que voten a su stand preferido cada día. Los asistentes
-            solo podrán votar una vez al día.
+            Adéntrate en un emocionante Escape Room ambientado en un laboratorio
+            de química. Imagina que un vial tóxico se ha roto y tu misión es
+            encontrar la llave de emergencia y salir antes de que el tiempo se
+            agote. Equipos de cuatro personas competirán por el mejor tiempo de
+            escape.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>La votación se hará de manera online
-            mediante un formulario. El sorteo y anuncio del stand ganador tendrá
-            lugar en el Puesto Central de las JTI, al lado de Conserjería.
+            <Highlight>Lugar: </Highlight>Por determinar.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Se podrá votar en cualquier momento
-            del día ANTES del anuncio del ganador. El anuncio del stand ganador
-            será a las 17:30 los días 14 y 15 de marzo, mientras que el sorteo
-            para los votantes será el día 15 de marzo justo después del anuncio
-            del stand ganador.
+            <Highlight>Horario: </Highlight>Por determinar.
+          </DescriptionText>
+          <br />
+          <AlignedDiv>
+            <TableEscapeRoom />
+          </AlignedDiv>
+          <AlignedDiv>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
+          </AlignedDiv>
+
+          <Category>Concurso del Mejor Stand</Category>
+          <br />
+          <DescriptionText>
+            Reconoce la creatividad y la innovación votando por tu stand
+            favorito entre las empresas participantes. Participa en la votación
+            a través de una encuesta de Google y podrías ganar premios
+            increíbles. Al final del evento, anunciaremos los ganadores y
+            realizaremos el sorteo de premios para los votantes.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Lugar: </Highlight>Por determinar.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Horario: </Highlight>Por determinar.
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -246,40 +274,76 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Torneo de League of Legends</Category>
+          <Category>Torneo de Videojuegos</Category>
           <br />
           <DescriptionText>
-            Después del evento, tendrá lugar un torneo de League of Legends
-            organizado por el equipo de las Jornadas. El torneo será de un
-            máximo de 32 participantes y seguirá un formato por eliminatorias,
-            en el que el ganador avanzará a la siguiente ronda mientras que el
-            perdedor quedará eliminado. Las partidas se jugarán en el Abismo de
-            los Lamentos y seguirán las normas de uno contra uno: ganará el
-            jugador que logre el primer asesinato, tirar la primera torre o
-            asesinar 100 súbditos.
+            Demuestra tus habilidades en los torneos de League of Legends (LoL)
+            y Teamfight Tactics (TFT). Participa en enfrentamientos épicos en
+            LoL o muestra tus estrategias brillantes en TFT. ¿Tienes lo
+            necesario para ser el campeón?
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>La inscripción al torneo se realizará
-            a través de un formulario, pero para participar se deberá recoger la
-            acreditación de manera presencial en el Puesto Central de las JTI,
-            al lado de Conserjería. El torneo se realizará en el Salón de
-            Grados, en la tercera planta de la ESIT.
+            <Highlight>Lugar: </Highlight>Por determinar.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>La inscripción antes o durante el
-            evento y la acreditación se recogerá durante el evento los días 14 y
-            15 de marzo. El torneo se realizará el viernes 17 de marzo a las
-            16:00.
-          </DescriptionText>
-          <DescriptionText>
-            <Highlight>Formulario de inscripción: </Highlight>
-            <DescriptionLink href="https://forms.gle/Pd5Anba2S5dntCHFA">
-              https://forms.gle/Pd5Anba2S5dntCHFA
-            </DescriptionLink>
+            <Highlight>Horario: </Highlight>Por determinar.
           </DescriptionText>
           <br />
           <AlignedDiv>
-            <TableLeagueOfLegends />
+            <TableVideojuegos />
+          </AlignedDiv>
+          <AlignedDiv>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
+          </AlignedDiv>
+
+          <Category>Hackatón</Category>
+          <br />
+          <DescriptionText>
+            Demuestra tu habilidad en resolución de problemas del mundo real.
+            Forma equipos de 3 a 5 personas y compite para resolver la mayor
+            cantidad de desafíos correctamente. La eficiencia y la resolución
+            son clave para la victoria. ¡Buena suerte!
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Lugar: </Highlight>Por determinar.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Horario: </Highlight>Por determinar.
+          </DescriptionText>
+          <br />
+          <AlignedDiv>
+            <TableHackaton />
+          </AlignedDiv>
+          <AlignedDiv>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
+          </AlignedDiv>
+
+          <Category>Sesión de Rol</Category>
+          <br />
+          <DescriptionText>
+            Prepárate para una tarde llena de imaginación y estrategia. En
+            colaboración con Sabadospararoleros, te invitamos a participar en
+            emocionantes partidas de rol, desde Dungeons & Dragons 5e hasta Call
+            of Cthulhu. Sumérgete en mundos fantásticos y vive aventuras
+            inolvidables junto a tus compañeros de juego.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Lugar: </Highlight>Por determinar.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Horario: </Highlight>Por determinar.
+          </DescriptionText>
+          <br />
+          <AlignedDiv>
+            <TableSesionRol />
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>

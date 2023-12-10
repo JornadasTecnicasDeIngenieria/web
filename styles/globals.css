@@ -280,8 +280,8 @@ card-body {
   border-radius: 2% !important;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2) !important;
   overflow: hidden !important;
-  width: 33rem !important;
-  height: 30rem !important;
+  width: 22rem !important;
+  height: 28rem !important;
   align-items: center;
 }
 .bgblue {
@@ -290,6 +290,9 @@ card-body {
 .bgyellow {
   background-color: #ffeb83 !important;
 }
+.bgorange {
+  background-color: #ff645f !important;
+}
 
 .bgblue h4,
 .bgyellow h4 {
@@ -297,21 +300,23 @@ card-body {
   color: #3c3c54;
   font-weight: 600;
 }
-.bgred h4,
+.bgorange h4,
 .bgpurple h4 {
   font-size: 2.2rem;
   color: #fff;
   font-weight: 600;
 }
+
 .custom-section-card-header {
   padding-top: 0;
   display: flex !important;
   align-items: center;
   justify-content: center;
 }
+
 .custom-section-card-header img {
   width: 332rem !important;
-  height: 22rem !important;
+  height: 20rem !important;
   border-radius: 2% !important;
   object-fit: cover !important;
 }

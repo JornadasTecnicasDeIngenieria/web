@@ -1,9 +1,26 @@
 export const organizadores_actividades = [
   {
     name: "Esther Medina Quintero",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/esther_medina.png",
     categories: ["Coordinadora", "Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/esther-medina-quintero-ba4830263/",
+      },
+      {
+        tag: "GitHub",
+        url: "https://github.com/EstherMedinaQuintero",
+      },
+      {
+        tag: "Telegram",
+        url: "https://t.me/EstherMQuintero",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/emily_lstrange/",
+      },
+    ],
   },
   {
     name: "Aitor Castro Darias",
@@ -19,15 +36,29 @@ export const organizadores_actividades = [
   },
   {
     name: "Moisés	de los Reyes Ramos",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/moises_de_los_reyes.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "moisesenero2005@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/moidelosreyess",
+      },
+    ],
   },
   {
     name: "Laura Dorta Marrero",
     image: "/images/organizadores/placeholder.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/laura-dorta-marrero-1a64b826a/",
+      },
+    ],
   },
   {
     name: "Patricia	García Di Mauro",
@@ -37,9 +68,14 @@ export const organizadores_actividades = [
   },
   {
     name: "Daniel	Garvi Arvelo",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/daniel_garvi.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/daniel-garvi-arvelo-8272552a2/",
+      },
+    ],
   },
   {
     name: "Salvador	González Cueto",
@@ -61,33 +97,74 @@ export const organizadores_actividades = [
   },
   {
     name: "Daniel	Molina Chávez",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/daniel_molina.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "mmolbrin@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/daniel.molinaa__",
+      },
+    ],
   },
   {
     name: "Adrián Mora Rodríguez",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/adrian_mora.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/adrián-mora-9387232a3/",
+      },
+      {
+        tag: "Twitter",
+        url: "https://twitter.com/adriwner",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/adriwner/",
+      },
+    ],
   },
   {
     name: "Pablo Pérez Hernández",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/pablo_perez.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/pablo-pérez-hernández-a548192a0/",
+      },
+      {
+        tag: "ContactMail",
+        url: "alu0101619002@ull.edu.es",
+      },
+    ],
   },
   {
     name: "Diego Rodríguez Barrera",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/diego_rodriguez.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "diegoorguez@gmail.com",
+      },
+    ],
   },
   {
     name: "Pablo Rodríguez de la Rosa",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/pablo_rodriguez.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/pablo_rguezdlr",
+      },
+    ],
   },
   {
     name: "Asier Romaguera Tena",
@@ -103,13 +180,13 @@ export const organizadores_actividades = [
   },
   {
     name: "Andrea	Venazco Rodríguez",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/andrea_venazco.png",
     categories: ["Informática"],
     social: [
-      /* {
+      {
         tag: "ContactMail",
         url: "andrea.venazco.rodriguez@gmail.com",
-      }, */
+      },
     ],
   },
 ];

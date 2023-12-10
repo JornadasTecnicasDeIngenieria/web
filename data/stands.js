@@ -1,137 +1,1336 @@
 export const stands = [
   {
-    stand: "S00",
-    d1: "Stand de Información",
-    d2: "Stand de Información",
-  },
-  {
     stand: "S01",
-    d1: "Secret Source",
-    d2: "Secret Source",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S02",
-    d1: "Tagua",
-    d2: "Tagua",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S03",
-    d1: "Cátedra Fundación Cepsa",
-    d2: "Cabildo de Tenerife",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S04",
-    d1: "Metrotenerife",
-    d2: "Expero",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S05",
-    d1: "ULL-RAID",
-    d2: "ATM Grupo Maggioli",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S06",
-    d1: "Serveo",
-    d2: "SEGAI - ULL",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S07",
-    d1: "FSULL-Dynamics",
-    d2: "FSULL-Dynamics",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S08",
-    d1: "Itop Consulting",
-    d2: "Brok-Air Aviation Academy",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S09",
-    d1: "Open Canarias",
-    d2: "Open Canarias",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S10",
-    d1: "COITIC - COITITF",
-    d2: "COITIC - COITITF",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S11",
-    d1: "E.P.E.L. Balsas De Tenerife",
-    d2: "Cátedra CEOE - Tenerife ",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S12",
-    d1: "Atlantis Technology",
-    d2: "HolaSoft Soluciones Informáticas",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S13",
-    d1: "IACTEC (IAC)",
-    d2: "EMMASA",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S14",
-    d1: "Inetel",
-    d2: "Binter",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S15",
-    d1: "NTT DATA Spain",
-    d2: "Cátedra Binter - ULL",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S16",
-    d1: "ENCAMINA",
-    d2: "Cátedra Cajasiete - ULL",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S17",
-    d1: "Instituto Tecnológico de Canarias",
-    d2: "TEIDESAT",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S18",
-    d1: "Terclima Canarias",
-    d2: "AdaLoveDev",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S19",
-    d1: "ARQUIMEA Research Center",
-    d2: "3 Doubles Producciones",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S20",
-    d1: "Lãberit Canarias ",
-    d2: "The Agile Monkeys",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S21",
-    d1: "EWASTE Canarias",
-    d2: "Acid Tango",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S22",
-    d1: "Fundación General de la ULL",
-    d2: "Aerolaser System",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S23",
-    d1: "Japan Tobacco International Canarias",
-    d2: "Edosoft",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S24",
-    d1: "Grupo EVM",
-    d2: "Cátedra Edosoft",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S25",
-    d1: "Intelequia Technologies",
-    d2: "Arte Consultores Tecnológicos",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
   {
     stand: "S26",
-    d1: "TecAlliance ",
-    d2: "Aqua eSolutions",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
+  },
+  {
+    stand: "S27",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
+  },
+  {
+    stand: "S28",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
+  },
+  {
+    stand: "S29",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
+  },
+  {
+    stand: "S30",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
+  },
+  {
+    stand: "S31",
+    d1: "Por determinar",
+    d1_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d1_practicas: false,
+    d2: "Por determinar",
+    d2_ingenierias: [
+      {
+        ingenieria: "informatica",
+        value: false,
+      },
+      {
+        ingenieria: "electronica",
+        value: false,
+      },
+      {
+        ingenieria: "mecanica",
+        value: false,
+      },
+      {
+        ingenieria: "quimica",
+        value: false,
+      },
+    ],
+    d2_practicas: false,
   },
 ];

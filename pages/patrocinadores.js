@@ -50,39 +50,6 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          <Grid container spacing={3} justify="flex-end" alignItems="center">
-            <Grid item xs={12} sm={12} md={6} lg={6}>
-              <AlignedDiv>
-                <RoundedDiv>
-                  <iframe
-                    width="100%"
-                    height="100%"
-                    src="https://www.youtube.com/embed/fGZVMV8mzg8?si=Ubvdyg-yWl_qwGfn"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                  ></iframe>
-                </RoundedDiv>
-              </AlignedDiv>
-            </Grid>
-            <Grid item xs={12} sm={12} md={6} lg={6}>
-              <AlignedDiv>
-                <RoundedDiv>
-                  <iframe
-                    width="100%"
-                    height="100%"
-                    src="https://www.youtube.com/embed/s0-tFqK4lGs?si=lSXEVpTpc9r11dDG"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                  ></iframe>
-                </RoundedDiv>
-              </AlignedDiv>
-            </Grid>
-          </Grid>
-          <br />
-          <br />
-          <br />
           <AlignedDiv>
             <Hexagons>
               <HexagonO>⬢&nbsp;&nbsp;</HexagonO>

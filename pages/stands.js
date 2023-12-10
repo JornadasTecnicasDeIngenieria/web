@@ -2,7 +2,7 @@ import Layout from "@components/layouts/MainLayout";
 import styled from "@emotion/styled";
 import { Grid, Container } from "@mui/material";
 import Image from "next/image";
-import { StandList14, StandList15 } from "@components/StandList";
+import { FirstDayStandList, SecondDayStandList } from "@components/StandList";
 import { stands } from "data/stands";
 
 const Stands = () => {
@@ -105,7 +105,7 @@ const Stands = () => {
           <br />
           <ImageDiv>
             <Image
-              src="/images/plano_2023.png"
+              src="/images/plano.png"
               alt="Plano de los Stands"
               width={1200}
               height={600}
@@ -120,8 +120,11 @@ const Stands = () => {
           <br />
           <AlignedDiv>
             <StandsListGrid>
-              <StandList14 content={stands} />
-              <StandList15 content={stands} />
+              <FirstDayStandList content={stands} />
+              <br />
+              <br />
+              <br />
+              <SecondDayStandList content={stands} />
             </StandsListGrid>
           </AlignedDiv>
           <br />
@@ -154,6 +157,8 @@ const ImageDiv = styled.div`
   @media (max-width: 760px) {
     width: 93vw;
   }
+  height: 90%;
+  width: 100%;
 `;
 
 const Title = styled.h2`
@@ -201,10 +206,5 @@ const HexagonB = styled.span`
 `;
 
 const StandsListGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  @media (max-width: 600px) {
-    display: block;
-  }
+  display: block;
 `;
