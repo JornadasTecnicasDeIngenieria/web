@@ -65,11 +65,11 @@ const Wrapper = styled.div`
 `;
 
 const ImageDiv = styled.div`
-  width: 52rem;
-  height: 12rem;
+  width: 42rem;
+  height: 10rem;
   @media only screen and (max-width: 720px) {
-    width: 20rem;
-    height: 7rem;
+    width: 18rem;
+    height: 6rem;
   }
   border-radius: 1em;
   padding: 1rem;
