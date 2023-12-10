@@ -35,8 +35,8 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
               <Image
                 src="/images/slogan.png"
                 alt="JTI"
-                width={1996}
-                height={430}
+                width={1000}
+                height={215}
                 style={{
                   width: "100%",
                   height: "100%",
