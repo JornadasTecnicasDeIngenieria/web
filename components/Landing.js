@@ -89,7 +89,7 @@ const PaddingDiv = styled.div`
 const DateTitle = styled.h3`
   font-size: 3rem !important;
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   justify-content: center;
   align-items: center;
