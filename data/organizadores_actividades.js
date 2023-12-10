@@ -29,12 +29,6 @@ export const organizadores_actividades = [
     social: [],
   },
   {
-    name: "Samuel	Chinea Arteaga",
-    image: "/images/organizadores/placeholder.png",
-    categories: ["Mecánica"],
-    social: [],
-  },
-  {
     name: "Moisés	de los Reyes Ramos",
     image: "/images/organizadores/moises_de_los_reyes.png",
     categories: ["Mecánica"],
@@ -62,9 +56,14 @@ export const organizadores_actividades = [
   },
   {
     name: "Patricia	García Di Mauro",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/patricia_garcia.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/daniel-garvi-arvelo-8272552a2/",
+      },
+    ],
   },
   {
     name: "Daniel	Garvi Arvelo",
@@ -73,7 +72,11 @@ export const organizadores_actividades = [
     social: [
       {
         tag: "Linkedin",
-        url: "https://www.linkedin.com/in/daniel-garvi-arvelo-8272552a2/",
+        url: "https://www.linkedin.com/in/patricia-garcía-di-mauro-6b58082a0/",
+      },
+      {
+        tag: "ContactMail",
+        url: "patriciagdm22@gmail.com",
       },
     ],
   },
