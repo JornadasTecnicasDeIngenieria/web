@@ -1,13 +1,13 @@
 import styled from "@emotion/styled";
-import { AlignedDiv } from "./StyledComponents";
+import Image from "next/image";
 
 const SvgData = ({ ingenieria, value }) => {
   const si = `/images/stands/ingenierias/${ingenieria}.svg`;
   const no = `/images/stands/ingenierias/${ingenieria}_no.svg`;
   if (value) {
-    return <img src={si} style={{ width: "25%" }}></img>;
+    return <img src={si} style={{ width: "25%" }} alt={ingenieria}></img>;
   } else {
-    return <img src={no} style={{ width: "25%" }}></img>;
+    return <img src={no} style={{ width: "25%" }} alt={ingenieria}></img>;
   }
 };
 
@@ -15,7 +15,11 @@ const Ingenieras = ({ data }) => {
   return (
     <td>
       {data.map((info) => (
-        <SvgData ingenieria={info.ingenieria} value={info.value} />
+        <SvgData
+          ingenieria={info.ingenieria}
+          value={info.value}
+          key={info.ingenieria + info.value}
+        />
       ))}
     </td>
   );
