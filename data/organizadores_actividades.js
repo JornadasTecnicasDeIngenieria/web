@@ -88,9 +88,18 @@ export const organizadores_actividades = [
   },
   {
     name: "Samuel	Martín Morales",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/samuel_martin.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/samuel-martin-morales-1182a8265/",
+      },
+      {
+        tag: "GitHub",
+        url: "https://github.com/Samuelmm15",
+      },
+    ],
   },
   {
     name: "Marta Méndez Mendoza",

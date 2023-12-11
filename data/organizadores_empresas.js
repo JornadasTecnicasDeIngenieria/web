@@ -33,9 +33,22 @@ export const organizadores_empresas = [
   },
   {
     name: "Darío Fajardo Álvarez",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/dario_fajardo.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "GitHub",
+        url: "https://github.com/Dario-Fajardo",
+      },
+      {
+        tag: "ContactMail",
+        url: "ladamada18@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/df_pm18/",
+      },
+    ],
   },
   {
     name: "Samuel	Frías Hernández",
