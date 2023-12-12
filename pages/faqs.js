@@ -134,12 +134,12 @@ const FAQs = () => {
             </Highlight>
           </DescriptionText>
           <DescriptionText>
-            Nos puedes hacer llegar tus sugerencias a través de
+            Nos puedes hacer llegar tus sugerencias a través de&nbsp;
             <DescriptionLink href="https://forms.gle/cBFsf6p3rYp2p9Dk7">
               este formulario
             </DescriptionLink>
-            y estamos disponibles en nuestras redes sociales y nuestro correo
-            jtiesit@ull.edu.es para cualquier duda o consulta.
+            &nbsp;y estamos disponibles en nuestras redes sociales y nuestro
+            correo jtiesit@ull.edu.es para cualquier duda o consulta.
           </DescriptionText>
           <AlignedDiv>
             <Hexagons>

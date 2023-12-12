@@ -24,16 +24,16 @@ export const organizadores_diseno_redes_sociales = [
     categories: ["Informática"],
     social: [
       {
+        tag: "ContactMail",
+        url: "alu0101337418@ull.edu.es",
+      },
+      {
         tag: "Instagram",
         url: "https://www.instagram.com/paolaastudillo01",
       },
       {
         tag: "Facebook",
         url: "https://www.facebook.com/people/Paola-Astudillo/pfbid0p9E9Y7boC8XYxrGDPQ5g3ctkvXPnRoeNJo8FCMQJaqk46gMdNFm6cSqvgFfYLBhDl/",
-      },
-      {
-        tag: "ContactMail",
-        url: "alu0101337418@ull.edu.es",
       },
     ],
   },
@@ -49,12 +49,12 @@ export const organizadores_diseno_redes_sociales = [
     categories: ["Informática"],
     social: [
       {
-        tag: "Instagram",
-        url: "https://www.instagram.com/dario_d_g_2002",
-      },
-      {
         tag: "ContactMail",
         url: "alu0101408095@ull.edu.es",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/dario_d_g_2002",
       },
     ],
   },
