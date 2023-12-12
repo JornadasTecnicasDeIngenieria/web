@@ -45,9 +45,18 @@ export const organizadores_diseno_redes_sociales = [
   },
   {
     name: "Darío Domínguez González",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/dario_dominguez.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/dario_d_g_2002",
+      },
+      {
+        tag: "ContactMail",
+        url: "alu0101408095@ull.edu.es",
+      },
+    ],
   },
   {
     name: "Pablo Estévez Beltrán",
