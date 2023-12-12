@@ -180,9 +180,18 @@ export const organizadores_actividades = [
   },
   {
     name: "Asier Romaguera Tena",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/asier_romaguera.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "asieromaguera@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/asieromaguera_",
+      },
+    ],
   },
   {
     name: "Juan Aday Siverio González",
