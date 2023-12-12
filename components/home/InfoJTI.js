@@ -74,7 +74,7 @@ const InfoJTI = ({ title, desc }) => {
               />
             </AlignedDiv>
             <AlignedDiv>
-              <JustTitle> 14 y 15 de Marzo </JustTitle>
+              <JustTitle>6 y 7 de Febrero</JustTitle>
             </AlignedDiv>
             <AlignedDiv>
               <JustP>
