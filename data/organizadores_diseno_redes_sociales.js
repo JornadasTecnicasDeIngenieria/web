@@ -60,9 +60,14 @@ export const organizadores_diseno_redes_sociales = [
   },
   {
     name: "Pablo Estévez Beltrán",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/pablo_estevez.png",
     categories: ["Electrónica"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "alu0101621791@ull.edu.es",
+      },
+    ],
   },
   {
     name: "Andrés Hernández Ortega",
