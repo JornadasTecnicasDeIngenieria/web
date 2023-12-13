@@ -82,9 +82,18 @@ export const organizadores_actividades = [
   },
   {
     name: "Salvador	González Cueto",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/salvador_gonzalez.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Telegram",
+        url: "https://t.me/salvakiller",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/salvagc02/",
+      },
+    ],
   },
   {
     name: "Samuel	Martín Morales",
