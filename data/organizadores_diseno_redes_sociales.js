@@ -41,7 +41,12 @@ export const organizadores_diseno_redes_sociales = [
     name: "Manuel	Cadenas García",
     image: "/images/organizadores/manuel_cadenas.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/manuel-cadenas-garcía-5818122a5/",
+      },
+    ],
   },
   {
     name: "Darío Domínguez González",
