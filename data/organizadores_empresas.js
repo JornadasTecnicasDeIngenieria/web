@@ -16,9 +16,22 @@ export const organizadores_empresas = [
   },
   {
     name: "Javier Almenara Herrera",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/javier_almenara.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "javieralmenaraherrera@gmail.com",
+      },
+      {
+        tag: "Twitter",
+        url: "https://x.com/javieralmenara_",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/javieralmenara_",
+      },
+    ],
   },
   {
     name: "Stefan Barner-Rasmussen",
@@ -188,8 +201,13 @@ export const organizadores_empresas = [
   },
   {
     name: "Lucciano	Sileo",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/lucciano_sileo.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/lucciano-sileo-31a1a12a5/",
+      },
+    ],
   },
 ];

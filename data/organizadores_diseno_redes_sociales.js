@@ -39,7 +39,7 @@ export const organizadores_diseno_redes_sociales = [
   },
   {
     name: "Manuel	Cadenas García",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/manuel_cadenas.png",
     categories: ["Informática"],
     social: [],
   },
