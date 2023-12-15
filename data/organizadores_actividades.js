@@ -114,7 +114,16 @@ export const organizadores_actividades = [
     name: "Marta Méndez Mendoza",
     image: "/images/organizadores/placeholder.png",
     categories: ["Química"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "3m.m.mendoza@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/_marta_mendez",
+      },
+    ],
   },
   {
     name: "Daniel	Molina Chávez",
