@@ -63,6 +63,10 @@ export const organizadores_actividades = [
         tag: "Linkedin",
         url: "https://www.linkedin.com/in/daniel-garvi-arvelo-8272552a2/",
       },
+      {
+        tag: "ContactMail",
+        url: "patriciagdm22@gmail.com",
+      },
     ],
   },
   {
