@@ -213,9 +213,14 @@ export const organizadores_actividades = [
   },
   {
     name: "Juan Aday Siverio González",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/juan_aday_siverio.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "juanaday21@gmail.com",
+      },
+    ],
   },
   {
     name: "Andrea	Venazco Rodríguez",
