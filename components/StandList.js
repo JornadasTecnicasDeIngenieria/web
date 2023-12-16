@@ -4,14 +4,17 @@ import Image from "next/image";
 const SvgData = ({ ingenieria, value }) => {
   const si = `/images/stands/ingenierias/${ingenieria}.svg`;
   const no = `/images/stands/ingenierias/${ingenieria}_no.svg`;
-  if (value) {
-    return <img src={si} style={{ width: "25%" }} alt={ingenieria}></img>;
-  } else {
-    return <img src={no} style={{ width: "25%" }} alt={ingenieria}></img>;
-  }
+
+  return <StyledImage src={value ? si : no} alt={ingenieria} />;
 };
 
 const Ingenieras = ({ data }) => {
+  const divStyle = {
+    position: "relative",
+    width: "100%",
+    height: "20px",
+  };
+
   return (
     <td>
       {data.map((info) => (
@@ -104,7 +107,7 @@ const TH = styled.th`
   border: 5px solid #3c3c54;
   font-size: 1.3rem;
   @media (max-width: 768px) {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 `;
 
@@ -119,7 +122,7 @@ const TD = styled.td`
   font-size: 1.1rem;
 
   @media (max-width: 768px) {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
 `;
 
@@ -135,7 +138,7 @@ const TDH = styled.td`
 
   @media (max-width: 768px) {
     padding: 0.6rem;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
 `;
 
@@ -146,4 +149,13 @@ const ScrollableTable = styled.table`
 
 const TableContainer = styled.div`
   overflow-x: auto;
+`;
+
+const StyledImage = styled.img`
+  width: 25%;
+  height: auto;
+  @media (max-width: 768px) {
+    width: 50%;
+    height: auto;
+  }
 `;
