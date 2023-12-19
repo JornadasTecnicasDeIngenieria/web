@@ -28,7 +28,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          <Grid container spacing={3} justify="flex-end" alignItems="center">
+          <Grid container spacing={6} justify="flex-end" alignItems="center">
             {patrocinadores.map(({ src, alt, width, height, types }) => {
               return types === "diamante" ? (
                 <Grid item xs={12} sm={12} md={6} lg={6}>
@@ -62,7 +62,7 @@ const Patrocinadores = () => {
           </AlignedDiv>
           <br />
           <br />
-          <Grid container spacing={3} justify="flex-end" alignItems="center">
+          <Grid container spacing={6} justify="flex-end" alignItems="center">
             {patrocinadores.map(({ src, alt, width, height, types }) => {
               return types === "platino" ? (
                 <Grid item xs={12} sm={12} md={6} lg={6}>
@@ -96,7 +96,7 @@ const Patrocinadores = () => {
           </AlignedDiv>
           <br />
           <br />
-          <Grid container spacing={3} justify="flex-end" alignItems="center">
+          <Grid container spacing={6} justify="flex-end" alignItems="center">
             {patrocinadores.map(({ src, alt, width, height, types }) => {
               return types === "oro" ? (
                 <Grid item xs={12} sm={12} md={6} lg={6}>
