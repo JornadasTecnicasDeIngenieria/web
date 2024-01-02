@@ -53,10 +53,16 @@ const Ponencias = () => {
           <br />
           <br />
           <AlignedDiv>
-            <StandsListGrid>
+            <PonenciaListGrid>
               <FirstDayPon content={ponencias} />
+              <HiddenSpace>
+                <br />
+                <br />
+                <br />
+                <br />
+              </HiddenSpace>
               <SecondDayPon content={ponencias} />
-            </StandsListGrid>
+            </PonenciaListGrid>
           </AlignedDiv>
           <br />
           <br />
@@ -78,18 +84,6 @@ const AlignedDiv = styled.div`
 
 const Section = styled.div`
   background-color: #3c3c54;
-`;
-
-const ImageDiv = styled.div`
-  display: flex;
-  align-items: center;
-  border-radius: 1.5rem;
-  overflow: hidden;
-  @media (max-width: 760px) {
-    width: 93vw;
-  }
-  height: 90%;
-  width: 100%;
 `;
 
 const Title = styled.h2`
@@ -136,11 +130,18 @@ const HexagonB = styled.span`
   font-size: 130%;
 `;
 
-const StandsListGrid = styled.div`
-  display: grid;
+const PonenciaListGrid = styled.div`
+  display: flex;
+  width: 98vw;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
+    display: block;
+  }
+`;
+
+const HiddenSpace = styled.div`
+  display: none;
+  @media (max-width: 900px) {
     display: block;
   }
 `;
