@@ -1,33 +1,25 @@
 import styled from "@emotion/styled";
-import Image from "next/image";
 
 const SvgData = ({ ingenieria, value }) => {
-  const si = `/images/stands/ingenierias/${ingenieria}.svg`;
-  const no = `/images/stands/ingenierias/${ingenieria}_no.svg`;
-  if (value) {
-    return <img src={si} style={{ width: "25%" }} alt={ingenieria}></img>;
-  } else {
-    return <img src={no} style={{ width: "25%" }} alt={ingenieria}></img>;
-  }
+  const imagePath = `/images/stands/ingenierias/${ingenieria}${
+    value ? "" : "_no"
+  }.svg`;
+  return <StyledImage src={imagePath} alt={ingenieria} />;
 };
 
-const Ingenieras = ({ data }) => {
-  return (
-    <td>
-      {data.map((info) => (
-        <SvgData
-          ingenieria={info.ingenieria}
-          value={info.value}
-          key={info.ingenieria + info.value}
-        />
-      ))}
-    </td>
-  );
-};
+const Ingenieras = ({ data }) => (
+  <td>
+    {data.map((info) => (
+      <SvgData
+        ingenieria={info.ingenieria}
+        value={info.value}
+        key={`${info.ingenieria}-${info.value}`}
+      />
+    ))}
+  </td>
+);
 
-const Practicas = ({ prac }) => {
-  return <TDH>{prac ? "Sí" : "No"}</TDH>;
-};
+const Practicas = ({ prac }) => <TDH>{prac ? "Sí" : "No"}</TDH>;
 
 export const FirstDayStandList = ({ content }) => {
   return (
@@ -102,9 +94,10 @@ const TH = styled.th`
   background-color: #7454ae;
   color: white;
   border: 5px solid #3c3c54;
-  font-size: 1.3rem;
-  @media (max-width: 768px) {
-    font-size: 0.8rem;
+  font-size: 1rem;
+
+  @media (max-width: 800px) {
+    font-size: 1rem;
   }
 `;
 
@@ -118,8 +111,8 @@ const TD = styled.td`
   font-weight: bold;
   font-size: 1.1rem;
 
-  @media (max-width: 768px) {
-    font-size: 0.6rem;
+  @media (max-width: 800px) {
+    font-size: 1rem;
   }
 `;
 
@@ -133,9 +126,9 @@ const TDH = styled.td`
   font-size: 1.1rem;
   color: #3c3c54;
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     padding: 0.6rem;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
 `;
 
@@ -146,4 +139,16 @@ const ScrollableTable = styled.table`
 
 const TableContainer = styled.div`
   overflow-x: auto;
+  width: 100%;
+`;
+
+const StyledImage = styled.img`
+  width: 25%;
+  height: auto;
+
+  @media (max-width: 800px) {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
 `;

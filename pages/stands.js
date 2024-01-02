@@ -2,7 +2,11 @@ import Layout from "@components/layouts/MainLayout";
 import styled from "@emotion/styled";
 import { Grid, Container } from "@mui/material";
 import Image from "next/image";
-import { FirstDayStandList, SecondDayStandList } from "@components/StandList";
+import {
+  FirstDayStandList,
+  SecondDayStandList,
+  CreateStandList,
+} from "@components/StandList";
 import { stands } from "data/stands";
 
 const Stands = () => {
@@ -125,6 +129,9 @@ const Stands = () => {
               <br />
               <br />
               <SecondDayStandList content={stands} />
+              <br />
+              <br />
+              <br />
             </StandsListGrid>
           </AlignedDiv>
           <br />
@@ -207,4 +214,17 @@ const HexagonB = styled.span`
 
 const StandsListGrid = styled.div`
   display: block;
+  width: 100%;
+  max-width: 97vw;
 `;
+
+/*
+<FirstDayStandList content={stands} />
+              <br />
+              <br />
+              <br />
+              <SecondDayStandList content={stands} />
+              <br />
+              <br />
+              <br />
+*/
