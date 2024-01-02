@@ -27,8 +27,7 @@ export const FirstDayStandList = ({ content }) => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <th></th>
-            <TH colSpan={4}>Martes 6 de febrero</TH>
+            <TitleTH colSpan={5}>Martes 6 de febrero</TitleTH>
           </tr>
           <tr>
             <th></th>
@@ -60,8 +59,7 @@ export const SecondDayStandList = ({ content }) => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <th></th>
-            <TH colSpan={4}>Miércoles 7 de febrero</TH>
+            <TitleTH colSpan={5}>Miércoles 7 de febrero</TitleTH>
           </tr>
           <tr>
             <th></th>
@@ -86,6 +84,20 @@ export const SecondDayStandList = ({ content }) => {
     </TableContainer>
   );
 };
+
+const TitleTH = styled.th`
+  padding: 1rem;
+  text-align: center;
+  min-width: 10%;
+  background-color: #3c3c54;
+  color: white;
+  border: 5px solid #3c3c54;
+  font-size: 3rem;
+
+  @media (max-width: 800px) {
+    font-size: 1rem;
+  }
+`;
 
 const TH = styled.th`
   padding: 1rem;
