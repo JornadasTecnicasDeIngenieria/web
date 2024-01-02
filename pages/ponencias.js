@@ -53,10 +53,16 @@ const Ponencias = () => {
           <br />
           <br />
           <AlignedDiv>
-            <StandsListGrid>
+            <PonenciaListGrid>
               <FirstDayPon content={ponencias} />
+              <HiddenSpace>
+                <br />
+                <br />
+                <br />
+                <br />
+              </HiddenSpace>
               <SecondDayPon content={ponencias} />
-            </StandsListGrid>
+            </PonenciaListGrid>
           </AlignedDiv>
           <br />
           <br />
@@ -136,11 +142,17 @@ const HexagonB = styled.span`
   font-size: 130%;
 `;
 
-const StandsListGrid = styled.div`
-  display: grid;
+const PonenciaListGrid = styled.div`
+  display: flex;
+  width: 98vw;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
+    display: block;
+  }
+`;
+const HiddenSpace = styled.div`
+  display: none;
+  @media (max-width: 900px) {
     display: block;
   }
 `;
