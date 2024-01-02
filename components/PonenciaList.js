@@ -23,7 +23,7 @@ export const FirstDayPon = ({ content }) => {
 
 export const SecondDayPon = ({ content }) => {
   return (
-    <TableContainer>
+    <SecondDTableContainer>
       <ScrollableTable>
         <tbody>
           <tr>
@@ -38,7 +38,7 @@ export const SecondDayPon = ({ content }) => {
           ))}
         </tbody>
       </ScrollableTable>
-    </TableContainer>
+    </SecondDTableContainer>
   );
 };
 
@@ -46,6 +46,7 @@ const TH = styled.th`
   padding: 1rem;
   text-align: center;
   min-width: 10%;
+  width: 25%;
   background-color: #7454ae;
   color: white;
   border: 5px solid #3c3c54;
@@ -56,6 +57,7 @@ const TD = styled.td`
   padding: 1rem;
   text-align: center;
   min-width: 10%;
+  width: 25%;
   border: 5px solid #3c3c54;
   background: #7454ae;
   color: white;
@@ -67,6 +69,7 @@ const TDH = styled.td`
   padding: 1rem 4rem;
   text-align: center;
   min-width: 10%;
+  width: 75%;
   border: 5px solid #3c3c54;
   background-color: #ffeb83;
   font-weight: bold;
@@ -80,25 +83,35 @@ const ScrollableTable = styled.table`
 `;
 
 const TableContainer = styled.div`
-  overflow-x: auto;
+  width: 100%;
+  display: flex;
+`;
+
+const SecondDTableContainer = styled.div`
+  width: 80%;
+  display: flex;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 const TDForSmallScreens = styled(TD)`
   display: none;
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     display: table-cell;
+    width: 7%;
   }
 `;
 const TDHForSmallScreens = styled(TDH)`
-  @media (max-width: 600px) {
-    width: "33%";
+  @media (max-width: 800px) {
+    width: auto;
   }
 `;
 
 const THForSmallScreens = styled(TH)`
   display: none;
-  @media (max-width: 600px) {
-    display: table-cell;
+  @media (max-width: 800px) {
+    display: block;
     opacity: 0;
   }
 `;
