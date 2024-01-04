@@ -38,7 +38,7 @@ const Info = () => {
             <Category>Fechas y ubicación</Category>
             <DescriptionText>
               Las Jornadas Técnicas de Ingeniería 2024 tendrán lugar los días 6
-              y 7 de febrero de 20224 en la Escuela Superior de Ingeniería y
+              y 7 de febrero de 2024 en la Escuela Superior de Ingeniería y
               Tecnología (ESIT) de la Universidad de La Laguna (ULL), Tenerife,
               Islas Canarias.
             </DescriptionText>

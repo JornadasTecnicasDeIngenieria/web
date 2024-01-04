@@ -63,6 +63,10 @@ export const organizadores_actividades = [
         tag: "Linkedin",
         url: "https://www.linkedin.com/in/daniel-garvi-arvelo-8272552a2/",
       },
+      {
+        tag: "ContactMail",
+        url: "patriciagdm22@gmail.com",
+      },
     ],
   },
   {
@@ -82,21 +86,48 @@ export const organizadores_actividades = [
   },
   {
     name: "Salvador	González Cueto",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/salvador_gonzalez.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Telegram",
+        url: "https://t.me/salvakiller",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/salvagc02/",
+      },
+    ],
   },
   {
     name: "Samuel	Martín Morales",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/samuel_martin.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/samuel-martin-morales-1182a8265/",
+      },
+      {
+        tag: "GitHub",
+        url: "https://github.com/Samuelmm15",
+      },
+    ],
   },
   {
     name: "Marta Méndez Mendoza",
     image: "/images/organizadores/placeholder.png",
     categories: ["Química"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "3m.m.mendoza@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/_marta_mendez",
+      },
+    ],
   },
   {
     name: "Daniel	Molina Chávez",
@@ -171,15 +202,29 @@ export const organizadores_actividades = [
   },
   {
     name: "Asier Romaguera Tena",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/asier_romaguera.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "asieromaguera@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/asieromaguera_",
+      },
+    ],
   },
   {
     name: "Juan Aday Siverio González",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/juan_aday_siverio.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "juanaday21@gmail.com",
+      },
+    ],
   },
   {
     name: "Andrea	Venazco Rodríguez",
