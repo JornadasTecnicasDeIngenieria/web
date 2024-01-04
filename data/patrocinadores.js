@@ -48,4 +48,25 @@ export const patrocinadores = [
     height: 197,
     types: "oro",
   },
+  {
+    src: "/images/patrocinadores/universidad_de_la_laguna.svg",
+    alt: "ULL",
+    width: 1000,
+    height: 1000,
+    types: "colaborador",
+  },
+  {
+    src: "/images/patrocinadores/escuela_superior_de_ingenieria_y_tecnologia.svg",
+    alt: "ESIT",
+    width: 1000,
+    height: 1000,
+    types: "colaborador",
+  },
+  {
+    src: "/images/patrocinadores/cabildo_tenerife.png",
+    alt: "Cabildo de Tenerife",
+    width: 1200,
+    height: 1488,
+    types: "colaborador",
+  },
 ];
