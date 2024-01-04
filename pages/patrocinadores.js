@@ -30,7 +30,8 @@ const Patrocinadores = () => {
           <br />
           <Grid
             container
-            spacing={3}
+            columnSpacing={3}
+            rowSpacing={6}
             alignItems="center"
             justifyContent="center"
           >
@@ -55,6 +56,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
+          <br />
           <AlignedDiv>
             <Hexagons>
               <HexagonO>⬢&nbsp;&nbsp;</HexagonO>
@@ -69,7 +71,8 @@ const Patrocinadores = () => {
           <br />
           <Grid
             container
-            spacing={3}
+            columnSpacing={3}
+            rowSpacing={6}
             alignItems="center"
             justifyContent="center"
           >
@@ -94,6 +97,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
+          <br />
           <AlignedDiv>
             <Hexagons>
               <HexagonY>⬢&nbsp;&nbsp;</HexagonY>
@@ -108,7 +112,8 @@ const Patrocinadores = () => {
           <br />
           <Grid
             container
-            spacing={3}
+            columnSpacing={3}
+            rowSpacing={6}
             alignItems="center"
             justifyContent="center"
           >
@@ -133,6 +138,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
+          <br />
           <AlignedDiv>
             <Hexagons>
               <HexagonP>⬢&nbsp;&nbsp;</HexagonP>
@@ -147,7 +153,8 @@ const Patrocinadores = () => {
           <br />
           <Grid
             container
-            spacing={3}
+            columnSpacing={3}
+            rowSpacing={6}
             alignItems="center"
             justifyContent="center"
           >
@@ -170,7 +177,10 @@ const Patrocinadores = () => {
             })}
           </Grid>
           <br />
-          <br /> <br /> <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </Container>
       </Section>
     </Layout>
