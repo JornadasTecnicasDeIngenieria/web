@@ -15,13 +15,7 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
           overflow: `hidden`,
         }}
       >
-        <Image
-          src={imgSrc}
-          alt={imgAlt}
-          width={1280}
-          height={719}
-          style={{ width: "100%", height: "100%", position: "absolute" }}
-        />
+        <Background src={imgSrc} alt={imgAlt} />
         <Grid
           container
           item
@@ -65,11 +59,11 @@ const Wrapper = styled.div`
 `;
 
 const ImageDiv = styled.div`
-  width: 52rem;
-  height: 12rem;
+  width: 42rem;
+  height: 10rem;
   @media only screen and (max-width: 720px) {
-    width: 20rem;
-    height: 7rem;
+    width: 15rem;
+    height: 5rem;
   }
   border-radius: 1em;
   padding: 1rem;
@@ -89,11 +83,21 @@ const PaddingDiv = styled.div`
 const DateTitle = styled.h3`
   font-size: 3rem !important;
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   justify-content: center;
   align-items: center;
   @media only screen and (max-width: 720px) {
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
+  }
+`;
+
+const Background = styled.img`
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  @media only screen and (max-width: 720px) {
+    width: 1280px;
   }
 `;

@@ -24,6 +24,10 @@ export const organizadores_diseno_redes_sociales = [
     categories: ["Informática"],
     social: [
       {
+        tag: "ContactMail",
+        url: "alu0101337418@ull.edu.es",
+      },
+      {
         tag: "Instagram",
         url: "https://www.instagram.com/paolaastudillo01",
       },
@@ -31,29 +35,44 @@ export const organizadores_diseno_redes_sociales = [
         tag: "Facebook",
         url: "https://www.facebook.com/people/Paola-Astudillo/pfbid0p9E9Y7boC8XYxrGDPQ5g3ctkvXPnRoeNJo8FCMQJaqk46gMdNFm6cSqvgFfYLBhDl/",
       },
-      {
-        tag: "ContactMail",
-        url: "alu0101337418@ull.edu.es",
-      },
     ],
   },
   {
     name: "Manuel	Cadenas García",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/manuel_cadenas.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/manuel-cadenas-garcía-5818122a5/",
+      },
+    ],
   },
   {
     name: "Darío Domínguez González",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/dario_dominguez.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "alu0101408095@ull.edu.es",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/dario_d_g_2002",
+      },
+    ],
   },
   {
     name: "Pablo Estévez Beltrán",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/pablo_estevez.png",
     categories: ["Electrónica"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "alu0101621791@ull.edu.es",
+      },
+    ],
   },
   {
     name: "Andrés Hernández Ortega",

@@ -74,15 +74,14 @@ const InfoJTI = ({ title, desc }) => {
               />
             </AlignedDiv>
             <AlignedDiv>
-              <JustTitle> 14 y 15 de Marzo </JustTitle>
+              <JustTitle>6 y 7 de Febrero</JustTitle>
             </AlignedDiv>
             <AlignedDiv>
               <JustP>
-                {" "}
                 ¡Anota las fechas en tu calendario! Este es un evento anual, por
                 lo que no te recomendamos perderte la oportunidad...No podemos
                 garantizarte que conseguirás trabajo, ¡pero sí que disfrutarás
-                la experiencia!{" "}
+                la experiencia!
               </JustP>
             </AlignedDiv>
           </Grid>
