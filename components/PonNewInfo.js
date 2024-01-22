@@ -6,7 +6,6 @@ export const DayOnePonen = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <th></th>
             <TH_TITLE colSpan={3}>Martes 6</TH_TITLE>
           </tr>
           <tr>
@@ -71,7 +70,6 @@ export const DayTwoPonen = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <th></th>
             <TH_TITLE colSpan={3}>Miércoles 7</TH_TITLE>
           </tr>
           <tr>
@@ -132,10 +130,10 @@ export const DayTwoPonen = () => {
 const TH_TITLE = styled.th`
   padding: 1rem;
   text-align: center;
-  background-color: #ff645f;
+  background-color: #3c3c54;
   color: white;
   border: 3px solid #3c3c54;
-  font-size: 1.3rem;
+  font-size: 1.9rem;
   @media (max-width: 800px) {
     font-size: 1rem;
   }
@@ -171,26 +169,24 @@ const TD = styled.td`
   padding: 1rem;
   text-align: center;
   border: 3px solid #3c3c54;
-  background: #ff645f;
+  background: #7454ae;
   color: white;
   font-weight: bold;
   font-size: 1.1rem;
-
   @media (max-width: 800px) {
     font-size: 1rem;
   }
 `;
 
 const TDT = styled.td`
-  padding: 1rem 4rem;
+  padding: 1rem;
   text-align: center;
-  min-width: 10%;
   border: 3px solid #3c3c54;
   background-color: #ffeb83;
   font-weight: bold;
   font-size: 1.1rem;
+  min_width: 10%;
   color: #3c3c54;
-
   @media (max-width: 800px) {
     padding: 0.6rem;
     font-size: 0.9rem;
