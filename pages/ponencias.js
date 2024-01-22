@@ -2,7 +2,7 @@ import Layout from "@components/layouts/MainLayout";
 import styled from "@emotion/styled";
 import { Grid, Container } from "@mui/material";
 import Image from "next/image";
-import { FirstDayPon, SecondDayPon } from "@components/PonenciaList";
+import { DayOnePonen, DayTwoPonen } from "@components/PonNewInfo";
 import { ponencias } from "data/ponencias";
 
 const Ponencias = () => {
@@ -52,18 +52,12 @@ const Ponencias = () => {
           </AlignedDiv>
           <br />
           <br />
-          <AlignedDiv>
-            <PonenciaListGrid>
-              <FirstDayPon content={ponencias} />
-              <HiddenSpace>
-                <br />
-                <br />
-                <br />
-                <br />
-              </HiddenSpace>
-              <SecondDayPon content={ponencias} />
-            </PonenciaListGrid>
-          </AlignedDiv>
+
+          <DayOnePonen />
+          <br />
+          <br />
+          <DayTwoPonen />
+
           <br />
           <br />
           <br />
