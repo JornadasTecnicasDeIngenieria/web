@@ -84,6 +84,13 @@ export const patrocinadores = [
     types: "oro",
   },
   {
+    src: "/images/patrocinadores/coitic.png",
+    alt: "COITIC",
+    width: 2000,
+    height: 1280,
+    types: "oro",
+  },
+  {
     src: "/images/patrocinadores/incabe.png",
     alt: "INCABE",
     width: 1138,
@@ -102,6 +109,20 @@ export const patrocinadores = [
     alt: "ACID TANGO SL",
     width: 1178,
     height: 182,
+    types: "oro",
+  },
+  {
+    src: "/images/patrocinadores/catedra_binter.png",
+    alt: "Cátedra Binter de Ciberseguridad",
+    width: 984,
+    height: 344,
+    types: "oro",
+  },
+  {
+    src: "/images/patrocinadores/catedra-bob.png",
+    alt: "Cátedra Cajasiete de Big Data, Open Data y Blockchain",
+    width: 920,
+    height: 387,
     types: "oro",
   },
   {
