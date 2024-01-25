@@ -560,7 +560,7 @@ export const stands = [
   },
   {
     stand: "S14",
-    d1: "VEOLIA",
+    d1: "VEOLIA - CANARAGUA",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
