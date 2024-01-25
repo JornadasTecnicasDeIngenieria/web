@@ -61,7 +61,7 @@ export const organizadores_actividades = [
     social: [
       {
         tag: "Linkedin",
-        url: "https://www.linkedin.com/in/daniel-garvi-arvelo-8272552a2/",
+        url: "https://www.linkedin.com/in/patricia-garcía-di-mauro-6b58082a0/",
       },
       {
         tag: "ContactMail",
@@ -76,11 +76,7 @@ export const organizadores_actividades = [
     social: [
       {
         tag: "Linkedin",
-        url: "https://www.linkedin.com/in/patricia-garcía-di-mauro-6b58082a0/",
-      },
-      {
-        tag: "ContactMail",
-        url: "patriciagdm22@gmail.com",
+        url: "https://www.linkedin.com/in/daniel-garvi-arvelo-8272552a2/",
       },
     ],
   },
