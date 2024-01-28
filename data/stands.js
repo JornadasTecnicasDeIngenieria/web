@@ -259,7 +259,7 @@ export const stands = [
   },
   {
     stand: "S07",
-    d1: "EJERCITO DE TIERRA/ MANDO DE CANARIAS",
+    d1: "EJERCITO DE TIERRA / MANDO DE CANARIAS",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -560,7 +560,7 @@ export const stands = [
   },
   {
     stand: "S14",
-    d1: "VEOLIA",
+    d1: "VEOLIA - CANARAGUA",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
