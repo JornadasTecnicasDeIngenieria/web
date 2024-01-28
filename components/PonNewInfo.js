@@ -17,25 +17,25 @@ export const DayOnePonen = () => {
             <TD>11:55</TD>
             <TDT>
               Realidad de los datos en las entidades públicas: datos públicos vs
-              datos privados
+              datos privados (NTT DATA)
             </TDT>
-            <TDT>Ingeniería y Mantenimiento en Grupo Bimbo</TDT>
+            <TDT>Ingeniería y Mantenimiento en Grupo Bimbo (Metrotenerife)</TDT>
           </tr>
           <tr>
             <TD>12:30</TD>
             <TDT>
               De Estudiante a Profesional: Transforma tus soft Skills en tu
-              Mejor Activo
+              Mejor Activo (Codebay Innovation S.L. )
             </TDT>
-            <TDT>Empleabilidad en el sector Aeronáutico</TDT>
+            <TDT>Empleabilidad en el sector Aeronáutico (Binter)</TDT>
           </tr>
           <tr>
             <TD>13:05</TD>
             <TDT>
               Implementación segura de ChatGPT en organizaciones con Azure
-              OpenIA
+              OpenIA (Intelequia Technologies SL)
             </TDT>
-            <TDT>SERVICIOS COLEGIALES 4.0</TDT>
+            <TDT>SERVICIOS COLEGIALES 4.0 (COITITF)</TDT>
           </tr>
 
           <tr>
@@ -46,16 +46,21 @@ export const DayOnePonen = () => {
             <TD>16:45</TD>
             <TDT colSpan={2}>
               Competencias personales y Tips para la realización de un buen CV
+              (Laberit Sistemas )
             </TDT>
           </tr>
           <tr>
             <TD>17:20</TD>
-            <TDT colSpan={2}>La Autoprotección y la Seguridad en Eventos</TDT>
+            <TDT colSpan={2}>
+              La Autoprotección y la Seguridad en Eventos (INSITECA INGENIEROS,
+              S.L.P. )
+            </TDT>
           </tr>
           <tr>
             <TD>17:55</TD>
             <TDT colSpan={2}>
-              Acceso a los Cuerpos de Ingenieros de las Fuerzas
+              Acceso a los Cuerpos de Ingenieros de las Fuerzas Armadas
+              (Ejercito de Tierra)
             </TDT>
           </tr>
         </tbody>
@@ -81,7 +86,7 @@ export const DayTwoPonen = () => {
             <TD>11:55</TD>
             <TDT>
               Aplicación de las últimas metodologias y stacks tecnológicos en
-              proyectos de innovación
+              proyectos de innovación (Acid Tango SL)
             </TDT>
             <TDT>WORKSHOP INCABE 2024</TDT>
           </tr>
@@ -89,14 +94,16 @@ export const DayTwoPonen = () => {
             <TD>12:30</TD>
             <TDT>
               Inteligencia artificial aplicada a la resolución de problemas
-              complejos
+              complejos (Kaizten Analytics S.L. )
             </TDT>
-            <TDT>Ingenieria del mantenimiento</TDT>
+            <TDT>Ingenieria del mantenimiento (Metrotenerife) </TDT>
           </tr>
           <tr>
             <TD>13:05</TD>
-            <TDT>AgnosPCB</TDT>
-            <TDT>NUEVOS RETOS PARA 2024: DIGITALIZACIÓN y DESCARBONIZACIÓN</TDT>
+            <TDT>AgnosPCB: Moldeando una idea...</TDT>
+            <TDT>
+              NUEVOS RETOS PARA 2024: DIGITALIZACIÓN y DESCARBONIZACIÓN (BALTEN)
+            </TDT>
           </tr>
 
           <tr>
@@ -106,19 +113,21 @@ export const DayTwoPonen = () => {
           <tr>
             <TD>16:45</TD>
             <TDT colSpan={2}>
-              Cómo desarrollar tu carrera profesional en los primeros
+              Cómo desarrollar tu carrera profesional en los primeros años
+              (ARQUIMEA Research Center)
             </TDT>
           </tr>
           <tr>
             <TD>17:20</TD>
             <TDT colSpan={2}>
-              Futuros profesionales: Líderes de sus proyectos
+              Futuros profesionales: Líderes de sus proyectos (CEOE Tenerife)
             </TDT>
           </tr>
           <tr>
             <TD>17:55</TD>
             <TDT colSpan={2}>
               Cómo ganar la olimpiada por empleo: Preparación para ingenieros
+              (Secret Source Technology S.L.)
             </TDT>
           </tr>
         </tbody>
