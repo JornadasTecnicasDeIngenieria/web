@@ -6,61 +6,84 @@ export const DayOnePonen = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TH_TITLE colSpan={3}>Martes 6</TH_TITLE>
-          </tr>
-          <tr>
             <th></th>
-            <TH_SUB_TITLE>Aula 1.7</TH_SUB_TITLE>
-            <TH_SUB_TITLE>Aula 1.13</TH_SUB_TITLE>
+            <TH_SUB_TITLE colSpan={2}>Aula 1.7</TH_SUB_TITLE>
+            <TH_SUB_TITLE colSpan={2}>Aula 1.13</TH_SUB_TITLE>
           </tr>
           <tr>
             <TD>11:55</TD>
             <TDT>
               Realidad de los datos en las entidades públicas: datos públicos vs
-              datos privados (NTT DATA)
+              datos privados 
             </TDT>
-            <TDT>Ingeniería y Mantenimiento en Grupo Bimbo (Metrotenerife)</TDT>
+            <TDT>
+              NTT DATA
+            </TDT>
+            <TDT>Ingeniería y Mantenimiento en Grupo Bimbo - Metrotenerife</TDT>
+            <TDT>
+              Metrotenerife
+            </TDT>
           </tr>
           <tr>
             <TD>12:30</TD>
             <TDT>
               De Estudiante a Profesional: Transforma tus soft Skills en tu
-              Mejor Activo (Codebay Innovation S.L. )
+              Mejor Activo
             </TDT>
-            <TDT>Empleabilidad en el sector Aeronáutico (Binter)</TDT>
+            <TDT>
+              Codebay Innovation S.L.
+            </TDT>
+            <TDT>Empleabilidad en el sector Aeronáutico</TDT>
+            <TDT>
+              Binter
+            </TDT>
           </tr>
           <tr>
             <TD>13:05</TD>
             <TDT>
               Implementación segura de ChatGPT en organizaciones con Azure
-              OpenIA (Intelequia Technologies SL)
+              OpenIA 
             </TDT>
-            <TDT>SERVICIOS COLEGIALES 4.0 (COITITF)</TDT>
+            <TDT>
+              Intelequia Technologies SL
+            </TDT>
+            <TDT>SERVICIOS COLEGIALES 4.0</TDT>
+            <TDT>
+              COITITF
+            </TDT>
           </tr>
 
           <tr>
             <th></th>
-            <TH_SUB_TITLE colSpan={3}>Aula 2.9</TH_SUB_TITLE>
+            <TH_SUB_TITLE colSpan={4}>Aula 2.9</TH_SUB_TITLE>
           </tr>
           <tr>
             <TD>16:45</TD>
-            <TDT colSpan={2}>
+            <TDT colSpan={3}>
               Competencias personales y Tips para la realización de un buen CV
-              (Laberit Sistemas )
             </TDT>
+            <TDT>
+              Laberit Sistemas
+            </TDT>
+            
           </tr>
           <tr>
             <TD>17:20</TD>
-            <TDT colSpan={2}>
-              La Autoprotección y la Seguridad en Eventos (INSITECA INGENIEROS,
-              S.L.P. )
+            <TDT colSpan={3}>
+              La Autoprotección y la Seguridad en Eventos,
+              S.L.P.
+            </TDT>
+            <TDT>
+              INSITECA INGENIEROS
             </TDT>
           </tr>
           <tr>
             <TD>17:55</TD>
-            <TDT colSpan={2}>
+            <TDT colSpan={3}>
               Acceso a los Cuerpos de Ingenieros de las Fuerzas Armadas
-              (Ejercito de Tierra)
+            </TDT>
+            <TDT>
+              Ejercito de Tierra
             </TDT>
           </tr>
         </tbody>
@@ -75,59 +98,81 @@ export const DayTwoPonen = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TH_TITLE colSpan={3}>Miércoles 7</TH_TITLE>
-          </tr>
-          <tr>
             <th></th>
-            <TH_SUB_TITLE>Aula 1.7</TH_SUB_TITLE>
-            <TH_SUB_TITLE>Aula 1.13</TH_SUB_TITLE>
+            <TH_SUB_TITLE colSpan={2}>Aula 1.7</TH_SUB_TITLE>
+            <TH_SUB_TITLE colSpan={2}>Aula 1.13</TH_SUB_TITLE>
           </tr>
           <tr>
             <TD>11:55</TD>
             <TDT>
               Aplicación de las últimas metodologias y stacks tecnológicos en
-              proyectos de innovación (Acid Tango SL)
+              proyectos de innovación 
+            </TDT>
+            <TDT>
+              Acid Tango SL
             </TDT>
             <TDT>WORKSHOP INCABE 2024</TDT>
+            <TDT>
+              INCABE
+            </TDT>
           </tr>
           <tr>
             <TD>12:30</TD>
             <TDT>
               Inteligencia artificial aplicada a la resolución de problemas
-              complejos (Kaizten Analytics S.L. )
+              complejos
             </TDT>
-            <TDT>Ingenieria del mantenimiento (Metrotenerife) </TDT>
+            <TDT>
+              Kaizten Analytics S.L.
+            </TDT>
+            <TDT>Ingenieria del mantenimiento</TDT>
+            <TDT>
+              Metrotenerife
+            </TDT>
           </tr>
           <tr>
             <TD>13:05</TD>
             <TDT>AgnosPCB: Moldeando una idea...</TDT>
             <TDT>
-              NUEVOS RETOS PARA 2024: DIGITALIZACIÓN y DESCARBONIZACIÓN (BALTEN)
+              AgnosPCB
+            </TDT>
+            <TDT>
+              NUEVOS RETOS PARA 2024: DIGITALIZACIÓN y DESCARBONIZACIÓN
+            </TDT>
+            <TDT>
+              BALTEN
             </TDT>
           </tr>
 
           <tr>
             <th></th>
-            <TH_SUB_TITLE colSpan={3}>Aula 2.9</TH_SUB_TITLE>
+            <TH_SUB_TITLE colSpan={4}>Aula 2.9</TH_SUB_TITLE>
           </tr>
           <tr>
             <TD>16:45</TD>
-            <TDT colSpan={2}>
+            <TDT colSpan={3}>
               Cómo desarrollar tu carrera profesional en los primeros años
-              (ARQUIMEA Research Center)
+            </TDT>
+            <TDT>
+              ARQUIMEA Research Center
             </TDT>
           </tr>
           <tr>
             <TD>17:20</TD>
-            <TDT colSpan={2}>
-              Futuros profesionales: Líderes de sus proyectos (CEOE Tenerife)
+            <TDT colSpan={3}>
+              Futuros profesionales: Líderes de sus proyectos
+            </TDT>
+            <TDT>
+              CEOE Tenerife
             </TDT>
           </tr>
           <tr>
             <TD>17:55</TD>
-            <TDT colSpan={2}>
+            <TDT colSpan={3}>
               Cómo ganar la olimpiada por empleo: Preparación para ingenieros
-              (Secret Source Technology S.L.)
+            </TDT>
+            <TDT>
+              Secret Source Technology S.L.
             </TDT>
           </tr>
         </tbody>
