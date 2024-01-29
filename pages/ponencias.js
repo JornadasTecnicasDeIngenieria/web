@@ -52,10 +52,11 @@ const Ponencias = () => {
           </AlignedDiv>
           <br />
           <br />
-
+          <PonDay>Martes 6</PonDay>
           <DayOnePonen />
           <br />
           <br />
+          <PonDay>Miércoles 7</PonDay>
           <DayTwoPonen />
 
           <br />
@@ -150,3 +151,16 @@ const HiddenSpace = styled.div`
     display: block;
   }
 `;
+
+
+
+const PonDay = styled.p`
+  color: white;
+  display: felx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  @media (max-width: 800px) {
+    font-size: 1.5rem;
+  }
+`
