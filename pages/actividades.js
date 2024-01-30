@@ -42,10 +42,13 @@ const Actividades = () => {
             así que no dudes en participar en todos los desafíos que puedas!
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Por determinar.
+            <Highlight>Lugar: </Highlight>Entrega del premio en el puesto central.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar.
+            <Highlight>Días: </Highlight>6 y 7 de Febrero.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Hora de cierre de logros: </Highlight> 18:00
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -59,7 +62,7 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Sorteo por Stands</Category>
+          <Category>Festival de fortuna: Sorteo por Stands</Category>
           <br />
           <DescriptionText>
             En esta actividad, tendrás la oportunidad de participar en un sorteo
@@ -72,11 +75,15 @@ const Actividades = () => {
             lado!
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Por determinar.
+            <Highlight>Lugar: </Highlight>Entrega del premio en el puesto central.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar.
+            <Highlight>Días: </Highlight>6 y 7 de Febrero.
           </DescriptionText>
+          <DescriptionText>
+            <Highlight>Hora: </Highlight>18:30.
+          </DescriptionText>
+          
           <br />
           <AlignedDiv>
             <TableSorteoStands />
@@ -102,10 +109,13 @@ const Actividades = () => {
             ganar.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Por determinar.
+            <Highlight>Lugar: </Highlight>Entrega del premio en Puesto central.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar.
+            <Highlight>Día: </Highlight>7 de Febrero.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Hora: </Highlight>18:30
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -119,7 +129,7 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Competición Arcade</Category>
+          <Category>Arcadia Bay: Competición Arcade</Category>
           <br />
           <DescriptionText>
             Revive la nostalgia de los videojuegos clásicos en nuestra
@@ -129,10 +139,13 @@ const Actividades = () => {
             necesario para ser el campeón?
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Por determinar.
+            <Highlight>Lugar: </Highlight>Delegación de Ingeniería Informática.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar.
+            <Highlight>Días: </Highlight>6 y 7 de Febrero.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Horario: </Highlight>10:00 - 18:00.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Juegos: </Highlight>Por determinar.
@@ -168,19 +181,15 @@ const Actividades = () => {
             </ul>
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Por determinar.
+            <Highlight>Lugar: </Highlight>Puesto central.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>
+            <Highlight>Días: </Highlight>6 y 7 de Febrero.
           </DescriptionText>
-          <ul>
-            <DescriptionListElement>
-              6 de febrero: Por determinar.
-            </DescriptionListElement>
-            <DescriptionListElement>
-              7 de febrero: Por determinar.
-            </DescriptionListElement>
-          </ul>
+          <DescriptionText>
+            <Highlight>Horario: </Highlight> 11:30 y 15:00
+          </DescriptionText>
+          
           <br />
           <AlignedDiv>
             <TableTrivial />
@@ -193,7 +202,7 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Búsqueda del Tesoro</Category>
+          <Category>Cazadores del conocimiento: Búsqueda del Tesoro</Category>
           <br />
           <DescriptionText>
             Embárcate en una emocionante aventura explorando todos los rincones
@@ -203,10 +212,13 @@ const Actividades = () => {
             mantener el misterio.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Por determinar.
+            <Highlight>Lugar: </Highlight>Puesto central.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar.
+            <Highlight>Día: </Highlight>6 de Febrero.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Hora: </Highlight>15:30.
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -220,7 +232,7 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Escape Room: El Laboratorio Químico</Category>
+          <Category>Escape Room: Misión andrómeda</Category>
           <br />
           <DescriptionText>
             Adéntrate en un emocionante Escape Room ambientado en un laboratorio
@@ -230,10 +242,13 @@ const Actividades = () => {
             escape.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Por determinar.
+            <Highlight>Lugar: </Highlight>Puesto central
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar.
+            <Highlight>Días: </Highlight>6 y 7 de Febrero.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Horario: </Highlight>10:00, 12:30, 15:30, 17:30.
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -247,7 +262,7 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Concurso del Mejor Stand</Category>
+          <Category>Stand-out: Concurso del Mejor Stand</Category>
           <br />
           <DescriptionText>
             Reconoce la creatividad y la innovación votando por tu stand
@@ -257,10 +272,15 @@ const Actividades = () => {
             realizaremos el sorteo de premios para los votantes.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Por determinar.
+            <Highlight>Lugar: </Highlight>Entrega del premio en el puesto central.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar.
+            <Highlight>Días: </Highlight>6 y 7 de Febrero.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Hora de la entrega empresas: </Highlight>18:00 
+            <br/>
+            <Highlight>Hora de la entrega asistentes: </Highlight>18:30 
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -274,7 +294,7 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Torneo de Videojuegos</Category>
+          <Category>Duelo de invocadores: Torneo de Videojuegos</Category>
           <br />
           <DescriptionText>
             Demuestra tus habilidades en los torneos de League of Legends (LoL)
@@ -283,10 +303,13 @@ const Actividades = () => {
             necesario para ser el campeón?
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Por determinar.
+            <Highlight>Lugar: </Highlight>Online.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar.
+            <Highlight>Día: </Highlight>10 de Febrero.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Horario: </Highlight>Por determinar dependiendo de la cantidad de participantes.
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -312,7 +335,22 @@ const Actividades = () => {
             <Highlight>Lugar: </Highlight>Por determinar.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar.
+            <Highlight>Día de presentación del reto: </Highlight>6 de Febrero.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Hora: </Highlight>14:00.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Día de mentorización: </Highlight>7 de Febrero.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Horario: </Highlight>10:00 - 11:00 y 15:30 - 16:30.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Día de entrega del premio: </Highlight>8 de Febrero.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Hora : </Highlight>Por determinar.
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -336,10 +374,13 @@ const Actividades = () => {
             inolvidables junto a tus compañeros de juego.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Por determinar.
+            <Highlight>Lugar: </Highlight>Delegación de Ingeniería Informática.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar.
+            <Highlight>Día: </Highlight>9 de Febrero.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Horario: </Highlight>16:30 - 20:30.
           </DescriptionText>
           <br />
           <AlignedDiv>
