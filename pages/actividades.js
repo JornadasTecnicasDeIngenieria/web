@@ -109,7 +109,7 @@ const Actividades = () => {
             ganar.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Entrega del premio en Puesto central.
+            <Highlight>Lugar: </Highlight>Entrega del premio en puesto central.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Día: </Highlight>7 de Febrero.

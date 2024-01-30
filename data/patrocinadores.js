@@ -56,10 +56,10 @@ export const patrocinadores = [
     types: "platino",
   },
   {
-    src: "/images/patrocinadores/catedra_fundacion_cepsa.jpg",
+    src: "/images/patrocinadores/catedra_fundacion_cepsa.png",
     alt: "Cátedra Fundación Cepsa de Transición Ecológica e Innovación",
     width: 1726,
-    height: 1334,
+    height: 600,
     types: "platino",
   },
   {
