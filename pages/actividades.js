@@ -132,7 +132,6 @@ const Actividades = () => {
           </AlignedDiv>
 
           <Category>Arcadia Bay</Category>
-          <br />
           <SubCategory> Competición Arcade</SubCategory>
           <br />
           <DescriptionText>
