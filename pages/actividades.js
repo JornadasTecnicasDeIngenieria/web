@@ -229,7 +229,7 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Inscripción: </Highlight>
             <DescriptionLink href="https://forms.gle/9Cn1wbEz71gFRLa78">
-              Click Aqui!
+              ¡Click Aquí!
             </DescriptionLink>
           </DescriptionText>
           <br />
@@ -268,7 +268,7 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Inscripción: </Highlight>
             <DescriptionLink href="https://forms.gle/SKrDKKMdXBV7EVdw6">
-              Click Aqui!
+              ¡Click Aquí!
             </DescriptionLink>
           </DescriptionText>
 
@@ -310,14 +310,14 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Martes 6: </Highlight>
             <DescriptionLink href="https://forms.gle/Qx5HXTPDfrXyHoWs6">
-              Click Aqui!
+              ¡Click Aquí!
             </DescriptionLink>
           </DescriptionText>
 
           <DescriptionText>
             <Highlight>Miércoles 7: </Highlight>
             <DescriptionLink href="https://forms.gle/nYCCsYpzErFHYxuPA">
-              Click Aqui!
+              ¡Click Aquí!
             </DescriptionLink>
           </DescriptionText>
           <br />
@@ -355,7 +355,7 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Inscripción: </Highlight>
             <DescriptionLink href="https://forms.gle/6z6LcAoRiJCsaxuSA">
-              Click Aqui!
+              ¡Click Aquí!
             </DescriptionLink>
           </DescriptionText>
           <br />
