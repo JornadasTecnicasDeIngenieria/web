@@ -37,13 +37,14 @@ const Actividades = () => {
           <br />
           <DescriptionText>
             Esta actividad te invita a participar en una variedad de desafíos
-            para acumular puntos. Desde retos de programación hasta
-            cuestionarios, cada logro que completes te otorgará puntos que
-            podrás canjear por entradas para nuestro sorteo. ¡Cada logro cuenta,
-            así que no dudes en participar en todos los desafíos que puedas!
+            para acumular puntos. Desde retos de razonamiento hasta
+            cuestionarios, cada logro que completes te otorgará puntos. ¡Cada
+            logro cuenta, así que no dudes en participar en todos los desafíos
+            que puedas!
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Entrega del premio en el puesto central.
+            <Highlight>Lugar: </Highlight>Entrega del premio en el puesto
+            central.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Días: </Highlight>6 y 7 de Febrero.
@@ -77,7 +78,8 @@ const Actividades = () => {
             lado!
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Entrega del premio en el puesto central.
+            <Highlight>Lugar: </Highlight>Entrega del premio en el puesto
+            central.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Días: </Highlight>6 y 7 de Febrero.
@@ -85,7 +87,7 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Hora: </Highlight>18:30.
           </DescriptionText>
-          
+
           <br />
           <AlignedDiv>
             <TableSorteoStands />
@@ -137,9 +139,9 @@ const Actividades = () => {
           <DescriptionText>
             Revive la nostalgia de los videojuegos clásicos en nuestra
             Competición Arcade. Enfréntate a desafíos en juegos como Tetris,
-            Pacman, Space Invaders y nuestro exclusivo “Why God?”. Cada zona
-            cuenta con computadoras para una competición intensa. ¿Tienes lo
-            necesario para ser el campeón?
+            Pacman y nuestro exclusivo “Why God?”. Cada zona cuenta con
+            computadoras para una competición intensa. ¿Tienes lo necesario para
+            ser el campeón?
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Delegación de Ingeniería Informática.
@@ -168,22 +170,21 @@ const Actividades = () => {
           <Category>Trivializando</Category>
           <SubCategory>Trivial</SubCategory>
           <br />
-          <DescriptionText>
-            <ul>
-              <DescriptionListElement>
-                Trivial de Empresa: ¿Cuánto sabes sobre las empresas
-                participantes? Participa en nuestro Trivial de Empresa y pon a
-                prueba tus conocimientos. Podrás aprender más sobre las empresas
-                mientras te diviertes y compites por premios.
-              </DescriptionListElement>
-              <DescriptionListElement>
-                Trivial General: Este es un desafío para los amantes de todas
-                las ingenierías. Participa en nuestro Trivial General y
-                demuestra tus conocimientos en una amplia gama de temas de
-                ingeniería.
-              </DescriptionListElement>
-            </ul>
-          </DescriptionText>
+
+          <ul>
+            <DescriptionListElement>
+              Trivial de Empresa: ¿Cuánto sabes sobre las empresas
+              participantes? Participa en nuestro Trivial de Empresa y pon a
+              prueba tus conocimientos. Podrás aprender más sobre las empresas
+              mientras te diviertes y compites por premios.
+            </DescriptionListElement>
+            <DescriptionListElement>
+              Trivial General: Este es un desafío para los amantes de todas las
+              ingenierías. Participa en nuestro Trivial General y demuestra tus
+              conocimientos en una amplia gama de temas de ingeniería.
+            </DescriptionListElement>
+          </ul>
+
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Puesto central.
           </DescriptionText>
@@ -193,7 +194,7 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Horario: </Highlight> 11:30 y 15:00
           </DescriptionText>
-          
+
           <br />
           <AlignedDiv>
             <TableTrivial />
@@ -225,6 +226,12 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Hora: </Highlight>15:30.
           </DescriptionText>
+          <DescriptionText>
+            <Highlight>Inscripción: </Highlight>
+            <DescriptionLink href="https://forms.gle/9Cn1wbEz71gFRLa78">
+              Click Aqui!
+            </DescriptionLink>
+          </DescriptionText>
           <br />
           <AlignedDiv>
             <TableBusquedaTesoro />
@@ -241,11 +248,12 @@ const Actividades = () => {
           <SubCategory>Escape Room</SubCategory>
           <br />
           <DescriptionText>
-            Adéntrate en un emocionante Escape Room ambientado en un laboratorio
-            de química. Imagina que un vial tóxico se ha roto y tu misión es
-            encontrar la llave de emergencia y salir antes de que el tiempo se
-            agote. Equipos de cuatro personas competirán por el mejor tiempo de
-            escape.
+            Adéntrate en un emocionante Escape Room ambientado en una misión de
+            colonización espacial. Imagina que eres un tripulante de una nave de
+            colonización espacial y te han despertado antes de tiempo porque ha
+            sucedido algo que podría poner en peligro a los miles de habitantes
+            de la nave. ¿Podrás salvarlos a todos? Equipos de cuatro personas
+            competirán por el mejor tiempo de escape.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Puesto central
@@ -256,6 +264,14 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Horario: </Highlight>10:00, 12:30, 15:30, 17:30.
           </DescriptionText>
+
+          <DescriptionText>
+            <Highlight>Inscripción: </Highlight>
+            <DescriptionLink href="https://forms.gle/SKrDKKMdXBV7EVdw6">
+              Click Aqui!
+            </DescriptionLink>
+          </DescriptionText>
+
           <br />
           <AlignedDiv>
             <TableEscapeRoom />
@@ -279,15 +295,30 @@ const Actividades = () => {
             realizaremos el sorteo de premios para los votantes.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Entrega del premio en el puesto central.
+            <Highlight>Lugar: </Highlight>Entrega del premio en el puesto
+            central.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Días: </Highlight>6 y 7 de Febrero.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Hora de la entrega empresas: </Highlight>18:00 
-            <br/>
-            <Highlight>Hora de la entrega asistentes: </Highlight>18:30 
+            <Highlight>Hora de la entrega empresas: </Highlight>18:00
+            <br />
+            <Highlight>Hora de la entrega asistentes: </Highlight>18:30
+          </DescriptionText>
+
+          <DescriptionText>
+            <Highlight>Martes 6: </Highlight>
+            <DescriptionLink href="https://forms.gle/Qx5HXTPDfrXyHoWs6">
+              Click Aqui!
+            </DescriptionLink>
+          </DescriptionText>
+
+          <DescriptionText>
+            <Highlight>Miércoles 7: </Highlight>
+            <DescriptionLink href="https://forms.gle/nYCCsYpzErFHYxuPA">
+              Click Aqui!
+            </DescriptionLink>
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -317,7 +348,15 @@ const Actividades = () => {
             <Highlight>Día: </Highlight>10 de Febrero.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar dependiendo de la cantidad de participantes.
+            <Highlight>Horario: </Highlight>Por determinar dependiendo de la
+            cantidad de participantes.
+          </DescriptionText>
+
+          <DescriptionText>
+            <Highlight>Inscripción: </Highlight>
+            <DescriptionLink href="https://forms.gle/6z6LcAoRiJCsaxuSA">
+              Click Aqui!
+            </DescriptionLink>
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -335,8 +374,8 @@ const Actividades = () => {
           <SubCategory>Hackatón</SubCategory>
           <br />
           <DescriptionText>
-            Demuestra tu habilidad en resolución de problemas del mundo real.
-            Forma equipos de 3 a 5 personas y compite para resolver la mayor
+            Demuestra tus habilidades resolviendo problemas del mundo real.
+            Forma equipos de 4 personas y compite para resolver la mayor
             cantidad de desafíos correctamente. La eficiencia y la resolución
             son clave para la victoria. ¡Buena suerte!
           </DescriptionText>
