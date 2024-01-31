@@ -32,7 +32,8 @@ const Actividades = () => {
               <HexagonY>⬢</HexagonY>
             </Hexagons>
           </AlignedDiv>
-          <Category>Sorteo por Logros</Category>
+          <Category>Desafío de destrezas</Category>
+          <SubCategory>Sorteo por Logros</SubCategory>
           <br />
           <DescriptionText>
             Esta actividad te invita a participar en una variedad de desafíos
@@ -62,7 +63,8 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Festival de fortuna: Sorteo por Stands</Category>
+          <Category>Festival de fortuna</Category>
+          <SubCategory>Sorteo por Stands</SubCategory>
           <br />
           <DescriptionText>
             En esta actividad, tendrás la oportunidad de participar en un sorteo
@@ -129,7 +131,9 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Arcadia Bay: Competición Arcade</Category>
+          <Category>Arcadia Bay</Category>
+          <br />
+          <SubCategory> Competición Arcade</SubCategory>
           <br />
           <DescriptionText>
             Revive la nostalgia de los videojuegos clásicos en nuestra
@@ -162,7 +166,8 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Trivials</Category>
+          <Category>Trivializando</Category>
+          <SubCategory>Trivial</SubCategory>
           <br />
           <DescriptionText>
             <ul>
@@ -202,7 +207,8 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Cazadores del conocimiento: Búsqueda del Tesoro</Category>
+          <Category>Cazadores del conocimiento</Category>
+          <SubCategory>Búsqueda del Tesoro</SubCategory>
           <br />
           <DescriptionText>
             Embárcate en una emocionante aventura explorando todos los rincones
@@ -232,7 +238,8 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Escape Room: Misión andrómeda</Category>
+          <Category>Misión andrómeda</Category>
+          <SubCategory>Escape Room</SubCategory>
           <br />
           <DescriptionText>
             Adéntrate en un emocionante Escape Room ambientado en un laboratorio
@@ -262,7 +269,8 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Stand-out: Concurso del Mejor Stand</Category>
+          <Category>Stand-out</Category>
+          <SubCategory>Concurso del Mejor Stand</SubCategory>
           <br />
           <DescriptionText>
             Reconoce la creatividad y la innovación votando por tu stand
@@ -294,7 +302,8 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Duelo de invocadores: Torneo de Videojuegos</Category>
+          <Category>Duelo de invocadores</Category>
+          <SubCategory>Torneo de Videojuegos</SubCategory>
           <br />
           <DescriptionText>
             Demuestra tus habilidades en los torneos de League of Legends (LoL)
@@ -323,7 +332,8 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Hackatón</Category>
+          <Category>Maratón de mentes</Category>
+          <SubCategory>Hackatón</SubCategory>
           <br />
           <DescriptionText>
             Demuestra tu habilidad en resolución de problemas del mundo real.
@@ -364,7 +374,8 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
 
-          <Category>Sesión de Rol</Category>
+          <Category>Dumbs and dice</Category>
+          <SubCategory>Sesión de Rol</SubCategory>
           <br />
           <DescriptionText>
             Prepárate para una tarde llena de imaginación y estrategia. En
@@ -419,6 +430,13 @@ const Title = styled.h2`
 const Category = styled.h3`
   color: #ffffff;
   font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+`;
+
+const SubCategory = styled.h4`
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
 `;
 
