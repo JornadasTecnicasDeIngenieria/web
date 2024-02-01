@@ -67,7 +67,7 @@ const Info = () => {
                 Grado en Ingeniería Mecánica
               </DescriptionListElement>
               <DescriptionListElement>
-                Grado en Ingeniería Electrónica Industrial y Autómata
+                Grado en Ingeniería Electrónica Industrial y Automática
               </DescriptionListElement>
               <DescriptionListElement>
                 Grado en Ingeniería Química Industrial
@@ -138,10 +138,6 @@ const Info = () => {
             <Category>Ponencias</Category>
             <ul>
               <DescriptionListElement>
-                Las ponencias tendrán lugar en el Salón de Grados de la ESIT,
-                situado en la tercera planta.
-              </DescriptionListElement>
-              <DescriptionListElement>
                 Las charlas serán de interés para todo el alumnado de la ESIT
                 (grados de Ingeniería Informática, Ingeniería Electrónica
                 Industrial y Automática, Ingeniería Mecánica e Ingeniería
@@ -149,7 +145,7 @@ const Info = () => {
               </DescriptionListElement>
               <DescriptionListElement>
                 Se tratarán temas amplios o de divulgación como investigaciones
-                recientes, proyecto innovadores, análisis del estado del arte,
+                recientes, proyectos innovadores, análisis del estado del arte,
                 consejos sobre el mercado laboral...
               </DescriptionListElement>
               <DescriptionListElement>
