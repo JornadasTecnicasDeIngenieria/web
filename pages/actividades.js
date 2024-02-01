@@ -290,9 +290,9 @@ const Actividades = () => {
           <DescriptionText>
             Reconoce la creatividad y la innovación votando por tu stand
             favorito entre las empresas participantes. Participa en la votación
-            a través de una encuesta de Google y podrías ganar premios
-            increíbles. Al final del evento, anunciaremos los ganadores y
-            realizaremos el sorteo de premios para los votantes.
+            a través de una encuesta de Google y conseguirás rifas para ganar
+            premios increíbles. Al final del evento, anunciaremos los ganadores
+            y realizaremos el sorteo de premios para los votantes.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Entrega del premio en el puesto
@@ -320,10 +320,7 @@ const Actividades = () => {
               ¡Click Aquí!
             </DescriptionLink>
           </DescriptionText>
-          <br />
-          <AlignedDiv>
-            <TableConcursoStands />
-          </AlignedDiv>
+
           <AlignedDiv>
             <Hexagons>
               <HexagonB>⬢</HexagonB>
@@ -433,10 +430,7 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Horario: </Highlight>16:30 - 20:30.
           </DescriptionText>
-          <br />
-          <AlignedDiv>
-            <TableSesionRol />
-          </AlignedDiv>
+
           <AlignedDiv>
             <Hexagons>
               <HexagonB>⬢</HexagonB>
