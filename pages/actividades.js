@@ -399,6 +399,13 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Hora : </Highlight>Por determinar.
           </DescriptionText>
+          <DescriptionText>
+            <Highlight>Inscripción: </Highlight>
+            <DescriptionLink href="https://forms.gle/n9qkLs4vghwdHbVw6">
+              ¡Click Aquí!
+            </DescriptionLink>
+          </DescriptionText>
+
           <br />
           <AlignedDiv>
             <TableHackaton />
