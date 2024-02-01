@@ -65,7 +65,7 @@ export const TableSorteoStands = () => {
           </tr>
           <tr>
             <TableItem colSpan={2}>Teclado Corsair K55 RGB PRO</TableItem>
-            <TableItem colSpan={2}>Monitor PEAQ 24'</TableItem>
+            <TableItem colSpan={2}>Monitor PEAQ 27 pulgadas</TableItem>
           </tr>
           <tr>
             <TableItem colSpan={2}>Gafas VR Meta Quest 2</TableItem>
