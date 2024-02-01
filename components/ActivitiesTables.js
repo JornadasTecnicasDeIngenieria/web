@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { Opacity } from "@mui/icons-material";
 
 export const TableSorteoLogros = () => {
   return (
@@ -15,8 +16,8 @@ export const TableSorteoLogros = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Por determinar</TableItem>
-            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={2}>Google Nest Mini</TableItem>
+            <TableItem colSpan={2}>Google Nest Mini</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -39,8 +40,36 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Por determinar</TableItem>
-            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={2}>Auriculares Vieta Pro Mute 2</TableItem>
+            <TableItem colSpan={2}>Cascos Vieta Pro Way 3</TableItem>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>Altavoz JBL Go Essential</TableItem>
+            <TableItem colSpan={2}>Ratón Razer Deathadder Essential</TableItem>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>Altavoz JBL Go Essential</TableItem>
+            <TableItem colSpan={2}>Ratón Razer Deathadder Essential</TableItem>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>Ratón Razer Deathadder Essential</TableItem>
+            <TableItem colSpan={2}>Altavoz Vieta pro María</TableItem>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>Cascos Gaming Logitech G435</TableItem>
+            <TableItem colSpan={2}>SmartWatch Redmi Watch 3 Active</TableItem>
+          </tr>
+          <tr>
+            <TableItem colSpan={2}>Teclado Corsair K55 RGB PRO</TableItem>
+            <TableItem colSpan={2}>Monitor PEAQ 24'</TableItem>
+          </tr>
+          <tr>
+            <TableItem colSpan={2}>Gafas VR Meta Quest 2</TableItem>
+            <TableItem colSpan={2}>Nintento Switch</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -65,8 +94,8 @@ export const TableSorteoRedesSociales = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Por determinar</TableItem>
-            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={2}>Mi True Wireless Earbuds Basic 2</TableItem>
+            <TableItem colSpan={2}>Mi True Wireless Earbuds Basic 2</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -80,13 +109,29 @@ export const TableCompeticionArcade = () => {
       <ScrollableTable>
         <tbody>
           <tr>
+            <th></th>
             <TableTitle colSpan={4}>
               Premios de la Competición Arcade
             </TableTitle>
           </tr>
+          <tr>
+            <th></th>
+            <TableHeader colSpan={1}>Pacman</TableHeader>
+            <TableHeader colSpan={1}>Tetris</TableHeader>
+            <TableHeader colSpan={1}>WhyGod?</TableHeader>
+          </tr>
 
           <tr>
-            <TableItem colSpan={4}>Por determinar</TableItem>
+            <TableTitle colSpan={1}>1º</TableTitle>
+            <TableItem colSpan={1}>Mini arcade</TableItem>
+            <TableItem colSpan={1}>Mini arcade</TableItem>
+            <TableItem colSpan={1}>Mini arcade</TableItem>
+          </tr>
+          <tr>
+            <TableTitle colSpan={1}>2º</TableTitle>
+            <TableItem colSpan={1}>Tamagotchi</TableItem>
+            <TableItem colSpan={1}>Tamagotchi</TableItem>
+            <TableItem colSpan={1}>Tamagotchi</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -104,13 +149,7 @@ export const TableTrivial = () => {
           </tr>
 
           <tr>
-            <TableHeader colSpan={2}>6 de febrero</TableHeader>
-            <TableHeader colSpan={2}>7 de febrero</TableHeader>
-          </tr>
-
-          <tr>
-            <TableItem colSpan={2}>Por determinar</TableItem>
-            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={4}>Merchandising JTI</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -130,7 +169,7 @@ export const TableBusquedaTesoro = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={2}>Juegos de mesa</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -148,7 +187,7 @@ export const TableEscapeRoom = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={2}>Juegos de mesa tipo escape room</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -168,7 +207,7 @@ export const TableConcursoStands = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={2}></TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -182,13 +221,26 @@ export const TableVideojuegos = () => {
       <ScrollableTable>
         <tbody>
           <tr>
+            <th></th>
             <TableTitle colSpan={2}>
               Premios del Torneo de Videojuegos
             </TableTitle>
           </tr>
+          <tr>
+            <th></th>
+            <TableHeader colSpan={1}>LoL</TableHeader>
+            <TableHeader colSpan={1}>TFT</TableHeader>
+          </tr>
 
           <tr>
-            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableTitle colSpan={1}>1º</TableTitle>
+            <TableItem colSpan={1}>20€ de RP</TableItem>
+            <TableItem colSpan={1}>20€ de RP</TableItem>
+          </tr>
+          <tr>
+            <TableTitle colSpan={1}>2º</TableTitle>
+            <TableItem colSpan={1}>10€ de RP</TableItem>
+            <TableItem colSpan={1}>10€ de RP</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -206,7 +258,10 @@ export const TableHackaton = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Por determinar</TableItem>
+            <TableItem colSpan={2}>Merchandising ULL y JTI</TableItem>
+          </tr>
+          <tr>
+            <TableItem colSpan={2}>Premio Sorpresa</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>

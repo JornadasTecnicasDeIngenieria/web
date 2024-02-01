@@ -24,14 +24,12 @@ const Ponencias = () => {
           </AlignedDiv>
           <DescriptionText>
             Este año hemos recuperado las ponencias, con el objetivo de mostrar
-            nuestro aldo más carnal. Estas tendrán una duración aproximada de 20
+            nuestro lado más carnal. Estas tendrán una duración aproximada de 20
             minutos, con 10 minutos destinados a preguntas. Nuestro objetivo es
             que las charlas sean de interés para el alumnado de todas las
             ingenierías, tratándose temas amplios o de divulgación como
-            investigaciones recientes, proyecto innovadores, análisis del estado
-            del arte o consejos sobre el mercado laboral. Las ponencias tendrán
-            lugar en el Salón de Grados de la ESIT, situado en la tercera
-            planta.
+            investigaciones recientes, proyectos innovadores, análisis del
+            estado del arte o consejos sobre el mercado laboral.
           </DescriptionText>
           <br />
           <br />
@@ -152,8 +150,6 @@ const HiddenSpace = styled.div`
   }
 `;
 
-
-
 const PonDay = styled.p`
   color: white;
   display: felx;
@@ -163,4 +159,4 @@ const PonDay = styled.p`
   @media (max-width: 800px) {
     font-size: 1.5rem;
   }
-`
+`;
