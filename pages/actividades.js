@@ -376,8 +376,10 @@ const Actividades = () => {
           <DescriptionText>
             Demuestra tus habilidades resolviendo problemas del mundo real.
             Forma equipos de 4 personas y compite para resolver la mayor
-            cantidad de desafíos correctamente. La eficiencia y la resolución
-            son clave para la victoria. ¡Buena suerte!
+            cantidad de desafíos correctamente. ¿No tienes grupo? ¡No pasa nada!
+            Inscríbete por tu cuenta y nosotros te buscamos un grupo. La
+            eficiencia y la resolución son clave para la victoria. ¡Buena
+            suerte!
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Por determinar.
