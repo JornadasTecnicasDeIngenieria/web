@@ -95,7 +95,7 @@ const Actividades = () => {
           <br />
           <DescriptionText>
             <Highlight>Aviso: </Highlight>Solo se puede ganar un premio por
-            persona.
+            persona y por día.
           </DescriptionText>
           <AlignedDiv>
             <Hexagons>
@@ -157,9 +157,7 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Horario: </Highlight>10:00 - 18:00.
           </DescriptionText>
-          <DescriptionText>
-            <Highlight>Juegos: </Highlight>Pacman, Tetris y WhyGod?.
-          </DescriptionText>
+
           <br />
           <AlignedDiv>
             <TableCompeticionArcade />
@@ -291,21 +289,20 @@ const Actividades = () => {
             Reconoce la creatividad y la innovación votando por tu stand
             favorito entre las empresas participantes. Participa en la votación
             a través de una encuesta de Google y conseguirás rifas para ganar
-            premios increíbles. Al final del evento, anunciaremos los ganadores
-            y realizaremos el sorteo de premios para los votantes.
+            premios increíbles.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Entrega del premio en el puesto
+            <Highlight>Lugar: </Highlight>Entrega de premio y rifas en el puesto
             central.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Días: </Highlight>6 y 7 de Febrero.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Hora de la entrega empresas: </Highlight>Sobre la marcha
+            <Highlight>Hora de entrega del premio: </Highlight>18:00
             <br />
-            <Highlight>Hora de la entrega asistentes: </Highlight>Sobre la
-            marcha
+            <Highlight>Hora de la entrega de rifas: </Highlight>A partir de las
+            17:00
           </DescriptionText>
 
           <DescriptionText>
