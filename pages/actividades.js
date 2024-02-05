@@ -33,7 +33,7 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
           <Category>Desafío de destrezas</Category>
-          <SubCategory>Sorteo por Logros</SubCategory>
+          <SubCategory>Concurso por Logros</SubCategory>
           <br />
           <DescriptionText>
             Esta actividad te invita a participar en una variedad de desafíos
@@ -65,7 +65,7 @@ const Actividades = () => {
           </AlignedDiv>
 
           <Category>Festival de fortuna</Category>
-          <SubCategory>Sorteo por Stands</SubCategory>
+          <SubCategory>Sorteo diario</SubCategory>
           <br />
           <DescriptionText>
             En esta actividad, tendrás la oportunidad de participar en un sorteo
@@ -92,6 +92,11 @@ const Actividades = () => {
           <AlignedDiv>
             <TableSorteoStands />
           </AlignedDiv>
+          <br />
+          <DescriptionText>
+            <Highlight>Aviso: </Highlight>Solo se puede ganar un premio por
+            persona.
+          </DescriptionText>
           <AlignedDiv>
             <Hexagons>
               <HexagonB>⬢</HexagonB>
@@ -153,7 +158,7 @@ const Actividades = () => {
             <Highlight>Horario: </Highlight>10:00 - 18:00.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Juegos: </Highlight>Por determinar.
+            <Highlight>Juegos: </Highlight>Pacman, Tetris y WhyGod?.
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -173,15 +178,10 @@ const Actividades = () => {
 
           <ul>
             <DescriptionListElement>
-              Trivial de Empresa: ¿Cuánto sabes sobre las empresas
-              participantes? Participa en nuestro Trivial de Empresa y pon a
-              prueba tus conocimientos. Podrás aprender más sobre las empresas
-              mientras te diviertes y compites por premios.
-            </DescriptionListElement>
-            <DescriptionListElement>
-              Trivial General: Este es un desafío para los amantes de todas las
-              ingenierías. Participa en nuestro Trivial General y demuestra tus
-              conocimientos en una amplia gama de temas de ingeniería.
+              ¿Cuánto sabes realmente? Participa en nuestros emocionantes
+              trivials y pon a prueba tus conocimientos. Compite respondiendo
+              desafiantes preguntas de diversas temáticas, demuestra tu
+              sabiduría y podrás ganar grandes premios.
             </DescriptionListElement>
           </ul>
 
@@ -302,9 +302,10 @@ const Actividades = () => {
             <Highlight>Días: </Highlight>6 y 7 de Febrero.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Hora de la entrega empresas: </Highlight>18:00
+            <Highlight>Hora de la entrega empresas: </Highlight>Sobre la marcha
             <br />
-            <Highlight>Hora de la entrega asistentes: </Highlight>18:30
+            <Highlight>Hora de la entrega asistentes: </Highlight>Sobre la
+            marcha
           </DescriptionText>
 
           <DescriptionText>
