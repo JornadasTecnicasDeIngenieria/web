@@ -92,7 +92,7 @@ const InfoJTI = ({ title, desc }) => {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/-5ElfrMXdfg?si=EWmXehkvBL9D1YP4"
+              src="https://www.youtube.com/embed/9ziTeq5-gns?si=W0UoHfAh0wLCftZS"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
