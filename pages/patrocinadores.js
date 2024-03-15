@@ -52,11 +52,33 @@ const Patrocinadores = () => {
                 ""
               );
             })}
+            <br />
+            <br />
+            <Grid item xs={12} sm={12} md={6} lg={6}>
+              <RoundedDiv>
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/Od8H5ZNU2d8?si=MRbBfmvWCQcNtdyh"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </RoundedDiv>
+            </Grid>
+            <Grid item xs={12} sm={12} md={6} lg={6}>
+              <RoundedDiv>
+                <iframe
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/kQeESxEwJHk?si=i9iuZF8JNN5myAHF"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </RoundedDiv>
+            </Grid>
           </Grid>
-          <br />
-          <br />
-          <br />
-          <br />
           <AlignedDiv>
             <Hexagons>
               <HexagonO>⬢&nbsp;&nbsp;</HexagonO>
@@ -253,4 +275,11 @@ const HexagonP = styled.span`
   font-size: 3.5rem;
   font-weight: 700;
   font-size: 100%;
+`;
+
+const RoundedDiv = styled.div`
+  border-radius: 25px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
 `;

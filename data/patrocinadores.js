@@ -126,13 +126,6 @@ export const patrocinadores = [
     types: "oro",
   },
   {
-    src: "/images/patrocinadores/catedra_edosoft.svg",
-    alt: "Cátedra Edosoft en Computación en la Nube e Inteligencia Artificial",
-    width: 1000,
-    height: 1000,
-    types: "oro",
-  },
-  {
     src: "/images/patrocinadores/evm.png",
     alt: "EVM - Ecosistemas virtuales y modulares",
     width: 367,
