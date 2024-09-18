@@ -8,13 +8,6 @@ export const sections = [
   },
   {
     id: "2",
-    image: "/images/charla.jpg",
-    name: "PONENCIAS",
-    categories: ["A"],
-    bg: "bgorange",
-  },
-  {
-    id: "3",
     image: "/images/sorteo.png",
     name: "ACTIVIDADES",
     categories: ["A"],
