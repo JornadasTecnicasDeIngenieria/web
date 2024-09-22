@@ -16,9 +16,6 @@ const Navbar = ({ navLinks }) => {
         <Link href="stands" className="nav-link" passHref>
           <NavbarLink className="nav-link">Stands</NavbarLink>
         </Link>
-        <Link href="ponencias" className="nav-link" passHref>
-          <NavbarLink className="nav-link">Ponencias</NavbarLink>
-        </Link>
         <Link href="actividades" className="nav-link" passHref>
           <NavbarLink className="nav-link">Actividades</NavbarLink>
         </Link>
