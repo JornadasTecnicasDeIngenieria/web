@@ -11,7 +11,6 @@ import SideDrawer from "./SideDrawer";
 
 export const navLinks = [
   { title: `Stands`, path: `/stands` },
-  { title: `Ponencias`, path: `/ponencias` },
   { title: `Actividades`, path: `/actividades` },
   { title: `Organizadores`, path: `/organizadores` },
   { title: `Patrocinadores`, path: `/patrocinadores` },
