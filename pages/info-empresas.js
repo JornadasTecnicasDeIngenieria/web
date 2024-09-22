@@ -135,25 +135,6 @@ const Info = () => {
               </DescriptionListElement>
             </ul>
             <br />
-            <Category>Ponencias</Category>
-            <ul>
-              <DescriptionListElement>
-                Las charlas serán de interés para todo el alumnado de la ESIT
-                (grados de Ingeniería Informática, Ingeniería Electrónica
-                Industrial y Automática, Ingeniería Mecánica e Ingeniería
-                Química Industrial).
-              </DescriptionListElement>
-              <DescriptionListElement>
-                Se tratarán temas amplios o de divulgación como investigaciones
-                recientes, proyectos innovadores, análisis del estado del arte,
-                consejos sobre el mercado laboral...
-              </DescriptionListElement>
-              <DescriptionListElement>
-                Tendrán una duración aproximada de 20 minutos, disponiendo de 10
-                minutos adicionales para preguntas.
-              </DescriptionListElement>
-            </ul>
-            <br />
             <Category>Actividades</Category>
             <DescriptionText>
               Otro de los múltiples objetivos de las Jornadas Técnicas de
