@@ -23,92 +23,75 @@ export const organizadores_actividades = [
     ],
   },
   {
-    name: "Aitor Castro Darias",
+    name: "Adrián	García Sánchez",
     image: "/images/organizadores/placeholder.png",
     categories: ["Informática"],
     social: [],
   },
   {
-    name: "Moisés	de los Reyes Ramos",
-    image: "/images/organizadores/moises_de_los_reyes.png",
-    categories: ["Mecánica"],
+    name: "Adrián Mora Rodríguez",
+    image: "/images/organizadores/adrian_mora.png",
+    categories: ["Informática"],
     social: [
       {
-        tag: "ContactMail",
-        url: "moisesenero2005@gmail.com",
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/adrián-mora-9387232a3/",
       },
       {
         tag: "Instagram",
-        url: "https://www.instagram.com/moidelosreyess",
+        url: "https://www.instagram.com/adriwner/",
       },
     ],
   },
   {
-    name: "Laura Dorta Marrero",
+    name: "Diego Rodríguez Barrera",
+    image: "/images/organizadores/diego_rodriguez.png",
+    categories: ["Mecánica"],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "diegoorguez@gmail.com",
+      },
+    ],
+  },
+  {
+    name: "Enrique Gómez Díaz",
     image: "/images/organizadores/placeholder.png",
     categories: ["Informática"],
-    social: [
-      {
-        tag: "Linkedin",
-        url: "https://www.linkedin.com/in/laura-dorta-marrero-1a64b826a/",
-      },
-    ],
+    social: [],
   },
   {
-    name: "Patricia	García Di Mauro",
-    image: "/images/organizadores/patricia_garcia.png",
-    categories: ["Mecánica"],
-    social: [
-      {
-        tag: "Linkedin",
-        url: "https://www.linkedin.com/in/patricia-garcía-di-mauro-6b58082a0/",
-      },
-      {
-        tag: "ContactMail",
-        url: "patriciagdm22@gmail.com",
-      },
-    ],
+    name: "Jean Franco 	Hernández García",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
   },
   {
-    name: "Daniel	Garvi Arvelo",
-    image: "/images/organizadores/daniel_garvi.png",
+    name: "Lihao Zhu",
+    image: "/images/organizadores/lihao_zhu.png",
     categories: ["Informática"],
     social: [
       {
         tag: "Linkedin",
-        url: "https://www.linkedin.com/in/daniel-garvi-arvelo-8272552a2/",
-      },
-    ],
-  },
-  {
-    name: "Salvador	González Cueto",
-    image: "/images/organizadores/salvador_gonzalez.png",
-    categories: ["Informática"],
-    social: [
-      {
-        tag: "Telegram",
-        url: "https://t.me/salvakiller",
+        url: "https://www.linkedin.com/in/lihao-zhu-6bbb77228",
       },
       {
         tag: "Instagram",
-        url: "https://www.instagram.com/salvagc02/",
+        url: "https://www.instagram.com/xvicen",
       },
     ],
   },
   {
-    name: "Samuel	Martín Morales",
-    image: "/images/organizadores/samuel_martin.png",
+    name: "Lucciano Sileo",
+    image: "/images/organizadores/placeholder.png",
     categories: ["Informática"],
-    social: [
-      {
-        tag: "Linkedin",
-        url: "https://www.linkedin.com/in/samuel-martin-morales-1182a8265/",
-      },
-      {
-        tag: "GitHub",
-        url: "https://github.com/Samuelmm15",
-      },
-    ],
+    social: [],
+  },
+  {
+    name: "María Blasco Cáceres ",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Mecánica"],
+    social: [],
   },
   {
     name: "Marta Méndez Mendoza",
@@ -126,111 +109,36 @@ export const organizadores_actividades = [
     ],
   },
   {
-    name: "Daniel	Molina Chávez",
-    image: "/images/organizadores/daniel_molina.png",
-    categories: ["Mecánica"],
+    name: "Paulo Padilla Domingues",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Informática"],
+    social: [],
+  },
+  {
+    name: "Salvador	González Cueto",
+    image: "/images/organizadores/salvador_gonzalez.png",
+    categories: ["Informática"],
     social: [
       {
-        tag: "ContactMail",
-        url: "mmolbrin@gmail.com",
+        tag: "Telegram",
+        url: "https://t.me/salvakiller",
       },
       {
         tag: "Instagram",
-        url: "https://www.instagram.com/daniel.molinaa__",
+        url: "https://www.instagram.com/salvagc02/",
       },
     ],
   },
   {
-    name: "Adrián Mora Rodríguez",
-    image: "/images/organizadores/adrian_mora.png",
-    categories: ["Informática"],
-    social: [
-      {
-        tag: "Linkedin",
-        url: "https://www.linkedin.com/in/adrián-mora-9387232a3/",
-      },
-      {
-        tag: "Twitter",
-        url: "https://twitter.com/adriwner",
-      },
-      {
-        tag: "Instagram",
-        url: "https://www.instagram.com/adriwner/",
-      },
-    ],
+    name: "Valeria Pérez Fernández ",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Química"],
+    social: [],
   },
   {
-    name: "Pablo Pérez Hernández",
-    image: "/images/organizadores/pablo_perez.png",
-    categories: ["Informática"],
-    social: [
-      {
-        tag: "Linkedin",
-        url: "https://www.linkedin.com/in/pablo-pérez-hernández-a548192a0/",
-      },
-      {
-        tag: "ContactMail",
-        url: "alu0101619002@ull.edu.es",
-      },
-    ],
-  },
-  {
-    name: "Diego Rodríguez Barrera",
-    image: "/images/organizadores/diego_rodriguez.png",
-    categories: ["Mecánica"],
-    social: [
-      {
-        tag: "ContactMail",
-        url: "diegoorguez@gmail.com",
-      },
-    ],
-  },
-  {
-    name: "Pablo Rodríguez de la Rosa",
-    image: "/images/organizadores/pablo_rodriguez.png",
-    categories: ["Informática"],
-    social: [
-      {
-        tag: "Instagram",
-        url: "https://www.instagram.com/pablo_rguezdlr",
-      },
-    ],
-  },
-  {
-    name: "Asier Romaguera Tena",
-    image: "/images/organizadores/asier_romaguera.png",
-    categories: ["Mecánica"],
-    social: [
-      {
-        tag: "ContactMail",
-        url: "asieromaguera@gmail.com",
-      },
-      {
-        tag: "Instagram",
-        url: "https://www.instagram.com/asieromaguera_",
-      },
-    ],
-  },
-  {
-    name: "Juan Aday Siverio González",
-    image: "/images/organizadores/juan_aday_siverio.png",
-    categories: ["Informática"],
-    social: [
-      {
-        tag: "ContactMail",
-        url: "juanaday21@gmail.com",
-      },
-    ],
-  },
-  {
-    name: "Andrea	Venazco Rodríguez",
-    image: "/images/organizadores/andrea_venazco.png",
-    categories: ["Informática"],
-    social: [
-      {
-        tag: "ContactMail",
-        url: "andrea.venazco.rodriguez@gmail.com",
-      },
-    ],
+    name: "Valeria	Domínguez González",
+    image: "/images/organizadores/placeholder.png",
+    categories: ["Química"],
+    social: [],
   },
 ];
