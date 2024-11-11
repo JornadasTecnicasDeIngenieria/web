@@ -27,7 +27,7 @@ export const FirstDayStandList = ({ content }) => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TitleTH colSpan={5}>Martes 6 de febrero</TitleTH>
+            <TitleTH colSpan={5}>Martes 10 de diciembre</TitleTH>
           </tr>
           <tr>
             <th></th>
@@ -59,7 +59,7 @@ export const SecondDayStandList = ({ content }) => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TitleTH colSpan={5}>Miércoles 7 de febrero</TitleTH>
+            <TitleTH colSpan={5}>Miércoles 11 de diciembre</TitleTH>
           </tr>
           <tr>
             <th></th>

@@ -30,7 +30,7 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                 src="/images/slogan.png"
                 alt="JTI"
                 width={1000}
-                height={215}
+                height={250}
                 style={{
                   width: "100%",
                   height: "100%",
@@ -40,7 +40,7 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
             </ImageDiv>
             <br />
             <br />
-            <DateTitle>6 y 7 de Febrero de 2024</DateTitle>
+            <DateTitle>10 y 11 de Diciembre de 2024</DateTitle>
           </PaddingDiv>
         </Grid>
       </Grid>
@@ -60,7 +60,7 @@ const Wrapper = styled.div`
 
 const ImageDiv = styled.div`
   width: 42rem;
-  height: 10rem;
+  height: 12rem;
   @media only screen and (max-width: 720px) {
     width: 15rem;
     height: 5rem;
@@ -81,7 +81,7 @@ const PaddingDiv = styled.div`
 `;
 
 const DateTitle = styled.h3`
-  font-size: 3rem !important;
+  font-size: 2.5rem !important;
   font-weight: 700;
   color: #ffffff;
   text-align: center;
