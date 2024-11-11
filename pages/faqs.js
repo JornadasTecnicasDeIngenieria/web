@@ -64,7 +64,7 @@ const FAQs = () => {
             <Highlight>3. ¿Cuándo serán?</Highlight>
           </DescriptionText>
           <DescriptionText>
-            Las JTI 2024 se celebrarán el martes 6 y el miércoles 7 de febrero
+            Las JTI 2024 se celebrarán el martes 10 y el miércoles 11 de diciembre
             de 2024. ¡Apúntalos en tu calendario!
           </DescriptionText>
           <br />
@@ -124,7 +124,7 @@ const FAQs = () => {
             2019. A causa del coronavirus, la edición 2020 no se pudo celebrar y
             la 2021 fue completamente online, pero estos últimos dos años las
             JTI han vuelto a ser presenciales y han sido todo un éxito. ¡Qué
-            esperamos que se repita en esta quinta edición 2024!
+            esperamos que se repita en esta sexta edición!
           </DescriptionText>
           <br />
           <br />

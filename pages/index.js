@@ -12,7 +12,7 @@ const Homepage = () => {
         imgSrc="/images/front_page.png"
         imgAlt="JTI"
         title="Jornadas Técnicas de Ingeniería"
-        subtitle="Acercando el futuro"
+        subtitle="Innovación en Acción"
       />
       <InfoJTI />
       <Sections />
