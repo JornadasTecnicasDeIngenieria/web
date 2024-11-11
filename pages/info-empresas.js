@@ -37,8 +37,8 @@ const Info = () => {
             <br />
             <Category>Fechas y ubicación</Category>
             <DescriptionText>
-              Las Jornadas Técnicas de Ingeniería 2024 tendrán lugar los días 6
-              y 7 de febrero de 2024 en la Escuela Superior de Ingeniería y
+              Las Jornadas Técnicas de Ingeniería 2024 tendrán lugar los días 10
+              y 11 de diciembre de 2024 en la Escuela Superior de Ingeniería y
               Tecnología (ESIT) de la Universidad de La Laguna (ULL), Tenerife,
               Islas Canarias.
             </DescriptionText>
@@ -91,7 +91,7 @@ const Info = () => {
                 La Universidad desplegará una red WiFi para el evento.
               </DescriptionListElement>
               <DescriptionListElement>
-                Dispondremos de un catering durante media mañana ambos días del
+                Dispondremos de un catering durante la tarde ambos días del
                 evento con aperitivos para los representantes de empresas y
                 entidades que se encuentren en los stands.
               </DescriptionListElement>
@@ -175,7 +175,7 @@ const Info = () => {
               <DescriptionListElement>Inetel</DescriptionListElement>
               <DescriptionListElement>Mutua Tinerfeña</DescriptionListElement>
               <DescriptionListElement>Open Canarias</DescriptionListElement>
-              <DescriptionListElement>TecAlliance</DescriptionListElement>
+              <DescriptionListElement>Disa</DescriptionListElement>
               <DescriptionListElement>Terclima</DescriptionListElement>
               <DescriptionListElement>COITIC</DescriptionListElement>
               <DescriptionListElement>COITITF</DescriptionListElement>
@@ -189,8 +189,8 @@ const Info = () => {
             <br />
             <Category>Agradecimientos</Category>
             <DescriptionText>
-              Desde el equipo organizador de las Jornadas Técnicas de Ingeniería
-              2024 agradecemos a todas aquellas entidades y empresas que
+              Desde el equipo organizador de las VI Jornadas Técnicas de
+              Ingeniería agradecemos a todas aquellas entidades y empresas que
               colaboran, participan y/o aportan al evento apostando por el
               talento joven.
             </DescriptionText>
