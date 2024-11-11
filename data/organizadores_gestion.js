@@ -1,42 +1,46 @@
 export const organizadores_gestion = [
   {
-    name: "Daniel Jorge Acosta",
-    image: "/images/organizadores/daniel_jorge.png",
+    name: "Jose Ramón Morera Campos",
+    image: "/images/organizadores/jose_ramon_morera.png",
     categories: ["Coordinador", "Informática"],
     social: [
       {
         tag: "Linkedin",
-        url: "https://www.linkedin.com/in/daniel-jorge-acosta-informatica/",
+        url: "https://www.linkedin.com/in/josé-ramón-morera-campos-a58727254/",
       },
       {
         tag: "ContactMail",
-        url: "danijoraco@gmail.com",
+        url: "jrmoreracampos@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/jose_r_morera/",
       },
     ],
   },
   {
-    name: "Iván García González",
-    image: "/images/organizadores/ivan_garcia.png",
+    name: "Hugo	Hernández Martín",
+    image: "/images/organizadores/hugo_hernandez.png",
     categories: ["Informática"],
     social: [
       {
-        tag: "Linkedin",
-        url: "https://www.linkedin.com/in/ivangg/",
+        tag: "Instagram",
+        url: "https://www.instagram.com/hugo.hdezz/",
       },
     ],
   },
   {
-    name: "Saúl Martín García",
-    image: "/images/organizadores/saul_martin.png",
+    name: "Samuel	Frías Hernández",
+    image: "/images/organizadores/samuel_frias.png",
     categories: ["Informática"],
     social: [
       {
-        tag: "ContactMail",
-        url: "saulmargar2@gmail.com",
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/samuelfriher/",
       },
       {
-        tag: "Linkedin",
-        url: "https://www.linkedin.com/in/saúl-martín-garcía-686632246/",
+        tag: "ContactMail",
+        url: "samuelfriher@gmail.com",
       },
     ],
   },

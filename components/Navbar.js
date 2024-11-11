@@ -42,6 +42,6 @@ export default Navbar;
 
 const NavbarLink = styled.span`
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Montserrat";
 `;
