@@ -111,13 +111,13 @@ export const patrocinadores = [
   //   height: 197,
   //   types: "oro",
   // },
-  // {
-  //   src: "/images/patrocinadores/intelequia.png",
-  //   alt: "Intelequia Technologies ",
-  //   width: 1240,
-  //   height: 874,
-  //   types: "oro",
-  // },
+  {
+    src: "/images/patrocinadores/intelequia.png",
+    alt: "Intelequia Technologies ",
+    width: 1240,
+    height: 874,
+    types: "oro",
+  },
   {
     src: "/images/patrocinadores/escuela_superior_de_ingenieria_y_tecnologia.svg",
     alt: "ESIT",

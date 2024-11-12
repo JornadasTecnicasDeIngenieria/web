@@ -34,7 +34,7 @@ export const organizadores_diseno_redes_sociales = [
   },
   {
     name: "Diego Murillo Ojeda",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/diego_murillo.png",
     categories: ["Informática"],
     social: [],
   },
