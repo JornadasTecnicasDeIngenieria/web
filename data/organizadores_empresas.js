@@ -1,12 +1,20 @@
 export const organizadores_empresas = [
   {
     name: "Siddhartha	González-Falcón Chugani",
-    image: "/images/organizadores/siddhartha_gonzalez_falcon.png",
+    image: "/images/organizadores/siddhartha_gonzalez.png",
     categories: ["Coordinador", "Mecánica"],
     social: [
       {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/siddhi-g-48898b2a4",
+      },
+      {
         tag: "ContactMail",
         url: "siddhi600@gmail.com",
+      },
+      {
+        tag: "Telegram",
+        url: "https://t.me/Siddhi614",
       },
     ],
   },
@@ -35,9 +43,18 @@ export const organizadores_empresas = [
   },
   {
     name: "Ariadna	Leal Luque",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/ariadna_leal.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [      
+      {
+        tag: "ContactMail",
+        url: "lealluqueariadna@gmail.com",
+      },
+      {
+        tag: "Telegram",
+        url: "https://t.me/ariadnaleal29",
+      },
+    ],
   },
   {
     name: "Carolina	Acosta Acosta",
@@ -47,7 +64,7 @@ export const organizadores_empresas = [
   },
   {
     name: "Daniel Bensa	Expósito Paz",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/daniel_bensa.png",
     categories: ["Informática"],
     social: [],
   },
@@ -128,6 +145,15 @@ export const organizadores_empresas = [
     name: "Yareth	Cabrera Amaral ",
     image: "/images/organizadores/placeholder.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/yareth-cabrera-amaral-803009273",
+      },
+      {
+        tag: "ContactMail",
+        url: "yarethcabreraam@gmail.com",
+      },
+    ],
   },
 ];
