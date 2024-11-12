@@ -89,7 +89,7 @@ export const organizadores_actividades = [
   },
   {
     name: "María Blasco Cáceres ",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/maria_blasco.png",
     categories: ["Mecánica"],
     social: [],
   },
@@ -119,6 +119,14 @@ export const organizadores_actividades = [
     image: "/images/organizadores/salvador_gonzalez.png",
     categories: ["Informática"],
     social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/salvador-gonz%C3%A1lez-cueto-a62483330",
+      },
+      {
+        tag: "ContactMail",
+        url: "salvagoncue@gmail.com",
+      },
       {
         tag: "Telegram",
         url: "https://t.me/salvakiller",
