@@ -127,14 +127,6 @@ export const organizadores_actividades = [
         tag: "ContactMail",
         url: "salvagoncue@gmail.com",
       },
-      {
-        tag: "Telegram",
-        url: "https://t.me/salvakiller",
-      },
-      {
-        tag: "Instagram",
-        url: "https://www.instagram.com/salvagc02/",
-      },
     ],
   },
   {
