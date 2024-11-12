@@ -69,7 +69,7 @@ const Footer = () => {
         </StyledLink>
         <StyledLink
           sx={{ textDecoration: "none", color: "common.white" }}
-          href="https://www.tiktok.com/@yourtiktokusername"
+          href="https://www.tiktok.com/@jtiesit"
           target="_blank"
           rel="noopener noreferrer"
           passHref
