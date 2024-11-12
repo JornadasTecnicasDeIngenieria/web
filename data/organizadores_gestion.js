@@ -1,6 +1,6 @@
 export const organizadores_gestion = [
   {
-    name: "Jose Ramón Morera Campos",
+    name: "José Ramón Morera Campos",
     image: "/images/organizadores/jose_ramon_morera.png",
     categories: ["Coordinador", "Informática"],
     social: [
@@ -11,10 +11,6 @@ export const organizadores_gestion = [
       {
         tag: "ContactMail",
         url: "jrmoreracampos@gmail.com",
-      },
-      {
-        tag: "Instagram",
-        url: "https://www.instagram.com/jose_r_morera/",
       },
     ],
   },
