@@ -38,8 +38,6 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                 }}
               />
             </ImageDiv>
-            <br />
-            <br />
             <DateTitle>10 y 11 de Diciembre de 2024</DateTitle>
           </PaddingDiv>
         </Grid>
@@ -66,7 +64,8 @@ const ImageDiv = styled.div`
     height: 5rem;
   }
   border-radius: 1em;
-  padding: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 10%;
 `;
 
 const PaddingDiv = styled.div`
