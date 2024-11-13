@@ -91,7 +91,12 @@ export const organizadores_actividades = [
     name: "María Blasco Cáceres ",
     image: "/images/organizadores/maria_blasco.png",
     categories: ["Mecánica"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "alu0101634913@ull.edu.es",
+      },
+    ],
   },
   {
     name: "Marta Méndez Mendoza",
