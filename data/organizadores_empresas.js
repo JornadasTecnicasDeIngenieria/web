@@ -66,7 +66,24 @@ export const organizadores_empresas = [
     name: "Daniel Bensa	Expósito Paz",
     image: "/images/organizadores/daniel_bensa.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/daniel-bensa-exp%C3%B3sito-b27672286/",
+      },
+      {
+        tag: "ContactMail",
+        url: "danielbenza2003@gmail.com",
+      },
+      {
+        tag: "GitHub",
+        url: "https://github.com/Danixps",
+      },
+      {
+        tag: "Telegram",
+        url: "t.me/danixpss",
+      },
+    ],
   },
   {
     name: "Darío Fajardo Álvarez",
@@ -89,9 +106,22 @@ export const organizadores_empresas = [
   },
   {
     name: "Eduardo González Gutiérrez",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/eduardo_gonzalez.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/eduardo-gonz%C3%A1lez-guti%C3%A9rrez/",
+      },
+      {
+        tag: "ContactMail",
+        url: "eglezgut24@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/eduglez_03",
+      },
+    ],
   },
   {
     name: "Franklin Díaz Reyes ",
