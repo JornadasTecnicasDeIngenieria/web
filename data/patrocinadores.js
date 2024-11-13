@@ -1,6 +1,6 @@
 export const patrocinadores = [
   {
-    src: "/images/patrocinadores/dipicell.jpg",
+    src: "/images/patrocinadores/dipicell.png",
     alt: "DIPICELL S.L.",
     width: 998,
     height: 383,
