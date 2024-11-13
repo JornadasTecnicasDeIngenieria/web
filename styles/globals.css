@@ -9,6 +9,7 @@
 }
 .nav-link {
   color: white !important;
+  font-size: 1.4rem;
 }
 .card-link:hover {
   color: #83ddff !important;
@@ -22,7 +23,7 @@
 .show {
   background-color: #633cae !important;
   color: #83ddff !important;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .dropdown-item {
   color: white !important;
@@ -87,7 +88,7 @@ h2 {
 
 @media (max-width: 720px) {
   h2 {
-    font-size: 2.8rem !important;
+    font-size: 2.4rem !important;
   }
 }
 
