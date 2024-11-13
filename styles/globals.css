@@ -9,7 +9,7 @@
 }
 .nav-link {
   color: white !important;
-  font-size: 1.4rem;
+  font-size: 1.4rem !important;
 }
 .card-link:hover {
   color: #83ddff !important;
