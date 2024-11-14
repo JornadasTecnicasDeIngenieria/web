@@ -142,9 +142,18 @@ export const organizadores_empresas = [
   },
   {
     name: "Jose Fenic	Peiteado Padilla",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/jose_peiteado.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/fenic-peiteado-9458802ab/",
+      },
+      {
+        tag: "ContactMail",
+        url: "fenic43ultimate@gmail.com",
+      }, 
+    ],
   },
   {
     name: "Pablo Domenico	Goya Amato",
@@ -167,9 +176,18 @@ export const organizadores_empresas = [
   },
   {
     name: "Tania Evora	Vargas Martinez",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/tania_evora.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/tania-%C3%A9vora-vargas-mart%C3%ADnez-2748152b3/",
+      },
+      {
+        tag: "ContactMail",
+        url: "alu0101219622@ull.edu.es",
+      },    
+    ],
   },
   {
     name: "Yareth	Cabrera Amaral ",
