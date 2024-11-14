@@ -11,6 +11,13 @@
   color: white !important;
   font-size: 1.4rem !important;
 }
+
+@media (max-width: 720px) {
+  .nav-link {
+    font-size: 1.2rem !important;
+  }
+}
+
 .card-link:hover {
   color: #83ddff !important;
 }
