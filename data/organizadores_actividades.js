@@ -52,19 +52,41 @@ export const organizadores_actividades = [
         tag: "ContactMail",
         url: "diegoorguez@gmail.com",
       },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/diegoorguezz_/",
+      },
     ],
   },
   {
     name: "Enrique Gómez Díaz",
     image: "/images/organizadores/placeholder.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/enrique-g%C3%B3mez-ba4969245",
+      },
+      {
+        tag: "ContactMail",
+        url: "enriquegd2004@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/diazenriquegomez",
+      },      
+    ],
   },
   {
     name: "Jean Franco 	Hernández García",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/jean_franco.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/jeanfrancohg_07/",
+      },
+    ],
   },
   {
     name: "Lihao Zhu",
