@@ -60,7 +60,7 @@ export const organizadores_actividades = [
   },
   {
     name: "Enrique Gómez Díaz",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/enrique_gomez.png",
     categories: ["Informática"],
     social: [
       {
