@@ -58,9 +58,26 @@ export const organizadores_empresas = [
   },
   {
     name: "Carolina	Acosta Acosta",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/carolina_acosta.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+              {
+                tag: "Linkedin",
+                url: "https://www.linkedin.com/in/carol-acosta-0ba775199/",
+              },
+              {
+                tag: "ContactMail",
+                url: "alu0101204574@ull.edu.es",
+              },
+              {
+                tag: "Telegram",
+                url: "t.me/carol_0609",
+              },
+              {
+                tag: "Instagram",
+                url: "https://www.instagram.com/carol_0609/",
+              },
+    ],
   },
   {
     name: "Daniel Bensa	Expósito Paz",
