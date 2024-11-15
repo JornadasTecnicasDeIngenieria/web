@@ -13,13 +13,13 @@ export const patrocinadores = [
     height: 169,
     types: "diamante",
   },
-  // {
-  //   src: "/images/patrocinadores/fecam.png",
-  //   alt: "FECAM",
-  //   width: 908,
-  //   height: 423,
-  //   types: "platino",
-  // },
+  {
+    src: "/images/patrocinadores/fecam.png",
+    alt: "FECAM",
+    width: 1329,
+    height: 470,
+    types: "platino",
+  },
   {
     src: "/images/patrocinadores/codebay.svg",
     alt: "Codebay Innovation S.L.",
