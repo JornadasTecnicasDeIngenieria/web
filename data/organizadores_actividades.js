@@ -164,7 +164,7 @@ export const organizadores_actividades = [
   },
   {
     name: "Valeria	Domínguez González",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/valeria_dominguez.png",
     categories: ["Química"],
     social: [],
   },
