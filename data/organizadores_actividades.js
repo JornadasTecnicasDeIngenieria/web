@@ -137,9 +137,22 @@ export const organizadores_actividades = [
   },
   {
     name: "Paulo Padilla Domingues",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/paulo_padilla.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/paulo-padilla-domingues-8baa55243/",
+      },
+      {
+        tag: "ContactMail",
+        url: "paulopd04@gmail.com",
+      },
+      {
+        tag: "Telegram",
+        url: "t.me/Tikualdo",
+      },
+    ],
   },
   {
     name: "Salvador	González Cueto",
