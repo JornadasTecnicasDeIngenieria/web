@@ -62,20 +62,13 @@ export const patrocinadores = [
   //   height: 1000,
   //   types: "platino",
   // },
-  // {
-  //   src: "/images/patrocinadores/secret_source.png",
-  //   alt: "Secret Source",
-  //   width: 1263,
-  //   height: 492,
-  //   types: "platino",
-  // },
-  // {
-  //   src: "/images/patrocinadores/coititf.jpg",
-  //   alt: "Colegio Oficial de Ingenieros Técnicos Industriales de Santa Cruz de Tenerife",
-  //   width: 1306,
-  //   height: 404,
-  //   types: "oro",
-  // },
+  {
+    src: "/images/patrocinadores/coititf.jpg",
+    alt: "Colegio Oficial de Ingenieros Técnicos Industriales de Santa Cruz de Tenerife",
+    width: 1306,
+    height: 404,
+    types: "oro",
+  },
   // {
   //   src: "/images/patrocinadores/coitic.png",
   //   alt: "COITIC",
