@@ -20,9 +20,18 @@ export const organizadores_empresas = [
   },
   {
     name: "Adrián	Hernández Herrera",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/adrian_hernandez.png",
     categories: ["Informática"],
-    social: [],
+    social: [
+      {
+        tag: "ContactMail",
+        url: "aherher2005@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/adriann_hdezz/",
+      },
+    ],
   },
   {
     name: "Alexander Rivas Bermúdez",
@@ -37,7 +46,7 @@ export const organizadores_empresas = [
   },
   {
     name: "Andrei	Franquis",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/andrei_franquis.png",
     categories: ["Mecánica"],
     social: [],
   },
