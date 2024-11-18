@@ -20,6 +20,14 @@ export const organizadores_gestion = [
     categories: ["Informática"],
     social: [
       {
+        tag: "ContactMail",
+        url: "alu0101481227@ull.edu.es",
+      },
+      {
+        tag: "GitHub",
+        url: "https://github.com/hugohdezm03",
+      },
+      {
         tag: "Instagram",
         url: "https://www.instagram.com/hugo.hdezz/",
       },
