@@ -16,8 +16,8 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>??? GRAN PREMIO ???</TableItem>
-            <TableItem colSpan={2}>??? GRAN PREMIO ???</TableItem>
+            <TableItem colSpan={2}>???  GRAN PREMIO ???</TableItem>
+            <TableItem colSpan={2}>???  GRAN PREMIO ???</TableItem>
           </tr>
 
           <tr>

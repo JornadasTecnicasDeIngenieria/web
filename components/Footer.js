@@ -48,7 +48,7 @@ const TikTokIcon = createSvgIcon(
 const Footer = () => {
   return (
     <Box component="footer" sx={{ py: 5, bgcolor: "primary.main" }}>
-      <Stack direction="row" justifyContent="center" spacing={4} sx={{ mb: 5 }}>
+      <Stack direction="row" justifyContent="center" spacing={3} sx={{ mb: 5 }}>
         <StyledLink
           sx={{ textDecoration: "none", color: "common.white" }}
           href="https://www.linkedin.com/company/jtiull/"
