@@ -150,7 +150,7 @@ export const organizadores_actividades = [
       },
       {
         tag: "Telegram",
-        url: "t.me/Tikualdo",
+        url: "https://t.me/Tikualdo",
       },
     ],
   },
