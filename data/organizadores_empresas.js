@@ -80,7 +80,7 @@ export const organizadores_empresas = [
               },
               {
                 tag: "Telegram",
-                url: "t.me/carol_0609",
+                url: "https://t.me/carol_0609",
               },
               {
                 tag: "Instagram",
@@ -107,7 +107,7 @@ export const organizadores_empresas = [
       },
       {
         tag: "Telegram",
-        url: "t.me/danixpss",
+        url: "https://t.me/danixpss",
       },
     ],
   },
