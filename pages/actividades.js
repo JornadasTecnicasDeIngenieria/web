@@ -59,15 +59,15 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
           <Category>Escape Room</Category>
-          <SubCategory>???</SubCategory>
+          <SubCategory>Ecos temporales</SubCategory>
           <br />
           <DescriptionText>
-            Adéntrate en un emocionante Escape Room ambientado en una misión de
-            colonización espacial. Imagina que eres un tripulante de una nave de
-            colonización espacial y te han despertado antes de tiempo porque ha
-            sucedido algo que podría poner en peligro a los miles de habitantes
-            de la nave. ¿Podrás salvarlos a todos? Equipos de cuatro personas
-            competirán por el mejor tiempo de escape.
+          Adéntrate en un emocionante Escape Room donde la ingeniería y el tiempo se entrelazan.
+          Ponte en la piel de un equipo técnico enviado a reparar una misteriosa máquina
+          capaz de viajar a través del tiempo. Un desbordamiento temporal amenaza
+          con colapsar la línea del tiempo tal como la conocemos. ¿Podrás estabilizarla antes de que
+          sea demasiado tarde? <Highlight>Equipos de cuatro personas</Highlight> pondrán a prueba su ingenio para
+          resolver el enigma y escapar en el menor tiempo posible.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Puesto central
@@ -99,10 +99,11 @@ const Actividades = () => {
           <br />
           <DescriptionText>
             Revive la nostalgia de los videojuegos clásicos en nuestra
-            Competición Arcade. Enfréntate a desafíos en juegos como Tetris,
-            Pacman y nuestro exclusivo “Why God?”. Cada zona cuenta con
+            Competición Arcade. Enfréntate a desafíos en juegos como Tetris
+            y nuestro exclusivo “Why God?”, además de juegos de fighting y 
+            diversos juegos arcade para pasar el rato. Cada zona cuenta con
             computadoras para una competición intensa. ¿Tienes lo necesario para
-            ser el campeón?
+            ser campeón?
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Delegación de Ingeniería Informática.
@@ -125,12 +126,12 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
           <Category>Torneo de Videojuegos</Category>
+          <SubCategory>Duelo de invocadores</SubCategory>
           <br />
           <DescriptionText>
-            Demuestra tus habilidades en los torneos de League of Legends (LoL)
-            y Teamfight Tactics (TFT). Participa en enfrentamientos épicos en
-            LoL o muestra tus estrategias brillantes en TFT. ¿Tienes lo
-            necesario para ser el campeón?
+          ¡Demuestra tus habilidades en el campo de batalla virtual con el Torneo de Videojuegos:
+          Duelo de Invocadores! Compite en dos de los juegos más icónicos del universo gaming:
+          Teamfight Tactics (TFT) y League of Legends (LoL)
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Online.
@@ -162,11 +163,9 @@ const Actividades = () => {
           <Category>Sesión de Rol</Category>
           <br />
           <DescriptionText>
-            Prepárate para una tarde llena de imaginación y estrategia. En
-            colaboración con Sabadospararoleros, te invitamos a participar en
-            emocionantes partidas de rol, desde Dungeons & Dragons 5e hasta Call
-            of Cthulhu. Sumérgete en mundos fantásticos y vive aventuras
-            inolvidables junto a tus compañeros de juego.
+          Sumérgete en mundos de fantasía, ciencia ficción y aventuras
+          épicas en una tarde dedicada al rol. Prepárate para vivir
+          historias únicas y dar vida a personajes en situaciones inolvidables.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Delegación de Ingeniería Informática.
