@@ -67,7 +67,7 @@ export const TableSorteoRedesSociales = () => {
           </tr>
 
           <tr>
-            <TableHeader colSpan={2}>Twitter</TableHeader>
+            <TableHeader colSpan={2}>TikTok</TableHeader>
             <TableHeader colSpan={2}>Instagram</TableHeader>
           </tr>
 
