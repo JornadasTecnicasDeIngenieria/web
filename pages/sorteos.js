@@ -23,14 +23,22 @@ const Sorteos = () => {
           <Category>Sorteo diario</Category>
           <br />
           <DescriptionText>
-            En esta actividad, tendrás la oportunidad de participar en un sorteo
-            visitando nuestros stands en el evento. Al llegar a cada stand,
-            recibirás una papeleta que deberás sellar y depositar en una urna.
-            Al final del evento, se realizará un sorteo entre todas las
-            papeletas depositadas y podrías ser el afortunado ganador. Recuerda,
-            cada stand que visites es una oportunidad adicional para ganar, así
-            que asegúrate de visitarlos todos. ¡La suerte puede estar de tu
-            lado!
+          ¡El gran sorteo! El momento más esperado del día, donde no solo se entregan los premios
+          principales, sino también el resto de reconocimientos del evento. ¿Quieres participar y tener
+          la oportunidad de ganar grandes recompensas? ¡Consigue rifas y únete al Festival de
+          Fortuna!
+          <br />
+          <br />
+          <Highlight>¿Cómo puedes conseguir rifas?</Highlight>
+          <br />
+          ○ Explorando los stands: Por cada 4 sellos que consigas visitando los stands,
+          obtendrás 1 rifa (máximo 3 rifas).
+          <br />
+          ○ Votando en el concurso Stand-Out: Participa votando por tu stand favorito y
+          obtén una rifa adicional.  Más info debajo.
+          <br />
+          ○ Completando las preguntas a empresas: Por completar el folleto de
+          preguntas te llevarás también 1 rifa.  Más info debajo.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Entrega del premio en el puesto
