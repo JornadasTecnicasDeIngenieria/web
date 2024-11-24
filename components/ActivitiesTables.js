@@ -55,14 +55,40 @@ export const TableSorteoStands = () => {
   );
 };
 
-export const TableSorteoRedesSociales = () => {
+export const TableSorteoPrevioRedesSociales = () => {
   return (
     <TableContainer>
       <ScrollableTable>
         <tbody>
           <tr>
             <TableTitle colSpan={4}>
-              Premios del Sorteo por Redes Sociales
+              Premios del Sorteo Previo al evento por Redes Sociales
+            </TableTitle>
+          </tr>
+
+          <tr>
+            <TableHeader colSpan={2}>TikTok</TableHeader>
+            <TableHeader colSpan={2}>Instagram</TableHeader>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>???</TableItem>
+            <TableItem colSpan={2}>???</TableItem>
+          </tr>
+        </tbody>
+      </ScrollableTable>
+    </TableContainer>
+  );
+};
+
+export const TableSorteoDuranteRedesSociales = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+        <tbody>
+          <tr>
+            <TableTitle colSpan={4}>
+              Premios del Sorteo Durante el evento por Redes Sociales
             </TableTitle>
           </tr>
 
