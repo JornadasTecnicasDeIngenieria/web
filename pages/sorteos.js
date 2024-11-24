@@ -1,4 +1,4 @@
-import {TableBusquedaTesoro, TableCompeticionArcade, TableConcursoStands, TableEscapeRoom, TableHackaton, TableSesionRol, TableSorteoLogros, TableSorteoRedesSociales, TableSorteoStands, TableTrivial, TableVideojuegos,} from '@components/ActivitiesTables';
+import {TableSorteoPrevioRedesSociales,TableSorteoDuranteRedesSociales,TableSorteoStands,} from '@components/ActivitiesTables';
 import Layout from '@components/layouts/MainLayout';
 import styled from '@emotion/styled';
 import {Container} from '@mui/material';
@@ -62,10 +62,43 @@ const Sorteos = () => {
           <SubCategory>Stand-out</SubCategory>
           <br />
           <DescriptionText>
-            Reconoce la creatividad y la innovación votando por tu stand
-            favorito entre las empresas participantes. Participa en la votación
-            a través de una encuesta de Google y conseguirás rifas para ganar
-            premios increíbles.
+          ¡Participa en Stand-Out, el concurso al mejor stand de las Jornadas Técnicas! Durante
+          ambos días, los asistentes podrán explorar los stands, descubrir proyectos innovadores y
+          votar por su stand favorito. ¡Haz que tu elección destaque y contribuye a premiar la
+          creatividad y el ingenio! ¿Qué stand se llevará el título este año? ¡Tú decides!
+
+          <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Lugar: </Highlight>Entrega de premio y rifas en el puesto
+            central.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Días: </Highlight>10 y 11 de Diciembre.
+          </DescriptionText>
+          <DescriptionText>
+          <Highlight>Hora de la entrega de rifas: </Highlight>A partir de las
+          16:30
+          <br />
+          <Highlight>Hora de entrega del premio: </Highlight>18:00  
+          </DescriptionText>
+          <AlignedDiv>
+            <Hexagons>
+              <HexagonB>⬢</HexagonB>
+              <HexagonO>⬢</HexagonO>
+              <HexagonY>⬢</HexagonY>
+            </Hexagons>
+          </AlignedDiv>
+          <Category>Preguntas a las empresas</Category>
+          <br />
+          <DescriptionText>
+          Explora, investiga y conecta con las empresas participantes. Rellena el folleto con tus
+          preguntas a las compañías presentes y descubre más sobre sus proyectos, innovaciones y
+          oportunidades. Cada folleto completado te dará una participación para el emocionante
+          gran sorteo de premios de las Jornadas. ¡Haz tus preguntas, participa
+          y prepárate para ganar!
+
+          <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Entrega de premio y rifas en el puesto
@@ -90,28 +123,39 @@ const Sorteos = () => {
           <Category>Sorteos por Redes Sociales</Category>
           <br />
           <DescriptionText>
-            Esta actividad te brinda la oportunidad de ganar premios
-            emocionantes simplemente interactuando con nuestras redes sociales.
-            Puedes participar siguiéndonos en nuestras redes sociales,
-            compartiendo nuestras publicaciones, etiquetando a tus amigos, o
-            incluso publicando contenido relacionado con el evento. Cada
-            interacción cuenta como una entrada para el sorteo, por lo que
-            cuantas más interacciones realices, más posibilidades tendrás de
-            ganar.
+          Durante los dos días de las Jornadas, interactúa en Instagram o Tiktok.
+          Al final del segundo día, realizaremos un sorteo a través de una plataforma 
+          especializada entre todas las personas que hayan participado. <Highlight>¡Pero eso no es todo!</Highlight> 
+          Antes de que comiencen las Jornadas, se realizarán un sorteo previo para premiar 
+          la anticipación de nuestra comunidad. Mantente atento a nuestras redes para conocer
+          los detalles y las fechas exactas.
+          ¡No pierdas la oportunidad
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Entrega del premio en puesto central.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Día: </Highlight>11 de Diciembre.
+            <Highlight>Entrega premios sorteo previo: </Highlight>10 de Diciembre.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Entrega premios sorteo durante: </Highlight>11 de Diciembre.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Hora: </Highlight>18:00
           </DescriptionText>
           <br />
           <AlignedDiv>
-            <TableSorteoRedesSociales />
+            <TableSorteoPrevioRedesSociales />
           </AlignedDiv>
+          <br />
+          <AlignedDiv>
+            <TableSorteoDuranteRedesSociales />
+          </AlignedDiv>
+          <br />
+          <DescriptionText>
+            <Highlight>Aviso: </Highlight>Solo se puede ganar un premio por
+            persona en cada sorteo (previo y durante) independientemente de la RRSS.
+          </DescriptionText>
           <AlignedDiv>
             <Hexagons>
               <HexagonB>⬢</HexagonB>
