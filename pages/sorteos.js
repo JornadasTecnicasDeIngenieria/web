@@ -66,7 +66,7 @@ const Sorteos = () => {
           ambos días, los asistentes podrán explorar los stands, descubrir proyectos innovadores y
           votar por su stand favorito. ¡Haz que tu elección destaque y contribuye a premiar la
           creatividad y el ingenio! ¿Qué stand se llevará el título este año? ¡Tú decides!
-
+          <br />
           <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
           </DescriptionText>
           <DescriptionText>
@@ -97,7 +97,7 @@ const Sorteos = () => {
           oportunidades. Cada folleto completado te dará una participación para el emocionante
           gran sorteo de premios de las Jornadas. ¡Haz tus preguntas, participa
           y prepárate para ganar!
-
+          <br />
           <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
           </DescriptionText>
           <DescriptionText>
@@ -125,7 +125,7 @@ const Sorteos = () => {
           <DescriptionText>
           Durante los dos días de las Jornadas, interactúa en Instagram o Tiktok.
           Al final del segundo día, realizaremos un sorteo a través de una plataforma 
-          especializada entre todas las personas que hayan participado. <Highlight>¡Pero eso no es todo!</Highlight> 
+          especializada entre todas las personas que hayan participado. <Highlight>¡Pero eso no es todo! </Highlight> 
           Antes de que comiencen las Jornadas, se realizarán un sorteo previo para premiar 
           la anticipación de nuestra comunidad. Mantente atento a nuestras redes para conocer
           los detalles y las fechas exactas.
