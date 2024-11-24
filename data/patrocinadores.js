@@ -27,13 +27,6 @@ export const patrocinadores = [
     height: 500,
     types: "platino",
   },
-  // {
-  //   src: "/images/patrocinadores/mutua_tinerfena.png",
-  //   alt: "Mutua Tinerfeña",
-  //   width: 1263,
-  //   height: 894,
-  //   types: "platino",
-  // },
   {
     src: "/images/patrocinadores/atlantis_technology.jpg",
     alt: "Atlantis",
@@ -69,6 +62,13 @@ export const patrocinadores = [
     height: 404,
     types: "oro",
   },
+  // {
+  //   src: "/images/patrocinadores/mutua_tinerfena.png",
+  //   alt: "Mutua Tinerfeña",
+  //   width: 1263,
+  //   height: 894,
+  //   types: "oro",
+  // },
   // {
   //   src: "/images/patrocinadores/coitic.png",
   //   alt: "COITIC",
@@ -109,6 +109,20 @@ export const patrocinadores = [
     alt: "Intelequia Technologies ",
     width: 1240,
     height: 874,
+    types: "oro",
+  },
+  {
+    src: "/images/patrocinadores/tagua.jpg",
+    alt: "Tagua",
+    width: 2321,
+    height: 769,
+    types: "oro",
+  },
+  {
+    src: "/images/patrocinadores/expero.png",
+    alt: "Expero",
+    width: 600,
+    height: 144,
     types: "oro",
   },
   {
