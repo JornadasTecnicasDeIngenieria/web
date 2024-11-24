@@ -23,14 +23,22 @@ const Sorteos = () => {
           <Category>Sorteo diario</Category>
           <br />
           <DescriptionText>
-            En esta actividad, tendrás la oportunidad de participar en un sorteo
-            visitando nuestros stands en el evento. Al llegar a cada stand,
-            recibirás una papeleta que deberás sellar y depositar en una urna.
-            Al final del evento, se realizará un sorteo entre todas las
-            papeletas depositadas y podrías ser el afortunado ganador. Recuerda,
-            cada stand que visites es una oportunidad adicional para ganar, así
-            que asegúrate de visitarlos todos. ¡La suerte puede estar de tu
-            lado!
+          ¡El gran sorteo! El momento más esperado del día, donde no solo se entregan los premios
+          principales, sino también el resto de reconocimientos del evento. ¿Quieres participar y tener
+          la oportunidad de ganar grandes recompensas? ¡Consigue rifas y únete al Festival de
+          Fortuna!
+          <br />
+          <br />
+          <Highlight>¿Cómo puedes conseguir rifas?</Highlight>
+          <br />
+          ○ Explorando los stands: Por cada 4 sellos que consigas visitando los stands,
+          obtendrás 1 rifa (máximo 3 rifas).
+          <br />
+          ○ Votando en el concurso Stand-Out: Participa votando por tu stand favorito y
+          obtén una rifa adicional.  Más info debajo.
+          <br />
+          ○ Completando las preguntas a empresas: Por completar el folleto de
+          preguntas te llevarás también 1 rifa.  Más info debajo.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Entrega del premio en el puesto
@@ -66,7 +74,7 @@ const Sorteos = () => {
           ambos días, los asistentes podrán explorar los stands, descubrir proyectos innovadores y
           votar por su stand favorito. ¡Haz que tu elección destaque y contribuye a premiar la
           creatividad y el ingenio! ¿Qué stand se llevará el título este año? ¡Tú decides!
-
+          <br />
           <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
           </DescriptionText>
           <DescriptionText>
@@ -97,7 +105,7 @@ const Sorteos = () => {
           oportunidades. Cada folleto completado te dará una participación para el emocionante
           gran sorteo de premios de las Jornadas. ¡Haz tus preguntas, participa
           y prepárate para ganar!
-
+          <br />
           <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
           </DescriptionText>
           <DescriptionText>
@@ -125,7 +133,7 @@ const Sorteos = () => {
           <DescriptionText>
           Durante los dos días de las Jornadas, interactúa en Instagram o Tiktok.
           Al final del segundo día, realizaremos un sorteo a través de una plataforma 
-          especializada entre todas las personas que hayan participado. <Highlight>¡Pero eso no es todo!</Highlight> 
+          especializada entre todas las personas que hayan participado. <Highlight>¡Pero eso no es todo! </Highlight> 
           Antes de que comiencen las Jornadas, se realizarán un sorteo previo para premiar 
           la anticipación de nuestra comunidad. Mantente atento a nuestras redes para conocer
           los detalles y las fechas exactas.
