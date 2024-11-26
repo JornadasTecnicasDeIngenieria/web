@@ -29,16 +29,21 @@ const Sorteos = () => {
           Fortuna!
           <br />
           <br />
-          <Highlight>¿Cómo puedes conseguir rifas?</Highlight>
-          <br />
-          ○ Explorando los stands: Por cada 4 sellos que consigas visitando los stands,
-          obtendrás 1 rifa (máximo 3 rifas).
-          <br />
-          ○ Votando en el concurso Stand-Out: Participa votando por tu stand favorito y
-          obtén una rifa adicional.  Más info debajo.
-          <br />
-          ○ Completando las preguntas a empresas: Por completar el folleto de
-          preguntas te llevarás también 1 rifa.  Más info debajo.
+          <ul>
+            <Highlight>¿Cómo puedes conseguir rifas?</Highlight>
+            <br />
+            <ul>
+            <li> Explorando los stands: Por cada 4 sellos que consigas visitando los stands,
+            obtendrás 1 rifa (máximo 3 rifas). </li>
+            <br />
+            <li> Votando en el concurso Stand-Out: Participa votando por tu stand favorito y
+            obtén una rifa adicional.  Más info debajo. </li>
+            <br />
+            <li> Completando las preguntas a empresas: Por completar el folleto de
+            preguntas te llevarás también 1 rifa.  Más info debajo. </li>
+            </ul>
+            <br />
+          </ul>
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Entrega del premio en el puesto
@@ -75,6 +80,7 @@ const Sorteos = () => {
           votar por su stand favorito. ¡Haz que tu elección destaque y contribuye a premiar la
           creatividad y el ingenio! ¿Qué stand se llevará el título este año? ¡Tú decides!
           <br />
+          <br />
           <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
           </DescriptionText>
           <DescriptionText>
@@ -89,6 +95,18 @@ const Sorteos = () => {
           16:30
           <br />
           <Highlight>Hora de entrega del premio: </Highlight>18:00  
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Martes 10: </Highlight>
+            <DescriptionLink href="https://forms.gle/3jynwqqjL62G1hbr6">
+              ¡Click Aquí!
+            </DescriptionLink> 
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Miércoles 11: </Highlight>
+            <DescriptionLink href="https://forms.gle/KrLUn98yFMbz5Tno6">
+              ¡Click Aquí!
+            </DescriptionLink> 
           </DescriptionText>
           <AlignedDiv>
             <Hexagons>
@@ -105,6 +123,7 @@ const Sorteos = () => {
           oportunidades. Cada folleto completado te dará una participación para el emocionante
           gran sorteo de premios de las Jornadas. ¡Haz tus preguntas, participa
           y prepárate para ganar!
+          <br />
           <br />
           <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
           </DescriptionText>
@@ -140,6 +159,11 @@ const Sorteos = () => {
           ¡No pierdas la oportunidad
           </DescriptionText>
           <DescriptionText>
+            <Highlight>Enlace: </Highlight>  <DescriptionLink href="https://linktr.ee/jtiesit">
+              ¡Click Aquí!
+            </DescriptionLink>
+          </DescriptionText>
+          <DescriptionText>
             <Highlight>Lugar: </Highlight>Entrega del premio en puesto central.
           </DescriptionText>
           <DescriptionText>
@@ -161,8 +185,7 @@ const Sorteos = () => {
           </AlignedDiv>
           <br />
           <DescriptionText>
-            <Highlight>Aviso: </Highlight>Solo se puede ganar un premio por
-            persona en cada sorteo (previo y durante) independientemente de la RRSS.
+            <Highlight>Aviso: </Highlight>Una misma persona no puede ganar en ambas redes sociales.
           </DescriptionText>
           <AlignedDiv>
             <Hexagons>

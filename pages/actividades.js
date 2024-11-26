@@ -2,13 +2,11 @@ import Layout from "@components/layouts/MainLayout";
 import styled from "@emotion/styled";
 import { Container } from "@mui/material";
 import {
-  TableSorteoLogros,
-  TableSorteoStands,
-  TableSorteoRedesSociales,
   TableCompeticionArcade,
   TableTrivial,
   TableVideojuegos,
   TableEscapeRoom,
+  TableHorarioEscapeRoom,
 } from "@components/ActivitiesTables";
 
 const Actividades = () => {
@@ -76,13 +74,15 @@ const Actividades = () => {
             <Highlight>Días: </Highlight>10 y 11 de Diciembre.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight> Próximamente
+            <AlignedDiv>
+             <TableHorarioEscapeRoom />
+            </AlignedDiv>
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Inscripción: </Highlight> Próximamente
-            {/* <DescriptionLink href="https://forms.gle/SKrDKKMdXBV7EVdw6">
+            <Highlight>Inscripción: </Highlight>
+            <DescriptionLink href="https://forms.gle/cpkk1JPMz79JmA3L6">
               ¡Click Aquí!
-            </DescriptionLink> */}
+            </DescriptionLink> 
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -175,6 +175,12 @@ const Actividades = () => {
           </DescriptionText>
           <DescriptionText>
             <Highlight>Horario: </Highlight>16:00 - 20:00.
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Inscripción: </Highlight>
+            <DescriptionLink href="https://forms.gle/nErKFCRFdSDKtQtR8">
+              ¡Click Aquí!
+            </DescriptionLink> 
           </DescriptionText>
           <AlignedDiv>
             <Hexagons>
