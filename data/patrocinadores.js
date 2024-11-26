@@ -48,13 +48,6 @@ export const patrocinadores = [
     height: 600,
     types: "platino",
   },
-  // {
-  //   src: "/images/patrocinadores/conecta_software.svg",
-  //   alt: "Conecta Software",
-  //   width: 1000,
-  //   height: 1000,
-  //   types: "platino",
-  // },
   {
     src: "/images/patrocinadores/coititf.jpg",
     alt: "Colegio Oficial de Ingenieros Técnicos Industriales de Santa Cruz de Tenerife",
@@ -62,13 +55,13 @@ export const patrocinadores = [
     height: 404,
     types: "oro",
   },
-  // {
-  //   src: "/images/patrocinadores/mutua_tinerfena.png",
-  //   alt: "Mutua Tinerfeña",
-  //   width: 1263,
-  //   height: 894,
-  //   types: "oro",
-  // },
+  {
+    src: "/images/patrocinadores/mutua_tinerfena.png",
+    alt: "Mutua Tinerfeña",
+    width: 2527,
+    height: 1787,
+    types: "oro",
+  },
   // {
   //   src: "/images/patrocinadores/coitic.png",
   //   alt: "COITIC",
@@ -76,13 +69,13 @@ export const patrocinadores = [
   //   height: 1280,
   //   types: "oro",
   // },
-  // {
-  //   src: "/images/patrocinadores/inetel.jpg",
-  //   alt: "INETEL",
-  //   width: 1750,
-  //   height: 1000,
-  //   types: "oro",
-  // },
+  {
+    src: "/images/patrocinadores/inetel.png",
+    alt: "INETEL",
+    width: 3500,
+    height: 2000,
+    types: "oro",
+  },
   {
     src: "/images/patrocinadores/catedra_binter.png",
     alt: "Cátedra Binter de Ciberseguridad",
