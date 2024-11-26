@@ -72,8 +72,8 @@ export const TableSorteoPrevioRedesSociales = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>???</TableItem>
-            <TableItem colSpan={2}>???</TableItem>
+            <TableItem colSpan={2}>Cámara Instax</TableItem>
+            <TableItem colSpan={2}>Cámara Instax</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -170,6 +170,36 @@ export const TableEscapeRoom = () => {
 
           <tr>
             <TableItem colSpan={2}>4 Juegos de mesa tipo Escape Room</TableItem>
+          </tr>
+        </tbody>
+      </ScrollableTable>
+    </TableContainer>
+  );
+};
+
+export const TableHorarioEscapeRoom = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+        <tbody>
+          <tr>
+            <TableTitle colSpan={2}>Horario</TableTitle>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>10:00 - 11:00</TableItem>
+          </tr>
+          <tr>
+            <TableItem colSpan={2}>12:00 - 13:00</TableItem>
+          </tr>
+          <tr>
+            <TableItem colSpan={2}>14:00 - 15:00</TableItem>
+          </tr>
+          <tr>
+            <TableItem colSpan={2}>16:00 - 17:00</TableItem>
+          </tr>
+          <tr>
+            <TableItem colSpan={2}>18:00 - 19:00</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
