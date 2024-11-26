@@ -72,8 +72,8 @@ export const TableSorteoPrevioRedesSociales = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>???</TableItem>
-            <TableItem colSpan={2}>???</TableItem>
+            <TableItem colSpan={2}>Cámara Instax</TableItem>
+            <TableItem colSpan={2}>Cámara Instax</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
