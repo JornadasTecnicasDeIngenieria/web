@@ -28,14 +28,12 @@ const Actividades = () => {
           </AlignedDiv>
           <Category>Trivial</Category>
           <br />
-          <ul>
-            <DescriptionListElement>
-              ¿Cuánto sabes realmente? Participa en nuestros emocionantes
-              trivials y pon a prueba tus conocimientos. Compite respondiendo
-              desafiantes preguntas de diversas temáticas, demuestra tu
-              sabiduría y podrás ganar grandes premios.
-            </DescriptionListElement>
-          </ul>
+          <DescriptionText>
+            ¿Cuánto sabes realmente? Participa en nuestros emocionantes
+            trivials y pon a prueba tus conocimientos. Compite respondiendo
+            desafiantes preguntas de diversas temáticas, demuestra tu
+            sabiduría y podrás ganar grandes premios.
+          </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Puesto central.
           </DescriptionText>
@@ -43,7 +41,7 @@ const Actividades = () => {
             <Highlight>Días: </Highlight>10 y 11 de Diciembre.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight> Próximamente
+            <Highlight>Horario: </Highlight> 10:30 y 17:30.
           </DescriptionText>
           <br />
           <AlignedDiv>
