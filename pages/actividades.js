@@ -28,12 +28,12 @@ const Actividades = () => {
           </AlignedDiv>
           <Category>Trivial</Category>
           <br />
-          <DescriptionText>
-            ¿Cuánto sabes realmente? Participa en nuestros emocionantes
-            trivials y pon a prueba tus conocimientos. Compite respondiendo
-            desafiantes preguntas de diversas temáticas, demuestra tu
-            sabiduría y podrás ganar grandes premios.
-          </DescriptionText>
+            <DescriptionText>
+              ¿Cuánto sabes realmente? Participa en nuestros emocionantes
+              trivials y pon a prueba tus conocimientos. Compite respondiendo
+              desafiantes preguntas de diversas temáticas, demuestra tu
+              sabiduría y podrás ganar grandes premios.
+            </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Puesto central.
           </DescriptionText>
