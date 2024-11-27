@@ -90,13 +90,13 @@ export const patrocinadores = [
     height: 387,
     types: "oro",
   },
-  // {
-  //   src: "/images/patrocinadores/evm.png",
-  //   alt: "EVM - Ecosistemas virtuales y modulares",
-  //   width: 367,
-  //   height: 197,
-  //   types: "oro",
-  // },
+  {
+    src: "/images/patrocinadores/evm.svg",
+    alt: "EVM Group S.L",
+    width: 367,
+    height: 197,
+    types: "oro",
+  },
   {
     src: "/images/patrocinadores/intelequia.png",
     alt: "Intelequia Technologies ",
