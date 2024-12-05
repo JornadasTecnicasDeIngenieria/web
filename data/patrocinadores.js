@@ -14,6 +14,13 @@ export const patrocinadores = [
     types: "diamante",
   },
   {
+    src: "/images/patrocinadores/aqualia.png",
+    alt: "Aqualia",
+    width: 800,
+    height: 387,
+    types: "platino",
+  },
+  {
     src: "/images/patrocinadores/fecam.png",
     alt: "FECAM",
     width: 1329,
