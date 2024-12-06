@@ -16,38 +16,38 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>???  GRAN PREMIO ???</TableItem>
-            <TableItem colSpan={2}>???  GRAN PREMIO ???</TableItem>
+            <TableItem colSpan={2}>Meta Quest 3S</TableItem>
+            <TableItem colSpan={2}>Ipad de última generación</TableItem>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>??? PREMIO ESPECIAL ???</TableItem>
-            <TableItem colSpan={2}>??? PREMIO ESPECIAL ???</TableItem>
+            <TableItem colSpan={2}>Silla gaming</TableItem>
+            <TableItem colSpan={2}>Switch Lite + Animal Crossing</TableItem>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>???</TableItem>
-            <TableItem colSpan={2}>???</TableItem>
+            <TableItem colSpan={2}>Teclado Krom Mecánico</TableItem>
+            <TableItem colSpan={2}>Teclado Krom Mecánico</TableItem>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>???</TableItem>
-            <TableItem colSpan={2}>???</TableItem>
+            <TableItem colSpan={2}>Auriculares Sony</TableItem>
+            <TableItem colSpan={2}>Auriculares Sony</TableItem>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>???</TableItem>
-            <TableItem colSpan={2}>???</TableItem>
+            <TableItem colSpan={2}>Ratón Corsair</TableItem>
+            <TableItem colSpan={2}>Ratón Corsair</TableItem>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>???</TableItem>
-            <TableItem colSpan={2}>???</TableItem>
+            <TableItem colSpan={2}>Altavoz LG XBOOM</TableItem>
+            <TableItem colSpan={2}>Altavoz LG XBOOM</TableItem>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>???</TableItem>
-            <TableItem colSpan={2}>???</TableItem>
+            <TableItem colSpan={2}>Xiaomi SmartBand 8</TableItem>
+            <TableItem colSpan={2}>Xiaomi SmartBand 8</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -126,13 +126,13 @@ export const TableCompeticionArcade = () => {
 
           <tr>
             <TableTitle colSpan={1}>1º</TableTitle>
-            <TableItem colSpan={1}>???</TableItem>
-            <TableItem colSpan={1}>???</TableItem>
+            <TableItem colSpan={1}>Consola retro</TableItem>
+            <TableItem colSpan={1}>Consola retro</TableItem>
           </tr>
           <tr>
             <TableTitle colSpan={1}>2º</TableTitle>
-            <TableItem colSpan={1}>???</TableItem>
-            <TableItem colSpan={1}>???</TableItem>
+            <TableItem colSpan={1}>Tamagotchi</TableItem>
+            <TableItem colSpan={1}>Tamagotchi</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
