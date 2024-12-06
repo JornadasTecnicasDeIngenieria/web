@@ -142,10 +142,10 @@ const Actividades = () => {
             cantidad de participantes.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Inscripción: </Highlight> Próximamente
-            {/* <DescriptionLink href="https://forms.gle/6z6LcAoRiJCsaxuSA">
+            <Highlight>Inscripción: </Highlight> 
+            <DescriptionLink href="https://forms.gle/w8Fvm1qb3smdzuZ26">
               ¡Click Aquí!
-            </DescriptionLink> */}
+            </DescriptionLink>
           </DescriptionText>
           <br />
           <AlignedDiv>
