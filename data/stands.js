@@ -302,7 +302,7 @@ export const stands = [
   },
   {
     stand: "S08",
-    d1: "XALDIGITAL",
+    d1: "Codebay A Globant Division",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -345,7 +345,7 @@ export const stands = [
   },
   {
     stand: "S09",
-    d1: "EXPERO",
+    d1: "EAVE",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -353,11 +353,11 @@ export const stands = [
       },
       {
         ingenieria: "electronica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "mecanica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "quimica",
@@ -388,7 +388,7 @@ export const stands = [
   },
   {
     stand: "S10",
-    d1: "TAGUA S.L.",
+    d1: "Bureau Veritas",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -407,7 +407,7 @@ export const stands = [
         value: true,
       },
     ],
-    d1_practicas: true,
+    d1_practicas: false,
     d2: "ENDESA",
     d2_ingenierias: [
       {
@@ -431,11 +431,11 @@ export const stands = [
   },
   {
     stand: "S11",
-    d1: "CÁTEDRA CEOE TENERIFE",
+    d1: "Digital Codesign",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
@@ -447,10 +447,10 @@ export const stands = [
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
-    d1_practicas: false,
+    d1_practicas: true,
     d2: "BINHEX",
     d2_ingenierias: [
       {
@@ -474,7 +474,7 @@ export const stands = [
   },
   {
     stand: "S12",
-    d1: "CÁTEDRA BINTER DE CIBERSEGURIDAD",
+    d1: "Intelequia",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -482,7 +482,7 @@ export const stands = [
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
@@ -517,23 +517,23 @@ export const stands = [
   },
   {
     stand: "S13",
-    d1: "ATLANTIS TECNOLOGÍA Y SISTEMAS",
+    d1: "TAGUA S.L.",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "electronica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "mecanica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "quimica",
-        value: false,
+        value: true,
       },
     ],
     d1_practicas: true,
@@ -560,11 +560,11 @@ export const stands = [
   },
   {
     stand: "S14",
-    d1: "VEOLIA - CANARAGUA",
+    d1: "EJÉRCITO DE TIERRA MANDO DE CANARIAS",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "electronica",
@@ -646,7 +646,7 @@ export const stands = [
   },
   {
     stand: "S16",
-    d1: "FEMETE",
+    d1: "ARQUIMEA Research Center",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -689,7 +689,7 @@ export const stands = [
   },
   {
     stand: "S17",
-    d1: "BALSAS DE TENERIFE (BALTEN)",
+    d1: "Inetel Technologies, SL",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -697,18 +697,18 @@ export const stands = [
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
-    d1_practicas: false,
+    d1_practicas: true,
     d2: "Aerolaser System",
     d2_ingenierias: [
       {
@@ -732,7 +732,7 @@ export const stands = [
   },
   {
     stand: "S18",
-    d1: "GRUPO DISA",
+    d1: "Domingo Alonso Group",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -748,10 +748,10 @@ export const stands = [
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
-    d1_practicas: true,
+    d1_practicas: false,
     d2: "Gestión de Servicios para la Salud y Seguridad en Canarias",
     d2_ingenierias: [
       {
@@ -775,7 +775,7 @@ export const stands = [
   },
   {
     stand: "S19",
-    d1: "HOLASOFT",
+    d1: "Cátedra Binter de Ciberseguridad ",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -794,7 +794,7 @@ export const stands = [
         value: false,
       },
     ],
-    d1_practicas: true,
+    d1_practicas: false,
     d2: "SEGAI",
     d2_ingenierias: [
       {
@@ -818,7 +818,7 @@ export const stands = [
   },
   {
     stand: "S20",
-    d1: "ACADEMIA MAKER",
+    d1: "ATLANTIS TECNOLOGÍA Y SISTEMAS",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -834,7 +834,7 @@ export const stands = [
       },
       {
         ingenieria: "quimica",
-        value: false,
+        value: true,
       },
     ],
     d1_practicas: true,
@@ -861,7 +861,7 @@ export const stands = [
   },
   {
     stand: "S21",
-    d1: "BAKATA SOLUTIONS S.L.",
+    d1: "ahaStudio",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -869,18 +869,18 @@ export const stands = [
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
         value: false,
       },
     ],
-    d1_practicas: true,
+    d1_practicas: false,
     d2: "Autoridad Portuaria de Santa Cruz de Tenerife",
     d2_ingenierias: [
       {
@@ -904,7 +904,7 @@ export const stands = [
   },
   {
     stand: "S22",
-    d1: "DIGITAL CODESIGN",
+    d1: "HolaSoft",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -912,11 +912,11 @@ export const stands = [
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
@@ -948,7 +948,7 @@ export const stands = [
   },
   {
     stand: "S23",
-    d1: "GENIALAB",
+    d1: "Expero",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -960,14 +960,14 @@ export const stands = [
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
         value: false,
       },
     ],
-    d1_practicas: false,
+    d1_practicas: true,
     d2: "Itop Consulting",
     d2_ingenierias: [
       {
@@ -991,7 +991,7 @@ export const stands = [
   },
   {
     stand: "S24",
-    d1: "ULL DYNAMICS",
+    d1: "FUNDACIÓN GENERAL DE LA UNIVERSIDAD DE LA LAGUNA",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -1034,7 +1034,7 @@ export const stands = [
   },
   {
     stand: "S25",
-    d1: "INETEL",
+    d1: "Acid Tango",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -1077,7 +1077,7 @@ export const stands = [
   },
   {
     stand: "S26",
-    d1: "FUNDACIÓN GENERAL DE LA UNIVERSIDAD DE LA LAGUNA",
+    d1: "WOOPTIX S.L.",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -1096,7 +1096,7 @@ export const stands = [
         value: true,
       },
     ],
-    d1_practicas: false,
+    d1_practicas: true,
     d2: "Ntt data",
     d2_ingenierias: [
       {
@@ -1120,7 +1120,7 @@ export const stands = [
   },
   {
     stand: "S27",
-    d1: "NTT DATA SPAIN, S.L.U.",
+    d1: "COITIC - COITITF ",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -1128,15 +1128,15 @@ export const stands = [
       },
       {
         ingenieria: "electronica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "mecanica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "quimica",
-        value: false,
+        value: true,
       },
     ],
     d1_practicas: false,
@@ -1163,7 +1163,7 @@ export const stands = [
   },
   {
     stand: "S28",
-    d1: "GRUPO CICOM",
+    d1: "KLINGELE EMBALAJES CANARIAS S.A",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -1171,15 +1171,15 @@ export const stands = [
       },
       {
         ingenieria: "electronica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "mecanica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "quimica",
-        value: false,
+        value: true,
       },
     ],
     d1_practicas: true,
@@ -1206,7 +1206,7 @@ export const stands = [
   },
   {
     stand: "S29",
-    d1: "SEGAI",
+    d1: "TEIDESAT",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -1222,7 +1222,7 @@ export const stands = [
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
     d1_practicas: true,
@@ -1249,7 +1249,7 @@ export const stands = [
   },
   {
     stand: "S30",
-    d1: "COITIC - COITITF",
+    d1: "DataX Intelligence",
     d1_ingenierias: [
       {
         ingenieria: "informatica",
@@ -1257,18 +1257,18 @@ export const stands = [
       },
       {
         ingenieria: "electronica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "mecanica",
-        value: true,
+        value: false,
       },
       {
         ingenieria: "quimica",
-        value: true,
+        value: false,
       },
     ],
-    d1_practicas: false,
+    d1_practicas: true,
     d2: "ACADEVI",
     d2_ingenierias: [
       {
