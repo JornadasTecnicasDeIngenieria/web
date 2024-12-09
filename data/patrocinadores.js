@@ -56,6 +56,13 @@ export const patrocinadores = [
     types: "platino",
   },
   {
+    src: "/images/patrocinadores/redeia.png",
+    alt: "Redeia",
+    width: 1874,
+    height: 652,
+    types: "platino",
+  },
+  {
     src: "/images/patrocinadores/coititf.jpg",
     alt: "Colegio Oficial de Ingenieros Técnicos Industriales de Santa Cruz de Tenerife",
     width: 1306,
@@ -123,6 +130,13 @@ export const patrocinadores = [
     alt: "Expero",
     width: 600,
     height: 144,
+    types: "oro",
+  },
+  {
+    src: "/images/patrocinadores/schreiber.jpg",
+    alt: "Schreiber",
+    width: 1826,
+    height: 645,
     types: "oro",
   },
   {
