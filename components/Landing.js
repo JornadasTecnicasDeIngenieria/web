@@ -31,7 +31,7 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                 }}
               />
             </ImageDiv>
-            <DateTitle>10 y 11 de Diciembre de 2024</DateTitle>
+            <DateTitle>10 y 11 de Diciembre de 2025</DateTitle>
           </PaddingDiv>
         </Grid>
       </Grid>
