@@ -1,7 +1,8 @@
-import styled from "@emotion/styled";
-import { sections } from "data/sections";
-import { Container, Grid } from "@mui/material";
-import Card from "./SectionCard";
+import styled from '@emotion/styled';
+import { sections } from 'data/sections';
+import { Container } from '@mui/material';
+import Grid from '@mui/material/GridLegacy';
+import Card from './SectionCard';
 
 const Sections = () => {
   return (
@@ -15,13 +16,7 @@ const Sections = () => {
             return (
               <Grid item xs={12} sm={12} md={4} lg={4} key={id}>
                 <AlignedDiv>
-                  <Card
-                    name={name}
-                    imageSource={image}
-                    url={`${id}`}
-                    categories={categories}
-                    bg={bg}
-                  />
+                  <Card name={name} imageSource={image} url={`${id}`} categories={categories} bg={bg} />
                 </AlignedDiv>
               </Grid>
             );
@@ -59,5 +54,5 @@ const SectionTitle = styled.h2`
   color: #fff;
   padding: 2rem;
   font-weight: 700;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 `;

@@ -1,6 +1,6 @@
-import Grid from "@mui/material/Grid";
-import Image from "next/image";
-import styled from "@emotion/styled";
+import Grid from '@mui/material/GridLegacy';
+import Image from 'next/image';
+import styled from '@emotion/styled';
 
 const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
   return (
@@ -10,20 +10,13 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
         container
         sx={{
           position: `relative`,
-          height: "95vh",
+          height: '95vh',
           width: `100vw`,
           overflow: `hidden`,
         }}
       >
         <Background src={imgSrc} alt={imgAlt} />
-        <Grid
-          container
-          item
-          flexDirection="column"
-          justifyContent="center"
-          alignItems="center"
-          zIndex="100"
-        >
+        <Grid container item flexDirection="column" justifyContent="center" alignItems="center" zIndex="100">
           <PaddingDiv>
             <ImageDiv>
               <Image
@@ -32,9 +25,9 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                 width={1000}
                 height={250}
                 style={{
-                  width: "100%",
-                  height: "100%",
-                  alignSelf: "center",
+                  width: '100%',
+                  height: '100%',
+                  alignSelf: 'center',
                 }}
               />
             </ImageDiv>
