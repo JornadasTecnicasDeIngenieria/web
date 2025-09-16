@@ -85,7 +85,7 @@ const Stands = () => {
           <br />
         </Container>
       </Section>
-      <Section>
+      {/* <Section>
         <Container>
           <AlignedDiv>
             <Hexagons>
@@ -132,7 +132,7 @@ const Stands = () => {
           <br />
           <br />
         </Container>
-      </Section>
+      </Section> */}
     </Layout>
   );
 };

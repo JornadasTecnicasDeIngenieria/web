@@ -59,7 +59,7 @@ const FAQs = () => {
             <Highlight>3. ¿Cuándo serán?</Highlight>
           </DescriptionText>
           <DescriptionText>
-            Las JTI 2024 se celebrarán el martes 10 y el miércoles 11 de diciembre de 2024. ¡Apúntalos en tu calendario!
+            Las VII JTI se celebrarán el martes 10 y el miércoles 11 de diciembre de 2025. ¡Apúntalos en tu calendario!
           </DescriptionText>
           <br />
           <br />
@@ -108,8 +108,9 @@ const FAQs = () => {
           </DescriptionText>
           <DescriptionText>
             Las Jornadas Técnicas de Ingeniería llevan celebrándose desde el año 2019. A causa del coronavirus, la
-            edición 2020 no se pudo celebrar y la 2021 fue completamente online, pero estos últimos dos años las JTI han
-            vuelto a ser presenciales y han sido todo un éxito. ¡Qué esperamos que se repita en esta sexta edición!
+            edición 2020 no se pudo celebrar y la 2021 fue completamente online, pero estos últimos tres años las JTI
+            han vuelto a ser presenciales y han sido todo un éxito. ¡Qué esperamos que se repita en esta séptima
+            edición!
           </DescriptionText>
           <br />
           <br />
@@ -118,7 +119,7 @@ const FAQs = () => {
           </DescriptionText>
           <DescriptionText>
             Nos puedes hacer llegar tus sugerencias a través de&nbsp;
-            <DescriptionLink href="https://forms.gle/cBFsf6p3rYp2p9Dk7">este formulario</DescriptionLink>
+            <DescriptionLink href="https://forms.gle/fQu8Dg2WhZzKRhEp7">este formulario</DescriptionLink>
             &nbsp;y estamos disponibles en nuestras redes sociales y nuestro correo jtiesit@ull.edu.es para cualquier
             duda o consulta.
           </DescriptionText>

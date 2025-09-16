@@ -1,13 +1,13 @@
-import Layout from "@components/layouts/MainLayout";
-import styled from "@emotion/styled";
-import { Container } from "@mui/material";
+import Layout from '@components/layouts/MainLayout';
+import styled from '@emotion/styled';
+import { Container } from '@mui/material';
 import {
   TableCompeticionArcade,
   TableTrivial,
   TableVideojuegos,
   TableEscapeRoom,
   TableHorarioEscapeRoom,
-} from "@components/ActivitiesTables";
+} from '@components/ActivitiesTables';
 
 const Actividades = () => {
   return (
@@ -17,7 +17,7 @@ const Actividades = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Title>Actividades</Title>
+            <Title>Actividades 2024</Title>
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>
@@ -28,12 +28,11 @@ const Actividades = () => {
           </AlignedDiv>
           <Category>Trivial</Category>
           <br />
-            <DescriptionText>
-              ¿Cuánto sabes realmente? Participa en nuestros emocionantes
-              trivials y pon a prueba tus conocimientos. Compite respondiendo
-              desafiantes preguntas de diversas temáticas, demuestra tu
-              sabiduría y podrás ganar grandes premios.
-            </DescriptionText>
+          <DescriptionText>
+            ¿Cuánto sabes realmente? Participa en nuestros emocionantes trivials y pon a prueba tus conocimientos.
+            Compite respondiendo desafiantes preguntas de diversas temáticas, demuestra tu sabiduría y podrás ganar
+            grandes premios.
+          </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Puesto central.
           </DescriptionText>
@@ -58,12 +57,11 @@ const Actividades = () => {
           <SubCategory>Ecos temporales</SubCategory>
           <br />
           <DescriptionText>
-          Adéntrate en un emocionante Escape Room donde la ingeniería y el tiempo se entrelazan.
-          Ponte en la piel de un equipo técnico enviado a reparar una misteriosa máquina
-          capaz de viajar a través del tiempo. Un desbordamiento temporal amenaza
-          con colapsar la línea del tiempo tal como la conocemos. ¿Podrás estabilizarla antes de que
-          sea demasiado tarde? <Highlight>Equipos de cuatro personas</Highlight> pondrán a prueba su ingenio para
-          resolver el enigma y escapar en el menor tiempo posible.
+            Adéntrate en un emocionante Escape Room donde la ingeniería y el tiempo se entrelazan. Ponte en la piel de
+            un equipo técnico enviado a reparar una misteriosa máquina capaz de viajar a través del tiempo. Un
+            desbordamiento temporal amenaza con colapsar la línea del tiempo tal como la conocemos. ¿Podrás
+            estabilizarla antes de que sea demasiado tarde? <Highlight>Equipos de cuatro personas</Highlight> pondrán a
+            prueba su ingenio para resolver el enigma y escapar en el menor tiempo posible.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Puesto central
@@ -73,14 +71,12 @@ const Actividades = () => {
           </DescriptionText>
           <DescriptionText>
             <AlignedDiv>
-             <TableHorarioEscapeRoom />
+              <TableHorarioEscapeRoom />
             </AlignedDiv>
           </DescriptionText>
           <DescriptionText>
             <Highlight>Inscripción: </Highlight>
-            <DescriptionLink href="https://forms.gle/cpkk1JPMz79JmA3L6">
-              ¡Click Aquí!
-            </DescriptionLink> 
+            <DescriptionLink href="https://forms.gle/cpkk1JPMz79JmA3L6">¡Click Aquí!</DescriptionLink>
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -96,12 +92,10 @@ const Actividades = () => {
           <Category>Competición Arcade</Category>
           <br />
           <DescriptionText>
-            Revive la nostalgia de los videojuegos clásicos en nuestra
-            Competición Arcade. Enfréntate a desafíos en juegos como Tetris
-            y nuestro exclusivo “Why God?”, además de juegos de fighting y 
-            diversos juegos arcade para pasar el rato. Cada zona cuenta con
-            computadoras para una competición intensa. ¿Tienes lo necesario para
-            ser campeón?
+            Revive la nostalgia de los videojuegos clásicos en nuestra Competición Arcade. Enfréntate a desafíos en
+            juegos como Tetris y nuestro exclusivo “Why God?”, además de juegos de fighting y diversos juegos arcade
+            para pasar el rato. Cada zona cuenta con computadoras para una competición intensa. ¿Tienes lo necesario
+            para ser campeón?
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Delegación de Ingeniería Informática.
@@ -127,9 +121,9 @@ const Actividades = () => {
           <SubCategory>Duelo de invocadores</SubCategory>
           <br />
           <DescriptionText>
-          ¡Demuestra tus habilidades en el campo de batalla virtual con el Torneo de Videojuegos:
-          Duelo de Invocadores! Compite en dos de los juegos más icónicos del universo gaming:
-          Teamfight Tactics (TFT) y League of Legends (LoL)
+            ¡Demuestra tus habilidades en el campo de batalla virtual con el Torneo de Videojuegos: Duelo de
+            Invocadores! Compite en dos de los juegos más icónicos del universo gaming: Teamfight Tactics (TFT) y League
+            of Legends (LoL)
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Online.
@@ -138,14 +132,11 @@ const Actividades = () => {
             <Highlight>Día: </Highlight>14 de Diciembre.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar dependiendo de la
-            cantidad de participantes.
+            <Highlight>Horario: </Highlight>Por determinar dependiendo de la cantidad de participantes.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Inscripción: </Highlight> 
-            <DescriptionLink href="https://forms.gle/w8Fvm1qb3smdzuZ26">
-              ¡Click Aquí!
-            </DescriptionLink>
+            <Highlight>Inscripción: </Highlight>
+            <DescriptionLink href="https://forms.gle/w8Fvm1qb3smdzuZ26">¡Click Aquí!</DescriptionLink>
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -161,9 +152,8 @@ const Actividades = () => {
           <Category>Sesión de Rol</Category>
           <br />
           <DescriptionText>
-          Sumérgete en mundos de fantasía, ciencia ficción y aventuras
-          épicas en una tarde dedicada al rol. Prepárate para vivir
-          historias únicas y dar vida a personajes en situaciones inolvidables.
+            Sumérgete en mundos de fantasía, ciencia ficción y aventuras épicas en una tarde dedicada al rol. Prepárate
+            para vivir historias únicas y dar vida a personajes en situaciones inolvidables.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Delegación de Ingeniería Informática.
@@ -176,9 +166,7 @@ const Actividades = () => {
           </DescriptionText>
           <DescriptionText>
             <Highlight>Inscripción: </Highlight>
-            <DescriptionLink href="https://forms.gle/nErKFCRFdSDKtQtR8">
-              ¡Click Aquí!
-            </DescriptionLink> 
+            <DescriptionLink href="https://forms.gle/nErKFCRFdSDKtQtR8">¡Click Aquí!</DescriptionLink>
           </DescriptionText>
           <AlignedDiv>
             <Hexagons>
@@ -213,38 +201,38 @@ const Title = styled.h2`
 const Category = styled.h3`
   color: #ffffff;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 const SubCategory = styled.h4`
   color: #ffffff;
   font-weight: 600;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 const DescriptionText = styled.p`
   color: #ffffff;
   font-weight: 500;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 `;
 
 const DescriptionLink = styled.a`
   color: #ffffff;
   font-weight: 500;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 `;
 
 const DescriptionListElement = styled.li`
   color: #ffffff;
   font-weight: 500;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 `;
 
 const Highlight = styled.span`
   color: #ffffff;
   font-weight: 700;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 `;
 
 const Hexagons = styled.h3`
@@ -273,4 +261,3 @@ const HexagonB = styled.span`
   font-weight: 700;
   font-size: 130%;
 `;
-
