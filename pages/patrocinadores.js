@@ -14,7 +14,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Title>Patrocinadores</Title>
+            <Title>Patrocinadores 2024</Title>
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>
