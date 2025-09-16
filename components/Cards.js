@@ -1,5 +1,5 @@
 import Card from './Card';
-import { Grid } from '@mui/material/GridLegacy';
+import Grid from '@mui/material/GridLegacy';
 import styled from '@emotion/styled';
 
 function Cards({ organizadores }) {
