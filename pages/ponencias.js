@@ -1,9 +1,10 @@
-import Layout from "@components/layouts/MainLayout";
-import styled from "@emotion/styled";
-import { Grid, Container } from "@mui/material";
-import Image from "next/image";
-import { DayOnePonen, DayTwoPonen } from "@components/PonNewInfo";
-import { ponencias } from "data/ponencias";
+import Layout from '@components/layouts/MainLayout';
+import styled from '@emotion/styled';
+import { Container } from '@mui/material';
+import Grid from '@mui/material/GridLegacy';
+import Image from 'next/image';
+import { DayOnePonen, DayTwoPonen } from '@components/PonNewInfo';
+import { ponencias } from 'data/ponencias';
 
 const Ponencias = () => {
   return (
@@ -23,13 +24,11 @@ const Ponencias = () => {
             </Hexagons>
           </AlignedDiv>
           <DescriptionText>
-            Este año hemos recuperado las ponencias, con el objetivo de mostrar
-            nuestro lado más carnal. Estas tendrán una duración aproximada de 20
-            minutos, con 10 minutos destinados a preguntas. Nuestro objetivo es
-            que las charlas sean de interés para el alumnado de todas las
-            ingenierías, tratándose temas amplios o de divulgación como
-            investigaciones recientes, proyectos innovadores, análisis del
-            estado del arte o consejos sobre el mercado laboral.
+            Este año hemos recuperado las ponencias, con el objetivo de mostrar nuestro lado más carnal. Estas tendrán
+            una duración aproximada de 20 minutos, con 10 minutos destinados a preguntas. Nuestro objetivo es que las
+            charlas sean de interés para el alumnado de todas las ingenierías, tratándose temas amplios o de divulgación
+            como investigaciones recientes, proyectos innovadores, análisis del estado del arte o consejos sobre el
+            mercado laboral.
           </DescriptionText>
           <br />
           <br />
@@ -100,14 +99,14 @@ const Title = styled.h2`
 const Category = styled.h3`
   color: #ffffff;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 const DescriptionText = styled.p`
   color: #ffffff;
 
   font-weight: 500;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 `;
 
 const Hexagons = styled.h3`

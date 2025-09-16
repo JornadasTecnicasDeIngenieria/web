@@ -1,8 +1,9 @@
-import Layout from "@components/layouts/MainLayout";
-import styled from "@emotion/styled";
-import { Grid, Container } from "@mui/material";
-import { patrocinadores } from "data/patrocinadores";
-import Image from "next/image";
+import Layout from '@components/layouts/MainLayout';
+import styled from '@emotion/styled';
+import { Container } from '@mui/material';
+import Grid from '@mui/material/GridLegacy';
+import { patrocinadores } from 'data/patrocinadores';
+import Image from 'next/image';
 
 const Patrocinadores = () => {
   let aux = 0;
@@ -28,28 +29,16 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          <Grid
-            container
-            columnSpacing={3}
-            rowSpacing={6}
-            alignItems="center"
-            justifyContent="center"
-          >
+          <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
             {patrocinadores.map(({ src, alt, width, height, types }) => {
-              return types === "diamante" ? (
+              return types === 'diamante' ? (
                 <Grid item xs={12} sm={12} md={6} lg={6}>
                   <ImageDiv>
-                    <Image
-                      src={src}
-                      alt={alt}
-                      width={width}
-                      height={height}
-                      style={{ width: "80%", height: "80%" }}
-                    />
+                    <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
                   </ImageDiv>
                 </Grid>
               ) : (
-                ""
+                ''
               );
             })}
             <br />
@@ -67,28 +56,16 @@ const Patrocinadores = () => {
           </AlignedDiv>
           <br />
           <br />
-          <Grid
-            container
-            columnSpacing={3}
-            rowSpacing={6}
-            alignItems="center"
-            justifyContent="center"
-          >
+          <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
             {patrocinadores.map(({ src, alt, width, height, types }) => {
-              return types === "platino" ? (
+              return types === 'platino' ? (
                 <Grid item xs={12} sm={12} md={6} lg={6}>
                   <ImageDiv>
-                    <Image
-                      src={src}
-                      alt={alt}
-                      width={width}
-                      height={height}
-                      style={{ width: "80%", height: "80%" }}
-                    />
+                    <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
                   </ImageDiv>
                 </Grid>
               ) : (
-                ""
+                ''
               );
             })}
           </Grid>
@@ -108,28 +85,16 @@ const Patrocinadores = () => {
           </AlignedDiv>
           <br />
           <br />
-          <Grid
-            container
-            columnSpacing={3}
-            rowSpacing={6}
-            alignItems="center"
-            justifyContent="center"
-          >
+          <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
             {patrocinadores.map(({ src, alt, width, height, types }) => {
-              return types === "oro" ? (
+              return types === 'oro' ? (
                 <Grid item xs={12} sm={12} md={6} lg={6}>
                   <ImageDiv>
-                    <Image
-                      src={src}
-                      alt={alt}
-                      width={width}
-                      height={height}
-                      style={{ width: "80%", height: "80%" }}
-                    />
+                    <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
                   </ImageDiv>
                 </Grid>
               ) : (
-                ""
+                ''
               );
             })}
           </Grid>
@@ -149,28 +114,16 @@ const Patrocinadores = () => {
           </AlignedDiv>
           <br />
           <br />
-          <Grid
-            container
-            columnSpacing={3}
-            rowSpacing={6}
-            alignItems="center"
-            justifyContent="center"
-          >
+          <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
             {patrocinadores.map(({ src, alt, width, height, types }) => {
-              return types === "colaborador" ? (
+              return types === 'colaborador' ? (
                 <Grid item xs={12} sm={12} md={6} lg={6}>
                   <ImageDiv>
-                    <Image
-                      src={src}
-                      alt={alt}
-                      width={width}
-                      height={height}
-                      style={{ width: "80%", height: "80%" }}
-                    />
+                    <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
                   </ImageDiv>
                 </Grid>
               ) : (
-                ""
+                ''
               );
             })}
           </Grid>
@@ -216,7 +169,7 @@ const Category = styled.h2`
   color: #3c3c54;
   font-size: 3rem;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 const Hexagons = styled.h2`
