@@ -1,13 +1,10 @@
-import Layout from "@components/layouts/MainLayout";
-import styled from "@emotion/styled";
-import { Grid, Container } from "@mui/material";
-import Image from "next/image";
-import {
-  FirstDayStandList,
-  SecondDayStandList,
-  CreateStandList,
-} from "@components/StandList";
-import { stands } from "data/stands";
+import Layout from '@components/layouts/MainLayout';
+import styled from '@emotion/styled';
+import { Container } from '@mui/material';
+import Grid from '@mui/material/GridLegacy';
+import Image from 'next/image';
+import { FirstDayStandList, SecondDayStandList, CreateStandList } from '@components/StandList';
+import { stands } from 'data/stands';
 
 const Stands = () => {
   return (
@@ -27,21 +24,17 @@ const Stands = () => {
             </Hexagons>
           </AlignedDiv>
           <DescriptionText>
-            Los Stands son el núcleo del evento. En estos puestos, las empresas
-            podrán tener un contacto directo y estrecho con los alumnos de la
-            ESIT, brindándoles la oportunidad de informar al estudiantado
-            universitario de las ingenierías acerca de su actividad, perfiles
-            profesionales que demandan, funcionamiento de la empresa...
+            Los Stands son el núcleo del evento. En estos puestos, las empresas podrán tener un contacto directo y
+            estrecho con los alumnos de la ESIT, brindándoles la oportunidad de informar al estudiantado universitario
+            de las ingenierías acerca de su actividad, perfiles profesionales que demandan, funcionamiento de la
+            empresa...
           </DescriptionText>
           <DescriptionText>
-            En estos stands, las empresas tendrán libertad de organización para
-            exponer su trabajo y atraer a los visitantes del evento. Por
-            ejemplo, se podrán traer folletos informativos sobre los
-            departamentos de la empresa o sus programas de prácticas. Aquellas
-            empresas centradas en el desarrollo podrán traer productos, para que
-            los visitantes los descubran. También podrán contar con vídeos donde
-            muestren sus proyectos más innovadores. Cualquier iniciativa con
-            fines formativos o de interés es bienvenida.
+            En estos stands, las empresas tendrán libertad de organización para exponer su trabajo y atraer a los
+            visitantes del evento. Por ejemplo, se podrán traer folletos informativos sobre los departamentos de la
+            empresa o sus programas de prácticas. Aquellas empresas centradas en el desarrollo podrán traer productos,
+            para que los visitantes los descubran. También podrán contar con vídeos donde muestren sus proyectos más
+            innovadores. Cualquier iniciativa con fines formativos o de interés es bienvenida.
           </DescriptionText>
           <br />
           <br />
@@ -54,8 +47,8 @@ const Stands = () => {
                   width={400}
                   height={300}
                   style={{
-                    width: "100%",
-                    height: "100%",
+                    width: '100%',
+                    height: '100%',
                   }}
                 />
               </ImageDiv>
@@ -68,8 +61,8 @@ const Stands = () => {
                   width={400}
                   height={300}
                   style={{
-                    width: "100%",
-                    height: "100%",
+                    width: '100%',
+                    height: '100%',
                   }}
                 />
               </ImageDiv>
@@ -82,8 +75,8 @@ const Stands = () => {
                   width={400}
                   height={300}
                   style={{
-                    width: "100%",
-                    height: "100%",
+                    width: '100%',
+                    height: '100%',
                   }}
                 />
               </ImageDiv>
@@ -114,8 +107,8 @@ const Stands = () => {
               width={1200}
               height={600}
               style={{
-                width: "100%",
-                height: "100%",
+                width: '100%',
+                height: '100%',
               }}
             />
           </ImageDiv>
@@ -177,14 +170,14 @@ const Title = styled.h2`
 const Category = styled.h3`
   color: #ffffff;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 const DescriptionText = styled.p`
   color: #ffffff;
 
   font-weight: 500;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 `;
 
 const Hexagons = styled.h3`
