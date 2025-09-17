@@ -16,7 +16,7 @@ const Organizadores = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Title>Organizadores 2024</Title>
+            <Title>Organizadores</Title>
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>
