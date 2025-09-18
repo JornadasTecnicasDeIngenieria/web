@@ -72,9 +72,9 @@ function Card({ imageSource, name, categories, social }) {
             </div>
             <div className="custom-card-body">
               <Grid container justifyContent="center" alignItems="center">
-                {tags.map((tag) => {
+                {tags.map((tag, index) => {
                   return (
-                    <span className={`custom-tag ${getTagColor(tag)}`} key={`${getTagColor(tag)}`}>
+                    <span className={`custom-tag ${getTagColor(tag)}`} key={`${tag}-${index}`}>
                       {tag}
                     </span>
                   );
@@ -83,35 +83,35 @@ function Card({ imageSource, name, categories, social }) {
               <Name>{name}</Name>
               <Social>
                 <Stack direction="row" spacing={2} justifyContent="center" alignItems="center">
-                  {networks.map(({ tag, url }) => {
+                  {networks.map(({ tag, url }, index) => {
                     switch (tag) {
                       case 'Facebook':
                         return (
-                          <Link className="styledlink" href={url}>
+                          <Link className="styledlink" href={url} key={`${tag}-${index}`}>
                             <Facebook />
                           </Link>
                         );
                       case 'GitHub':
                         return (
-                          <Link className="styledlink" href={url}>
+                          <Link className="styledlink" href={url} key={`${tag}-${index}`}>
                             <GitHub />
                           </Link>
                         );
                       case 'Twitter':
                         return (
-                          <Link className="styledlink" href={url}>
+                          <Link className="styledlink" href={url} key={`${tag}-${index}`}>
                             <TwitterNewIcon />
                           </Link>
                         );
                       case 'Linkedin':
                         return (
-                          <Link className="styledlink" href={url}>
+                          <Link className="styledlink" href={url} key={`${tag}-${index}`}>
                             <LinkedIn />
                           </Link>
                         );
                       case 'ContactMail':
                         return (
-                          <Link className="styledlink" href={`mailto:${url}`}>
+                          <Link className="styledlink" href={`mailto:${url}`} key={`${tag}-${index}`}>
                             <span title={url}>
                               <ContactMail />
                             </span>
@@ -119,7 +119,7 @@ function Card({ imageSource, name, categories, social }) {
                         );
                       case 'Web':
                         return (
-                          <Link className="styledlink" href={url}>
+                          <Link className="styledlink" href={url} key={`${tag}-${index}`}>
                             <span title={url}>
                               <Language />
                             </span>
@@ -127,7 +127,7 @@ function Card({ imageSource, name, categories, social }) {
                         );
                       case 'Telegram':
                         return (
-                          <Link className="styledlink" href={url}>
+                          <Link className="styledlink" href={url} key={`${tag}-${index}`}>
                             <span title={url}>
                               <Telegram />
                             </span>
@@ -135,7 +135,7 @@ function Card({ imageSource, name, categories, social }) {
                         );
                       case 'Instagram':
                         return (
-                          <Link className="styledlink" href={url}>
+                          <Link className="styledlink" href={url} key={`${tag}-${index}`}>
                             <span title={url}>
                               <Instagram />
                             </span>

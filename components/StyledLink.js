@@ -6,23 +6,22 @@ import NextLink from 'next/link';
 import MuiLink from '@mui/material/Link';
 
 export const NextLinkComposed = React.forwardRef(function NextLinkComposed(props, ref) {
-  const { to, linkAs, href, replace, scroll, passhref, shallow, prefetch, locale, ...other } =
-    props;
+  const { to, linkAs, href, replace, scroll, passHref, shallow, prefetch, locale, ...other } = props;
 
   return (
-    (<NextLink
+    <NextLink
       href={to}
       prefetch={prefetch}
       as={linkAs}
       replace={replace}
       scroll={scroll}
       shallow={shallow}
-      passhref={passhref}
       locale={locale}
       ref={ref}
-      {...other}>
-
-    </NextLink>)
+      {...other}
+    >
+      {children}
+    </NextLink>
   );
 });
 
@@ -40,10 +39,9 @@ const Link = React.forwardRef(function Link(props, ref) {
 
   const router = useRouter();
   const pathname = typeof href === 'string' ? href : href.pathname;
-  const className = 'active'
+  const className = 'active';
 
-  const isExternal =
-    typeof href === 'string' && (href.indexOf('http') === 0 || href.indexOf('mailto:') === 0);
+  const isExternal = typeof href === 'string' && (href.indexOf('http') === 0 || href.indexOf('mailto:') === 0);
 
   if (isExternal) {
     if (noLinkStyle) {
@@ -57,16 +55,7 @@ const Link = React.forwardRef(function Link(props, ref) {
     return <NextLinkComposed className={className} ref={ref} to={href} {...other} />;
   }
 
-  return (
-    <MuiLink
-      component={NextLinkComposed}
-      linkAs={linkAs}
-      className={className}
-      ref={ref}
-      to={href}
-      {...other}
-    />
-  );
+  return <MuiLink component={NextLinkComposed} linkAs={linkAs} className={className} ref={ref} to={href} {...other} />;
 });
 
 export default Link;
