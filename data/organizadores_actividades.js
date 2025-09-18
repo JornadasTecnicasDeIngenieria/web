@@ -38,6 +38,12 @@ export const organizadores_actividades = [
     social: [],
   },
   {
+    name: 'Francisco Javier Fernandez Peraza',
+    image: '/images/organizadores/placeholder.png',
+    categories: ['Mecánica'],
+    social: [],
+  },
+  {
     name: 'Patricia García Di Mauro',
     image: '/images/organizadores/placeholder.png',
     categories: ['Mecánica'],
@@ -49,25 +55,25 @@ export const organizadores_actividades = [
     categories: ['Informática'],
     social: [],
   },
-  // {
-  //   name: 'Enrique Gómez Díaz',
-  //   image: '/images/organizadores/enrique_gomez.png',
-  //   categories: ['Informática'],
-  //   social: [
-  //     {
-  //       tag: 'Linkedin',
-  //       url: 'https://www.linkedin.com/in/enrique-g%C3%B3mez-ba4969245',
-  //     },
-  //     {
-  //       tag: 'ContactMail',
-  //       url: 'enriquegd2004@gmail.com',
-  //     },
-  //     {
-  //       tag: 'Instagram',
-  //       url: 'https://www.instagram.com/diazenriquegomez',
-  //     },
-  //   ],
-  // },
+  {
+    name: 'Enrique Gómez Díaz',
+    image: '/images/organizadores/enrique_gomez.png',
+    categories: ['Informática'],
+    social: [
+      {
+        tag: 'Linkedin',
+        url: 'https://www.linkedin.com/in/enrique-g%C3%B3mez-ba4969245',
+      },
+      {
+        tag: 'ContactMail',
+        url: 'enriquegd2004@gmail.com',
+      },
+      {
+        tag: 'Instagram',
+        url: 'https://www.instagram.com/diazenriquegomez',
+      },
+    ],
+  },
   {
     name: 'Nicolas Pérez González',
     image: '/images/organizadores/placeholder.png',
