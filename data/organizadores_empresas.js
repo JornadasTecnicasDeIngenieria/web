@@ -77,12 +77,6 @@ export const organizadores_empresas = [
     ],
   },
   {
-    name: 'Francisco Javier Fernandez Peraza',
-    image: '/images/organizadores/placeholder.png',
-    categories: ['Mecánica'],
-    social: [],
-  },
-  {
     name: 'Ainara	González Hernández',
     image: '/images/organizadores/ainara_gonzalez.png',
     categories: ['Química'],
