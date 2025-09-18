@@ -13,13 +13,13 @@ const Navbar = ({ navLinks }) => {
       }}
     >
       <Stack direction="row" spacing={4}>
-        <Link href="/stands" className="nav-link">
+        <Link href="/stands" className="nav-link" legacyBehavior>
           <NavbarLink>Stands</NavbarLink>
         </Link>
-        <Link href="/actividades" className="nav-link">
+        <Link href="/actividades" className="nav-link" legacyBehavior>
           <NavbarLink>Actividades</NavbarLink>
         </Link>
-        <Link href="/sorteos" className="nav-link">
+        <Link href="/sorteos" className="nav-link" legacyBehavior>
           <NavbarLink>Sorteos</NavbarLink>
         </Link>
         <NavDropdown title="El evento" id="collasible-nav-dropdown">
@@ -27,7 +27,7 @@ const Navbar = ({ navLinks }) => {
           <NavDropdown.Item href="/patrocinadores">Patrocinadores</NavDropdown.Item>
           <NavDropdown.Item href="/info-empresas">Info Empresas</NavDropdown.Item>
         </NavDropdown>
-        <Link href="/faqs" className="nav-link">
+        <Link href="/faqs" className="nav-link" legacyBehavior>
           <NavbarLink>FAQs</NavbarLink>
         </Link>
       </Stack>
