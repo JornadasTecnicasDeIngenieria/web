@@ -93,7 +93,7 @@ const Footer = () => {
       <AlignedDiv>
         <DescriptionText>jtiesit@ull.edu.es</DescriptionText>
       </AlignedDiv>
-      <Link href={`/politica-de-privacidad`}>
+      <Link href={`/politica-de-privacidad`} legacyBehavior>
         <PrivacyPolicy>
           <Typography align="center" color="common.white">
             POLITICA DE PRIVACIDAD

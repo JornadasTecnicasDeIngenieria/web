@@ -39,7 +39,11 @@ const SideDrawer = ({ navLinks }) => {
             textTransform: `uppercase`,
           }}
         >
-          <Link sx={{ color: "common.white" }} href={path} className="nav-link">
+          <Link
+            sx={{ color: "common.white" }}
+            href={path}
+            className="nav-link"
+            legacyBehavior>
              {title}
           </Link>
         </Typography>
