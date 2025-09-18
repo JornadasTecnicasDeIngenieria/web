@@ -20,7 +20,7 @@ export const NextLinkComposed = React.forwardRef(function NextLinkComposed(props
       locale={locale}
       ref={ref}
       {...other}
-    ></NextLink>
+      legacyBehavior></NextLink>
   );
 });
 

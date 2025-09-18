@@ -13,28 +13,22 @@ const Navbar = ({ navLinks }) => {
       }}
     >
       <Stack direction="row" spacing={4}>
-        <Link href="stands" className="nav-link" passHref legacyBehavior>
-          <NavbarLink className="nav-link">Stands</NavbarLink>
+        <Link href="/stands" className="nav-link">
+          <NavbarLink>Stands</NavbarLink>
         </Link>
-        <Link href="actividades" className="nav-link" passHref legacyBehavior>
-          <NavbarLink className="nav-link">Actividades</NavbarLink>
+        <Link href="/actividades" className="nav-link">
+          <NavbarLink>Actividades</NavbarLink>
         </Link>
-        <Link href="sorteos" className="nav-link" passHref legacyBehavior>
-          <NavbarLink className="nav-link">Sorteos</NavbarLink>
+        <Link href="/sorteos" className="nav-link">
+          <NavbarLink>Sorteos</NavbarLink>
         </Link>
         <NavDropdown title="El evento" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="organizadores" passHref>
-            Organizadores
-          </NavDropdown.Item>
-          <NavDropdown.Item href="patrocinadores" passHref>
-            Patrocinadores
-          </NavDropdown.Item>
-          <NavDropdown.Item href="info-empresas" passHref>
-            Info Empresas
-          </NavDropdown.Item>
+          <NavDropdown.Item href="/organizadores">Organizadores</NavDropdown.Item>
+          <NavDropdown.Item href="/patrocinadores">Patrocinadores</NavDropdown.Item>
+          <NavDropdown.Item href="/info-empresas">Info Empresas</NavDropdown.Item>
         </NavDropdown>
-        <Link href="faqs" className="nav-link" passHref legacyBehavior>
-          <NavbarLink className="nav-link">FAQs</NavbarLink>
+        <Link href="/faqs" className="nav-link">
+          <NavbarLink>FAQs</NavbarLink>
         </Link>
       </Stack>
     </Toolbar>
@@ -43,8 +37,9 @@ const Navbar = ({ navLinks }) => {
 
 export default Navbar;
 
-const NavbarLink = styled.span`
+const NavbarLink = styled.a`
   color: #ffffff;
   font-size: 1.4rem;
   font-family: 'Montserrat';
+  text-decoration: none;
 `;
