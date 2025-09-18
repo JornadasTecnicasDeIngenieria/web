@@ -16,12 +16,11 @@ export const NextLinkComposed = React.forwardRef(function NextLinkComposed(props
       replace={replace}
       scroll={scroll}
       shallow={shallow}
+      passHref={passHref}
       locale={locale}
       ref={ref}
       {...other}
-    >
-      {children}
-    </NextLink>
+    ></NextLink>
   );
 });
 
