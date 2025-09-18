@@ -1,8 +1,8 @@
-import Stack from "@mui/material/Stack";
-import Toolbar from "@mui/material/Toolbar";
-import styled from "@emotion/styled";
-import Link from "next/link";
-import { NavDropdown } from "react-bootstrap";
+import Stack from '@mui/material/Stack';
+import Toolbar from '@mui/material/Toolbar';
+import styled from '@emotion/styled';
+import Link from 'next/link';
+import { NavDropdown } from 'react-bootstrap';
 
 const Navbar = ({ navLinks }) => {
   return (
@@ -46,5 +46,5 @@ export default Navbar;
 const NavbarLink = styled.span`
   color: #ffffff;
   font-size: 1.4rem;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 `;
