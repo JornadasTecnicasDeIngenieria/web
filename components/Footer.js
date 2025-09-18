@@ -40,7 +40,6 @@ const Footer = () => {
           href="https://www.linkedin.com/company/jtiull/"
           target="_blank"
           rel="noopener noreferrer"
-          passHref
         >
           <LinkedIn fontSize="large" />
         </StyledLink>
@@ -49,7 +48,6 @@ const Footer = () => {
           href="https://www.instagram.com/jtiesit/?hl=es"
           target="_blank"
           rel="noopener noreferrer"
-          passHref
         >
           <Instagram fontSize="large" />
         </StyledLink>
@@ -58,34 +56,30 @@ const Footer = () => {
           href="https://www.tiktok.com/@jtiesit"
           target="_blank"
           rel="noopener noreferrer"
-          passHref
         >
           <TikTokIcon fontSize="large" />
         </StyledLink>
         <StyledLink
           sx={{ textDecoration: 'none', color: 'common.white' }}
-          href="https://twitter.com/jtiesit"
+          href="https://x.com/JTIesit"
           target="_blank"
           rel="noopener noreferrer"
-          passHref
         >
           <TwitterNewIcon fontSize="large" />
         </StyledLink>
         <StyledLink
           sx={{ textDecoration: 'none', color: 'common.white' }}
-          href="https://www.facebook.com/profile.php?id=61552917822080"
+          href="https://www.facebook.com/people/JTI-Jornadas-T%C3%A9cnicas-de-Ingenier%C3%ADa/61568540269356/"
           target="_blank"
           rel="noopener noreferrer"
-          passHref
         >
           <Facebook fontSize="large" />
         </StyledLink>
         <StyledLink
           sx={{ textDecoration: 'none', color: 'common.white' }}
-          href="https://www.youtube.com/@jornadastecnicasdeingenieria"
+          href="https://www.youtube.com/@jtiesit"
           target="_blank"
           rel="noopener noreferrer"
-          passHref
         >
           <YouTubeIcon fontSize="large" />
         </StyledLink>
