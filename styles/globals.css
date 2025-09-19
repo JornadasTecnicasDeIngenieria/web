@@ -21,6 +21,8 @@
 @media (max-width: 720px) {
   .nav-link {
     font-size: 1.2rem !important;
+    text-align: right;
+    padding-right: calc(env(safe-area-inset-right) + 2.2rem);
   }
 }
 
