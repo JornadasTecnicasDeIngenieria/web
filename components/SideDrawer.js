@@ -21,21 +21,25 @@ const SideDrawer = ({ navLinks }) => {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: 250, marginTop: `auto`, marginBottom: `auto` }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
+      sx={{
+        width: 250,
+        px: 2.5,
+        pt: { xs: 8, sm: 4 },
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'flex-end',
+      }}
     >
       {navLinks.map(({ title, path }, i) => (
         <Typography
           variant="button"
           key={`${title}${i}`}
           sx={{
-            my: 1,
-            textTransform: 'uppercase',
+            my: 0.5,
             width: '100%',
-            textAlign: 'center',
-            py: 1,
           }}
         >
           <Link href={path} legacyBehavior>
