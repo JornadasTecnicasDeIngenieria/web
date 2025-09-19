@@ -74,10 +74,10 @@ const Actividades = () => {
               <TableHorarioEscapeRoom />
             </AlignedDiv>
           </DescriptionText>
-          <DescriptionText>
+          {/* <DescriptionText>
             <Highlight>Inscripción: </Highlight>
             <DescriptionLink href="https://forms.gle/cpkk1JPMz79JmA3L6">¡Click Aquí!</DescriptionLink>
-          </DescriptionText>
+          </DescriptionText> */}
           <br />
           <AlignedDiv>
             <TableEscapeRoom />
@@ -134,10 +134,10 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Horario: </Highlight>Por determinar dependiendo de la cantidad de participantes.
           </DescriptionText>
-          <DescriptionText>
+          {/* <DescriptionText>
             <Highlight>Inscripción: </Highlight>
             <DescriptionLink href="https://forms.gle/w8Fvm1qb3smdzuZ26">¡Click Aquí!</DescriptionLink>
-          </DescriptionText>
+          </DescriptionText> */}
           <br />
           <AlignedDiv>
             <TableVideojuegos />
@@ -164,10 +164,10 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Horario: </Highlight>16:00 - 20:00.
           </DescriptionText>
-          <DescriptionText>
+          {/* <DescriptionText>
             <Highlight>Inscripción: </Highlight>
             <DescriptionLink href="https://forms.gle/nErKFCRFdSDKtQtR8">¡Click Aquí!</DescriptionLink>
-          </DescriptionText>
+          </DescriptionText> */}
           <AlignedDiv>
             <Hexagons>
               <HexagonB>⬢</HexagonB>
