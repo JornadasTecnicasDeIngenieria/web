@@ -7,9 +7,15 @@
   text-decoration: none !important;
   cursor: pointer;
 }
+
 .nav-link {
   color: white !important;
   font-size: 1.4rem !important;
+  text-decoration: none !important;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.6rem 0;
 }
 
 @media (max-width: 720px) {
@@ -114,10 +120,10 @@ h3 {
   overflow: hidden;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .card-img-top {
@@ -132,7 +138,7 @@ card-body {
 }
 
 .card {
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 /* .TimerNumber {
@@ -370,7 +376,7 @@ card-body {
 
 /* Clear floats (clearfix hack) */
 .btn-group:after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
