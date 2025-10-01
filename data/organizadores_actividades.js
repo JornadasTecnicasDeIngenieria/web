@@ -26,12 +26,6 @@ export const organizadores_actividades = [
     ],
   },
   {
-    name: 'Andrea Daniela Cothua González',
-    image: '/images/organizadores/placeholder.png',
-    categories: ['Química'],
-    social: [],
-  },
-  {
     name: 'Iker Díaz Cabrera',
     image: '/images/organizadores/placeholder.png',
     categories: ['Informática'],
