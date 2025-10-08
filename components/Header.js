@@ -1,13 +1,13 @@
-import AppBar from "@mui/material/AppBar";
-import Container from "@mui/material/Container";
-import Toolbar from "@mui/material/Toolbar";
-import { styled } from "@mui/system";
+import AppBar from '@mui/material/AppBar';
+import Container from '@mui/material/Container';
+import Toolbar from '@mui/material/Toolbar';
+import { styled } from '@mui/system';
 
-import { PadDiv } from "./StyledComponents";
-import Image from "next/image";
-import StyledLink from "@components/StyledLink";
-import Navbar from "./Navbar";
-import SideDrawer from "./SideDrawer";
+import { PadDiv } from './StyledComponents';
+import Image from 'next/image';
+import StyledLink from '@components/StyledLink';
+import Navbar from './Navbar';
+import SideDrawer from './SideDrawer';
 
 export const navLinks = [
   { title: `Stands`, path: `/stands` },
@@ -28,17 +28,21 @@ const Header = () => {
           sx={{
             display: `flex`,
             justifyContent: `space-between`,
-            margin: "1%",
+            margin: '1%',
           }}
         >
-          <StyledLink activeClassName="active" href="/">
+          <StyledLink
+            href="/"
+            aria-label="Ir al inicio"
+            sx={{ cursor: 'pointer', display: 'inline-flex', alignItems: 'center' }}
+          >
             <PadDiv>
               <Image
                 src="/images/header.png"
                 width="267"
                 height="44"
                 alt="JTI"
-                style={{ width: "13rem", height: "2.2rem" }}
+                style={{ width: '13rem', height: '2.2rem', cursor: 'pointer' }}
               />
             </PadDiv>
           </StyledLink>
