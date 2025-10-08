@@ -13,22 +13,22 @@ const Navbar = ({ navLinks }) => {
       }}
     >
       <Stack direction="row" spacing={4}>
-        <Link href="/stands" className="nav-link" legacyBehavior>
-          <NavbarLink>Stands</NavbarLink>
+        <Link href="/stands" legacyBehavior passHref>
+          <NavbarLink className="nav-link">Stands</NavbarLink>
         </Link>
-        <Link href="/actividades" className="nav-link" legacyBehavior>
-          <NavbarLink>Actividades</NavbarLink>
+        <Link href="/actividades" legacyBehavior passHref>
+          <NavbarLink className="nav-link">Actividades</NavbarLink>
         </Link>
-        <Link href="/sorteos" className="nav-link" legacyBehavior>
-          <NavbarLink>Sorteos</NavbarLink>
+        <Link href="/sorteos" legacyBehavior passHref>
+          <NavbarLink className="nav-link">Sorteos</NavbarLink>
         </Link>
         <NavDropdown title="El evento" id="collasible-nav-dropdown">
           <NavDropdown.Item href="/organizadores">Organizadores</NavDropdown.Item>
           <NavDropdown.Item href="/patrocinadores">Patrocinadores</NavDropdown.Item>
           <NavDropdown.Item href="/info-empresas">Info Empresas</NavDropdown.Item>
         </NavDropdown>
-        <Link href="/faqs" className="nav-link" legacyBehavior>
-          <NavbarLink>FAQs</NavbarLink>
+        <Link href="/faqs" legacyBehavior passHref>
+          <NavbarLink className="nav-link">FAQs</NavbarLink>
         </Link>
       </Stack>
     </Toolbar>
@@ -42,4 +42,5 @@ const NavbarLink = styled.a`
   font-size: 1.4rem;
   font-family: 'Montserrat';
   text-decoration: none;
+  cursor: pointer;
 `;
