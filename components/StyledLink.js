@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
 import * as React from 'react';
 import clsx from 'clsx';
 import { useRouter } from 'next/router';
@@ -20,7 +19,8 @@ export const NextLinkComposed = React.forwardRef(function NextLinkComposed(props
       locale={locale}
       ref={ref}
       {...other}
-      legacyBehavior></NextLink>
+      legacyBehavior
+    ></NextLink>
   );
 });
 
