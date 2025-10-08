@@ -7,5 +7,15 @@ const __dirname = path.dirname(__filename);
 
 const compat = new FlatCompat({ baseDirectory: __dirname });
 
-// Equivale a: { "extends": "next/core-web-vitals" }
-export default [...compat.extends('next/core-web-vitals')];
+// Assign to a variable first and add ignore patterns
+const base = compat.extends('next/core-web-vitals');
+
+const config = [
+  // Ignore build artifacts and vendored code
+  {
+    ignores: ['.next/**', '**/.next/**', 'node_modules/**', 'public/**', 'dist/**', 'out/**'],
+  },
+  ...base,
+];
+
+export default config;
