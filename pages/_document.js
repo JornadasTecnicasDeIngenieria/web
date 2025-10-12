@@ -1,9 +1,9 @@
-import * as React from "react";
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import createEmotionServer from "@emotion/server/create-instance";
-import createEmotionCache from "../styles/createEmotionCache";
+import * as React from 'react';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+import createEmotionServer from '@emotion/server/create-instance';
+import createEmotionCache from '../styles/createEmotionCache';
 
-import theme from "../styles/theme";
+import theme from '../styles/theme';
 
 export default class MyDocument extends Document {
   render() {
@@ -12,16 +12,10 @@ export default class MyDocument extends Document {
         <Head>
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+          {/* Unifica Montserrat y añade pesos 400, 500 y 700 */}
           <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-          />
-          <link
-            href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
             rel="stylesheet"
           />
         </Head>
@@ -50,7 +44,7 @@ MyDocument.getInitialProps = async (ctx) => {
   const emotionStyles = extractCriticalToChunks(initialProps.html);
   const emotionStyleTags = emotionStyles.styles.map((style) => (
     <style
-      data-emotion={`${style.key} ${style.ids.join(" ")}`}
+      data-emotion={`${style.key} ${style.ids.join(' ')}`}
       key={style.key}
       dangerouslySetInnerHTML={{ __html: style.css }}
     />
@@ -58,9 +52,6 @@ MyDocument.getInitialProps = async (ctx) => {
 
   return {
     ...initialProps,
-    styles: [
-      ...React.Children.toArray(initialProps.styles),
-      ...emotionStyleTags,
-    ],
+    styles: [...React.Children.toArray(initialProps.styles), ...emotionStyleTags],
   };
 };
