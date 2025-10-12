@@ -69,7 +69,7 @@ const Footer = () => {
         </StyledLink>
         <StyledLink
           sx={{ textDecoration: 'none', color: 'common.white' }}
-          href="https://www.facebook.com/people/JTI-Jornadas-T%C3%A9cnicas-de-Ingenier%C3%ADa/61568540269356/"
+          href="https://www.facebook.com/people/Jornadas-T%C3%A9cnicas-de-Ingenier%C3%ADa/61552917822080/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -77,7 +77,7 @@ const Footer = () => {
         </StyledLink>
         <StyledLink
           sx={{ textDecoration: 'none', color: 'common.white' }}
-          href="https://www.youtube.com/@jtiesit"
+          href="https://www.youtube.com/@jornadastecnicasdeingenieria"
           target="_blank"
           rel="noopener noreferrer"
         >
