@@ -224,8 +224,7 @@ const HexagonB = styled.span`
 `;
 
 const Infodiv = styled.div`
-  align-items: justify;
-  align-text: justify;
-  text-justify: inter-word;
-  font-family: 'Montserrat';
+  align-items: center;
+  text-align: justify;
+  padding: 1rem;
 `;
