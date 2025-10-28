@@ -1,6 +1,7 @@
 import Grid from '@mui/material/GridLegacy';
 import Image from 'next/image';
 import styled from '@emotion/styled';
+import { EVENT_DATES_FULL } from 'data/config';
 
 const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
   return (
@@ -31,7 +32,7 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                 }}
               />
             </ImageDiv>
-            <DateTitle>10 y 11 de Diciembre de 2025</DateTitle>
+            <DateTitle>{EVENT_DATES_FULL}</DateTitle>
           </PaddingDiv>
         </Grid>
       </Grid>

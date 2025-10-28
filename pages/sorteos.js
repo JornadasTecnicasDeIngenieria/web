@@ -6,6 +6,7 @@ import {
 import Layout from '@components/layouts/MainLayout';
 import styled from '@emotion/styled';
 import { Container } from '@mui/material';
+import { EVENT_YEAR } from 'data/config';
 
 const Sorteos = () => {
   return (
@@ -15,7 +16,7 @@ const Sorteos = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Title>Sorteos 2024</Title>
+            <Title>Sorteos {EVENT_YEAR}</Title>
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>
