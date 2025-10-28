@@ -1,6 +1,7 @@
 import Layout from '@components/layouts/MainLayout';
 import styled from '@emotion/styled';
 import { Container } from '@mui/material';
+import { EVENT_YEAR } from '../data/config';
 import {
   TableCompeticionArcade,
   TableTrivial,
@@ -17,7 +18,7 @@ const Actividades = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Title>Actividades 2024</Title>
+            <Title>Actividades {EVENT_YEAR}</Title>
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>

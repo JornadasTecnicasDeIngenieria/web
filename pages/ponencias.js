@@ -5,6 +5,7 @@ import Grid from '@mui/material/GridLegacy';
 import Image from 'next/image';
 import { DayOnePonen, DayTwoPonen } from '@components/PonNewInfo';
 import { ponencias } from 'data/ponencias';
+import { DAY_ONE_LABEL, DAY_TWO_LABEL } from '../data/config';
 
 const Ponencias = () => {
   return (
@@ -49,11 +50,11 @@ const Ponencias = () => {
           </AlignedDiv>
           <br />
           <br />
-          <PonDay>Martes 6</PonDay>
+          <PonDay>{DAY_ONE_LABEL}</PonDay>
           <DayOnePonen />
           <br />
           <br />
-          <PonDay>Miércoles 7</PonDay>
+          <PonDay>{DAY_TWO_LABEL}</PonDay>
           <DayTwoPonen />
 
           <br />
@@ -151,7 +152,7 @@ const HiddenSpace = styled.div`
 
 const PonDay = styled.p`
   color: white;
-  display: felx;
+  display: flex;
   text-align: center;
   font-weight: bold;
   font-size: 1.8rem;
