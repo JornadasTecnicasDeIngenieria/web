@@ -42,12 +42,12 @@ const IntroDiv = styled.div`
 `;
 
 const AlignedDiv = styled.div`
-display: flex;
-justify-content: center;
-vertical-align: middle;
-align-items: center
-padding: 2rem;
-margin: 1rem;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  padding: 2rem;
+  margin: 1rem;
 `;
 
 const SectionTitle = styled.h2`

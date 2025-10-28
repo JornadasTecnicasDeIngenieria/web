@@ -57,17 +57,15 @@ const Patrocinadores = () => {
           <br />
           <br />
           <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
-            {patrocinadores.map(({ src, alt, width, height, types }) => {
-              return types === 'platino' ? (
-                <Grid item xs={12} sm={12} md={6} lg={6}>
+            {patrocinadores.map(({ src, alt, width, height, types }) =>
+              types === 'platino' ? (
+                <Grid item xs={12} sm={12} md={6} lg={6} key={src}>
                   <ImageDiv>
                     <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
                   </ImageDiv>
                 </Grid>
-              ) : (
-                ''
-              );
-            })}
+              ) : null
+            )}
           </Grid>
           <br />
           <br />
@@ -86,17 +84,15 @@ const Patrocinadores = () => {
           <br />
           <br />
           <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
-            {patrocinadores.map(({ src, alt, width, height, types }) => {
-              return types === 'oro' ? (
-                <Grid item xs={12} sm={12} md={6} lg={6}>
+            {patrocinadores.map(({ src, alt, width, height, types }) =>
+              types === 'oro' ? (
+                <Grid item xs={12} sm={12} md={6} lg={6} key={src}>
                   <ImageDiv>
                     <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
                   </ImageDiv>
                 </Grid>
-              ) : (
-                ''
-              );
-            })}
+              ) : null
+            )}
           </Grid>
           <br />
           <br />
@@ -115,17 +111,15 @@ const Patrocinadores = () => {
           <br />
           <br />
           <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
-            {patrocinadores.map(({ src, alt, width, height, types }) => {
-              return types === 'colaborador' ? (
-                <Grid item xs={12} sm={12} md={6} lg={6}>
+            {patrocinadores.map(({ src, alt, width, height, types }) =>
+              types === 'colaborador' ? (
+                <Grid item xs={12} sm={12} md={6} lg={6} key={src}>
                   <ImageDiv>
                     <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
                   </ImageDiv>
                 </Grid>
-              ) : (
-                ''
-              );
-            })}
+              ) : null
+            )}
           </Grid>
           <br />
           <br />
