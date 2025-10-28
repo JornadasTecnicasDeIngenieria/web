@@ -40,12 +40,6 @@ export const organizadores_empresas = [
     ],
   },
   {
-    name: 'Joseph Carrero Rubiano',
-    image: '/images/organizadores/placeholder.png',
-    categories: ['Química'],
-    social: [],
-  },
-  {
     name: 'Irene Cordero León',
     image: '/images/organizadores/placeholder.png',
     categories: ['Electrónica'],
