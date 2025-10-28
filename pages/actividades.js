@@ -18,7 +18,7 @@ const Actividades = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Title>Actividades {EVENT_YEAR}</Title>
+            <Title>Actividades 2024</Title>
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>
