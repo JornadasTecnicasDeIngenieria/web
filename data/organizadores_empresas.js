@@ -63,7 +63,7 @@ export const organizadores_empresas = [
     social: [
       {
         tag: 'Linkedin',
-        url: 'www.linkedin.com/in/irene-cordero-león-7b9a57386',
+        url: 'https://www.linkedin.com/in/irene-cordero-león-7b9a57386',
       },
       {
         tag: 'ContactMail',
