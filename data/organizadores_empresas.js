@@ -1,7 +1,7 @@
 export const organizadores_empresas = [
   {
-    name: 'Siddhartha	González-Falcón Chugani',
-    image: '/images/organizadores/siddhartha_gonzalez.png',
+    name: 'Siddhartha González-Falcón Chugani',
+    image: '/images/organizadores/siddhartha_gonzalez-falcon.png',
     categories: ['Coordinador', 'Mecánica'],
     social: [
       {
@@ -16,13 +16,30 @@ export const organizadores_empresas = [
         tag: 'Telegram',
         url: 'https://t.me/Siddhi614',
       },
+      {
+        tag: 'Twitter',
+        url: 'https://x.com/siddhi614',
+      },
     ],
   },
   {
-    name: 'Stefan	Barner-Rasmussen',
-    image: '/images/organizadores/placeholder.png',
+    name: 'Stefan Barner-Rasmussen',
+    image: '/images/organizadores/stefan_barner-rasmussen.png',
     categories: ['Mecánica'],
-    social: [],
+    social: [
+      {
+        tag: 'Linkedin',
+        url: 'https://www.linkedin.com/in/stefanbr',
+      },
+      {
+        tag: 'ContactMail',
+        url: 'stefan.barner.rasmussen@gmail.com',
+      },
+      {
+        tag: 'Instagram',
+        url: 'https://www.instagram.com/ssssstefannnnn/',
+      },
+    ],
   },
   {
     name: 'Yareth Cabrera Amaral',
@@ -41,15 +58,41 @@ export const organizadores_empresas = [
   },
   {
     name: 'Irene Cordero León',
-    image: '/images/organizadores/placeholder.png',
+    image: '/images/organizadores/irene_cordero.png',
     categories: ['Electrónica'],
-    social: [],
+    social: [
+      {
+        tag: 'Linkedin',
+        url: 'www.linkedin.com/in/irene-cordero-león-7b9a57386',
+      },
+      {
+        tag: 'ContactMail',
+        url: 'alu01015574334@ull.edu.es',
+      },
+      {
+        tag: 'Telegram',
+        url: 'http://t.me/ireneeleon_7',
+      },
+    ],
   },
   {
     name: 'Érika Crespo Molero',
-    image: '/images/organizadores/placeholder.png',
+    image: '/images/organizadores/erika_crespo.png',
     categories: ['Informática'],
-    social: [],
+    social: [
+      {
+        tag: 'Linkedin',
+        url: 'https://www.linkedin.com/in/érika-crespo-molero-563184341',
+      },
+      {
+        tag: 'ContactMail',
+        url: 'alu0101639185@ull.edu.es',
+      },
+      {
+        tag: 'GitHub',
+        url: 'https://github.com/erikacrespomolero',
+      },
+    ],
   },
   {
     name: 'Darío Fajardo Álvarez',
@@ -57,31 +100,39 @@ export const organizadores_empresas = [
     categories: ['Informática'],
     social: [
       {
+        tag: 'Linkedin',
+        url: 'https://www.linkedin.com/in/darío-fajardo',
+      },
+      {
+        tag: 'ContactMail',
+        url: 'alu0101564630@ull.edu.es',
+      },
+      {
         tag: 'GitHub',
         url: 'https://github.com/Dario-Fajardo',
       },
       {
-        tag: 'ContactMail',
-        url: 'ladamada18@gmail.com',
+        tag: 'Telegram',
+        url: 'https://t.me/DarioFPM',
       },
       {
         tag: 'Instagram',
-        url: 'https://www.instagram.com/df_pm18/',
+        url: 'https://www.instagram.com/df_pm18',
       },
     ],
   },
   {
-    name: 'Ainara	González Hernández',
+    name: 'Ainara González Hernández',
     image: '/images/organizadores/ainara_gonzalez.png',
     categories: ['Química'],
     social: [
       {
-        tag: 'ContactMail',
-        url: 'ealu0101560335@ull.edu.es',
+        tag: 'Linkedin',
+        url: 'https://www.linkedin.com/in/ainara-gonz%C3%A1lez-hern%C3%A1ndez-798b35360',
       },
       {
-        tag: 'Telegram',
-        url: 'https://t.me/ainaglezhdez',
+        tag: 'ContactMail',
+        url: 'ealu0101560335@ull.edu.es',
       },
       {
         tag: 'Instagram',
@@ -91,48 +142,97 @@ export const organizadores_empresas = [
   },
   {
     name: 'Ezequiel Hernández Poleo',
-    image: '/images/organizadores/placeholder.png',
+    image: '/images/organizadores/ezequiel_hernandez.png',
     categories: ['Informática'],
-    social: [],
+    social: [
+      {
+        tag: 'ContactMail',
+        url: 'alu0101735399@ull.edu.es',
+      },
+      {
+        tag: 'Instagram',
+        url: 'https://www.instagram.com/_ezequiiel.hdeez/',
+      },
+    ],
   },
   {
     name: 'Anás Lahlafi Annouar',
     image: '/images/organizadores/placeholder.png',
     categories: ['Informática'],
-    social: [],
+    social: [
+      {
+        tag: 'ContactMail',
+        url: 'alu0101704913@ull.edu.es',
+      },
+    ],
   },
   {
-    name: 'Ariadna	Leal Luque',
+    name: 'Ariadna Leal Luque',
     image: '/images/organizadores/ariadna_leal.png',
     categories: ['Mecánica'],
     social: [
       {
         tag: 'ContactMail',
-        url: 'lealluqueariadna@gmail.com',
+        url: 'ariadnalealluque@gmail.com',
       },
       {
-        tag: 'Telegram',
-        url: 'https://t.me/ariadnaleal29',
+        tag: 'Instagram',
+        url: 'https://www.instagram.com/ariadnall_/',
       },
     ],
   },
   {
     name: 'Daniel Martin Medina',
-    image: '/images/organizadores/placeholder.png',
+    image: '/images/organizadores/daniel_martin.png',
     categories: ['Informática'],
-    social: [],
+    social: [
+      {
+        tag: 'Linkedin',
+        url: 'https://www.linkedin.com/in/daniel-mart%C3%ADn-medina-22b16b253',
+      },
+    ],
   },
   {
     name: 'Ayoze Pérez Felipe',
-    image: '/images/organizadores/placeholder.png',
+    image: '/images/organizadores/ayoze_perez.png',
     categories: ['Electrónica'],
-    social: [],
+    social: [
+      {
+        tag: 'Linkedin',
+        url: 'https://www.linkedin.com/in/ayoze-p%C3%A9rez-felipe-613538290',
+      },
+      {
+        tag: 'ContactMail',
+        url: 'alu0101745732@ull.edu.es',
+      },
+      {
+        tag: 'Telegram',
+        url: 'http://t.me/Aperfel',
+      },
+      {
+        tag: 'Instagram',
+        url: 'https://www.instagram.com/aperfel11',
+      },
+      {
+        tag: 'Twitter',
+        url: 'https://x.com/aperfel11',
+      },
+    ],
   },
   {
     name: 'Valeria Pérez Fernández ',
-    image: '/images/organizadores/placeholder.png',
+    image: '/images/organizadores/valeria_perez.png',
     categories: ['Química'],
-    social: [],
+    social: [
+      {
+        tag: 'ContactMail',
+        url: 'alu0101643229@ull.edu.es',
+      },
+      {
+        tag: 'Instagram',
+        url: 'https://www.instagram.com/valeria_fdezz',
+      },
+    ],
   },
   {
     name: 'Alexander Rivas Bermúdez',

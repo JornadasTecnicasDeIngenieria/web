@@ -14,53 +14,102 @@ export const organizadores_diseno_redes_sociales = [
       },
       {
         tag: 'Telegram',
-        url: 'https://t.me/yourlocalandalusian',
+        url: 'http://t.me/andalulocal',
       },
       {
         tag: 'Instagram',
-        url: 'https://www.instagram.com/yourlocalandalusian/',
+        url: 'https://www.instagram.com/andalulocal',
       },
     ],
   },
   {
     name: 'Tayri Amador Guillén',
-    image: '/images/organizadores/placeholder.png',
+    image: '/images/organizadores/tayri_amador.png',
     categories: ['Informática'],
-    social: [],
+    social: [
+      {
+        tag: 'ContactMail',
+        url: 'alu0101625300@ull.edu.es',
+      },
+      {
+        tag: 'Instagram',
+        url: 'https://www.instagram.com/tayri_g',
+      },
+    ],
   },
   {
     name: 'Laura Cantón de las Heras',
     image: '/images/organizadores/placeholder.png',
     categories: ['Informática'],
-    social: [],
+    social: [
+      {
+        tag: 'ContactMail',
+        url: 'alu0101568935@ull.edu.es',
+      },
+      {
+        tag: 'GitHub',
+        url: 'https://github.com/LauraCdlH',
+      },
+      {
+        tag: 'Telegram',
+        url: 'http://t.me/whxislauraa',
+      },
+    ],
   },
   {
     name: 'Saray Liseth González Hernández',
-    image: '/images/organizadores/placeholder.png',
+    image: '/images/organizadores/saray_gonzalez.png',
     categories: ['Informática'],
-    social: [],
+    social: [
+      {
+        tag: 'ContactMail',
+        url: 'alu0101550602@ull.edu.es',
+      },
+      {
+        tag: 'Telegram',
+        url: 'http://t.me/SarayLiseth',
+      },
+    ],
   },
   {
     name: 'Lucas Hernández Dévora',
-    image: '/images/organizadores/placeholder.png',
+    image: '/images/organizadores/lucas_hernandez.png',
     categories: ['Informática'],
-    social: [],
+    social: [
+      {
+        tag: 'ContactMail',
+        url: 'alu0101551371@ull.edu.es',
+      },
+      {
+        tag: 'GitHub',
+        url: 'https://github.com/alu0101551371',
+      },
+      {
+        tag: 'Instagram',
+        url: 'https://www.instagram.com/http_byron1/',
+      },
+    ],
   },
   {
     name: 'Adrián Martín Castellano',
     image: '/images/organizadores/placeholder.png',
     categories: ['Informática'],
-    social: [],
+    social: [
+      {
+        tag: 'Linkedin',
+        url: 'https://www.linkedin.com/in/adrián-martín-castellano-491180397',
+      },
+      {
+        tag: 'ContactMail',
+        url: 'alu0101547619@gmail.com',
+      },
+    ],
   },
   {
     name: 'Marta Méndez Mendoza',
     image: '/images/organizadores/placeholder.png',
     categories: ['Química'],
     social: [
-      {
-        tag: 'ContactMail',
-        url: '3m.m.mendoza@gmail.com',
-      },
       {
         tag: 'Instagram',
         url: 'https://www.instagram.com/_marta_mendez',
@@ -74,15 +123,15 @@ export const organizadores_diseno_redes_sociales = [
     social: [
       {
         tag: 'Linkedin',
-        url: 'https://www.linkedin.com/in/paulo-padilla-domingues-8baa55243/',
+        url: 'https://www.linkedin.com/in/paulo-padilla-domingues-8baa55243',
       },
       {
         tag: 'ContactMail',
-        url: 'paulopd04@gmail.com',
+        url: 'alu0101571836@ull.edu.es',
       },
       {
         tag: 'Telegram',
-        url: 'https://t.me/Tikualdo',
+        url: 'http://t.me/Tikualdo',
       },
     ],
   },
@@ -97,11 +146,11 @@ export const organizadores_diseno_redes_sociales = [
       },
       {
         tag: 'ContactMail',
-        url: 'eduardosntr11@gmail.com',
+        url: 'eduardosntr04@gmail.com',
       },
       {
         tag: 'GitHub',
-        url: 'https://github.com/eduardodev11',
+        url: 'https://github.com/Eduardosntr',
       },
       {
         tag: 'Instagram',
