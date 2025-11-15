@@ -1,0 +1,26 @@
+services:
+  # Servicio web
+  web:
+    # Imagen
+    image: node:lts-alpine
+
+    # Nombre del contenedor
+    container_name: jti-web-dev
+
+    # Directorio de trabajo DENTRO del contenedor
+    working_dir: /app
+
+    # Comando para arrancar
+    command: sh -c "npm install && npm run dev"
+
+    # Mapeo de Puertos
+    ports:
+      - '3000:3000'
+
+    # Conecta la carpeta local con la carpeta /app del contenedor
+    volumes:
+      - .:/app
+
+    # Mantiene la terminal activa
+    stdin_open: true
+    tty: true
