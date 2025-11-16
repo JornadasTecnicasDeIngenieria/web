@@ -12,27 +12,23 @@ JTI is an annual event organized by and for engineering students, showcasing:
 - Talks and presentations
 - Information about the organizing team and sponsors
 
-The event brings together students from four engineering disciplines: Computer Engineering, Mechanical Engineering, Electronic Engineering, and Chemical Engineering.
+The event brings together students from four engineering disciplines: Computer Engineering, Mechanical Engineering, Electronic Engineering, and Industrial Chemical Engineering.
 
 ## Technologies Used
 
-- [Next.js](https://nextjs.org/) - React framework (v15.5)
-- [React](https://reactjs.org/) - JavaScript library (v19.1)
-- [Material UI](https://mui.com/) - React component library (v7.3)
-- [Styled Components](https://styled-components.com/) - CSS-in-JS styling
+- [Next.js](https://nextjs.org/) - React framework
+- [React](https://reactjs.org/) - JavaScript library
+- [Material UI](https://mui.com/) - React component library
 - [Emotion](https://emotion.sh/) - CSS-in-JS styling
-- [React Icons](https://react-icons.github.io/react-icons/) - Icon library
-- [Bootstrap](https://getbootstrap.com/) - CSS framework
-- [React Bootstrap](https://react-bootstrap.github.io/) - Bootstrap components for React
-- [Framer Motion](https://www.framer.com/motion/) - Animation library
-- [React Multi Carousel](https://www.npmjs.com/package/react-multi-carousel) - Carousel component
+- [Docker](https://www.docker.com/) - Containerization platform
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v16 or higher recommended)
+- Node.js (v16 or higher)
 - npm or yarn
+- Docker and Docker Compose (for containerized setup)
 
 ### Installation
 
@@ -51,7 +47,11 @@ npm install
 yarn
 ```
 
-3. Run the development server:
+### Running the Development Server
+
+You can run the development server in two ways:
+
+#### 1. Locally
 
 ```bash
 npm run dev
@@ -59,7 +59,17 @@ npm run dev
 yarn dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the website in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view the website in your browser.
+
+#### 2. Using Docker
+
+This method uses Docker Compose to set up a development environment in a container.
+
+```bash
+docker-compose up
+```
+
+The application will be available at [http://localhost:3000](http://localhost:3000). The container supports hot-reloading.
 
 ## Project Structure
 
@@ -68,41 +78,50 @@ yarn dev
 ├── components/           # Reusable UI components
 │   ├── home/             # Homepage-specific components
 │   └── layouts/          # Layout components
-├── data/                 # JSON/JS data files for content
-├── lib/                  # Utility functions
-├── pages/                # Next.js pages
-├── public/               # Static assets
-│   └── images/           # Image files
-├── styles/               # Global styles
+├── data/                 # JS data files for dynamic content
+├── pages/                # Next.js pages and API routes
+├── public/               # Static assets (images, fonts)
+├── styles/               # Global styles and theme configuration
 └── .next/                # Build output directory
 ```
 
-## Features
-
-- Responsive design for all devices
-- Interactive components for event information
-- Detailed sections for stands, activities, and raffles
-- Company information and participation details
-- Team member profiles and contact information
-- Dynamic content from data files
-
 ## Build and Deployment
 
-To build the project for production:
+### Building for Production
+
+To create a production-ready build:
 
 ```bash
 npm run build
-# or
-yarn build
 ```
 
-To start the production server:
+### Running in Production
+
+#### 1. Locally
+
+To start the production server after building:
 
 ```bash
 npm run start
-# or
-yarn start
 ```
+
+#### 2. Using Docker
+
+The provided `Dockerfile` creates an optimized, multi-stage production build.
+
+1. Build the Docker image:
+
+```bash
+docker build -t jti-website .
+```
+
+2. Run the container:
+
+```bash
+docker run -p 3000:3000 jti-website
+```
+
+The application will be running in production mode on [http://localhost:3000](http://localhost:3000).
 
 ## Contributing
 
