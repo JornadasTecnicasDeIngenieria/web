@@ -112,13 +112,13 @@ The provided `Dockerfile` creates an optimized, multi-stage production build.
 1. Build the Docker image:
 
 ```bash
-docker build -t jti-website .
+docker build -t jti-web-app .
 ```
 
 2. Run the container:
 
 ```bash
-docker run -p 3000:3000 jti-website
+docker run -d -p 3000:3000 --name jti-web jti-web-app
 ```
 
 The application will be running in production mode on [http://localhost:3000](http://localhost:3000).
