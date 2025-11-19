@@ -23,9 +23,10 @@ const Navbar = ({ navLinks }) => {
           <NavbarLink className="nav-link">Sorteos</NavbarLink>
         </Link>
         <NavDropdown title="El evento" id="collasible-nav-dropdown">
+          <NavDropdown.Item href="/mascota">Nuestra mascota</NavDropdown.Item>
           <NavDropdown.Item href="/organizadores">Organizadores</NavDropdown.Item>
           <NavDropdown.Item href="/patrocinadores">Patrocinadores</NavDropdown.Item>
-          <NavDropdown.Item href="/info-empresas">Info Empresas</NavDropdown.Item>
+          <NavDropdown.Item href="/info-empresas">Info empresas</NavDropdown.Item>
         </NavDropdown>
         <Link href="/faqs" legacyBehavior passHref>
           <NavbarLink className="nav-link">FAQs</NavbarLink>

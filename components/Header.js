@@ -13,6 +13,7 @@ export const navLinks = [
   { title: `Stands`, path: `/stands` },
   { title: `Actividades`, path: `/actividades` },
   { title: `Sorteos`, path: `/sorteos` },
+  { title: `Mascota`, path: `/mascota` },
   { title: `Organizadores`, path: `/organizadores` },
   { title: `Patrocinadores`, path: `/patrocinadores` },
   { title: `Info Empresas`, path: `/info-empresas` },
