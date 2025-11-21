@@ -27,7 +27,7 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                 height={250}
                 style={{
                   width: '100%',
-                  height: '100%',
+                  height: 'auto',
                   alignSelf: 'center',
                 }}
               />
@@ -59,11 +59,11 @@ const ImageDiv = styled.div`
   }
   border-radius: 1em;
   padding: 0.5rem;
-  margin-bottom: 10%;
+  margin-bottom: 1rem;
 `;
 
 const PaddingDiv = styled.div`
-  padding: 1rem 1.5rem;
+  padding: 2rem 2.5rem;
   justify-content: center;
   text-align: center;
   align-items: center;
