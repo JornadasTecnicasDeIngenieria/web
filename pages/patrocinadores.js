@@ -29,7 +29,13 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
+          <Grid
+            container
+            columnSpacing={3}
+            rowSpacing={6}
+            alignItems="center"
+            justifyContent="center"
+          >
             {patrocinadores.map(({ src, alt, width, height, types }) => {
               return types === 'diamante' ? (
                 <Grid item xs={12}>
@@ -65,7 +71,13 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
+          <Grid
+            container
+            columnSpacing={3}
+            rowSpacing={6}
+            alignItems="center"
+            justifyContent="center"
+          >
             {patrocinadores.map(({ src, alt, width, height, types }) =>
               types === 'platino' ? (
                 <Grid item xs={12} key={src}>
@@ -98,7 +110,13 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
+          <Grid
+            container
+            columnSpacing={3}
+            rowSpacing={6}
+            alignItems="center"
+            justifyContent="center"
+          >
             {patrocinadores.map(({ src, alt, width, height, types }) =>
               types === 'oro' ? (
                 <Grid item xs={12} key={src}>
@@ -131,7 +149,13 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
+          <Grid
+            container
+            columnSpacing={3}
+            rowSpacing={6}
+            alignItems="center"
+            justifyContent="center"
+          >
             {patrocinadores.map(({ src, alt, width, height, types }) =>
               types === 'colaborador' ? (
                 <Grid item xs={12} key={src}>

@@ -12,7 +12,9 @@ export const DayOnePonen = () => {
           </tr>
           <tr>
             <TD>11:55</TD>
-            <TDT>Realidad de los datos en las entidades públicas: datos públicos vs datos privados</TDT>
+            <TDT>
+              Realidad de los datos en las entidades públicas: datos públicos vs datos privados
+            </TDT>
             <TDT>NTT DATA</TDT>
             <TDT>Ingeniería y Mantenimiento en Grupo Bimbo - Metrotenerife</TDT>
             <TDT>Metrotenerife</TDT>
@@ -69,7 +71,10 @@ export const DayTwoPonen = () => {
           </tr>
           <tr>
             <TD>11:55</TD>
-            <TDT>Aplicación de las últimas metodologias y stacks tecnológicos en proyectos de innovación</TDT>
+            <TDT>
+              Aplicación de las últimas metodologias y stacks tecnológicos en proyectos de
+              innovación
+            </TDT>
             <TDT>Acid Tango SL</TDT>
             <TDT>WORKSHOP INCABE 2024</TDT>
             <TDT>INCABE</TDT>
@@ -105,7 +110,9 @@ export const DayTwoPonen = () => {
           </tr>
           <tr>
             <TD>17:55</TD>
-            <TDT colSpan={3}>Cómo ganar la olimpiada por el empleo: Preparación para ingenieros</TDT>
+            <TDT colSpan={3}>
+              Cómo ganar la olimpiada por el empleo: Preparación para ingenieros
+            </TDT>
             <TDT>Secret Source Technology S.L.</TDT>
           </tr>
         </tbody>

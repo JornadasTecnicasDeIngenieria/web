@@ -28,9 +28,10 @@ const Sorteos = () => {
           <Category>Sorteo diario</Category>
           <br />
           <DescriptionText>
-            ¡El gran sorteo! El momento más esperado del día, donde no solo se entregan los premios principales, sino
-            también el resto de reconocimientos del evento. ¿Quieres participar y tener la oportunidad de ganar grandes
-            recompensas? ¡Consigue rifas y únete al Festival de Fortuna!
+            ¡El gran sorteo! El momento más esperado del día, donde no solo se entregan los premios
+            principales, sino también el resto de reconocimientos del evento. ¿Quieres participar y
+            tener la oportunidad de ganar grandes recompensas? ¡Consigue rifas y únete al Festival
+            de Fortuna!
             <br />
             <br />
             <ul>
@@ -39,20 +40,20 @@ const Sorteos = () => {
               <ul>
                 <li>
                   {' '}
-                  Explorando los stands: Por cada 4 sellos que consigas visitando los stands, obtendrás 1 rifa (máximo 3
-                  rifas).{' '}
+                  Explorando los stands: Por cada 4 sellos que consigas visitando los stands,
+                  obtendrás 1 rifa (máximo 3 rifas).{' '}
                 </li>
                 <br />
                 <li>
                   {' '}
-                  Votando en el concurso Stand-Out: Participa votando por tu stand favorito y obtén una rifa adicional.
-                  Más info debajo.{' '}
+                  Votando en el concurso Stand-Out: Participa votando por tu stand favorito y obtén
+                  una rifa adicional. Más info debajo.{' '}
                 </li>
                 <br />
                 <li>
                   {' '}
-                  Completando las preguntas a empresas: Por completar el folleto de preguntas te llevarás también 1
-                  rifa. Más info debajo.{' '}
+                  Completando las preguntas a empresas: Por completar el folleto de preguntas te
+                  llevarás también 1 rifa. Más info debajo.{' '}
                 </li>
               </ul>
               <br />
@@ -86,10 +87,10 @@ const Sorteos = () => {
           <SubCategory>Stand-out</SubCategory>
           <br />
           <DescriptionText>
-            ¡Participa en Stand-Out, el concurso al mejor stand de las Jornadas Técnicas! Durante ambos días, los
-            asistentes podrán explorar los stands, descubrir proyectos innovadores y votar por su stand favorito. ¡Haz
-            que tu elección destaque y contribuye a premiar la creatividad y el ingenio! ¿Qué stand se llevará el título
-            este año? ¡Tú decides!
+            ¡Participa en Stand-Out, el concurso al mejor stand de las Jornadas Técnicas! Durante
+            ambos días, los asistentes podrán explorar los stands, descubrir proyectos innovadores y
+            votar por su stand favorito. ¡Haz que tu elección destaque y contribuye a premiar la
+            creatividad y el ingenio! ¿Qué stand se llevará el título este año? ¡Tú decides!
             <br />
             <br />
             <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
@@ -123,10 +124,11 @@ const Sorteos = () => {
           <Category>Preguntas a las empresas</Category>
           <br />
           <DescriptionText>
-            Explora, investiga y conecta con las empresas participantes. Rellena el folleto con tus preguntas a las
-            compañías presentes y descubre más sobre sus proyectos, innovaciones y oportunidades. Cada folleto
-            completado te dará una participación para el emocionante gran sorteo de premios de las Jornadas. ¡Haz tus
-            preguntas, participa y prepárate para ganar!
+            Explora, investiga y conecta con las empresas participantes. Rellena el folleto con tus
+            preguntas a las compañías presentes y descubre más sobre sus proyectos, innovaciones y
+            oportunidades. Cada folleto completado te dará una participación para el emocionante
+            gran sorteo de premios de las Jornadas. ¡Haz tus preguntas, participa y prepárate para
+            ganar!
             <br />
             <br />
             <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
@@ -152,12 +154,12 @@ const Sorteos = () => {
           <Category>Sorteos por Redes Sociales</Category>
           <br />
           <DescriptionText>
-            Durante los dos días de las Jornadas, interactúa en Instagram o Tiktok. Al final del segundo día,
-            realizaremos un sorteo a través de una plataforma especializada entre todas las personas que hayan
-            participado. <Highlight>¡Pero eso no es todo! </Highlight>
-            Antes de que comiencen las Jornadas, se realizarán un sorteo previo para premiar la anticipación de nuestra
-            comunidad. Mantente atento a nuestras redes para conocer los detalles y las fechas exactas. ¡No pierdas la
-            oportunidad
+            Durante los dos días de las Jornadas, interactúa en Instagram o Tiktok. Al final del
+            segundo día, realizaremos un sorteo a través de una plataforma especializada entre todas
+            las personas que hayan participado. <Highlight>¡Pero eso no es todo! </Highlight>
+            Antes de que comiencen las Jornadas, se realizarán un sorteo previo para premiar la
+            anticipación de nuestra comunidad. Mantente atento a nuestras redes para conocer los
+            detalles y las fechas exactas. ¡No pierdas la oportunidad
           </DescriptionText>
           <DescriptionText>
             <Highlight>Enlace: </Highlight>{' '}
@@ -267,7 +269,7 @@ const HexagonY = styled.span`
 
 const HexagonO = styled.span`
   color: #ff645f;
-  :3.5rem ;
+  :3.5rem;
   padding-right: 2rem;
   font-weight: 700;
   font-size: 130%;
@@ -275,7 +277,7 @@ const HexagonO = styled.span`
 
 const HexagonB = styled.span`
   color: #83ddff;
-  :3.5rem ;
+  :3.5rem;
   padding-right: 2rem;
   font-weight: 700;
   font-size: 130%;

@@ -17,7 +17,15 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
         }}
       >
         <Background src={imgSrc} alt={imgAlt} />
-        <Grid container item flexDirection="column" justifyContent="center" alignItems="center" zIndex="100">
+        <HiddenH1>{title}</HiddenH1>
+        <Grid
+          container
+          item
+          flexDirection="column"
+          justifyContent="center"
+          alignItems="center"
+          zIndex="100"
+        >
           <PaddingDiv>
             <ImageDiv>
               <Image
@@ -93,4 +101,16 @@ const Background = styled.img`
   @media only screen and (max-width: 720px) {
     width: 1280px;
   }
+`;
+
+const HiddenH1 = styled.h1`
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 `;
