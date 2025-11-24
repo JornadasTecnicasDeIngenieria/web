@@ -14,7 +14,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Title>Patrocinadores 2024</Title>
+            <Title>Patrocinadores</Title>
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>
@@ -32,20 +32,28 @@ const Patrocinadores = () => {
           <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
             {patrocinadores.map(({ src, alt, width, height, types }) => {
               return types === 'diamante' ? (
-                <Grid item xs={12} sm={12} md={6} lg={6}>
+                <Grid item xs={12}>
                   <ImageDiv>
-                    <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
+                    <Image
+                      src={src}
+                      alt={alt}
+                      width={width}
+                      height={height}
+                      style={{ maxWidth: '50%', width: 'auto', height: 'auto' }}
+                    />
                   </ImageDiv>
                 </Grid>
               ) : (
                 ''
               );
             })}
-            <br />
-            <br />
           </Grid>
+          <br />
+          <br />
+          <br />
           <AlignedDiv>
             <Hexagons>
+              <HexagonO>⬢&nbsp;&nbsp;</HexagonO>
               <HexagonO>⬢&nbsp;&nbsp;</HexagonO>
               <HexagonO>⬢&nbsp;&nbsp;</HexagonO>
               <HexagonO>⬢</HexagonO>
@@ -56,18 +64,24 @@ const Patrocinadores = () => {
           </AlignedDiv>
           <br />
           <br />
+          <br />
           <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
             {patrocinadores.map(({ src, alt, width, height, types }) =>
               types === 'platino' ? (
-                <Grid item xs={12} sm={12} md={6} lg={6} key={src}>
+                <Grid item xs={12} key={src}>
                   <ImageDiv>
-                    <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
+                    <Image
+                      src={src}
+                      alt={alt}
+                      width={width}
+                      height={height}
+                      style={{ maxHeight: '180px', maxWidth: '40%', width: 'auto', height: 'auto' }}
+                    />
                   </ImageDiv>
                 </Grid>
               ) : null
             )}
           </Grid>
-          <br />
           <br />
           <br />
           <br />
@@ -83,18 +97,24 @@ const Patrocinadores = () => {
           </AlignedDiv>
           <br />
           <br />
+          <br />
           <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
             {patrocinadores.map(({ src, alt, width, height, types }) =>
               types === 'oro' ? (
-                <Grid item xs={12} sm={12} md={6} lg={6} key={src}>
+                <Grid item xs={12} key={src}>
                   <ImageDiv>
-                    <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
+                    <Image
+                      src={src}
+                      alt={alt}
+                      width={width}
+                      height={height}
+                      style={{ maxHeight: '180px', maxWidth: '50%', width: 'auto', height: 'auto' }}
+                    />
                   </ImageDiv>
                 </Grid>
               ) : null
             )}
           </Grid>
-          <br />
           <br />
           <br />
           <br />
@@ -110,12 +130,19 @@ const Patrocinadores = () => {
           </AlignedDiv>
           <br />
           <br />
+          <br />
           <Grid container columnSpacing={3} rowSpacing={6} alignItems="center" justifyContent="center">
             {patrocinadores.map(({ src, alt, width, height, types }) =>
               types === 'colaborador' ? (
-                <Grid item xs={12} sm={12} md={6} lg={6} key={src}>
+                <Grid item xs={12} key={src}>
                   <ImageDiv>
-                    <Image src={src} alt={alt} width={width} height={height} style={{ width: '80%', height: '80%' }} />
+                    <Image
+                      src={src}
+                      alt={alt}
+                      width={width}
+                      height={height}
+                      style={{ maxHeight: '180px', maxWidth: '50%', width: 'auto', height: 'auto' }}
+                    />
                   </ImageDiv>
                 </Grid>
               ) : null
@@ -149,8 +176,6 @@ const ImageDiv = styled.div`
   justify-content: center;
   align-items: center;
   vertical-align: middle;
-  border-radius: 1.5rem;
-  overflow: hidden;
 `;
 
 const Title = styled.h2`
