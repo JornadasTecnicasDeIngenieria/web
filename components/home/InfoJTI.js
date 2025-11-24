@@ -29,9 +29,9 @@ const InfoJTI = ({ title, desc }) => {
             <AlignedDiv>
               <JustP>
                 {' '}
-                Las Jornadas Técnicas de Ingeniería se realizan de forma anual por estudiantes universitarios, y están
-                destinadas a ellos; pese a ser un evento de libre acceso. Es completamente gratuito, y además cuenta con
-                muchos posibles premios.
+                Las Jornadas Técnicas de Ingeniería se realizan de forma anual por estudiantes
+                universitarios, y están destinadas a ellos; pese a ser un evento de libre acceso. Es
+                completamente gratuito, y además cuenta con muchos posibles premios.
               </JustP>
             </AlignedDiv>
           </Grid>
@@ -45,9 +45,9 @@ const InfoJTI = ({ title, desc }) => {
             <AlignedDiv>
               <JustP>
                 {' '}
-                Las JTI son completamente multidisciplinares. Están desarrolladas por y para alumnado de 4 ingenierías
-                diferentes: Ingeniería Informática, Ingeniería Mecánica, Ingeniería Electrónica e Ingeniería Química
-                Industrial
+                Las JTI son completamente multidisciplinares. Están desarrolladas por y para
+                alumnado de 4 ingenierías diferentes: Ingeniería Informática, Ingeniería Mecánica,
+                Ingeniería Electrónica e Ingeniería Química Industrial
               </JustP>
             </AlignedDiv>
           </Grid>
@@ -60,8 +60,9 @@ const InfoJTI = ({ title, desc }) => {
             </AlignedDiv>
             <AlignedDiv>
               <JustP>
-                ¡Anota las fechas en tu calendario! Este es un evento anual, por lo que no te recomendamos perderte la
-                oportunidad...No podemos garantizarte que conseguirás trabajo, ¡pero sí que disfrutarás la experiencia!
+                ¡Anota las fechas en tu calendario! Este es un evento anual, por lo que no te
+                recomendamos perderte la oportunidad...No podemos garantizarte que conseguirás
+                trabajo, ¡pero sí que disfrutarás la experiencia!
               </JustP>
             </AlignedDiv>
           </Grid>

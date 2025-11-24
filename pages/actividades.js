@@ -30,9 +30,9 @@ const Actividades = () => {
           <Category>Trivial</Category>
           <br />
           <DescriptionText>
-            ¿Cuánto sabes realmente? Participa en nuestros emocionantes trivials y pon a prueba tus conocimientos.
-            Compite respondiendo desafiantes preguntas de diversas temáticas, demuestra tu sabiduría y podrás ganar
-            grandes premios.
+            ¿Cuánto sabes realmente? Participa en nuestros emocionantes trivials y pon a prueba tus
+            conocimientos. Compite respondiendo desafiantes preguntas de diversas temáticas,
+            demuestra tu sabiduría y podrás ganar grandes premios.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Puesto central.
@@ -58,11 +58,12 @@ const Actividades = () => {
           <SubCategory>Ecos temporales</SubCategory>
           <br />
           <DescriptionText>
-            Adéntrate en un emocionante Escape Room donde la ingeniería y el tiempo se entrelazan. Ponte en la piel de
-            un equipo técnico enviado a reparar una misteriosa máquina capaz de viajar a través del tiempo. Un
-            desbordamiento temporal amenaza con colapsar la línea del tiempo tal como la conocemos. ¿Podrás
-            estabilizarla antes de que sea demasiado tarde? <Highlight>Equipos de cuatro personas</Highlight> pondrán a
-            prueba su ingenio para resolver el enigma y escapar en el menor tiempo posible.
+            Adéntrate en un emocionante Escape Room donde la ingeniería y el tiempo se entrelazan.
+            Ponte en la piel de un equipo técnico enviado a reparar una misteriosa máquina capaz de
+            viajar a través del tiempo. Un desbordamiento temporal amenaza con colapsar la línea del
+            tiempo tal como la conocemos. ¿Podrás estabilizarla antes de que sea demasiado tarde?{' '}
+            <Highlight>Equipos de cuatro personas</Highlight> pondrán a prueba su ingenio para
+            resolver el enigma y escapar en el menor tiempo posible.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Puesto central
@@ -93,10 +94,10 @@ const Actividades = () => {
           <Category>Competición Arcade</Category>
           <br />
           <DescriptionText>
-            Revive la nostalgia de los videojuegos clásicos en nuestra Competición Arcade. Enfréntate a desafíos en
-            juegos como Tetris y nuestro exclusivo “Why God?”, además de juegos de fighting y diversos juegos arcade
-            para pasar el rato. Cada zona cuenta con computadoras para una competición intensa. ¿Tienes lo necesario
-            para ser campeón?
+            Revive la nostalgia de los videojuegos clásicos en nuestra Competición Arcade.
+            Enfréntate a desafíos en juegos como Tetris y nuestro exclusivo “Why God?”, además de
+            juegos de fighting y diversos juegos arcade para pasar el rato. Cada zona cuenta con
+            computadoras para una competición intensa. ¿Tienes lo necesario para ser campeón?
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Delegación de Ingeniería Informática.
@@ -122,9 +123,9 @@ const Actividades = () => {
           <SubCategory>Duelo de invocadores</SubCategory>
           <br />
           <DescriptionText>
-            ¡Demuestra tus habilidades en el campo de batalla virtual con el Torneo de Videojuegos: Duelo de
-            Invocadores! Compite en dos de los juegos más icónicos del universo gaming: Teamfight Tactics (TFT) y League
-            of Legends (LoL)
+            ¡Demuestra tus habilidades en el campo de batalla virtual con el Torneo de Videojuegos:
+            Duelo de Invocadores! Compite en dos de los juegos más icónicos del universo gaming:
+            Teamfight Tactics (TFT) y League of Legends (LoL)
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Online.
@@ -133,7 +134,8 @@ const Actividades = () => {
             <Highlight>Día: </Highlight>14 de Diciembre.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar dependiendo de la cantidad de participantes.
+            <Highlight>Horario: </Highlight>Por determinar dependiendo de la cantidad de
+            participantes.
           </DescriptionText>
           {/* <DescriptionText>
             <Highlight>Inscripción: </Highlight>
@@ -153,8 +155,9 @@ const Actividades = () => {
           <Category>Sesión de Rol</Category>
           <br />
           <DescriptionText>
-            Sumérgete en mundos de fantasía, ciencia ficción y aventuras épicas en una tarde dedicada al rol. Prepárate
-            para vivir historias únicas y dar vida a personajes en situaciones inolvidables.
+            Sumérgete en mundos de fantasía, ciencia ficción y aventuras épicas en una tarde
+            dedicada al rol. Prepárate para vivir historias únicas y dar vida a personajes en
+            situaciones inolvidables.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Delegación de Ingeniería Informática.
@@ -249,7 +252,7 @@ const HexagonY = styled.span`
 
 const HexagonO = styled.span`
   color: #ff645f;
-  :3.5rem ;
+  :3.5rem;
   padding-right: 2rem;
   font-weight: 700;
   font-size: 130%;
@@ -257,7 +260,7 @@ const HexagonO = styled.span`
 
 const HexagonB = styled.span`
   color: #83ddff;
-  :3.5rem ;
+  :3.5rem;
   padding-right: 2rem;
   font-weight: 700;
   font-size: 130%;
