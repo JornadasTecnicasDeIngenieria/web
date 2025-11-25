@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from '@mui/material/styles';
 import { sections } from 'data/sections';
 import { Container } from '@mui/material';
 import Grid from '@mui/material/GridLegacy';
@@ -35,7 +35,7 @@ const Sections = () => {
 
 export default Sections;
 
-const IntroDiv = styled.div`
+const IntroDiv = styled('div')`
   overflow: hidden;
   align-items: justify;
   justify-content: center;
@@ -47,7 +47,7 @@ const IntroDiv = styled.div`
   background-color: ${({ theme }) => theme.palette.primary.dark};
 `;
 
-const AlignedDiv = styled.div`
+const AlignedDiv = styled('div')`
   display: flex;
   justify-content: center;
   vertical-align: middle;
@@ -56,7 +56,7 @@ const AlignedDiv = styled.div`
   margin: 1rem;
 `;
 
-const SectionTitle = styled.h2`
+const SectionTitle = styled('h2')`
   color: #fff;
   padding: 2rem;
   font-weight: 700;
