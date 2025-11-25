@@ -2,7 +2,7 @@ import Link from '@components/StyledLink';
 import { Stack } from '@mui/material';
 import Grid from '@mui/material/GridLegacy';
 import { motion } from 'framer-motion';
-import styled from '@emotion/styled';
+import { styled } from '@mui/material/styles';
 import getTagColor from '@scripts/getTagColor';
 import LinkedIn from '@mui/icons-material/LinkedIn';
 import GitHub from '@mui/icons-material/GitHub';
@@ -203,13 +203,13 @@ function Card({ imageSource, name, categories, social }) {
 
 export default Card;
 
-const Name = styled.h4`
+const Name = styled('h4')`
   font-size: 2rem;
   color: ${({ theme }) => theme.palette.text.primary};
   align-self: center;
 `;
 
-const Social = styled.div`
+const Social = styled('div')`
   width: 100%;
   background-color: ${({ theme }) => theme.palette.primary.dark};
   color: white;

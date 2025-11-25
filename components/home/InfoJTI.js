@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from '@mui/material/styles';
 import Image from 'next/image';
 import { Container } from '@mui/material';
 import Grid from '@mui/material/GridLegacy';
@@ -109,7 +109,7 @@ const InfoJTI = ({ title, desc }) => {
 
 export default InfoJTI;
 
-const IntroDiv = styled.div`
+const IntroDiv = styled('div')`
   overflow: hidden;
   align-items: justify;
   justify-content: center;
@@ -121,21 +121,21 @@ const IntroDiv = styled.div`
   background-color: ${({ theme }) => theme.palette.secondary.main};
 `;
 
-const AlignedDiv = styled.div`
+const AlignedDiv = styled('div')`
   display: flex;
   justify-content: center;
   vertical-align: middle;
   align-items: center;
 `;
 
-const RoundedDiv = styled.div`
+const RoundedDiv = styled('div')`
   border-radius: 25px;
   overflow: hidden;
   width: 840px;
   height: 472px;
 `;
 
-const SectionTitle = styled.h2`
+const SectionTitle = styled('h2')`
 color: #fff;
 padding-bottom: 2rem;
 font-weight: 700;
@@ -144,7 +144,7 @@ align-items: center;
 text-align: center;
 ;`;
 
-const JustTitle = styled.h3`
+const JustTitle = styled('h3')`
 color: #fff;
 font-size: 2rem;
 font-weight: 500;
@@ -153,7 +153,7 @@ align-items: center;
 text-align: center;
 ;`;
 
-const JustP = styled.p`
+const JustP = styled('p')`
 color: #fff;
 padding: 1rem;
 font-weight: 300;
@@ -162,27 +162,27 @@ align-items: center;
 text-align: center;
 ;`;
 
-const Hexagons = styled.h2`
+const Hexagons = styled('h2')`
   font-size: 3.5rem;
   font-weight: 700;
   font-family: 'Montserrat';
 `;
 
-const HexagonA = styled.span`
+const HexagonA = styled('span')`
   color: ${({ theme }) => theme.palette.primary.light};
   padding-right: 2rem;
   font-weight: 700;
   font-family: 'Montserrat';
 `;
 
-const HexagonB = styled.span`
+const HexagonB = styled('span')`
   color: ${({ theme }) => theme.palette.primary.main};
   padding-right: 2rem;
   font-weight: 700;
   font-family: 'Montserrat';
 `;
 
-const HexagonC = styled.span`
+const HexagonC = styled('span')`
   color: ${({ theme }) => theme.palette.secondary.light};
   font-weight: 700;
   font-family: 'Montserrat';
