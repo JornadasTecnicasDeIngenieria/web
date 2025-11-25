@@ -44,7 +44,7 @@ const IntroDiv = styled.div`
   margin: 0;
   padding: 1rem;
   min-height: 100vh;
-  background-color: #3c3c54;
+  background-color: ${({ theme }) => theme.palette.primary.dark};
 `;
 
 const AlignedDiv = styled.div`
