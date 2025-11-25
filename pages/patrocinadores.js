@@ -6,7 +6,61 @@ import { patrocinadores } from 'data/patrocinadores';
 import Image from 'next/image';
 
 const Patrocinadores = () => {
-  let aux = 0;
+  const incibeLogos = patrocinadores.filter(
+    (p) =>
+      p.alt.includes('INCIBE') ||
+      p.alt.includes('Cátedra en Ciberseguridad INCIBE')
+  );
+  const otherColaboradores = patrocinadores.filter(
+    (p) =>
+      p.types === 'colaborador' &&
+      !p.alt.includes('INCIBE') &&
+      !p.alt.includes('Cátedra en Ciberseguridad INCIBE')
+  );
+
+  const renderCategory = (type) => {
+    const items =
+      type === 'colaborador'
+        ? otherColaboradores
+        : patrocinadores.filter((p) => p.types === type);
+
+    return (
+      <Grid
+        container
+        columnSpacing={3}
+        rowSpacing={6}
+        alignItems="center"
+        justifyContent="center"
+      >
+        {items.map(({ src, alt, width, height }) => (
+          <Grid item xs={12} sm={6} key={src}>
+            <ImageDiv>
+              <StyledImage
+                src={src}
+                alt={alt}
+                width={width}
+                height={height}
+              />
+            </ImageDiv>
+          </Grid>
+        ))}
+        {type === 'colaborador' &&
+          incibeLogos.map(({ src, alt, width, height }) => (
+            <Grid item xs={12} key={src}>
+              <ImageDiv>
+                <StyledImage
+                  src={src}
+                  alt={alt}
+                  width={width}
+                  height={height}
+                />
+              </ImageDiv>
+            </Grid>
+          ))}
+      </Grid>
+    );
+  };
+
   return (
     <Layout>
       <Section>
@@ -29,31 +83,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          <Grid
-            container
-            columnSpacing={3}
-            rowSpacing={6}
-            alignItems="center"
-            justifyContent="center"
-          >
-            {patrocinadores.map(({ src, alt, width, height, types }) => {
-              return types === 'diamante' ? (
-                <Grid item xs={12}>
-                  <ImageDiv>
-                    <Image
-                      src={src}
-                      alt={alt}
-                      width={width}
-                      height={height}
-                      style={{ maxWidth: '50%', width: 'auto', height: 'auto' }}
-                    />
-                  </ImageDiv>
-                </Grid>
-              ) : (
-                ''
-              );
-            })}
-          </Grid>
+          {renderCategory('diamante')}
           <br />
           <br />
           <br />
@@ -71,29 +101,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          <Grid
-            container
-            columnSpacing={3}
-            rowSpacing={6}
-            alignItems="center"
-            justifyContent="center"
-          >
-            {patrocinadores.map(({ src, alt, width, height, types }) =>
-              types === 'platino' ? (
-                <Grid item xs={12} key={src}>
-                  <ImageDiv>
-                    <Image
-                      src={src}
-                      alt={alt}
-                      width={width}
-                      height={height}
-                      style={{ maxHeight: '180px', maxWidth: '40%', width: 'auto', height: 'auto' }}
-                    />
-                  </ImageDiv>
-                </Grid>
-              ) : null
-            )}
-          </Grid>
+          {renderCategory('platino')}
           <br />
           <br />
           <br />
@@ -110,29 +118,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          <Grid
-            container
-            columnSpacing={3}
-            rowSpacing={6}
-            alignItems="center"
-            justifyContent="center"
-          >
-            {patrocinadores.map(({ src, alt, width, height, types }) =>
-              types === 'oro' ? (
-                <Grid item xs={12} key={src}>
-                  <ImageDiv>
-                    <Image
-                      src={src}
-                      alt={alt}
-                      width={width}
-                      height={height}
-                      style={{ maxHeight: '180px', maxWidth: '50%', width: 'auto', height: 'auto' }}
-                    />
-                  </ImageDiv>
-                </Grid>
-              ) : null
-            )}
-          </Grid>
+          {renderCategory('oro')}
           <br />
           <br />
           <br />
@@ -149,29 +135,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          <Grid
-            container
-            columnSpacing={3}
-            rowSpacing={6}
-            alignItems="center"
-            justifyContent="center"
-          >
-            {patrocinadores.map(({ src, alt, width, height, types }) =>
-              types === 'colaborador' ? (
-                <Grid item xs={12} key={src}>
-                  <ImageDiv>
-                    <Image
-                      src={src}
-                      alt={alt}
-                      width={width}
-                      height={height}
-                      style={{ maxHeight: '180px', maxWidth: '50%', width: 'auto', height: 'auto' }}
-                    />
-                  </ImageDiv>
-                </Grid>
-              ) : null
-            )}
-          </Grid>
+          {renderCategory('colaborador')}
           <br />
           <br />
           <br />
@@ -254,4 +218,12 @@ const RoundedDiv = styled.div`
   overflow: hidden;
   width: 100%;
   height: 100%;
+`;
+
+const StyledImage = styled(Image)`
+  max-width: 80%;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 `;
