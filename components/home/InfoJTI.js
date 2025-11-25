@@ -98,7 +98,7 @@ const IntroDiv = styled.div`
   margin: 0;
   padding: 1rem;
   min-height: 100vh;
-  background-color: #ff645f;
+  background-color: ${({ theme }) => theme.palette.secondary.main};
 `;
 
 const AlignedDiv = styled.div`
@@ -149,21 +149,21 @@ const Hexagons = styled.h2`
 `;
 
 const HexagonA = styled.span`
-  color: #83ddff;
+  color: ${({ theme }) => theme.palette.primary.light};
   padding-right: 2rem;
   font-weight: 700;
   font-family: 'Montserrat';
 `;
 
 const HexagonB = styled.span`
-  color: #633cae;
+  color: ${({ theme }) => theme.palette.primary.main};
   padding-right: 2rem;
   font-weight: 700;
   font-family: 'Montserrat';
 `;
 
 const HexagonC = styled.span`
-  color: #ffeb83;
+  color: ${({ theme }) => theme.palette.secondary.light};
   font-weight: 700;
   font-family: 'Montserrat';
 `;

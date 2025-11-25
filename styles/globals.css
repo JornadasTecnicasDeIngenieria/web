@@ -29,6 +29,7 @@
 .card-link:hover {
   color: #83ddff !important;
 }
+
 .nav-link:hover {
   color: #83ddff !important;
 }
@@ -40,13 +41,16 @@
   color: #83ddff !important;
   font-size: 1.4rem;
 }
+
 .dropdown-item {
   color: white !important;
   font-size: 1.2rem;
 }
+
 .dropdown-item:hover {
   background-color: #83ddff !important;
 }
+
 .dropdown p,
 .dropdown-menu p {
   color: #ffffff !important;
@@ -62,6 +66,7 @@
   z-index: 50;
   cursor: pointer;
 }
+
 .left-arrow {
   position: relative;
   top: 50%;
@@ -71,6 +76,7 @@
   z-index: 50;
   cursor: pointer;
 }
+
 .slider {
   min-height: 50vh;
   max-height: 100vh;
@@ -88,6 +94,7 @@ li {
 }
 
 @media (max-width: 720px) {
+
   p,
   li {
     justify-content: justify;
@@ -123,6 +130,7 @@ h3 {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
@@ -135,6 +143,7 @@ h3 {
 card-body {
   height: 50%;
 }
+
 .category-card {
   border-radius: 100px;
 }
@@ -157,11 +166,12 @@ card-body {
 .custom-card {
   margin: 10px !important;
   background-color: #fff !important;
-  border-radius: 10px !important;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
   overflow: hidden !important;
   width: 300px !important;
   align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 .custom-card .custom-tag {
@@ -173,7 +183,8 @@ card-body {
 }
 
 .custom-card:hover {
-  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2) !important;
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15) !important;
 }
 
 .custom-card-header {
@@ -257,6 +268,7 @@ card-body {
   font-size: 13px !important;
   margin: 0 0 40px !important;
 }
+
 .custom-user {
   display: flex !important;
   margin-top: auto !important;
@@ -268,10 +280,12 @@ card-body {
   height: 40px !important;
   margin-right: 10px !important;
 }
+
 .custom-user-info h5 {
   margin: 0 !important;
   font-size: 1rem !important;
 }
+
 .custom-user-info small {
   color: #545d7a !important;
 }
@@ -281,19 +295,23 @@ card-body {
   justify-content: space-evenly !important;
   flex-wrap: wrap !important;
 }
+
 #back-to-top-anchor {
   margin: 0;
   padding: 0;
   border: 0;
   height: 0 !important;
 }
+
 .css-co2nuf {
   min-height: 0 !important;
 }
+
 .styledlink {
   color: #fff !important;
   text-decoration: none !important;
 }
+
 .styledlink:hover {
   color: rgb(14, 241, 230) !important;
   text-decoration: none !important;
@@ -301,19 +319,28 @@ card-body {
 
 .custom-section-card {
   margin: 10px !important;
-  border-radius: 2% !important;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
   overflow: hidden !important;
   width: 22rem !important;
   height: 28rem !important;
   align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
+
+.custom-section-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
 .bgblue {
   background-color: #83ddff !important;
 }
+
 .bgyellow {
   background-color: #ffeb83 !important;
 }
+
 .bgorange {
   background-color: #ff645f !important;
 }
@@ -324,6 +351,7 @@ card-body {
   color: #3c3c54;
   font-weight: 600;
 }
+
 .bgorange h4,
 .bgpurple h4 {
   font-size: 2.2rem;
@@ -344,6 +372,7 @@ card-body {
   border-radius: 2% !important;
   object-fit: cover !important;
 }
+
 .custom-card-body {
   display: flex !important;
   flex-direction: column !important;
@@ -360,11 +389,16 @@ card-body {
 }
 
 .btn-group button {
-  border: 1px solid #ffeb83; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
+  border: 1px solid #ffeb83;
+  /* Green border */
+  color: white;
+  /* White text */
+  padding: 10px 24px;
+  /* Some padding */
+  cursor: pointer;
+  /* Pointer/hand icon */
+  float: left;
+  /* Float the buttons side by side */
   min-width: 15vw;
 }
 
@@ -381,7 +415,8 @@ card-body {
 }
 
 .btn-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
+  border-right: none;
+  /* Prevent double borders */
 }
 
 /* Clear floats (clearfix hack) */

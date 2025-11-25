@@ -5,7 +5,7 @@ import styled from '@emotion/styled';
 
 function Card({ imageSource, name, categories, bg }) {
   return (
-    <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+    <motion.div whileTap={{ scale: 0.95 }}>
       <Link href={`/${name.toLowerCase()}`} as={`/${name.toLowerCase()}`} legacyBehavior passHref>
         <div className={`custom-section-card ${bg}`}>
           <div className="custom-section-card-header">

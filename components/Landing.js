@@ -76,7 +76,7 @@ const PaddingDiv = styled.div`
   text-align: center;
   align-items: center;
   text-size: 3rem;
-  background-color: #3f3d56;
+  background-color: ${({ theme }) => theme.palette.primary.dark};
   margin-top: 2%;
   border-radius: 1em;
 `;

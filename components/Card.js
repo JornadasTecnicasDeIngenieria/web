@@ -169,13 +169,13 @@ export default Card;
 
 const Name = styled.h4`
   font-size: 2rem;
-  color: #3c3c54;
+  color: ${({ theme }) => theme.palette.text.primary};
   align-self: center;
 `;
 
 const Social = styled.div`
   width: 100%;
-  background-color: #3c3c54;
+  background-color: ${({ theme }) => theme.palette.primary.dark};
   color: white;
   z-index: 9999;
   padding: 1rem;
