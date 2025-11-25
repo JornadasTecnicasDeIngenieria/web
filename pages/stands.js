@@ -3,7 +3,11 @@ import styled from '@emotion/styled';
 import { Container } from '@mui/material';
 import Grid from '@mui/material/GridLegacy';
 import Image from 'next/image';
-import { FirstDayStandList, SecondDayStandList, CreateStandList } from '@components/StandList';
+import {
+  FirstDayStandList,
+  SecondDayStandList,
+  CreateStandList,
+} from '@components/StandList';
 import { stands } from 'data/stands';
 
 const Stands = () => {
@@ -24,18 +28,21 @@ const Stands = () => {
             </Hexagons>
           </AlignedDiv>
           <DescriptionText>
-            Los Stands son el núcleo del evento. En estos puestos, las empresas podrán tener un
-            contacto directo y estrecho con los alumnos de la ESIT, brindándoles la oportunidad de
-            informar al estudiantado universitario de las ingenierías acerca de su actividad,
-            perfiles profesionales que demandan, funcionamiento de la empresa...
+            Los Stands son el núcleo del evento. En estos puestos, las empresas
+            podrán tener un contacto directo y estrecho con los alumnos de la
+            ESIT, brindándoles la oportunidad de informar al estudiantado
+            universitario de las ingenierías acerca de su actividad, perfiles
+            profesionales que demandan, funcionamiento de la empresa...
           </DescriptionText>
           <DescriptionText>
-            En estos stands, las empresas tendrán libertad de organización para exponer su trabajo y
-            atraer a los visitantes del evento. Por ejemplo, se podrán traer folletos informativos
-            sobre los departamentos de la empresa o sus programas de prácticas. Aquellas empresas
-            centradas en el desarrollo podrán traer productos, para que los visitantes los
-            descubran. También podrán contar con vídeos donde muestren sus proyectos más
-            innovadores. Cualquier iniciativa con fines formativos o de interés es bienvenida.
+            En estos stands, las empresas tendrán libertad de organización para
+            exponer su trabajo y atraer a los visitantes del evento. Por
+            ejemplo, se podrán traer folletos informativos sobre los
+            departamentos de la empresa o sus programas de prácticas. Aquellas
+            empresas centradas en el desarrollo podrán traer productos, para que
+            los visitantes los descubran. También podrán contar con vídeos donde
+            muestren sus proyectos más innovadores. Cualquier iniciativa con
+            fines formativos o de interés es bienvenida.
           </DescriptionText>
           <br />
           <br />

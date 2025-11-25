@@ -13,7 +13,14 @@ const base = compat.extends('next/core-web-vitals', 'prettier');
 const config = [
   // Ignore build artifacts and vendored code
   {
-    ignores: ['.next/**', '**/.next/**', 'node_modules/**', 'public/**', 'dist/**', 'out/**'],
+    ignores: [
+      '.next/**',
+      '**/.next/**',
+      'node_modules/**',
+      'public/**',
+      'dist/**',
+      'out/**',
+    ],
   },
   ...base,
 ];

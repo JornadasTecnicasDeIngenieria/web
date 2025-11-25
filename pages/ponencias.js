@@ -25,12 +25,13 @@ const Ponencias = () => {
             </Hexagons>
           </AlignedDiv>
           <DescriptionText>
-            Este año hemos recuperado las ponencias, con el objetivo de mostrar nuestro lado más
-            carnal. Estas tendrán una duración aproximada de 20 minutos, con 10 minutos destinados a
-            preguntas. Nuestro objetivo es que las charlas sean de interés para el alumnado de todas
-            las ingenierías, tratándose temas amplios o de divulgación como investigaciones
-            recientes, proyectos innovadores, análisis del estado del arte o consejos sobre el
-            mercado laboral.
+            Este año hemos recuperado las ponencias, con el objetivo de mostrar
+            nuestro lado más carnal. Estas tendrán una duración aproximada de 20
+            minutos, con 10 minutos destinados a preguntas. Nuestro objetivo es
+            que las charlas sean de interés para el alumnado de todas las
+            ingenierías, tratándose temas amplios o de divulgación como
+            investigaciones recientes, proyectos innovadores, análisis del
+            estado del arte o consejos sobre el mercado laboral.
           </DescriptionText>
           <br />
           <br />

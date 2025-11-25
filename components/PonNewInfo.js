@@ -13,7 +13,8 @@ export const DayOnePonen = () => {
           <tr>
             <TD>11:55</TD>
             <TDT>
-              Realidad de los datos en las entidades públicas: datos públicos vs datos privados
+              Realidad de los datos en las entidades públicas: datos públicos vs
+              datos privados
             </TDT>
             <TDT>NTT DATA</TDT>
             <TDT>Ingeniería y Mantenimiento en Grupo Bimbo - Metrotenerife</TDT>
@@ -21,14 +22,20 @@ export const DayOnePonen = () => {
           </tr>
           <tr>
             <TD>12:30</TD>
-            <TDT>De Estudiante a Profesional: Transforma tus soft Skills en tu Mejor Activo</TDT>
+            <TDT>
+              De Estudiante a Profesional: Transforma tus soft Skills en tu
+              Mejor Activo
+            </TDT>
             <TDT>Codebay Innovation S.L.</TDT>
             <TDT>Empleabilidad en el sector Aeronáutico</TDT>
             <TDT>Binter</TDT>
           </tr>
           <tr>
             <TD>13:05</TD>
-            <TDT>Implementación segura de ChatGPT en organizaciones con Azure OpenAI</TDT>
+            <TDT>
+              Implementación segura de ChatGPT en organizaciones con Azure
+              OpenAI
+            </TDT>
             <TDT>Intelequia Technologies SL</TDT>
             <TDT>SERVICIOS COLEGIALES 4.0</TDT>
             <TDT>COITITF</TDT>
@@ -40,17 +47,23 @@ export const DayOnePonen = () => {
           </tr>
           <tr>
             <TD>16:45</TD>
-            <TDT colSpan={3}>Competencias personales y Tips para la realización de un buen CV</TDT>
+            <TDT colSpan={3}>
+              Competencias personales y Tips para la realización de un buen CV
+            </TDT>
             <TDT>Laberit Sistemas</TDT>
           </tr>
           <tr>
             <TD>17:20</TD>
-            <TDT colSpan={3}>La Autoprotección y la Seguridad en Eventos, S.L.P.</TDT>
+            <TDT colSpan={3}>
+              La Autoprotección y la Seguridad en Eventos, S.L.P.
+            </TDT>
             <TDT>INSITECA INGENIEROS</TDT>
           </tr>
           <tr>
             <TD>17:55</TD>
-            <TDT colSpan={3}>Acceso a los Cuerpos de Ingenieros de las Fuerzas Armadas</TDT>
+            <TDT colSpan={3}>
+              Acceso a los Cuerpos de Ingenieros de las Fuerzas Armadas
+            </TDT>
             <TDT>Ejército de Tierra</TDT>
           </tr>
         </tbody>
@@ -72,8 +85,8 @@ export const DayTwoPonen = () => {
           <tr>
             <TD>11:55</TD>
             <TDT>
-              Aplicación de las últimas metodologias y stacks tecnológicos en proyectos de
-              innovación
+              Aplicación de las últimas metodologias y stacks tecnológicos en
+              proyectos de innovación
             </TDT>
             <TDT>Acid Tango SL</TDT>
             <TDT>WORKSHOP INCABE 2024</TDT>
@@ -81,7 +94,10 @@ export const DayTwoPonen = () => {
           </tr>
           <tr>
             <TD>12:30</TD>
-            <TDT>Inteligencia artificial aplicada a la resolución de problemas complejos</TDT>
+            <TDT>
+              Inteligencia artificial aplicada a la resolución de problemas
+              complejos
+            </TDT>
             <TDT>Kaizten Analytics S.L.</TDT>
             <TDT>Ingeniería del mantenimiento</TDT>
             <TDT>Metrotenerife</TDT>
@@ -100,12 +116,16 @@ export const DayTwoPonen = () => {
           </tr>
           <tr>
             <TD>16:45</TD>
-            <TDT colSpan={3}>Cómo desarrollar tu carrera profesional en los primeros años</TDT>
+            <TDT colSpan={3}>
+              Cómo desarrollar tu carrera profesional en los primeros años
+            </TDT>
             <TDT>ARQUIMEA Research Center</TDT>
           </tr>
           <tr>
             <TD>17:20</TD>
-            <TDT colSpan={3}>Futuros profesionales: Líderes de sus proyectos</TDT>
+            <TDT colSpan={3}>
+              Futuros profesionales: Líderes de sus proyectos
+            </TDT>
             <TDT>CEOE Tenerife</TDT>
           </tr>
           <tr>

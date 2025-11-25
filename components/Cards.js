@@ -8,11 +8,17 @@ function Cards({ organizadores }) {
       {organizadores.map((org, index) => {
         const { name, image, categories = [], social = [] } = org;
         if (!categories.length || categories[0] === '') return null;
-        const key = org.id || `${index}-${name.replace(/\s+/g, '-').toLowerCase()}`;
+        const key =
+          org.id || `${index}-${name.replace(/\s+/g, '-').toLowerCase()}`;
         return (
           <Grid item xs={12} sm={12} md={6} lg={4} key={key}>
             <AlignedDiv>
-              <Card name={name} imageSource={image} categories={categories} social={social} />
+              <Card
+                name={name}
+                imageSource={image}
+                categories={categories}
+                social={social}
+              />
             </AlignedDiv>
             <br />
           </Grid>

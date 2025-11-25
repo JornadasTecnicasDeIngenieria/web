@@ -33,53 +33,68 @@ const Axis = () => {
             <AlignedDiv>
               <JustTitle>
                 {' '}
-                Acercar el mercado laboral a los futuros/as ingenieros/as y mostrar sus diferentes
-                realidades.{' '}
+                Acercar el mercado laboral a los futuros/as ingenieros/as y
+                mostrar sus diferentes realidades.{' '}
               </JustTitle>
             </AlignedDiv>
           </Grid>
 
           <Grid item xs={12} sm={12} md={3} lg={3}>
             <AlignedDiv>
-              <Image src="/images/hand.png" alt="Contactos" width={100} height={100} />
+              <Image
+                src="/images/hand.png"
+                alt="Contactos"
+                width={100}
+                height={100}
+              />
             </AlignedDiv>
           </Grid>
           <Grid item xs={12} sm={12} md={9} lg={9}>
             <AlignedDiv>
               <JustTitle>
                 {' '}
-                Ayudar a los estudiantes a formar contactos que les podrán ser muy útiles y
-                enriquecedores.{' '}
+                Ayudar a los estudiantes a formar contactos que les podrán ser
+                muy útiles y enriquecedores.{' '}
               </JustTitle>
             </AlignedDiv>
           </Grid>
 
           <Grid item xs={12} sm={12} md={3} lg={3}>
             <AlignedDiv>
-              <Image src="/images/research.png" alt="Estudiantes" width={100} height={100} />
+              <Image
+                src="/images/research.png"
+                alt="Estudiantes"
+                width={100}
+                height={100}
+              />
             </AlignedDiv>
           </Grid>
           <Grid item xs={12} sm={12} md={9} lg={9}>
             <AlignedDiv>
               <JustTitle>
                 {' '}
-                Mostrar la investigación y el emprendimiento como grandes oportunidades de
-                futuro.{' '}
+                Mostrar la investigación y el emprendimiento como grandes
+                oportunidades de futuro.{' '}
               </JustTitle>
             </AlignedDiv>
           </Grid>
 
           <Grid item xs={12} sm={12} md={3} lg={3}>
             <AlignedDiv>
-              <Image src="/images/info.png" alt="Información" width={100} height={100} />
+              <Image
+                src="/images/info.png"
+                alt="Información"
+                width={100}
+                height={100}
+              />
             </AlignedDiv>
           </Grid>
           <Grid item xs={12} sm={12} md={9} lg={9}>
             <AlignedDiv>
               <JustTitle>
                 {' '}
-                Ofrecer información y oportunidades de descubrir sectores e ideas que probablemente
-                les fueran desconocidos.{' '}
+                Ofrecer información y oportunidades de descubrir sectores e
+                ideas que probablemente les fueran desconocidos.{' '}
               </JustTitle>
             </AlignedDiv>
           </Grid>
