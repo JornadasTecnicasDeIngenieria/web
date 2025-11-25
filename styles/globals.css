@@ -96,7 +96,6 @@ li {
 }
 
 @media (max-width: 720px) {
-
   p,
   li {
     justify-content: justify;
@@ -130,8 +129,6 @@ h3 {
 .hidden {
   overflow: hidden;
 }
-
-
 
 * {
   box-sizing: border-box;
