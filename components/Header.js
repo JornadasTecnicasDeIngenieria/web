@@ -35,7 +35,11 @@ const Header = () => {
           <StyledLink
             href="/"
             aria-label="Ir al inicio"
-            sx={{ cursor: 'pointer', display: 'inline-flex', alignItems: 'center' }}
+            sx={{
+              cursor: 'pointer',
+              display: 'inline-flex',
+              alignItems: 'center',
+            }}
           >
             <PadDiv>
               <Image

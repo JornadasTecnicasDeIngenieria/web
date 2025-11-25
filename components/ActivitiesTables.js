@@ -114,7 +114,9 @@ export const TableCompeticionArcade = () => {
         <tbody>
           <tr>
             <th></th>
-            <TableTitle colSpan={3}>Premios de la Competición Arcade</TableTitle>
+            <TableTitle colSpan={3}>
+              Premios de la Competición Arcade
+            </TableTitle>
           </tr>
           <tr>
             <th></th>
@@ -210,7 +212,9 @@ export const TableConcursoStands = () => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TableTitle colSpan={2}>Premios del Sorteo de la Votación al Mejor Stand</TableTitle>
+            <TableTitle colSpan={2}>
+              Premios del Sorteo de la Votación al Mejor Stand
+            </TableTitle>
           </tr>
 
           <tr>
@@ -229,7 +233,9 @@ export const TableVideojuegos = () => {
         <tbody>
           <tr>
             <th></th>
-            <TableTitle colSpan={2}>Premios del Torneo de Videojuegos</TableTitle>
+            <TableTitle colSpan={2}>
+              Premios del Torneo de Videojuegos
+            </TableTitle>
           </tr>
           <tr>
             <th></th>

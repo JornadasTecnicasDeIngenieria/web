@@ -21,16 +21,19 @@ const FAQs = () => {
             </Hexagons>
           </AlignedDiv>
           <DescriptionText>
-            <Highlight>1. ¿Qué son las Jornadas Técnicas de Ingeniería (JTI)?</Highlight>
+            <Highlight>
+              1. ¿Qué son las Jornadas Técnicas de Ingeniería (JTI)?
+            </Highlight>
           </DescriptionText>
           <DescriptionText>
-            Son un evento anual y de libre acceso organizado por el alumnado de distintas
-            ingenierías que tiene lugar en la Escuela Superior de Ingeniería y Tecnología. Las JTI
-            proporcionan una gran oportunidad para conocer la realidad del mundo laboral gracias a
-            los stands de las empresas que acuden al evento, por lo que resultan especialmente
-            interesantes para los estudiantes de ingenierías y ciclos de informática o industriales.
-            Además, cuentan con una gran cantidad de actividades y sorteos. ¡No te las puedes
-            perder!
+            Son un evento anual y de libre acceso organizado por el alumnado de
+            distintas ingenierías que tiene lugar en la Escuela Superior de
+            Ingeniería y Tecnología. Las JTI proporcionan una gran oportunidad
+            para conocer la realidad del mundo laboral gracias a los stands de
+            las empresas que acuden al evento, por lo que resultan especialmente
+            interesantes para los estudiantes de ingenierías y ciclos de
+            informática o industriales. Además, cuentan con una gran cantidad de
+            actividades y sorteos. ¡No te las puedes perder!
           </DescriptionText>
           <br />
           <br />
@@ -38,9 +41,10 @@ const FAQs = () => {
             <Highlight>2. ¿Dónde tendrán lugar?</Highlight>
           </DescriptionText>
           <DescriptionText>
-            Tendrán lugar en la Escuela Superior de Ingeniería y Tecnología de la ULL. El evento se
-            desarrollará en la planta baja del edificio, donde habrán varios puestos de información.
-            El plano de situación se puede encontrar en la sección Stands.
+            Tendrán lugar en la Escuela Superior de Ingeniería y Tecnología de
+            la ULL. El evento se desarrollará en la planta baja del edificio,
+            donde habrán varios puestos de información. El plano de situación se
+            puede encontrar en la sección Stands.
           </DescriptionText>
           <br />
           <AlignedDiv>
@@ -61,8 +65,8 @@ const FAQs = () => {
             <Highlight>3. ¿Cuándo serán?</Highlight>
           </DescriptionText>
           <DescriptionText>
-            Las VII JTI se celebrarán el martes 10 y el miércoles 11 de diciembre de 2025.
-            ¡Apúntalos en tu calendario!
+            Las VII JTI se celebrarán el martes 10 y el miércoles 11 de
+            diciembre de 2025. ¡Apúntalos en tu calendario!
           </DescriptionText>
           <br />
           <br />
@@ -70,9 +74,10 @@ const FAQs = () => {
             <Highlight>4. ¿Necesito comprar entrada?</Highlight>
           </DescriptionText>
           <DescriptionText>
-            Las Jornadas Técnicas de Ingeniería son un evento gratuito y de libre acceso, por lo que
-            cualquier persona puede asistir al evento sin realizar ningún tipo de pago o reserva,
-            incluidas aquellas ajenas a la Universidad.
+            Las Jornadas Técnicas de Ingeniería son un evento gratuito y de
+            libre acceso, por lo que cualquier persona puede asistir al evento
+            sin realizar ningún tipo de pago o reserva, incluidas aquellas
+            ajenas a la Universidad.
           </DescriptionText>
           <br />
           <br />
@@ -80,9 +85,10 @@ const FAQs = () => {
             <Highlight>5. ¿Qué ingenierías participan?</Highlight>
           </DescriptionText>
           <DescriptionText>
-            Las Jornadas Técnicas de Ingeniería se organizan en torno a los cuatro grados de
-            ingeniería que se imparten en la ESIT: Ingeniería Electrónica Industrial y Automática,
-            Ingeniería Química Industrial, Ingeniería Mecánica e Ingeniería Informática.
+            Las Jornadas Técnicas de Ingeniería se organizan en torno a los
+            cuatro grados de ingeniería que se imparten en la ESIT: Ingeniería
+            Electrónica Industrial y Automática, Ingeniería Química Industrial,
+            Ingeniería Mecánica e Ingeniería Informática.
           </DescriptionText>
           <br />
           <br />
@@ -90,9 +96,10 @@ const FAQs = () => {
             <Highlight>6. ¿Quiénes pueden asistir?</Highlight>
           </DescriptionText>
           <DescriptionText>
-            Aunque estén destinadas principalmente al alumnado de las distintas ingenierías, las
-            Jornadas Técnicas de Ingeniería son de libre acceso, por lo que cualquier persona
-            interesada puede asistir aunque sea ajena a la Universidad.
+            Aunque estén destinadas principalmente al alumnado de las distintas
+            ingenierías, las Jornadas Técnicas de Ingeniería son de libre
+            acceso, por lo que cualquier persona interesada puede asistir aunque
+            sea ajena a la Universidad.
           </DescriptionText>
           <br />
           <br />
@@ -100,34 +107,40 @@ const FAQs = () => {
             <Highlight>7. ¿Qué son los stands?</Highlight>
           </DescriptionText>
           <DescriptionText>
-            Son espacios físicos en los que las empresas muestran información sobre su actividad y
-            los productos o servicios que ofrecen. Son una oportunidad de oro para conocer de
-            primera mano el estado del mundo laboral y hacer contactos. En la sección Stands podrás
-            encontrar una lista de los stands del evento y su ubicación.
+            Son espacios físicos en los que las empresas muestran información
+            sobre su actividad y los productos o servicios que ofrecen. Son una
+            oportunidad de oro para conocer de primera mano el estado del mundo
+            laboral y hacer contactos. En la sección Stands podrás encontrar una
+            lista de los stands del evento y su ubicación.
           </DescriptionText>
           <br />
           <br />
           <DescriptionText>
-            <Highlight>8. ¿Desde cuándo se han celebrado las jornadas?</Highlight>
+            <Highlight>
+              8. ¿Desde cuándo se han celebrado las jornadas?
+            </Highlight>
           </DescriptionText>
           <DescriptionText>
-            Las Jornadas Técnicas de Ingeniería llevan celebrándose desde el año 2019. A causa del
-            coronavirus, la edición 2020 no se pudo celebrar y la 2021 fue completamente online,
-            pero estos últimos tres años las JTI han vuelto a ser presenciales y han sido todo un
-            éxito. ¡Qué esperamos que se repita en esta séptima edición!
+            Las Jornadas Técnicas de Ingeniería llevan celebrándose desde el año
+            2019. A causa del coronavirus, la edición 2020 no se pudo celebrar y
+            la 2021 fue completamente online, pero estos últimos tres años las
+            JTI han vuelto a ser presenciales y han sido todo un éxito. ¡Qué
+            esperamos que se repita en esta séptima edición!
           </DescriptionText>
           <br />
           <br />
           <DescriptionText>
-            <Highlight>9. ¿Cómo puedo hacer llegar mis sugerencias y dudas?</Highlight>
+            <Highlight>
+              9. ¿Cómo puedo hacer llegar mis sugerencias y dudas?
+            </Highlight>
           </DescriptionText>
           <DescriptionText>
             Nos puedes hacer llegar tus sugerencias a través de&nbsp;
             <DescriptionLink href="https://forms.gle/fQu8Dg2WhZzKRhEp7">
               este formulario
             </DescriptionLink>
-            &nbsp;y estamos disponibles en nuestras redes sociales y nuestro correo
-            jtiesit@ull.edu.es para cualquier duda o consulta.
+            &nbsp;y estamos disponibles en nuestras redes sociales y nuestro
+            correo jtiesit@ull.edu.es para cualquier duda o consulta.
           </DescriptionText>
           <AlignedDiv>
             <Hexagons>

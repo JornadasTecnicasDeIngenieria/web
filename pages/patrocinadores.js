@@ -35,12 +35,7 @@ const Patrocinadores = () => {
         {items.map(({ src, alt, width, height }) => (
           <Grid item xs={12} sm={6} key={src}>
             <ImageDiv>
-              <StyledImage
-                src={src}
-                alt={alt}
-                width={width}
-                height={height}
-              />
+              <StyledImage src={src} alt={alt} width={width} height={height} />
             </ImageDiv>
           </Grid>
         ))}

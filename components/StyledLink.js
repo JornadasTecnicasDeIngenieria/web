@@ -4,26 +4,38 @@ import { useRouter } from 'next/router';
 import NextLink from 'next/link';
 import MuiLink from '@mui/material/Link';
 
-export const NextLinkComposed = React.forwardRef(function NextLinkComposed(props, ref) {
-  const { to, linkAs, href, replace, scroll, passHref, shallow, prefetch, locale, ...other } =
-    props;
+export const NextLinkComposed = React.forwardRef(
+  function NextLinkComposed(props, ref) {
+    const {
+      to,
+      linkAs,
+      href,
+      replace,
+      scroll,
+      passHref,
+      shallow,
+      prefetch,
+      locale,
+      ...other
+    } = props;
 
-  return (
-    <NextLink
-      href={to}
-      prefetch={prefetch}
-      as={linkAs}
-      replace={replace}
-      scroll={scroll}
-      shallow={shallow}
-      passHref={passHref}
-      locale={locale}
-      ref={ref}
-      {...other}
-      legacyBehavior
-    ></NextLink>
-  );
-});
+    return (
+      <NextLink
+        href={to}
+        prefetch={prefetch}
+        as={linkAs}
+        replace={replace}
+        scroll={scroll}
+        shallow={shallow}
+        passHref={passHref}
+        locale={locale}
+        ref={ref}
+        {...other}
+        legacyBehavior
+      ></NextLink>
+    );
+  }
+);
 
 // A styled version of the Next.js Link component:
 // https://nextjs.org/docs/#with-link
@@ -42,7 +54,8 @@ const Link = React.forwardRef(function Link(props, ref) {
   const className = 'active';
 
   const isExternal =
-    typeof href === 'string' && (href.indexOf('http') === 0 || href.indexOf('mailto:') === 0);
+    typeof href === 'string' &&
+    (href.indexOf('http') === 0 || href.indexOf('mailto:') === 0);
 
   if (isExternal) {
     if (noLinkStyle) {
@@ -53,7 +66,9 @@ const Link = React.forwardRef(function Link(props, ref) {
   }
 
   if (noLinkStyle) {
-    return <NextLinkComposed className={className} ref={ref} to={href} {...other} />;
+    return (
+      <NextLinkComposed className={className} ref={ref} to={href} {...other} />
+    );
   }
 
   return (
