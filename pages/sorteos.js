@@ -33,34 +33,26 @@ const Sorteos = () => {
             reconocimientos del evento. ¿Quieres participar y tener la
             oportunidad de ganar grandes recompensas? ¡Consigue rifas y únete al
             Festival de Fortuna!
-            <br />
-            <br />
-            <ul>
-              <Highlight>¿Cómo puedes conseguir rifas?</Highlight>
-              <br />
-              <ul>
-                <li>
-                  {' '}
-                  Explorando los stands: Por cada 4 sellos que consigas
-                  visitando los stands, obtendrás 1 rifa (máximo 3 rifas).{' '}
-                </li>
-                <br />
-                <li>
-                  {' '}
-                  Votando en el concurso Stand-Out: Participa votando por tu
-                  stand favorito y obtén una rifa adicional. Más info
-                  debajo.{' '}
-                </li>
-                <br />
-                <li>
-                  {' '}
-                  Completando las preguntas a empresas: Por completar el folleto
-                  de preguntas te llevarás también 1 rifa. Más info debajo.{' '}
-                </li>
-              </ul>
-              <br />
-            </ul>
           </DescriptionText>
+          <br />
+          <DescriptionText>
+            <Highlight>¿Cómo puedes conseguir rifas?</Highlight>
+          </DescriptionText>
+          <ul>
+            <DescriptionListElement>
+              Explorando los stands: Por cada 4 sellos que consigas
+              visitando los stands, obtendrás 1 rifa (máximo 3 rifas).
+            </DescriptionListElement>
+            <DescriptionListElement>
+              Votando en el concurso Stand-Out: Participa votando por tu
+              stand favorito y obtén una rifa adicional. Más info
+              debajo.
+            </DescriptionListElement>
+            <DescriptionListElement>
+              Completando las preguntas a empresas: Por completar el folleto
+              de preguntas te llevarás también 1 rifa. Más info debajo.
+            </DescriptionListElement>
+          </ul>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Entrega del premio en el puesto
             central.
@@ -266,6 +258,7 @@ const DescriptionListElement = styled.li`
   color: #ffffff;
   font-weight: 500;
   font-family: 'Montserrat';
+  margin-bottom: 1rem;
 `;
 
 const Highlight = styled.span`
