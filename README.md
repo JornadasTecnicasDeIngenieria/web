@@ -44,6 +44,7 @@ docker compose up
 ```
 
 Este comando se encargará automáticamente de:
+
 - Descargar la imagen de Docker necesaria.
 - Instalar las dependencias del proyecto (`npm install`).
 - Iniciar el servidor de desarrollo.

@@ -139,13 +139,13 @@ export const patrocinadores = [
     height: 1000,
     types: 'colaborador',
   },
-  {
-    src: '/images/patrocinadores/incibe_ull.png',
-    alt: 'Cátedra en Ciberseguridad INCIBE',
-    width: 1000,
-    height: 1000,
-    types: 'colaborador',
-  },
+  // {
+  //   src: '/images/patrocinadores/incibe_ull.png',
+  //   alt: 'Cátedra en Ciberseguridad INCIBE',
+  //   width: 1000,
+  //   height: 1000,
+  //   types: 'colaborador',
+  // },
   {
     src: '/images/patrocinadores/incibe.png',
     alt: 'INCIBE',
