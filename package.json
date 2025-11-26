@@ -15,8 +15,6 @@
     "@mui/icons-material": "^7.3.5",
     "@mui/material": "^7.3.5",
     "bootstrap": "^5.3.8",
-    "clsx": "^2.1.1",
-    "framer-motion": "^12.23.24",
     "next": "^16.0.4",
     "react": "^19.2.0",
     "react-bootstrap": "^2.10.10"
@@ -27,5 +25,12 @@
     "eslint-config-next": "^16.0.4",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.6.2"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "printWidth": 80
   }
 }
