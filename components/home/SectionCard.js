@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+
 import Image from 'next/image';
 import styled from '@emotion/styled';
 
 function Card({ imageSource, name, categories, bg }) {
   return (
-    <motion.div whileTap={{ scale: 0.95 }}>
+    <CardContainer>
       <Link
         href={`/${name.toLowerCase()}`}
         as={`/${name.toLowerCase()}`}
@@ -23,7 +23,7 @@ function Card({ imageSource, name, categories, bg }) {
           </div>
         </div>
       </Link>
-    </motion.div>
+    </CardContainer>
   );
 }
 
@@ -36,4 +36,11 @@ const CenterText = styled.div`
   justify-self: center;
   justify-content: center;
   align-items: center;
+`;
+
+const CardContainer = styled.div`
+  transition: transform 0.1s;
+  &:active {
+    transform: scale(0.95);
+  }
 `;

@@ -40,17 +40,16 @@ const Sorteos = () => {
           </DescriptionText>
           <ul>
             <DescriptionListElement>
-              Explorando los stands: Por cada 4 sellos que consigas
-              visitando los stands, obtendrás 1 rifa (máximo 3 rifas).
+              Explorando los stands: Por cada 4 sellos que consigas visitando
+              los stands, obtendrás 1 rifa (máximo 3 rifas).
             </DescriptionListElement>
             <DescriptionListElement>
-              Votando en el concurso Stand-Out: Participa votando por tu
-              stand favorito y obtén una rifa adicional. Más info
-              debajo.
+              Votando en el concurso Stand-Out: Participa votando por tu stand
+              favorito y obtén una rifa adicional. Más info debajo.
             </DescriptionListElement>
             <DescriptionListElement>
-              Completando las preguntas a empresas: Por completar el folleto
-              de preguntas te llevarás también 1 rifa. Más info debajo.
+              Completando las preguntas a empresas: Por completar el folleto de
+              preguntas te llevarás también 1 rifa. Más info debajo.
             </DescriptionListElement>
           </ul>
           <DescriptionText>

@@ -1,7 +1,7 @@
 import Link from '@components/StyledLink';
 import { Stack } from '@mui/material';
 import Grid from '@mui/material/GridLegacy';
-import { motion } from 'framer-motion';
+
 import { styled } from '@mui/material/styles';
 import getTagColor from '@scripts/getTagColor';
 import LinkedIn from '@mui/icons-material/LinkedIn';
@@ -38,34 +38,8 @@ function Card({ imageSource, name, categories, social }) {
   const networks = social;
   return (
     <>
-      <motion.div
-        initial="hidden"
-        animate="visible"
-        variants={{
-          hidden: {
-            opacity: 0,
-            scale: 0.85,
-          },
-          visible: {
-            scale: 1,
-            opacity: 1,
-            transition: {
-              delay: 0.3,
-            },
-          },
-        }}
-      >
-        <motion.div
-          whileHover={{
-            position: 'relative',
-            zIndex: 999,
-            scale: 1.05,
-            borderRadius: '0.5rem',
-            transition: {
-              duration: 0.2,
-            },
-          }}
-        >
+      <>
+        <CardWrapper>
           <div className="custom-card">
             <br />
             <div className="custom-card-header">
@@ -195,8 +169,8 @@ function Card({ imageSource, name, categories, social }) {
               </Social>
             </div>
           </div>
-        </motion.div>
-      </motion.div>
+        </CardWrapper>
+      </>
     </>
   );
 }
@@ -217,4 +191,14 @@ const Social = styled('div')`
   padding: 1rem;
   margin: 0;
   border-radius: 0.5rem;
+`;
+
+const CardWrapper = styled('div')`
+  transition: transform 0.2s;
+  &:hover {
+    position: relative;
+    z-index: 999;
+    transform: scale(1.05);
+    border-radius: 0.5rem;
+  }
 `;
