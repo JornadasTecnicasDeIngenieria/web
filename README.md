@@ -1,132 +1,109 @@
-# JTI Website
+# Sitio Web JTI
 
-This repository contains the official website for "Jornadas Técnicas de Ingeniería" (JTI) - the largest university engineering event in the Canary Islands. The website serves as an information hub for the event taking place on December 10th and 11th, 2025.
+Este repositorio contiene el sitio web oficial de las "Jornadas Técnicas de Ingeniería" (JTI), el mayor evento de ingeniería universitaria en Canarias. El sitio sirve como centro de información para el evento.
 
-## About JTI
+## Sobre las JTI
 
-JTI is an annual event organized by and for engineering students, showcasing:
+Las JTI son un evento anual organizado por y para estudiantes de ingeniería, que incluye:
 
-- Company stands and networking opportunities
-- Activities and competitions (Escape Room, Arcade Competition, Gaming Tournaments, and more)
-- Raffles and prizes
-- Talks and presentations
-- Information about the organizing team and sponsors
+- Stands de empresas y oportunidades de networking
+- Actividades y competiciones (Escape Room, Competición Arcade, Torneos de Gaming, y más)
+- Sorteos y premios
 
-The event brings together students from four engineering disciplines: Computer Engineering, Mechanical Engineering, Electronic Engineering, and Industrial Chemical Engineering.
+El evento reúne a estudiantes de cuatro disciplinas de ingeniería: Ingeniería Informática, Ingeniería Mecánica, Ingeniería Electrónica e Ingeniería Química Industrial.
 
-## Technologies Used
+## Tecnologías Utilizadas
 
-- [Next.js](https://nextjs.org/) - React framework
-- [React](https://reactjs.org/) - JavaScript library
-- [Material UI](https://mui.com/) - React component library
-- [Emotion](https://emotion.sh/) - CSS-in-JS styling
-- [Docker](https://www.docker.com/) - Containerization platform
+- [Next.js](https://nextjs.org/) - Framework de React
+- [React](https://reactjs.org/) - Librería JavaScript
+- [Material UI](https://mui.com/) - Librería de componentes React
+- [Emotion](https://emotion.sh/) - Estilos CSS-in-JS
+- [Docker](https://www.docker.com/) - Plataforma de contenedorización
 
-## Getting Started
+## Guía de Inicio
 
-### Prerequisites
+Este proyecto está diseñado para ser ejecutado **exclusivamente con Docker Compose**. No es necesario instalar Node.js ni npm en tu máquina local.
 
-- Node.js (v16 or higher)
-- npm or yarn
-- Docker and Docker Compose (for containerized setup)
+### Requisitos Previos
 
-### Installation
+- Docker y Docker Compose instalados en tu sistema.
 
-1. Clone the repository:
+### Instalación y Ejecución
+
+1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/your-organization/JTI-web.git
-cd JTI-web
+git clone git@github.com:JornadasTecnicasDeIngenieria/web.git
+cd web
 ```
 
-2. Install dependencies:
+2. Arranca el entorno de desarrollo:
 
 ```bash
-npm install
-# or
-yarn
+docker compose up
 ```
 
-### Running the Development Server
+Este comando se encargará automáticamente de:
+- Descargar la imagen de Docker necesaria.
+- Instalar las dependencias del proyecto (`npm install`).
+- Iniciar el servidor de desarrollo.
 
-You can run the development server in two ways:
+La aplicación estará disponible en [http://localhost:3000](http://localhost:3000). El contenedor soporta "hot-reloading", por lo que los cambios que hagas en los archivos se reflejarán automáticamente.
 
-#### 1. Locally
+### Ejecución de Comandos (npm, npx, etc.)
+
+Dado que no necesitamos Node.js en local, cualquier comando que normalmente ejecutarías con `npm` o `npx` debe ejecutarse a través del contenedor usando `docker compose run`.
+
+La sintaxis general es:
 
 ```bash
-npm run dev
-# or
-yarn dev
+docker compose run --rm web <comando>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the website in your browser.
+#### Ejemplos Comunes
 
-#### 2. Using Docker
-
-This method uses Docker Compose to set up a development environment in a container.
+**Instalar una nueva dependencia:**
 
 ```bash
-docker-compose up
+docker compose run --rm web npm install nombre-del-paquete
 ```
 
-The application will be available at [http://localhost:3000](http://localhost:3000). The container supports hot-reloading.
+**Ejecutar un script del package.json (ej. lint):**
 
-## Project Structure
+```bash
+docker compose run --rm web npm run lint
+```
+
+**Ejecutar un comando npx:**
+
+```bash
+docker compose run --rm web npx create-next-app
+```
+
+**Generar build de producción:**
+
+```bash
+docker compose run --rm web npm run build
+```
+
+## Estructura del Proyecto
 
 ```
 /
-├── components/           # Reusable UI components
-│   ├── home/             # Homepage-specific components
-│   └── layouts/          # Layout components
-├── data/                 # JS data files for dynamic content
-├── pages/                # Next.js pages and API routes
-├── public/               # Static assets (images, fonts)
-├── styles/               # Global styles and theme configuration
-└── .next/                # Build output directory
+├── components/           # Componentes UI reutilizables
+│   ├── home/             # Componentes específicos de la página de inicio
+│   └── layouts/          # Componentes de estructura (layouts)
+├── data/                 # Archivos JS con datos para contenido dinámico
+├── pages/                # Páginas de Next.js y rutas API
+├── public/               # Archivos estáticos (imágenes, fuentes)
+├── styles/               # Estilos globales y configuración del tema
+└── .next/                # Directorio de salida del build
 ```
 
-## Build and Deployment
+## Contribuir
 
-### Building for Production
+Si eres parte del equipo organizador de las JTI y quieres contribuir a este sitio web, por favor contacta con el líder del equipo de desarrollo para obtener derechos de acceso y guías de contribución.
 
-To create a production-ready build:
+## Licencia
 
-```bash
-npm run build
-```
-
-### Running in Production
-
-#### 1. Locally
-
-To start the production server after building:
-
-```bash
-npm run start
-```
-
-#### 2. Using Docker
-
-The provided `Dockerfile` creates an optimized, multi-stage production build.
-
-1. Build the Docker image:
-
-```bash
-docker build -t jti-web-app .
-```
-
-2. Run the container:
-
-```bash
-docker run -d -p 3000:3000 --name jti-web jti-web-app
-```
-
-The application will be running in production mode on [http://localhost:3000](http://localhost:3000).
-
-## Contributing
-
-If you're part of the JTI organizing team and want to contribute to this website, please contact the development team lead for access rights and contribution guidelines.
-
-## License
-
-This project is proprietary and belongs to the JTI organizing committee.
+Este proyecto es propietario y pertenece al comité organizador de las JTI.
