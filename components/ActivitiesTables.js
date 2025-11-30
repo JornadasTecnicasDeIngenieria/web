@@ -16,31 +16,35 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Meta Quest 3S</TableItem>
-            <TableItem colSpan={2}>Ipad de última generación</TableItem>
+            <TableItem colSpan={2}>
+              Nintendo Switch 2 + Mario Kart World
+            </TableItem>
+            <TableItem colSpan={2}>
+              Nintendo Switch 2 + Mario Kart World
+            </TableItem>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Silla gaming</TableItem>
-            <TableItem colSpan={2}>Switch Lite + Animal Crossing</TableItem>
+            <TableItem colSpan={2}>Teclado Corsair K55 CORE RGB</TableItem>
+            <TableItem colSpan={2}>Teclado Corsair K55 CORE RGB</TableItem>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Teclado Krom Mecánico</TableItem>
-            <TableItem colSpan={2}>Teclado Krom Mecánico</TableItem>
+            <TableItem colSpan={2}>Ratón Logitech G203 RGB</TableItem>
+            <TableItem colSpan={2}>Ratón Logitech G203 RGB</TableItem>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Auriculares Sony</TableItem>
-            <TableItem colSpan={2}>Auriculares Sony</TableItem>
+            <TableItem colSpan={2}>Altavoz LG XBOOM XG2TBK</TableItem>
+            <TableItem colSpan={2}>Altavoz LG XBOOM XG2TBK</TableItem>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Ratón Corsair</TableItem>
-            <TableItem colSpan={2}>Ratón Corsair</TableItem>
+            <TableItem colSpan={2}>Auriculares Logitech G435</TableItem>
+            <TableItem colSpan={2}>Auriculares Logitech G435</TableItem>
           </tr>
 
-          <tr>
+          {/* <tr>
             <TableItem colSpan={2}>Altavoz LG XBOOM</TableItem>
             <TableItem colSpan={2}>Altavoz LG XBOOM</TableItem>
           </tr>
@@ -48,7 +52,7 @@ export const TableSorteoStands = () => {
           <tr>
             <TableItem colSpan={2}>Xiaomi SmartBand 8</TableItem>
             <TableItem colSpan={2}>Xiaomi SmartBand 8</TableItem>
-          </tr>
+          </tr> */}
         </tbody>
       </ScrollableTable>
     </TableContainer>
@@ -62,18 +66,16 @@ export const TableSorteoPrevioRedesSociales = () => {
         <tbody>
           <tr>
             <TableTitle colSpan={4}>
-              Premios del Sorteo Previo al evento por Redes Sociales
+              Premio del Sorteo Previo al evento por Redes Sociales
             </TableTitle>
           </tr>
 
           <tr>
             <TableHeader colSpan={2}>TikTok</TableHeader>
-            <TableHeader colSpan={2}>Instagram</TableHeader>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Cámara Instax</TableItem>
-            <TableItem colSpan={2}>Cámara Instax</TableItem>
+            <TableItem colSpan={2}>Redmi Watch 5 Active</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -88,18 +90,16 @@ export const TableSorteoDuranteRedesSociales = () => {
         <tbody>
           <tr>
             <TableTitle colSpan={4}>
-              Premios del Sorteo Durante el evento por Redes Sociales
+              Premio del Sorteo Durante el evento por Redes Sociales
             </TableTitle>
           </tr>
 
           <tr>
-            <TableHeader colSpan={2}>TikTok</TableHeader>
             <TableHeader colSpan={2}>Instagram</TableHeader>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>???</TableItem>
-            <TableItem colSpan={2}>???</TableItem>
+            <TableItem colSpan={2}>Redmi Watch 5 Active</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -121,18 +121,25 @@ export const TableCompeticionArcade = () => {
           <tr>
             <th></th>
             <TableHeader colSpan={1}>Tetris</TableHeader>
-            <TableHeader colSpan={1}>WhyGod?</TableHeader>
+            <TableHeader colSpan={1}>Galaga</TableHeader>
+            <TableHeader colSpan={1}>Pac-Man</TableHeader>
           </tr>
 
           <tr>
             <TableTitle colSpan={1}>1º</TableTitle>
-            <TableItem colSpan={1}>Consola retro</TableItem>
-            <TableItem colSpan={1}>Consola retro</TableItem>
+            <TableItem colSpan={1}>
+              CUBIMAG<sup>®</sup>
+            </TableItem>
+            <TableItem colSpan={1}>Star Wars: Unlimited</TableItem>
+            <TableItem colSpan={1}>Pac-Man Light</TableItem>
           </tr>
           <tr>
             <TableTitle colSpan={1}>2º</TableTitle>
-            <TableItem colSpan={1}>Tamagotchi</TableItem>
-            <TableItem colSpan={1}>Tamagotchi</TableItem>
+            <TableItem colSpan={1}>Rubik&apos;s Twist</TableItem>
+            <TableItem colSpan={1}>
+              LEGO<sup>®</sup>: Lanzadera Espacial
+            </TableItem>
+            <TableItem colSpan={1}>Blinky Light</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
@@ -168,7 +175,9 @@ export const TableEscapeRoom = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>4 Juegos de mesa tipo Escape Room</TableItem>
+            <TableItem colSpan={2}>
+              4 Juegos de mesa <em>Exit</em>
+            </TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
