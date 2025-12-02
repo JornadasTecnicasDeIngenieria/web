@@ -1,12 +1,12 @@
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Stack from '@mui/material/Stack';
-import { LinkedIn, Instagram, Twitter, Facebook } from '@mui/icons-material';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import Link from 'next/link';
-import styled from '@emotion/styled';
-import StyledLink from '@components/StyledLink';
-import { SvgIcon, createSvgIcon } from '@mui/material';
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Stack from "@mui/material/Stack";
+import { LinkedIn, Instagram, Twitter, Facebook } from "@mui/icons-material";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import Link from "next/link";
+import styled from "@emotion/styled";
+import StyledLink from "@components/StyledLink";
+import { SvgIcon, createSvgIcon } from "@mui/material";
 
 const TwitterNewIcon = createSvgIcon(
   <svg
@@ -24,7 +24,7 @@ const TwitterNewIcon = createSvgIcon(
       strokeWidth="1.5"
     ></path>
   </svg>,
-  'TwitterNewIcon'
+  "TwitterNewIcon",
 );
 
 // Custom TikTok Icon
@@ -42,15 +42,15 @@ const TikTokIcon = createSvgIcon(
       fill="white"
     />
   </svg>,
-  'TikTokIcon'
+  "TikTokIcon",
 );
 
 const Footer = () => {
   return (
-    <Box component="footer" sx={{ py: 5, bgcolor: 'primary.main' }}>
+    <Box component="footer" sx={{ py: 5, bgcolor: "primary.main" }}>
       <Stack direction="row" justifyContent="center" spacing={3} sx={{ mb: 5 }}>
         <StyledLink
-          sx={{ textDecoration: 'none', color: 'common.white' }}
+          sx={{ textDecoration: "none", color: "common.white" }}
           href="https://www.linkedin.com/company/jtiull/"
           target="_blank"
           rel="noopener noreferrer"
@@ -58,7 +58,7 @@ const Footer = () => {
           <LinkedIn fontSize="large" />
         </StyledLink>
         <StyledLink
-          sx={{ textDecoration: 'none', color: 'common.white' }}
+          sx={{ textDecoration: "none", color: "common.white" }}
           href="https://www.instagram.com/jtiesit/?hl=es"
           target="_blank"
           rel="noopener noreferrer"
@@ -66,7 +66,7 @@ const Footer = () => {
           <Instagram fontSize="large" />
         </StyledLink>
         <StyledLink
-          sx={{ textDecoration: 'none', color: 'common.white' }}
+          sx={{ textDecoration: "none", color: "common.white" }}
           href="https://www.tiktok.com/@jtiesit"
           target="_blank"
           rel="noopener noreferrer"
@@ -74,7 +74,7 @@ const Footer = () => {
           <TikTokIcon fontSize="large" />
         </StyledLink>
         <StyledLink
-          sx={{ textDecoration: 'none', color: 'common.white' }}
+          sx={{ textDecoration: "none", color: "common.white" }}
           href="https://x.com/JTIesit"
           target="_blank"
           rel="noopener noreferrer"
@@ -82,7 +82,7 @@ const Footer = () => {
           <TwitterNewIcon fontSize="large" />
         </StyledLink>
         <StyledLink
-          sx={{ textDecoration: 'none', color: 'common.white' }}
+          sx={{ textDecoration: "none", color: "common.white" }}
           href="https://www.facebook.com/people/Jornadas-T%C3%A9cnicas-de-Ingenier%C3%ADa/61552917822080/"
           target="_blank"
           rel="noopener noreferrer"
@@ -90,7 +90,7 @@ const Footer = () => {
           <Facebook fontSize="large" />
         </StyledLink>
         <StyledLink
-          sx={{ textDecoration: 'none', color: 'common.white' }}
+          sx={{ textDecoration: "none", color: "common.white" }}
           href="https://www.youtube.com/@jornadastecnicasdeingenieria"
           target="_blank"
           rel="noopener noreferrer"
@@ -132,6 +132,6 @@ const DescriptionText = styled.p`
   color: #ffffff;
   font-size: 1.2rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   padding-bottom: 1rem;
 `;

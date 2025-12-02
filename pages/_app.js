@@ -1,10 +1,10 @@
-import Head from 'next/head';
-import { ThemeProvider } from '@mui/material/styles';
-import createEmotionCache from '../styles/createEmotionCache';
+import Head from "next/head";
+import { ThemeProvider } from "@mui/material/styles";
+import createEmotionCache from "../styles/createEmotionCache";
 
-import '../styles/globals.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import theme from '../styles/theme';
+import "../styles/globals.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import theme from "../styles/theme";
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();

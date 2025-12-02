@@ -1,7 +1,7 @@
-import styled from '@emotion/styled';
-import Image from 'next/image';
-import { Container } from '@mui/material';
-import Grid from '@mui/material/GridLegacy';
+import styled from "@emotion/styled";
+import Image from "next/image";
+import { Container } from "@mui/material";
+import Grid from "@mui/material/GridLegacy";
 
 const Axis = () => {
   return (
@@ -32,9 +32,9 @@ const Axis = () => {
           <Grid item xs={12} sm={12} md={9} lg={9}>
             <AlignedDiv>
               <JustTitle>
-                {' '}
+                {" "}
                 Acercar el mercado laboral a los futuros/as ingenieros/as y
-                mostrar sus diferentes realidades.{' '}
+                mostrar sus diferentes realidades.{" "}
               </JustTitle>
             </AlignedDiv>
           </Grid>
@@ -52,9 +52,9 @@ const Axis = () => {
           <Grid item xs={12} sm={12} md={9} lg={9}>
             <AlignedDiv>
               <JustTitle>
-                {' '}
+                {" "}
                 Ayudar a los estudiantes a formar contactos que les podrán ser
-                muy útiles y enriquecedores.{' '}
+                muy útiles y enriquecedores.{" "}
               </JustTitle>
             </AlignedDiv>
           </Grid>
@@ -72,9 +72,9 @@ const Axis = () => {
           <Grid item xs={12} sm={12} md={9} lg={9}>
             <AlignedDiv>
               <JustTitle>
-                {' '}
+                {" "}
                 Mostrar la investigación y el emprendimiento como grandes
-                oportunidades de futuro.{' '}
+                oportunidades de futuro.{" "}
               </JustTitle>
             </AlignedDiv>
           </Grid>
@@ -92,9 +92,9 @@ const Axis = () => {
           <Grid item xs={12} sm={12} md={9} lg={9}>
             <AlignedDiv>
               <JustTitle>
-                {' '}
+                {" "}
                 Ofrecer información y oportunidades de descubrir sectores e
-                ideas que probablemente les fueran desconocidos.{' '}
+                ideas que probablemente les fueran desconocidos.{" "}
               </JustTitle>
             </AlignedDiv>
           </Grid>
@@ -146,25 +146,25 @@ text-align: center;
 const Hexagons = styled.h2`
   padding: 2rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const HexagonA = styled.span`
   color: #ff645f;
   padding-right: 2rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const HexagonB = styled.span`
   color: #633cae;
   padding-right: 2rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const HexagonC = styled.span`
   color: #ffeb83;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;

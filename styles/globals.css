@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .active {
   opacity: 1;
@@ -132,7 +132,7 @@ h3 {
 
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .card-img-top {
@@ -148,7 +148,7 @@ card-body {
 }
 
 .card {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 /* .TimerNumber {
@@ -424,7 +424,7 @@ card-body {
 
 /* Clear floats (clearfix hack) */
 .btn-group:after {
-  content: '';
+  content: "";
   clear: both;
   display: table;
 }

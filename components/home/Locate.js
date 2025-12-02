@@ -1,6 +1,6 @@
-import styled from '@emotion/styled';
-import { Container } from '@mui/material';
-import Grid from '@mui/material/GridLegacy';
+import styled from "@emotion/styled";
+import { Container } from "@mui/material";
+import Grid from "@mui/material/GridLegacy";
 
 const Locate = () => {
   return (
@@ -86,25 +86,25 @@ text-align: center;
 const Hexagons = styled.h2`
   padding: 2rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const HexagonA = styled.span`
   color: #83ddff;
   padding-right: 2rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const HexagonB = styled.span`
   color: #ff645f;
   padding-right: 2rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const HexagonC = styled.span`
   color: #ffeb83;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;

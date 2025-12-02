@@ -2,11 +2,11 @@ import {
   TableSorteoPrevioRedesSociales,
   TableSorteoDuranteRedesSociales,
   TableSorteoStands,
-} from '@components/ActivitiesTables';
-import Layout from '@components/layouts/MainLayout';
-import styled from '@emotion/styled';
-import { Container } from '@mui/material';
-import { EVENT_YEAR } from 'data/config';
+} from "@components/ActivitiesTables";
+import Layout from "@components/layouts/MainLayout";
+import styled from "@emotion/styled";
+import { Container } from "@mui/material";
+import { EVENT_YEAR } from "data/config";
 
 const Sorteos = () => {
   return (
@@ -166,7 +166,7 @@ const Sorteos = () => {
             pierdas la oportunidad
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Enlace: </Highlight>{' '}
+            <Highlight>Enlace: </Highlight>{" "}
             <DescriptionLink href="https://linktr.ee/jtiesit">
               ¡Click Aquí!
             </DescriptionLink>
@@ -231,39 +231,39 @@ const Title = styled.h2`
 const Category = styled.h3`
   color: #ffffff;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 const SubCategory = styled.h4`
   color: #ffffff;
   font-weight: 600;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 const DescriptionText = styled.p`
   color: #ffffff;
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const DescriptionLink = styled.a`
   color: #ffffff;
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const DescriptionListElement = styled.li`
   color: #ffffff;
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   margin-bottom: 1rem;
 `;
 
 const Highlight = styled.span`
   color: #ffffff;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const Hexagons = styled.h3`

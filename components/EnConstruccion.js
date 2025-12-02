@@ -1,4 +1,4 @@
-import Grid from '@mui/material/GridLegacy';
+import Grid from "@mui/material/GridLegacy";
 
 const Temp = ({ imgSrc, imgAlt, title, subtitle }) => {
   return (
@@ -10,7 +10,7 @@ const Temp = ({ imgSrc, imgAlt, title, subtitle }) => {
         alignItems="center"
         zIndex="100"
         sx={{
-          height: '48vh',
+          height: "48vh",
         }}
       >
         <h1>Esta página está en construcción.</h1>

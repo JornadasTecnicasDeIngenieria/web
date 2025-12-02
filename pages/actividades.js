@@ -1,14 +1,14 @@
-import Layout from '@components/layouts/MainLayout';
-import styled from '@emotion/styled';
-import { Container } from '@mui/material';
-import { EVENT_YEAR } from '../data/config';
+import Layout from "@components/layouts/MainLayout";
+import styled from "@emotion/styled";
+import { Container } from "@mui/material";
+import { EVENT_YEAR } from "../data/config";
 import {
   TableCompeticionArcade,
   TableTrivial,
   TableVideojuegos,
   TableEscapeRoom,
   TableHorarioEscapeRoom,
-} from '@components/ActivitiesTables';
+} from "@components/ActivitiesTables";
 
 const Actividades = () => {
   return (
@@ -64,7 +64,7 @@ const Actividades = () => {
             a reparar una misteriosa máquina capaz de viajar a través del
             tiempo. Un desbordamiento temporal amenaza con colapsar la línea del
             tiempo tal como la conocemos. ¿Podrás estabilizarla antes de que sea
-            demasiado tarde? <Highlight>Equipos de cuatro personas</Highlight>{' '}
+            demasiado tarde? <Highlight>Equipos de cuatro personas</Highlight>{" "}
             pondrán a prueba su ingenio para resolver el enigma y escapar en el
             menor tiempo posible.
           </DescriptionText>
@@ -209,38 +209,38 @@ const Title = styled.h2`
 const Category = styled.h3`
   color: #ffffff;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 const SubCategory = styled.h4`
   color: #ffffff;
   font-weight: 600;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 const DescriptionText = styled.p`
   color: #ffffff;
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const DescriptionLink = styled.a`
   color: #ffffff;
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const DescriptionListElement = styled.li`
   color: #ffffff;
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const Highlight = styled.span`
   color: #ffffff;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const Hexagons = styled.h3`

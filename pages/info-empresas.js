@@ -1,6 +1,6 @@
-import Layout from '@components/layouts/MainLayout';
-import styled from '@emotion/styled';
-import { Container } from '@mui/material';
+import Layout from "@components/layouts/MainLayout";
+import styled from "@emotion/styled";
+import { Container } from "@mui/material";
 
 const Info = () => {
   return (
@@ -24,10 +24,10 @@ const Info = () => {
             <Category>Objetivos</Category>
             <ul>
               <DescriptionListElement>
-                Acercar las empresas a los/as futuros/as ingenieros/as{' '}
+                Acercar las empresas a los/as futuros/as ingenieros/as{" "}
               </DescriptionListElement>
               <DescriptionListElement>
-                Mostrar el emprendimiento como salida profesional{' '}
+                Mostrar el emprendimiento como salida profesional{" "}
               </DescriptionListElement>
               <DescriptionListElement>
                 Mostrar la investigación como fuente de innovación hacia la
@@ -233,19 +233,19 @@ const Title = styled.h2`
 const Category = styled.h3`
   color: #ffffff;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 const DescriptionText = styled.p`
   color: #ffffff;
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const DescriptionListElement = styled.li`
   color: #ffffff;
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const Hexagons = styled.h3`

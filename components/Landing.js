@@ -1,7 +1,7 @@
-import Grid from '@mui/material/GridLegacy';
-import Image from 'next/image';
-import { styled } from '@mui/material/styles';
-import { EVENT_DATES_FULL } from 'data/config';
+import Grid from "@mui/material/GridLegacy";
+import Image from "next/image";
+import { styled } from "@mui/material/styles";
+import { EVENT_DATES_FULL } from "data/config";
 
 const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
   return (
@@ -11,7 +11,7 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
         container
         sx={{
           position: `relative`,
-          height: '95vh',
+          height: "95vh",
           width: `100vw`,
           overflow: `hidden`,
         }}
@@ -34,9 +34,9 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
                 width={1000}
                 height={250}
                 style={{
-                  width: '100%',
-                  height: 'auto',
-                  alignSelf: 'center',
+                  width: "100%",
+                  height: "auto",
+                  alignSelf: "center",
                 }}
               />
             </ImageDiv>
@@ -50,7 +50,7 @@ const Landing = ({ imgSrc, imgAlt, title, subtitle }) => {
 
 export default Landing;
 
-const Wrapper = styled('div')`
+const Wrapper = styled("div")`
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -58,7 +58,7 @@ const Wrapper = styled('div')`
   margin: 0;
 `;
 
-const ImageDiv = styled('div')`
+const ImageDiv = styled("div")`
   width: 42rem;
   height: 12rem;
   @media only screen and (max-width: 720px) {
@@ -70,7 +70,7 @@ const ImageDiv = styled('div')`
   margin-bottom: 1rem;
 `;
 
-const PaddingDiv = styled('div')`
+const PaddingDiv = styled("div")`
   padding: 2rem 2.5rem;
   justify-content: center;
   text-align: center;
@@ -81,7 +81,7 @@ const PaddingDiv = styled('div')`
   border-radius: 1em;
 `;
 
-const DateTitle = styled('h3')`
+const DateTitle = styled("h3")`
   font-size: 2.5rem !important;
   font-weight: 700;
   color: #ffffff;
@@ -93,7 +93,7 @@ const DateTitle = styled('h3')`
   }
 `;
 
-const Background = styled('img')`
+const Background = styled("img")`
   width: 100%;
   height: 100%;
   position: absolute;
@@ -103,7 +103,7 @@ const Background = styled('img')`
   }
 `;
 
-const HiddenH1 = styled('h1')`
+const HiddenH1 = styled("h1")`
   position: absolute;
   width: 1px;
   height: 1px;

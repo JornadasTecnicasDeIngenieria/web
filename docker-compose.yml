@@ -15,7 +15,7 @@ services:
 
     # Mapeo de Puertos
     ports:
-      - '3000:3000'
+      - "3000:3000"
 
     # Conecta la carpeta local con la carpeta /app del contenedor
     volumes:
