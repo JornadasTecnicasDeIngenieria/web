@@ -1,7 +1,7 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import Image from 'next/image';
-import styled from '@emotion/styled';
+import Image from "next/image";
+import styled from "@emotion/styled";
 
 function Card({ imageSource, name, categories, bg }) {
   return (

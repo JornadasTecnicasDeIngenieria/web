@@ -1,6 +1,6 @@
-import Layout from '@layouts/MainLayout';
-import styled from '@emotion/styled';
-import Image from 'next/legacy/image';
+import Layout from "@layouts/MainLayout";
+import styled from "@emotion/styled";
+import Image from "next/legacy/image";
 
 const Privacidad = () => {
   return (

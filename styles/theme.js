@@ -1,25 +1,25 @@
-import { createTheme } from '@mui/material/styles';
-import { amber } from '@mui/material/colors';
+import { createTheme } from "@mui/material/styles";
+import { amber } from "@mui/material/colors";
 
 let theme = createTheme({
   palette: {
     primary: {
-      main: '#633CAE',
-      light: '#83ddff',
-      dark: '#3c3c54',
+      main: "#633CAE",
+      light: "#83ddff",
+      dark: "#3c3c54",
     },
     secondary: {
-      main: '#ff645f',
-      light: '#ffeb83',
-      dark: '#c41c35',
+      main: "#ff645f",
+      light: "#ffeb83",
+      dark: "#c41c35",
     },
     background: {
-      default: '#f4f6f8',
-      paper: '#ffffff',
+      default: "#f4f6f8",
+      paper: "#ffffff",
     },
     text: {
-      primary: '#3c3c54',
-      secondary: '#545d7a',
+      primary: "#3c3c54",
+      secondary: "#545d7a",
     },
   },
   typography: {
@@ -52,8 +52,8 @@ let theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          borderRadius: '8px',
-          textTransform: 'none',
+          borderRadius: "8px",
+          textTransform: "none",
         },
       },
     },

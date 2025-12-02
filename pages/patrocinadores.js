@@ -1,26 +1,26 @@
-import Layout from '@components/layouts/MainLayout';
-import styled from '@emotion/styled';
-import { Container } from '@mui/material';
-import Grid from '@mui/material/GridLegacy';
-import { patrocinadores } from 'data/patrocinadores';
-import Image from 'next/image';
+import Layout from "@components/layouts/MainLayout";
+import styled from "@emotion/styled";
+import { Container } from "@mui/material";
+import Grid from "@mui/material/GridLegacy";
+import { patrocinadores } from "data/patrocinadores";
+import Image from "next/image";
 
 const Patrocinadores = () => {
   const incibeLogos = patrocinadores.filter(
     (p) =>
-      p.alt.includes('INCIBE') ||
-      p.alt.includes('Cátedra en Ciberseguridad INCIBE')
+      p.alt.includes("INCIBE") ||
+      p.alt.includes("Cátedra en Ciberseguridad INCIBE"),
   );
   const otherColaboradores = patrocinadores.filter(
     (p) =>
-      p.types === 'colaborador' &&
-      !p.alt.includes('INCIBE') &&
-      !p.alt.includes('Cátedra en Ciberseguridad INCIBE')
+      p.types === "colaborador" &&
+      !p.alt.includes("INCIBE") &&
+      !p.alt.includes("Cátedra en Ciberseguridad INCIBE"),
   );
 
   const renderCategory = (type) => {
     const items =
-      type === 'colaborador'
+      type === "colaborador"
         ? otherColaboradores
         : patrocinadores.filter((p) => p.types === type);
 
@@ -39,7 +39,7 @@ const Patrocinadores = () => {
             </ImageDiv>
           </Grid>
         ))}
-        {type === 'colaborador' &&
+        {type === "colaborador" &&
           incibeLogos.map(({ src, alt, width, height }) => (
             <Grid item xs={12} key={src}>
               <ImageDiv>
@@ -78,7 +78,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          {renderCategory('diamante')}
+          {renderCategory("diamante")}
           <br />
           <br />
           <br />
@@ -96,7 +96,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          {renderCategory('platino')}
+          {renderCategory("platino")}
           <br />
           <br />
           <br />
@@ -113,7 +113,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          {renderCategory('oro')}
+          {renderCategory("oro")}
           <br />
           <br />
           <br />
@@ -130,7 +130,7 @@ const Patrocinadores = () => {
           <br />
           <br />
           <br />
-          {renderCategory('colaborador')}
+          {renderCategory("colaborador")}
           <br />
           <br />
           <br />
@@ -171,7 +171,7 @@ const Category = styled.h2`
   color: #3c3c54;
   font-size: 3rem;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 const Hexagons = styled.h2`

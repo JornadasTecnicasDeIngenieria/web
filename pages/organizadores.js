@@ -1,12 +1,12 @@
-import Cards from '@components/Cards';
-import styled from '@emotion/styled';
-import { Container } from '@mui/material';
-import Layout from '@components/layouts/MainLayout';
+import Cards from "@components/Cards";
+import styled from "@emotion/styled";
+import { Container } from "@mui/material";
+import Layout from "@components/layouts/MainLayout";
 
-import { organizadores_gestion } from 'data/organizadores_gestion';
-import { organizadores_empresas } from 'data/organizadores_empresas';
-import { organizadores_actividades } from 'data/organizadores_actividades';
-import { organizadores_diseno_redes_sociales } from 'data/organizadores_diseno_redes_sociales';
+import { organizadores_gestion } from "data/organizadores_gestion";
+import { organizadores_empresas } from "data/organizadores_empresas";
+import { organizadores_actividades } from "data/organizadores_actividades";
+import { organizadores_diseno_redes_sociales } from "data/organizadores_diseno_redes_sociales";
 
 const Organizadores = () => {
   return (
@@ -110,7 +110,7 @@ const Category = styled.h3`
   color: #ffffff;
   font-size: 3rem;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 const Hexagons = styled.h3`

@@ -1,7 +1,7 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 
 const SvgData = ({ ingenieria, value }) => {
-  const imagePath = `/images/stands/ingenierias/${ingenieria}${value ? '' : '_no'}.svg`;
+  const imagePath = `/images/stands/ingenierias/${ingenieria}${value ? "" : "_no"}.svg`;
   return <StyledImage src={imagePath} alt={ingenieria} />;
 };
 
@@ -17,7 +17,7 @@ const Ingenieras = ({ data }) => (
   </td>
 );
 
-const Practicas = ({ prac }) => <TDH>{prac ? 'Sí' : 'No'}</TDH>;
+const Practicas = ({ prac }) => <TDH>{prac ? "Sí" : "No"}</TDH>;
 
 export const FirstDayStandList = ({ content }) => {
   return (
@@ -29,9 +29,9 @@ export const FirstDayStandList = ({ content }) => {
           </tr>
           <tr>
             <th></th>
-            <TH style={{ width: '66%' }}>Empresa</TH>
-            <TH style={{ width: '33%' }}>Ingenierías</TH>
-            <TH style={{ width: '1%' }}> Prácticas</TH>
+            <TH style={{ width: "66%" }}>Empresa</TH>
+            <TH style={{ width: "33%" }}>Ingenierías</TH>
+            <TH style={{ width: "1%" }}> Prácticas</TH>
           </tr>
           <tr>
             <TD>S00</TD>
@@ -61,9 +61,9 @@ export const SecondDayStandList = ({ content }) => {
           </tr>
           <tr>
             <th></th>
-            <TH style={{ width: '66%' }}>Empresa</TH>
-            <TH style={{ width: '33%' }}>Ingenierías</TH>
-            <TH style={{ width: '1%' }}> Prácticas</TH>
+            <TH style={{ width: "66%" }}>Empresa</TH>
+            <TH style={{ width: "33%" }}>Ingenierías</TH>
+            <TH style={{ width: "1%" }}> Prácticas</TH>
           </tr>
           <tr>
             <TD>S00</TD>

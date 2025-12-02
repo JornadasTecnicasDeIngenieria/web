@@ -1,8 +1,8 @@
-import * as React from 'react';
+import * as React from "react";
 
-import { useRouter } from 'next/router';
-import NextLink from 'next/link';
-import MuiLink from '@mui/material/Link';
+import { useRouter } from "next/router";
+import NextLink from "next/link";
+import MuiLink from "@mui/material/Link";
 
 export const NextLinkComposed = React.forwardRef(
   function NextLinkComposed(props, ref) {
@@ -34,14 +34,14 @@ export const NextLinkComposed = React.forwardRef(
         legacyBehavior
       ></NextLink>
     );
-  }
+  },
 );
 
 // A styled version of the Next.js Link component:
 // https://nextjs.org/docs/#with-link
 const Link = React.forwardRef(function Link(props, ref) {
   const {
-    activeClassName = 'active',
+    activeClassName = "active",
     as: linkAs,
     href,
     noLinkStyle,
@@ -50,12 +50,12 @@ const Link = React.forwardRef(function Link(props, ref) {
   } = props;
 
   const router = useRouter();
-  const pathname = typeof href === 'string' ? href : href.pathname;
-  const className = 'active';
+  const pathname = typeof href === "string" ? href : href.pathname;
+  const className = "active";
 
   const isExternal =
-    typeof href === 'string' &&
-    (href.indexOf('http') === 0 || href.indexOf('mailto:') === 0);
+    typeof href === "string" &&
+    (href.indexOf("http") === 0 || href.indexOf("mailto:") === 0);
 
   if (isExternal) {
     if (noLinkStyle) {

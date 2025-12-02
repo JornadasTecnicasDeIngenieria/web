@@ -1,5 +1,5 @@
-import styled from '@emotion/styled';
-import { Opacity } from '@mui/icons-material';
+import styled from "@emotion/styled";
+import { Opacity } from "@mui/icons-material";
 
 export const TableSorteoStands = () => {
   return (

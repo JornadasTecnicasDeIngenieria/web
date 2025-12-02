@@ -1,10 +1,10 @@
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Drawer from '@mui/material/Drawer';
-import IconButton from '@mui/material/IconButton';
-import Menu from '@mui/icons-material/Menu';
-import { useState } from 'react';
-import Link from 'next/link';
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Drawer from "@mui/material/Drawer";
+import IconButton from "@mui/material/IconButton";
+import Menu from "@mui/icons-material/Menu";
+import { useState } from "react";
+import Link from "next/link";
 
 const SideDrawer = ({ navLinks }) => {
   const [state, setState] = useState({
@@ -13,8 +13,8 @@ const SideDrawer = ({ navLinks }) => {
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (
-      event.type === 'keydown' &&
-      (event.key === 'Tab' || event.key === 'Shift')
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
     ) {
       return;
     }
@@ -31,9 +31,9 @@ const SideDrawer = ({ navLinks }) => {
         width: 250,
         px: 2.5,
         pt: { xs: 8, sm: 4 },
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'flex-end',
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-end",
       }}
     >
       {navLinks.map(({ title, path }, i) => (
@@ -42,7 +42,7 @@ const SideDrawer = ({ navLinks }) => {
           key={`${title}${i}`}
           sx={{
             my: 0.5,
-            width: '100%',
+            width: "100%",
           }}
         >
           <Link href={path} legacyBehavior>
@@ -58,7 +58,7 @@ const SideDrawer = ({ navLinks }) => {
       <IconButton
         edge="start"
         aria-label="menu"
-        onClick={toggleDrawer('right', true)}
+        onClick={toggleDrawer("right", true)}
         sx={{
           color: `common.white`,
           display: { xs: `inline`, md: `none` },
@@ -69,14 +69,14 @@ const SideDrawer = ({ navLinks }) => {
       <Drawer
         anchor="right"
         open={state.right}
-        onClose={toggleDrawer('right', false)}
+        onClose={toggleDrawer("right", false)}
         sx={{
-          '.MuiDrawer-paper': {
-            bgcolor: 'primary.main',
+          ".MuiDrawer-paper": {
+            bgcolor: "primary.main",
           },
         }}
       >
-        {list('right')}
+        {list("right")}
       </Drawer>
     </>
   );

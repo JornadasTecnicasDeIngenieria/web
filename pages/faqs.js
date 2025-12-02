@@ -1,7 +1,7 @@
-import Layout from '@components/layouts/MainLayout';
-import styled from '@emotion/styled';
-import { Container } from '@mui/material';
-import Grid from '@mui/material/GridLegacy';
+import Layout from "@components/layouts/MainLayout";
+import styled from "@emotion/styled";
+import { Container } from "@mui/material";
+import Grid from "@mui/material/GridLegacy";
 
 const FAQs = () => {
   return (
@@ -184,20 +184,20 @@ const Title = styled.h2`
 const DescriptionText = styled.p`
   color: #ffffff;
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const DescriptionLink = styled.a`
   color: #ffffff;
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const Highlight = styled.span`
   color: #ffffff;
   font-size: 1.5rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const Hexagons = styled.h3`

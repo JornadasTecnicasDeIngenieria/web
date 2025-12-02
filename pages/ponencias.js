@@ -1,11 +1,11 @@
-import Layout from '@components/layouts/MainLayout';
-import styled from '@emotion/styled';
-import { Container } from '@mui/material';
-import Grid from '@mui/material/GridLegacy';
-import Image from 'next/image';
-import { DayOnePonen, DayTwoPonen } from '@components/PonNewInfo';
-import { ponencias } from 'data/ponencias';
-import { DAY_ONE_LABEL, DAY_TWO_LABEL } from '../data/config';
+import Layout from "@components/layouts/MainLayout";
+import styled from "@emotion/styled";
+import { Container } from "@mui/material";
+import Grid from "@mui/material/GridLegacy";
+import Image from "next/image";
+import { DayOnePonen, DayTwoPonen } from "@components/PonNewInfo";
+import { ponencias } from "data/ponencias";
+import { DAY_ONE_LABEL, DAY_TWO_LABEL } from "../data/config";
 
 const Ponencias = () => {
   return (
@@ -102,14 +102,14 @@ const Title = styled.h2`
 const Category = styled.h3`
   color: #ffffff;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 const DescriptionText = styled.p`
   color: #ffffff;
 
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const Hexagons = styled.h3`

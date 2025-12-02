@@ -1,14 +1,14 @@
-import Layout from '@components/layouts/MainLayout';
-import styled from '@emotion/styled';
-import { Container } from '@mui/material';
-import Grid from '@mui/material/GridLegacy';
-import Image from 'next/image';
+import Layout from "@components/layouts/MainLayout";
+import styled from "@emotion/styled";
+import { Container } from "@mui/material";
+import Grid from "@mui/material/GridLegacy";
+import Image from "next/image";
 import {
   FirstDayStandList,
   SecondDayStandList,
   CreateStandList,
-} from '@components/StandList';
-import { stands } from 'data/stands';
+} from "@components/StandList";
+import { stands } from "data/stands";
 
 const Stands = () => {
   return (
@@ -55,8 +55,8 @@ const Stands = () => {
                   width={400}
                   height={300}
                   style={{
-                    width: '100%',
-                    height: '100%',
+                    width: "100%",
+                    height: "100%",
                   }}
                 />
               </ImageDiv>
@@ -69,8 +69,8 @@ const Stands = () => {
                   width={400}
                   height={300}
                   style={{
-                    width: '100%',
-                    height: '100%',
+                    width: "100%",
+                    height: "100%",
                   }}
                 />
               </ImageDiv>
@@ -83,8 +83,8 @@ const Stands = () => {
                   width={400}
                   height={300}
                   style={{
-                    width: '100%',
-                    height: '100%',
+                    width: "100%",
+                    height: "100%",
                   }}
                 />
               </ImageDiv>
@@ -178,14 +178,14 @@ const Title = styled.h2`
 const Category = styled.h3`
   color: #ffffff;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 `;
 
 const DescriptionText = styled.p`
   color: #ffffff;
 
   font-weight: 500;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 const Hexagons = styled.h3`

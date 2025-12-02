@@ -1,18 +1,18 @@
-import Link from '@components/StyledLink';
-import { Stack } from '@mui/material';
-import Grid from '@mui/material/GridLegacy';
+import Link from "@components/StyledLink";
+import { Stack } from "@mui/material";
+import Grid from "@mui/material/GridLegacy";
 
-import { styled } from '@mui/material/styles';
-import getTagColor from '@scripts/getTagColor';
-import LinkedIn from '@mui/icons-material/LinkedIn';
-import GitHub from '@mui/icons-material/GitHub';
-import Language from '@mui/icons-material/Language';
-import ContactMail from '@mui/icons-material/ContactMail';
-import Telegram from '@mui/icons-material/Telegram';
-import Instagram from '@mui/icons-material/Instagram';
-import { Twitter, Facebook } from '@mui/icons-material';
-import Image from 'next/image';
-import { SvgIcon, createSvgIcon } from '@mui/material';
+import { styled } from "@mui/material/styles";
+import getTagColor from "@scripts/getTagColor";
+import LinkedIn from "@mui/icons-material/LinkedIn";
+import GitHub from "@mui/icons-material/GitHub";
+import Language from "@mui/icons-material/Language";
+import ContactMail from "@mui/icons-material/ContactMail";
+import Telegram from "@mui/icons-material/Telegram";
+import Instagram from "@mui/icons-material/Instagram";
+import { Twitter, Facebook } from "@mui/icons-material";
+import Image from "next/image";
+import { SvgIcon, createSvgIcon } from "@mui/material";
 
 const TwitterNewIcon = createSvgIcon(
   <svg
@@ -30,7 +30,7 @@ const TwitterNewIcon = createSvgIcon(
       strokeWidth="1.5"
     ></path>
   </svg>,
-  'TwitterNewIcon'
+  "TwitterNewIcon",
 );
 
 function Card({ imageSource, name, categories, social }) {
@@ -48,7 +48,7 @@ function Card({ imageSource, name, categories, social }) {
                 alt={name}
                 width={1000}
                 height={1000}
-                style={{ width: '100%', height: '100%' }}
+                style={{ width: "100%", height: "100%" }}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
@@ -75,7 +75,7 @@ function Card({ imageSource, name, categories, social }) {
                 >
                   {networks.map(({ tag, url }, index) => {
                     switch (tag) {
-                      case 'Facebook':
+                      case "Facebook":
                         return (
                           <Link
                             className="styledlink"
@@ -85,7 +85,7 @@ function Card({ imageSource, name, categories, social }) {
                             <Facebook />
                           </Link>
                         );
-                      case 'GitHub':
+                      case "GitHub":
                         return (
                           <Link
                             className="styledlink"
@@ -95,7 +95,7 @@ function Card({ imageSource, name, categories, social }) {
                             <GitHub />
                           </Link>
                         );
-                      case 'Twitter':
+                      case "Twitter":
                         return (
                           <Link
                             className="styledlink"
@@ -105,7 +105,7 @@ function Card({ imageSource, name, categories, social }) {
                             <TwitterNewIcon />
                           </Link>
                         );
-                      case 'Linkedin':
+                      case "Linkedin":
                         return (
                           <Link
                             className="styledlink"
@@ -115,7 +115,7 @@ function Card({ imageSource, name, categories, social }) {
                             <LinkedIn />
                           </Link>
                         );
-                      case 'ContactMail':
+                      case "ContactMail":
                         return (
                           <Link
                             className="styledlink"
@@ -127,7 +127,7 @@ function Card({ imageSource, name, categories, social }) {
                             </span>
                           </Link>
                         );
-                      case 'Web':
+                      case "Web":
                         return (
                           <Link
                             className="styledlink"
@@ -139,7 +139,7 @@ function Card({ imageSource, name, categories, social }) {
                             </span>
                           </Link>
                         );
-                      case 'Telegram':
+                      case "Telegram":
                         return (
                           <Link
                             className="styledlink"
@@ -151,7 +151,7 @@ function Card({ imageSource, name, categories, social }) {
                             </span>
                           </Link>
                         );
-                      case 'Instagram':
+                      case "Instagram":
                         return (
                           <Link
                             className="styledlink"
@@ -177,13 +177,13 @@ function Card({ imageSource, name, categories, social }) {
 
 export default Card;
 
-const Name = styled('h4')`
+const Name = styled("h4")`
   font-size: 2rem;
   color: ${({ theme }) => theme.palette.text.primary};
   align-self: center;
 `;
 
-const Social = styled('div')`
+const Social = styled("div")`
   width: 100%;
   background-color: ${({ theme }) => theme.palette.primary.dark};
   color: white;
@@ -193,7 +193,7 @@ const Social = styled('div')`
   border-radius: 0.5rem;
 `;
 
-const CardWrapper = styled('div')`
+const CardWrapper = styled("div")`
   transition: transform 0.2s;
   &:hover {
     position: relative;
