@@ -25,13 +25,8 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Teclado Corsair K55 CORE RGB</TableItem>
-            <TableItem colSpan={2}>Teclado Corsair K55 CORE RGB</TableItem>
-          </tr>
-
-          <tr>
-            <TableItem colSpan={2}>Ratón Logitech G203 RGB</TableItem>
-            <TableItem colSpan={2}>Ratón Logitech G203 RGB</TableItem>
+            <TableItem colSpan={2}>Amazon Kindle</TableItem>
+            <TableItem colSpan={2}>Amazon Kindle</TableItem>
           </tr>
 
           <tr>
@@ -40,19 +35,24 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Auriculares Logitech G435</TableItem>
-            <TableItem colSpan={2}>Auriculares Logitech G435</TableItem>
-          </tr>
-
-          {/* <tr>
-            <TableItem colSpan={2}>Altavoz LG XBOOM</TableItem>
-            <TableItem colSpan={2}>Altavoz LG XBOOM</TableItem>
+            <TableItem colSpan={2}>Teclado Corsair K55 CORE RGB</TableItem>
+            <TableItem colSpan={2}>Teclado Corsair K55 CORE RGB</TableItem>
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Xiaomi SmartBand 8</TableItem>
-            <TableItem colSpan={2}>Xiaomi SmartBand 8</TableItem>
-          </tr> */}
+            <TableItem colSpan={2}>Auriculares Logitech G435</TableItem>
+            <TableItem colSpan={2}>Auriculares Logitech G435</TableItem>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>Ratón Logitech G203 RGB</TableItem>
+            <TableItem colSpan={2}>Ratón Logitech G203 RGB</TableItem>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>Gaming Mouse Pad</TableItem>
+            <TableItem colSpan={2}>Gaming Mouse Pad</TableItem>
+          </tr>
         </tbody>
       </ScrollableTable>
     </TableContainer>
