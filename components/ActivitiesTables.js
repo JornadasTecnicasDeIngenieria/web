@@ -25,8 +25,8 @@ export const TableSorteoStands = () => {
           </tr>
 
           <tr>
-            <TableItem colSpan={2}>Amazon Kindle</TableItem>
-            <TableItem colSpan={2}>Amazon Kindle</TableItem>
+            <TableItem colSpan={2}>Amazon Kindle (11.ª generación)</TableItem>
+            <TableItem colSpan={2}>Amazon Kindle (11.ª generación)</TableItem>
           </tr>
 
           <tr>
@@ -158,6 +158,30 @@ export const TableTrivial = () => {
 
           <tr>
             <TableItem colSpan={4}>Merchandising JTI</TableItem>
+          </tr>
+        </tbody>
+      </ScrollableTable>
+    </TableContainer>
+  );
+};
+
+export const TableHorarioTrivial = () => {
+  return (
+    <TableContainer>
+      <ScrollableTable>
+        <tbody>
+          <tr>
+            <TableTitle colSpan={2}>Horario</TableTitle>
+          </tr>
+
+          <tr>
+            <TableItem colSpan={2}>11:00</TableItem>
+          </tr>
+          <tr>
+            <TableItem colSpan={2}>15:30</TableItem>
+          </tr>
+          <tr>
+            <TableItem colSpan={2}>17:30</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
