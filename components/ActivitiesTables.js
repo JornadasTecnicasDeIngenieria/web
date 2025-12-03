@@ -248,19 +248,12 @@ export const TableVideojuegos = () => {
           </tr>
           <tr>
             <th></th>
-            <TableHeader colSpan={1}>LoL</TableHeader>
-            <TableHeader colSpan={1}>TFT</TableHeader>
+            <TableHeader colSpan={1}>League of Legends</TableHeader>
           </tr>
 
           <tr>
             <TableTitle colSpan={1}>1º</TableTitle>
-            <TableItem colSpan={1}>20€ de RP</TableItem>
-            <TableItem colSpan={1}>20€ de RP</TableItem>
-          </tr>
-          <tr>
-            <TableTitle colSpan={1}>2º</TableTitle>
-            <TableItem colSpan={1}>10€ de RP</TableItem>
-            <TableItem colSpan={1}>10€ de RP</TableItem>
+            <TableItem colSpan={1}>50€ de RP</TableItem>
           </tr>
         </tbody>
       </ScrollableTable>
