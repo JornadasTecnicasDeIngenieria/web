@@ -37,14 +37,16 @@ export const FirstDayStandList = ({ content }) => {
             <TD>S00</TD>
             <TDH colSpan={3}>STAND DE INFORMACIÓN</TDH>
           </tr>
-          {content.map((d) => (
-            <tr key={d.stand + d.d1}>
-              <TD key={d.stand}>{d.stand}</TD>
-              <TDH key={d.d1}>{d.d1}</TDH>
-              <Ingenieras data={d.d1_ingenierias} />
-              <Practicas prac={d.d1_practicas} />
-            </tr>
-          ))}
+          {content
+            .filter((d) => d.d1)
+            .map((d) => (
+              <tr key={d.stand + d.d1}>
+                <TD key={d.stand}>{d.stand}</TD>
+                <TDH key={d.d1}>{d.d1}</TDH>
+                <Ingenieras data={d.d1_ingenierias} />
+                <Practicas prac={d.d1_practicas} />
+              </tr>
+            ))}
         </tbody>
       </ScrollableTable>
     </TableContainer>
@@ -69,14 +71,16 @@ export const SecondDayStandList = ({ content }) => {
             <TD>S00</TD>
             <TDH colSpan={3}>Stand de información</TDH>
           </tr>
-          {content.map((d) => (
-            <tr key={d.stand + d.d2}>
-              <TD key={d.stand}>{d.stand}</TD>
-              <TDH key={d.d2}>{d.d2}</TDH>
-              <Ingenieras data={d.d2_ingenierias} />
-              <Practicas prac={d.d2_practicas} />
-            </tr>
-          ))}
+          {content
+            .filter((d) => d.d2)
+            .map((d) => (
+              <tr key={d.stand + d.d2}>
+                <TD key={d.stand}>{d.stand}</TD>
+                <TDH key={d.d2}>{d.d2}</TDH>
+                <Ingenieras data={d.d2_ingenierias} />
+                <Practicas prac={d.d2_practicas} />
+              </tr>
+            ))}
         </tbody>
       </ScrollableTable>
     </TableContainer>
