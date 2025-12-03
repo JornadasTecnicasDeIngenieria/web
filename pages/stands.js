@@ -93,7 +93,7 @@ const Stands = () => {
           <br />
         </Container>
       </Section>
-      {/* <Section>
+      <Section>
         <Container>
           <AlignedDiv>
             <Hexagons>
@@ -115,8 +115,8 @@ const Stands = () => {
               width={1200}
               height={600}
               style={{
-                width: '100%',
-                height: '100%',
+                width: "100%",
+                height: "100%",
               }}
             />
           </ImageDiv>
@@ -140,7 +140,7 @@ const Stands = () => {
           <br />
           <br />
         </Container>
-      </Section> */}
+      </Section>
     </Layout>
   );
 };
