@@ -16,7 +16,7 @@ const Sorteos = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Title>Sorteos 2024</Title>
+            <Title>Sorteos</Title>
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>
@@ -26,6 +26,7 @@ const Sorteos = () => {
             </Hexagons>
           </AlignedDiv>
           <Category>Sorteo diario</Category>
+          <SubCategory>Festival de Fortuna</SubCategory>
           <br />
           <DescriptionText>
             ¡El gran sorteo! El momento más esperado del día, donde no solo se
@@ -50,6 +51,10 @@ const Sorteos = () => {
             <DescriptionListElement>
               Completando las preguntas a empresas: Por completar el folleto de
               preguntas te llevarás también 1 rifa. Más info debajo.
+            </DescriptionListElement>
+            <DescriptionListElement>
+              Asistiendo a la sesión de rol Dumbs and Dice te llevarás 1 rifa
+              extra.
             </DescriptionListElement>
           </ul>
           <DescriptionText>
@@ -83,11 +88,11 @@ const Sorteos = () => {
           <br />
           <DescriptionText>
             ¡Participa en Stand-Out, el concurso al mejor stand de las Jornadas
-            Técnicas! Durante ambos días, los asistentes podrán explorar los
-            stands, descubrir proyectos innovadores y votar por su stand
-            favorito. ¡Haz que tu elección destaque y contribuye a premiar la
-            creatividad y el ingenio! ¿Qué stand se llevará el título este año?
-            ¡Tú decides!
+            Técnicas de Ingeniería! Durante ambos días, los asistentes podrán
+            explorar los stands, descubrir proyectos innovadores y votar por su
+            stand favorito. ¡Haz que tu elección destaque y contribuye a premiar
+            la creatividad y el ingenio! ¿Qué stand se llevará el título este
+            año? ¡Tú decides!
             <br />
             <br />
             <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
@@ -101,9 +106,9 @@ const Sorteos = () => {
           </DescriptionText>
           <DescriptionText>
             <Highlight>Hora de la entrega de rifas: </Highlight>A partir de las
-            16:30
+            16:30.
             <br />
-            <Highlight>Hora de entrega del premio: </Highlight>18:00
+            <Highlight>Hora de entrega del premio: </Highlight>18:00.
           </DescriptionText>
           {/* <DescriptionText>
             <Highlight>Martes 10: </Highlight>
@@ -124,11 +129,11 @@ const Sorteos = () => {
           <br />
           <DescriptionText>
             Explora, investiga y conecta con las empresas participantes. Rellena
-            el folleto con tus preguntas a las compañías presentes y descubre
-            más sobre sus proyectos, innovaciones y oportunidades. Cada folleto
-            completado te dará una participación para el emocionante gran sorteo
-            de premios de las Jornadas. ¡Haz tus preguntas, participa y
-            prepárate para ganar!
+            el folleto con tus preguntas a los patrocinadores diamante presentes
+            y descubre más sobre sus proyectos, innovaciones y oportunidades. Si
+            completas las seis preguntas del folleto recibirás una rifa para el
+            festival de la fortuna. ¡Haz tus preguntas, participa y prepárate
+            para ganar!
             <br />
             <br />
             <Highlight>Conseguirás rifas para el sorteo diario</Highlight>
@@ -156,14 +161,12 @@ const Sorteos = () => {
           <Category>Sorteos por Redes Sociales</Category>
           <br />
           <DescriptionText>
-            Durante los dos días de las Jornadas, interactúa en Instagram o
-            Tiktok. Al final del segundo día, realizaremos un sorteo a través de
-            una plataforma especializada entre todas las personas que hayan
-            participado. <Highlight>¡Pero eso no es todo! </Highlight>
-            Antes de que comiencen las Jornadas, se realizarán un sorteo previo
-            para premiar la anticipación de nuestra comunidad. Mantente atento a
-            nuestras redes para conocer los detalles y las fechas exactas. ¡No
-            pierdas la oportunidad
+            Desde el miércoles 3 de diciembre, interactúa con la publicación del
+            sorteo en Tik Tok, tendrás hasta el segundo día del evento para
+            participar en él. Podrás conocer los detalles en la publicación de
+            dicha red social. Además, durante los dos días podrás interactuar
+            con una publicación en Instagram donde podrás participar en otro
+            sorteo, los detalles se darán a conocer el miércoles 10.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Enlace: </Highlight>{" "}
@@ -175,15 +178,11 @@ const Sorteos = () => {
             <Highlight>Lugar: </Highlight>Entrega del premio en puesto central.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Entrega premios sorteo previo: </Highlight>10 de
+            <Highlight>Entrega de premios de los sorteos: </Highlight>11 de
             Diciembre.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Entrega premios sorteo durante: </Highlight>11 de
-            Diciembre.
-          </DescriptionText>
-          <DescriptionText>
-            <Highlight>Hora: </Highlight>18:00
+            <Highlight>Hora: </Highlight>18:00.
           </DescriptionText>
           <br />
           <AlignedDiv>

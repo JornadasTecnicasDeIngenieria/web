@@ -5,6 +5,7 @@ import { EVENT_YEAR } from "../data/config";
 import {
   TableCompeticionArcade,
   TableTrivial,
+  TableHorarioTrivial,
   TableVideojuegos,
   TableEscapeRoom,
   TableHorarioEscapeRoom,
@@ -18,7 +19,7 @@ const Actividades = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Title>Actividades 2024</Title>
+            <Title>Actividades</Title>
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>
@@ -28,12 +29,12 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
           <Category>Trivial</Category>
+          <SubCategory>Cuestionando la Ingeniería</SubCategory>
           <br />
           <DescriptionText>
-            ¿Cuánto sabes realmente? Participa en nuestros emocionantes trivials
-            y pon a prueba tus conocimientos. Compite respondiendo desafiantes
-            preguntas de diversas temáticas, demuestra tu sabiduría y podrás
-            ganar grandes premios.
+            ¡Pon a prueba tu ingenio y participa en Cuestionando la Ingeniería,
+            la actividad que desafía tus conocimientos técnicos y te permite
+            competir por el podio! ¡Éste año con extra de ingeniería!
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Puesto central.
@@ -41,9 +42,10 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Días: </Highlight>10 y 11 de Diciembre.
           </DescriptionText>
-          <DescriptionText>
-            <Highlight>Horario: </Highlight> 10:30 y 17:30.
-          </DescriptionText>
+          <br />
+          <AlignedDiv>
+            <TableHorarioTrivial />
+          </AlignedDiv>
           <br />
           <AlignedDiv>
             <TableTrivial />
@@ -56,17 +58,26 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
           <Category>Escape Room</Category>
-          <SubCategory>Ecos temporales</SubCategory>
+          <SubCategory>Jardines de Osiris</SubCategory>
           <br />
           <DescriptionText>
-            Adéntrate en un emocionante Escape Room donde la ingeniería y el
-            tiempo se entrelazan. Ponte en la piel de un equipo técnico enviado
-            a reparar una misteriosa máquina capaz de viajar a través del
-            tiempo. Un desbordamiento temporal amenaza con colapsar la línea del
-            tiempo tal como la conocemos. ¿Podrás estabilizarla antes de que sea
-            demasiado tarde? <Highlight>Equipos de cuatro personas</Highlight>{" "}
-            pondrán a prueba su ingenio para resolver el enigma y escapar en el
-            menor tiempo posible.
+            En Jardines de Osiris despiertas en un taller que parece haber
+            estado aguardando tu llegada. Desde el primer instante, la
+            instrucción es clara: debéis obedecer al Doctor. Él insiste en que
+            os ha creado, que sois clones, que conoce vuestra función… y que, si
+            cumplís correctamente las pruebas, podréis ascender al Paraíso.
+            Guiados por él, cada tarea pondrá a prueba vuestro ingenio, vuestra
+            cooperación y vuestra capacidad para actuar según sus directrices
+            mientras el taller responde, se transforma y revela nuevas etapas
+            del recorrido… a veces, incluso algunas que nadie había mencionado.
+            Por supuesto, lo más sensato siempre es seguir obedeciendo, es el
+            único camino que conduce al Paraíso o, en su defecto, a una
+            salida... ¿no?
+          </DescriptionText>
+          <DescriptionText>
+            <Highlight>Equipos de cuatro</Highlight> deberán demostrar su
+            destreza, superar cada prueba y avanzar juntos hacia ese destino
+            prometido. ¿Estáis preparados para saber si sois dignos?
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Puesto central
@@ -93,17 +104,18 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
           <Category>Competición Arcade</Category>
+          <SubCategory>Retro Rumble</SubCategory>
           <br />
           <DescriptionText>
             Revive la nostalgia de los videojuegos clásicos en nuestra
-            Competición Arcade. Enfréntate a desafíos en juegos como Tetris y
-            nuestro exclusivo “Why God?”, además de juegos de fighting y
-            diversos juegos arcade para pasar el rato. Cada zona cuenta con
-            computadoras para una competición intensa. ¿Tienes lo necesario para
-            ser campeón?
+            Competición Arcade. Enfréntate a desafíos en juegos como Tetris,
+            Pac-Man o Galaga y gana premios por ser el mejor en ellos. También
+            podrás pasar el rato jugando juegos de fighting retro con tus
+            amigos. ¿Tienes lo necesario para ser el campeón?
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Delegación de Ingeniería Informática.
+            <Highlight>Lugar: </Highlight>Delegación de Estudiantes de
+            Ingeniería Informática.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Días: </Highlight>10 y 11 de Diciembre.
@@ -123,22 +135,23 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
           <Category>Torneo de Videojuegos</Category>
-          <SubCategory>Duelo de invocadores</SubCategory>
+          <SubCategory>Operación Pentakill</SubCategory>
           <br />
           <DescriptionText>
             ¡Demuestra tus habilidades en el campo de batalla virtual con el
-            Torneo de Videojuegos: Duelo de Invocadores! Compite en dos de los
-            juegos más icónicos del universo gaming: Teamfight Tactics (TFT) y
-            League of Legends (LoL)
+            Torneo de Videojuegos: Operación Pentakill! Compite en el torneo 5
+            contra 5 en el videojuego League of Legends (LoL) para alzarte con
+            la victoria y repartiros una suculenta recompensa entre los miembros
+            del equipo vencedor.
           </DescriptionText>
           <DescriptionText>
             <Highlight>Lugar: </Highlight>Online.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Día: </Highlight>14 de Diciembre.
+            <Highlight>Día: </Highlight>13 de Diciembre.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar dependiendo de la
+            <Highlight>Horario: </Highlight>Por determinar, dependiendo de la
             cantidad de participantes.
           </DescriptionText>
           {/* <DescriptionText>
@@ -157,20 +170,23 @@ const Actividades = () => {
             </Hexagons>
           </AlignedDiv>
           <Category>Sesión de Rol</Category>
+          <SubCategory>Dumbs and Dice</SubCategory>
           <br />
           <DescriptionText>
             Sumérgete en mundos de fantasía, ciencia ficción y aventuras épicas
-            en una tarde dedicada al rol. Prepárate para vivir historias únicas
-            y dar vida a personajes en situaciones inolvidables.
+            con Dumbs and Dice, una tarde dedicada al rol. Prepárate para vivir
+            historias únicas y dar vida a personajes en situaciones
+            inolvidables.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Lugar: </Highlight>Delegación de Ingeniería Informática.
+            <Highlight>Lugar: </Highlight>Delegación de Estudiantes de
+            Ingenierías Industriales.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Día: </Highlight>10 de Diciembre.
+            <Highlight>Día: </Highlight>11 de Diciembre.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>16:00 - 20:00.
+            <Highlight>Horario: </Highlight>14:45 - 18:45.
           </DescriptionText>
           {/* <DescriptionText>
             <Highlight>Inscripción: </Highlight>
