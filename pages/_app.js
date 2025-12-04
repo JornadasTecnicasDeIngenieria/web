@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
 import { ThemeProvider } from "@mui/material/styles";
 import createEmotionCache from "../styles/createEmotionCache";
@@ -20,6 +21,7 @@ export default function MyApp(props) {
       </Head>
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
+        <Analytics />
       </ThemeProvider>
     </>
   );
