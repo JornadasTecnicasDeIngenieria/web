@@ -2,7 +2,6 @@ import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
 import { ThemeProvider } from "@mui/material/styles";
 import createEmotionCache from "../styles/createEmotionCache";
-import { Analytics } from "@vercel/analytics/next";
 
 import "../styles/globals.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
