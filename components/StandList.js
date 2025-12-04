@@ -25,7 +25,7 @@ export const FirstDayStandList = ({ content }) => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TitleTH colSpan={5}>Martes 10 de diciembre</TitleTH>
+            <TitleTH colSpan={5}>Miércoles 10 de diciembre</TitleTH>
           </tr>
           <tr>
             <th></th>
@@ -59,7 +59,7 @@ export const SecondDayStandList = ({ content }) => {
       <ScrollableTable>
         <tbody>
           <tr>
-            <TitleTH colSpan={5}>Miércoles 11 de diciembre</TitleTH>
+            <TitleTH colSpan={5}>Jueves 11 de diciembre</TitleTH>
           </tr>
           <tr>
             <th></th>
@@ -69,7 +69,7 @@ export const SecondDayStandList = ({ content }) => {
           </tr>
           <tr>
             <TD>S00</TD>
-            <TDH colSpan={3}>Stand de información</TDH>
+            <TDH colSpan={3}>STAND DE INFORMACIÓN</TDH>
           </tr>
           {content
             .filter((d) => d.d2)
