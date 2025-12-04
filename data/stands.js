@@ -580,7 +580,7 @@ export const stands = [
       },
     ],
     d1_practicas: true,
-    d2: "CESINF",
+    d2: "CESINF - CESIND",
     d2_ingenierias: [
       {
         ingenieria: "informatica",
@@ -588,15 +588,15 @@ export const stands = [
       },
       {
         ingenieria: "electronica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "mecanica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "quimica",
-        value: false,
+        value: true,
       },
     ],
     d2_practicas: false,
