@@ -148,16 +148,17 @@ const Actividades = () => {
             <Highlight>Lugar: </Highlight>Online.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Día: </Highlight>13 de Diciembre.
+            <Highlight>Día: </Highlight>14 de Diciembre.
           </DescriptionText>
           <DescriptionText>
-            <Highlight>Horario: </Highlight>Por determinar, dependiendo de la
-            cantidad de participantes.
+            <Highlight>Horario: </Highlight>10:00.
           </DescriptionText>
-          {/* <DescriptionText>
+          <DescriptionText>
             <Highlight>Inscripción: </Highlight>
-            <DescriptionLink href="https://forms.gle/w8Fvm1qb3smdzuZ26">¡Click Aquí!</DescriptionLink>
-          </DescriptionText> */}
+            <DescriptionLink href="https://forms.gle/6QxndSVsyBSxQNiL8">
+              ¡Click Aquí!
+            </DescriptionLink>
+          </DescriptionText>
           <br />
           <AlignedDiv>
             <TableVideojuegos />
