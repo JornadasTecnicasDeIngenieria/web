@@ -1,34 +1,43 @@
 import Layout from "@components/layouts/MainLayout";
-import { Container, Typography, Box } from "@mui/material";
-import MascotCarousel from "@components/MascotCarousel";
-import mascotaData from "@data/mascota";
-import { styled } from "@mui/material/styles";
+import EnConstruccion from "@components/EnConstruccion";
+// import { Container, Typography, Box } from "@mui/material";
+// import MascotCarousel from "@components/MascotCarousel";
+// import mascotaData from "@data/mascota";
+// import { styled } from "@mui/material/styles";
 
-const PageContainer = styled(Container)(({ theme }) => ({
-  paddingTop: theme.spacing(4),
-  paddingBottom: theme.spacing(8),
-  color: "#ffffff",
-  minHeight: "80vh",
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
-}));
+// const PageContainer = styled(Container)(({ theme }) => ({
+//   paddingTop: theme.spacing(4),
+//   paddingBottom: theme.spacing(8),
+//   color: "#ffffff",
+//   minHeight: "80vh",
+//   display: "flex",
+//   flexDirection: "column",
+//   alignItems: "center",
+// }));
 
-const PageTitle = styled(Typography)(({ theme }) => ({
-  marginBottom: theme.spacing(4),
-  textAlign: "center",
-  color: "#ffffff",
-  fontWeight: 700,
-}));
+// const PageTitle = styled(Typography)(({ theme }) => ({
+//   marginBottom: theme.spacing(4),
+//   textAlign: "center",
+//   color: "#ffffff",
+//   fontWeight: 700,
+// }));
 
-const DescriptionText = styled(Typography)(({ theme }) => ({
-  marginBottom: theme.spacing(6),
-  textAlign: "justify",
-  color: "#ffffff", // Using white text as per the dark background in design
-  maxWidth: "800px",
-  lineHeight: 1.6,
-}));
+// const DescriptionText = styled(Typography)(({ theme }) => ({
+//   marginBottom: theme.spacing(6),
+//   textAlign: "justify",
+//   color: "#ffffff", // Using white text as per the dark background in design
+//   maxWidth: "800px",
+//   lineHeight: 1.6,
+// }));
 
+const Mascota = () => {
+  return (
+    <Layout>
+      <EnConstruccion />
+    </Layout>
+  );
+};
+/*
 const Mascota = () => {
   return (
     <Layout>
@@ -61,5 +70,6 @@ const Mascota = () => {
     </Layout>
   );
 };
+*/
 
 export default Mascota;
