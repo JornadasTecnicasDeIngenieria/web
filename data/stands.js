@@ -1183,11 +1183,11 @@ export const stands = [
       },
     ],
     d1_practicas: true,
-    d2: "",
+    d2: "E-ASY",
     d2_ingenierias: [
       {
         ingenieria: "informatica",
-        value: false,
+        value: true,
       },
       {
         ingenieria: "electronica",
@@ -1202,7 +1202,7 @@ export const stands = [
         value: false,
       },
     ],
-    d2_practicas: false,
+    d2_practicas: true,
   },
   {
     stand: "S29",
