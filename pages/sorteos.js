@@ -110,10 +110,12 @@ const Sorteos = () => {
             <br />
             <Highlight>Hora de entrega del premio: </Highlight>18:00.
           </DescriptionText>
-          {/* <DescriptionText>
-            <Highlight>Martes 10: </Highlight>
-            <DescriptionLink href="https://forms.gle/3jynwqqjL62G1hbr6">¡Click Aquí!</DescriptionLink>
-          </DescriptionText> */}
+          <DescriptionText>
+            <Highlight>Miércoles 10: </Highlight>
+            <DescriptionLink href="https://forms.gle/9hpVDVK5nLuTJ5eV9">
+              ¡Click Aquí!
+            </DescriptionLink>
+          </DescriptionText>
           {/* <DescriptionText>
             <Highlight>Miércoles 11: </Highlight>
             <DescriptionLink href="https://forms.gle/KrLUn98yFMbz5Tno6">¡Click Aquí!</DescriptionLink>
