@@ -116,10 +116,12 @@ const Sorteos = () => {
               ¡Click Aquí!
             </DescriptionLink>
           </DescriptionText>
-          {/* <DescriptionText>
-            <Highlight>Miércoles 11: </Highlight>
-            <DescriptionLink href="https://forms.gle/KrLUn98yFMbz5Tno6">¡Click Aquí!</DescriptionLink>
-          </DescriptionText> */}
+          <DescriptionText>
+            <Highlight>Jueves 11: </Highlight>
+            <DescriptionLink href="https://forms.gle/FYMXgiK2RS5pZLBd9">
+              ¡Click Aquí!
+            </DescriptionLink>
+          </DescriptionText>
           <AlignedDiv>
             <Hexagons>
               <HexagonB>⬢</HexagonB>
