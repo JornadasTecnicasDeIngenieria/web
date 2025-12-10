@@ -85,15 +85,15 @@ const Actividades = () => {
           <DescriptionText>
             <Highlight>Días: </Highlight>10 y 11 de Diciembre.
           </DescriptionText>
-          <AlignedDiv>
-            <TableHorarioEscapeRoom />
-          </AlignedDiv>
           <DescriptionText>
             <Highlight>Inscripción: </Highlight>
             <DescriptionLink href="https://forms.gle/KdnzbRmKeXmekrAX6">
               ¡Click Aquí!
             </DescriptionLink>
           </DescriptionText>
+          <AlignedDiv>
+            <TableHorarioEscapeRoom />
+          </AlignedDiv>
           <br />
           <AlignedDiv>
             <TableEscapeRoom />
