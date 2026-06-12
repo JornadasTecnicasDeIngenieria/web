@@ -38,7 +38,7 @@ const Info = () => {
             <Category>Fechas y ubicación</Category>
             <DescriptionText>
               Las VII Jornadas Técnicas de Ingeniería tendrán lugar los días 10
-              y 11 de diciembre de 2025 en la Escuela Superior de Ingeniería y
+              y 11 de diciembre de 2026 en la Escuela Superior de Ingeniería y
               Tecnología (ESIT) de la Universidad de La Laguna (ULL), Tenerife,
               Islas Canarias.
             </DescriptionText>

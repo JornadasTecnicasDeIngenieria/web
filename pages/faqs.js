@@ -66,7 +66,7 @@ const FAQs = () => {
           </DescriptionText>
           <DescriptionText>
             Las VII JTI se celebrarán el martes 10 y el miércoles 11 de
-            diciembre de 2025. ¡Apúntalos en tu calendario!
+            diciembre de 2026. ¡Apúntalos en tu calendario!
           </DescriptionText>
           <br />
           <br />
