@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import { Container } from "@mui/material";
 import Layout from "@components/layouts/MainLayout";
 
+import { organizadores_gestion_2026 } from "data/organizadores_gestion_2026";
 import { organizadores_gestion } from "data/organizadores_gestion";
 import { organizadores_empresas } from "data/organizadores_empresas";
 import { organizadores_actividades } from "data/organizadores_actividades";
@@ -16,7 +17,15 @@ const Organizadores = () => {
           <br />
           <br />
           <AlignedDiv>
-            <Title>Organizadores</Title>
+            <Title>Gestión (Edición VIII)</Title>
+          </AlignedDiv>
+          <br />
+          <AlignedDiv>
+            <Cards organizadores={organizadores_gestion_2026} />
+          </AlignedDiv>
+          <br/>
+          <AlignedDiv>
+            <Title>Organizadores (Edición VII)</Title>
           </AlignedDiv>
           <AlignedDiv>
             <Hexagons>
