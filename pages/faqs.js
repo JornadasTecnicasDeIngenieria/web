@@ -65,7 +65,7 @@ const FAQs = () => {
             <Highlight>3. ¿Cuándo serán?</Highlight>
           </DescriptionText>
           <DescriptionText>
-            Las VII JTI se celebrarán el martes 10 y el miércoles 11 de
+            Las VIII JTI se celebrarán el martes 10 y el miércoles 11 de
             diciembre de 2026. ¡Apúntalos en tu calendario!
           </DescriptionText>
           <br />
@@ -123,9 +123,9 @@ const FAQs = () => {
           <DescriptionText>
             Las Jornadas Técnicas de Ingeniería llevan celebrándose desde el año
             2019. A causa del coronavirus, la edición 2020 no se pudo celebrar y
-            la 2021 fue completamente online, pero estos últimos tres años las
+            la 2021 fue completamente online, pero estos últimos cuatro años las
             JTI han vuelto a ser presenciales y han sido todo un éxito. ¡Qué
-            esperamos que se repita en esta séptima edición!
+            esperamos que se repita en esta octava edición!
           </DescriptionText>
           <br />
           <br />
@@ -136,9 +136,9 @@ const FAQs = () => {
           </DescriptionText>
           <DescriptionText>
             Nos puedes hacer llegar tus sugerencias a través de&nbsp;
-            <DescriptionLink href="https://forms.gle/fQu8Dg2WhZzKRhEp7">
-              este formulario
-            </DescriptionLink>
+          <DescriptionLink href="https://docs.google.com/forms/d/e/1FAIpQLScGIATbNlKSMcNbJ0NX7-Z1oJi61V18wM9PyBT51cteJteNIQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">
+            este formulario
+          </DescriptionLink>
             &nbsp;y estamos disponibles en nuestras redes sociales y nuestro
             correo jtiesit@ull.edu.es para cualquier duda o consulta.
           </DescriptionText>

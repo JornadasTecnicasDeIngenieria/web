@@ -37,7 +37,7 @@ const Info = () => {
             <br />
             <Category>Fechas y ubicación</Category>
             <DescriptionText>
-              Las VII Jornadas Técnicas de Ingeniería tendrán lugar los días 10
+              Las VIII Jornadas Técnicas de Ingeniería tendrán lugar los días 10
               y 11 de diciembre de 2026 en la Escuela Superior de Ingeniería y
               Tecnología (ESIT) de la Universidad de La Laguna (ULL), Tenerife,
               Islas Canarias.
@@ -193,7 +193,7 @@ const Info = () => {
             <br />
             <Category>Agradecimientos</Category>
             <DescriptionText>
-              Desde el equipo organizador de las VII Jornadas Técnicas de
+              Desde el equipo organizador de las VIII Jornadas Técnicas de
               Ingeniería agradecemos a todas aquellas entidades y empresas que
               colaboran, participan y/o aportan al evento apostando por el
               talento joven.
