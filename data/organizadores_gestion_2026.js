@@ -2,7 +2,7 @@ export const organizadores_gestion_2026 = [
     {
     name: "Ayoze Pérez Felipe",
     image: "/images/organizadores/ayoze_perez.png",
-    categories: ["Electrónica"],
+    categories: ["Coordinador", "Electrónica"],
     social: [
       {
         tag: "Linkedin",
@@ -29,7 +29,7 @@ export const organizadores_gestion_2026 = [
   {
     name: "Enrique Gómez Díaz",
     image: "/images/organizadores/enrique_gomez.png",
-    categories: ["Informática"],
+    categories: ["Coordinador", "Informática"],
     social: [
       {
         tag: "Linkedin",
@@ -56,7 +56,7 @@ export const organizadores_gestion_2026 = [
   {
     name: "Ainara González Hernández",
     image: "/images/organizadores/ainara_gonzalez.png",
-    categories: ["Química"],
+    categories: ["Diseño y Redes Sociales", "Química"],
     social: [
       {
         tag: "Linkedin",
@@ -75,7 +75,7 @@ export const organizadores_gestion_2026 = [
   {
     name: "Siddhartha González-Falcón Chugani",
     image: "/images/organizadores/siddhartha_gonzalez-falcon.png",
-    categories: ["Coordinador", "Mecánica"],
+    categories: ["Empresas", "Mecánica"],
     social: [
       {
         tag: "Linkedin",
@@ -98,6 +98,6 @@ export const organizadores_gestion_2026 = [
   {
     name: "Raúl González Acosta",
     image: "/images/organizadores/placeholder.png",
-    categories: ["Mecánica"],
+    categories: ["Actividades", "Informática"],
   },
 ];
