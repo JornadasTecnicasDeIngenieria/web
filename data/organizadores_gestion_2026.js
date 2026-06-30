@@ -97,7 +97,29 @@ export const organizadores_gestion_2026 = [
   },
   {
     name: "Raúl González Acosta",
-    image: "/images/organizadores/placeholder.png",
+    image: "/images/organizadores/raul_gonzalez.png",
     categories: ["Actividades", "Informática"],
+    social: [
+      {
+        tag: "Linkedin",
+        url: "https://www.linkedin.com/in/raúl-gonzález-5690a141b/",
+      },
+      {
+        tag: "ContactMail",
+        url: "rgkdev@gmail.com",
+      },
+      {
+        tag: "Instagram",
+        url: "https://www.instagram.com/raul.glezz_",
+      },
+      {
+        tag: "Web",
+        url: "https://www.rgkdev.tech/",
+      },
+      {
+        tag: "GitHub",
+        url: "https://github.com/raul-glezz",
+      }
+    ],
   },
 ];
